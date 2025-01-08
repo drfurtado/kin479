@@ -1,0 +1,69 @@
+---
+title: Title Slide Deck
+subtitle: Student1; Student2; Student 3
+format: 
+  revealjs: default
+  pptx: default
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Introduction/Neurophysiology
+
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-439619520.png)
+:::
+
+::: {.column width="50%"}
+-   Describe your movement disorder
+-   Explain its physiological basis
+-   Discuss who it generally affects
+:::
+:::::
+
+## Skill Performance
+
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-1890396705.png){width="493"}
+:::
+
+::: {.column width="50%"}
+-   Describe how individuals with this disorder perform certain skills
+:::
+:::::
+
+## Treatment
+
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-613934722.png)
+:::
+
+::: {.column width="50%"}
+-   Discuss common pharmacological treatments (detailed mechanisms not required)
+-   Explain typical rehab approaches
+:::
+:::::
+
+## Overall Outlook
+
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-2011164815.png)
+:::
+
+::: {.column width="50%"}
+-   Discuss the current state of the science
+-   Suggest areas for future research focus
+-   Mention any new treatment modalities on the horizon
+:::
+:::::
+
+## References
+
+-   Cite references throughout the presentation using APA style (7th edition)
+    -   e.g., [@Driskell1992]
+-   Include a slide at the end with full references
+-   See below how the source [@Driskell1992] is listed on the `Reference` slide

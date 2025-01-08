@@ -1,0 +1,13 @@
+---
+format: pdf
+---
+
+sss
+
+| Criteria                        | Excellent (4)                                                                               | Good (3)                                                                           | Fair (2)                                           | Poor (1)                                                                          |
+|---------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------|
+| Attendance and punctuality      | Always attends meetings and is punctual                                                     | Mostly attends meetings and is punctual, with few exceptions                       | Occasionally misses meetings or is late            | Frequently misses meetings or is late                                             |
+| Participation and communication | Actively participates in discussions, shares ideas, and communicates effectively            | Mostly participates and communicates, with minor issues                            | Some lack of participation or communication issues | Rarely participates or communicates, significant issues                           |
+| Quality of work                 | Consistently delivers high-quality work that meets or exceeds expectations                  | Mostly delivers good quality work, with minor issues                               | Some issues with work quality or consistency       | Frequently delivers poor quality work or fails to meet expectations               |
+| Responsibility and reliability  | Always completes assigned tasks on time and is reliable                                     | Mostly completes tasks on time and is reliable, with few exceptions                | Occasionally misses deadlines or is unreliable     | Frequently misses deadlines or is unreliable                                      |
+| Collaboration and teamwork      | Works well with others, contributes to a positive team dynamic, and helps resolve conflicts | Mostly collaborative and contributes to a positive team dynamic, with minor issues | Some issues with collaboration or teamwork         | Rarely collaborates or contributes to a positive team dynamic, significant issues |
