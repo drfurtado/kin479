@@ -4,3 +4,11 @@
 .Ruserdata
 
 /.quarto/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# API Keys and Secrets
+**/config.local.js
