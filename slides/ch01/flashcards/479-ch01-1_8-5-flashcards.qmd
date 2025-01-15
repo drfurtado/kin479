@@ -1,0 +1,101 @@
+---
+title: "Chapter 1-5 Flashcards"
+subtitle: "Introduction to Human Motor Control: Methods & Applications"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    flashcards:
+      flipKey: 'q'
+      shuffleKey: 't'
+      showFlipButton: true
+    footer: "Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - flashcards
+editor: source
+---
+
+## Experimental Methods
+
+::: {.flashcard-front}
+Term: Experimental Methods
+:::
+
+::: {.flashcard-back}
+Definition: Systematic approaches to studying motor control, including research design, data collection techniques, and analysis methods used to understand human movement.
+:::
+
+## Research Design
+
+::: {.flashcard-front}
+Term: Research Design
+:::
+
+::: {.flashcard-back}
+Definition: The structured planning of motor control studies, including selection of variables, control measures, and appropriate measurement techniques.
+:::
+
+## Demonstration Learning
+
+::: {.flashcard-front}
+Term: Demonstration Learning
+:::
+
+::: {.flashcard-back}
+Definition: The process of learning motor skills through observation and replication of demonstrated movements, incorporating visual and cognitive processing.
+:::
+
+## Visual Learning
+
+::: {.flashcard-front}
+Term: Visual Learning
+:::
+
+::: {.flashcard-back}
+Definition: The acquisition of motor skills through visual observation and processing, including movement pattern recognition and spatial understanding.
+:::
+
+## Skill Transfer
+
+::: {.flashcard-front}
+Term: Skill Transfer
+:::
+
+::: {.flashcard-back}
+Definition: The ability to apply learned motor skills from one context to another, influenced by similarity of movement patterns and task requirements.
+:::
+
+## Pattern Recognition
+
+::: {.flashcard-front}
+Term: Pattern Recognition
+:::
+
+::: {.flashcard-back}
+Definition: The ability to identify and understand recurring movement patterns and their variations in motor control tasks.
+:::
+
+## Learning Progression
+
+::: {.flashcard-front}
+Term: Learning Progression
+:::
+
+::: {.flashcard-back}
+Definition: The systematic stages through which motor skills are acquired, from initial understanding to automated execution.
+:::
+
+## Adaptation Studies
+
+::: {.flashcard-front}
+Term: Adaptation Studies
+:::
+
+::: {.flashcard-back}
+Definition: Research examining how individuals modify their movements in response to changes in task demands or environmental conditions.
+:::

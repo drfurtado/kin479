@@ -1,0 +1,229 @@
+---
+title: "Chapter 01-4"
+subtitle: "Introduction to Human Motor Control: Applied Research"
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN479-Motor Control
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+logo: "images/logos/csun-logo.png"
+
+format: 
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    menu: true
+    menu-position: left
+    slide-level: 2
+    footer: "Dr. Furtado | CSUN | KIN Department | KIN479 - Human Motor Control"
+    slide-number: true
+    editor: source
+    include-in-header: _partials/header.html
+---
+
+## Review and Preview
+
+:::::::::: columns
+::: {.column width="50%"}
+**Previously Covered:**
+
+- Knowledge Expression
+- Statistical Contributions
+- Cognitive Science Perspectives
+- Neuroscience Insights
+:::
+
+::: {.column width="50%"}
+**In This Section:**
+
+- Turing Test Applications
+- Human Factors Engineering
+- Animal Research Insights
+- Variability in Performance
+:::
+::::::::::
+
+## Turing Test in Motor Control
+
+:::::::::: columns
+::: {.column width="60%"}
+- Movement Recognition
+- Human-Like Motion
+- Artificial Systems
+- Behavioral Analysis
+- Performance Metrics
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<i class="fas fa-robot fa-7x"></i>
+:::
+:::
+::::::::::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch01-1_8_turing_test.mp3" type="audio/mpeg">
+Your browser does not support the audio element. </audio>
+</div>
+
+::: notes
+The concept of the Turing test, originally developed for artificial intelligence, has interesting applications in motor control. Can we tell the difference between human and robot movement? This question helps us understand what makes human movement unique.
+
+Key aspects include:
+- Natural vs artificial movement
+- Movement recognition
+- Human-like robotics
+- Movement quality assessment
+
+This research helps us:
+- Develop better robots
+- Understand human movement
+- Create more natural prosthetics
+:::
+
+## Human Factors in Motor Control
+
+:::::::::: columns
+::: {.column width="60%"}
+- Ergonomic Design
+- Interface Development
+- Safety Considerations
+- Performance Optimization
+- Environmental Adaptation
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<i class="fas fa-user-cog fa-7x"></i>
+:::
+:::
+::::::::::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch01-1_8_human_factors.mp3" type="audio/mpeg">
+Your browser does not support the audio element. </audio>
+</div>
+
+::: notes
+Human factors research in motor control focuses on how people interact with their environment and tools. This field helps us design better equipment and spaces that work with our natural movement patterns.
+
+Key areas include:
+- Workplace ergonomics
+- Tool design
+- Interface development
+- Safety systems
+
+The impact of human factors research extends far beyond just making things more comfortable. In medical settings, it helps create safer equipment and procedures. In workplaces, it leads to more efficient and ergonomic designs that reduce fatigue and prevent injuries. And in everyday products, it results in designs that are more intuitive and enjoyable to use.
+:::
+
+## Animal Research in Motor Control
+
+:::::::::: columns
+::: {.column width="60%"}
+- Comparative Studies
+- Neural Mechanisms
+- Evolution of Movement
+- Learning Patterns
+- Recovery Studies
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<i class="fas fa-paw fa-7x"></i>
+:::
+:::
+::::::::::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch01-1_8_animal_research.mp3" type="audio/mpeg">
+Your browser does not support the audio element. </audio>
+</div>
+
+::: notes
+Animal research has provided crucial insights into motor control. By studying how different animals move and control their movements, we learn more about human motor control.
+
+Key research areas include:
+- Neural circuits
+- Movement patterns
+- Learning mechanisms
+- Recovery from injury
+
+This research helps us:
+- Understand basic principles
+- Develop new treatments
+- Study complex movements
+:::
+
+## Variability in Performance
+
+:::::::::: columns
+::: {.column width="60%"}
+- Movement Consistency
+- Adaptation Mechanisms
+- Error Correction
+- Skill Development
+- Performance Optimization
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<i class="fas fa-chart-bar fa-7x"></i>
+:::
+:::
+::::::::::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch01-1_8_variability_performance.mp3" type="audio/mpeg">
+Your browser does not support the audio element. </audio>
+</div>
+
+::: notes
+Understanding variability in movement is crucial for motor control research. Even skilled performers show some variation in their movements, and this variability can be both beneficial and detrimental.
+
+Key aspects include:
+- Sources of variability
+- Impact on performance
+- Adaptation strategies
+- Skill acquisition
+
+This knowledge helps us:
+- Improve training methods
+- Enhance performance
+- Develop better interventions
+:::
+
+## Coming Up Next: Methods & Applications
+
+:::::::::: columns
+::: {.column width="60%"}
+In the final part, we'll explore:
+
+- Experimental Methods
+- Understanding Through Demonstration
+- Movement Variability
+- Summary and Conclusions
+
+These topics will help us understand how to apply motor control concepts in practice.
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<div class="icon-container">
+<i class="fas fa-clipboard-check fa-7x"></i>
+</div>
+:::
+:::
+::::::::::
