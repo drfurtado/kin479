@@ -1,0 +1,12 @@
+---
+title: KIN 479 Motor Control
+subtitle: Presentation Project
+format:
+  fancy-doc-pdf: default 
+author:
+  - name: Ovande Furtado Jr., PhD
+    affiliations:
+      - name: Cal State Northridge
+    email: ovandef@csun.edu
+bibliography: bibliography.bib  
+---

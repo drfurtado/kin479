@@ -1,0 +1,101 @@
+---
+title: "Chapter 1-1 Flashcards"
+subtitle: "Introduction to Human Motor Control: Foundations"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    flashcards:
+      flipKey: 'q'
+      shuffleKey: 't'
+      showFlipButton: true
+    footer: "Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - flashcards
+editor: source
+---
+
+## Motor Control
+
+::: {.flashcard-front}
+Term: Motor Control
+:::
+
+::: {.flashcard-back}
+Definition: The study of how humans coordinate and control body movements, including the processes of movement planning, execution, and adaptation.
+:::
+
+## Movement Production
+
+::: {.flashcard-front}
+Term: Movement Production
+:::
+
+::: {.flashcard-back}
+Definition: The process of initiating, planning, and executing physical movements through the coordinated action of the nervous system and muscles.
+:::
+
+## Movement Regulation
+
+::: {.flashcard-front}
+Term: Movement Regulation
+:::
+
+::: {.flashcard-back}
+Definition: The continuous monitoring and adjustment of movements based on sensory feedback to maintain accuracy and achieve desired outcomes.
+:::
+
+## Movement Adaptation
+
+::: {.flashcard-front}
+Term: Movement Adaptation
+:::
+
+::: {.flashcard-back}
+Definition: The ability to modify movement patterns in response to changes in the environment or task requirements.
+:::
+
+## Feedback Processing
+
+::: {.flashcard-front}
+Term: Feedback Processing
+:::
+
+::: {.flashcard-back}
+Definition: The continuous analysis of sensory information during movement to detect errors and make necessary adjustments for improved performance.
+:::
+
+## Motor Learning
+
+::: {.flashcard-front}
+Term: Motor Learning
+:::
+
+::: {.flashcard-back}
+Definition: The process of acquiring and refining movement skills through practice and experience, resulting in relatively permanent changes in movement capability.
+:::
+
+## Biomechanics
+
+::: {.flashcard-front}
+Term: Biomechanics
+:::
+
+::: {.flashcard-back}
+Definition: The study of the mechanical principles of movement in living organisms, including forces, motion, and structural analysis of human movement.
+:::
+
+## Control Systems
+
+::: {.flashcard-front}
+Term: Control Systems
+:::
+
+::: {.flashcard-back}
+Definition: The neural and mechanical mechanisms that regulate movement, including feedback loops, error detection, and movement correction processes.
+:::

@@ -1,0 +1,101 @@
+---
+title: "Chapter 1-4 Flashcards"
+subtitle: "Introduction to Human Motor Control: Applied Research"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    flashcards:
+      flipKey: 'q'
+      shuffleKey: 't'
+      showFlipButton: true
+    footer: "Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - flashcards
+editor: source
+---
+
+## Turing Test in Motor Control
+
+::: {.flashcard-front}
+Term: Turing Test in Motor Control
+:::
+
+::: {.flashcard-back}
+Definition: A method for evaluating whether artificially generated movements are indistinguishable from human movements, used to understand what makes human movement unique.
+:::
+
+## Human-Like Motion
+
+::: {.flashcard-front}
+Term: Human-Like Motion
+:::
+
+::: {.flashcard-back}
+Definition: Movement patterns that closely resemble natural human movements, incorporating characteristics like smoothness, efficiency, and adaptability.
+:::
+
+## Human Factors Engineering
+
+::: {.flashcard-front}
+Term: Human Factors Engineering
+:::
+
+::: {.flashcard-back}
+Definition: The application of motor control principles to design equipment, interfaces, and environments that optimize human performance and safety.
+:::
+
+## Ergonomic Design
+
+::: {.flashcard-front}
+Term: Ergonomic Design
+:::
+
+::: {.flashcard-back}
+Definition: The practice of designing tools and environments to match human capabilities and limitations, based on motor control principles.
+:::
+
+## Animal Research Models
+
+::: {.flashcard-front}
+Term: Animal Research Models
+:::
+
+::: {.flashcard-back}
+Definition: The study of movement control in animals to understand fundamental principles of motor control that may apply to humans.
+:::
+
+## Movement Evolution
+
+::: {.flashcard-front}
+Term: Movement Evolution
+:::
+
+::: {.flashcard-back}
+Definition: The study of how movement control systems have developed over evolutionary time, providing insights into current human motor capabilities.
+:::
+
+## Performance Variability
+
+::: {.flashcard-front}
+Term: Performance Variability
+:::
+
+::: {.flashcard-back}
+Definition: Natural variations in movement execution, including both beneficial variability that allows adaptation and unwanted variability that reduces precision.
+:::
+
+## Error Correction
+
+::: {.flashcard-front}
+Term: Error Correction
+:::
+
+::: {.flashcard-back}
+Definition: The process of detecting and adjusting movements in response to mistakes or deviations from intended movement patterns.
+:::
