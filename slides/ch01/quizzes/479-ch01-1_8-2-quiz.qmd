@@ -1,0 +1,82 @@
+---
+title: "Chapter 1-2 Quiz"
+subtitle: "Introduction to Human Motor Control: Computational Approaches"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    quiz:
+      checkKey: 'c'
+      resetKey: 'r'
+      shuffleKey: 't'
+      allowNumberKeys: true
+      disableOnCheck: false
+      shuffleOptions: false
+      defaultCorrect: "Correct! You understand this concept."
+      defaultIncorrect: "Review this concept in your notes."
+    footer: "Navigation: Press 'c' to check answer | 'r' to reset | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - quiz
+editor: source
+---
+
+## Computational Analysis {.quiz-question}
+
+Computational level analysis only deals with simple mathematical calculations, not theoretical frameworks.
+
+- [True]{data-explanation="This is incorrect. Computational analysis involves both complex mathematical modeling and theoretical frameworks."}
+- [False]{.correct data-explanation="Correct! Computational analysis involves complex mathematical modeling and theoretical frameworks."}
+
+## Neural Networks {.quiz-question}
+
+Neural networks in motor control can serve as both biological systems and computational models.
+
+- [True]{.correct data-explanation="Correct! Neural networks represent both actual brain structures and computational models for understanding movement control."}
+- [False]{data-explanation="This is incorrect. Neural networks do serve both biological and computational modeling purposes."}
+
+## Control Theory {.quiz-question}
+
+Control theory in motor control only applies to conscious movements, not automatic ones.
+
+- [True]{data-explanation="This is incorrect. Control theory applies to both conscious and automatic movement control."}
+- [False]{.correct data-explanation="Correct! Control theory applies to both conscious and automatic movement control."}
+
+## Implementation Level {.quiz-question}
+
+The implementation level includes both physical mechanisms and neural processes of movement control.
+
+- [True]{.correct data-explanation="Correct! Implementation level involves both the physical execution and neural control of movement."}
+- [False]{data-explanation="This is incorrect. Implementation level does include both physical and neural aspects."}
+
+## Motor Units {.quiz-question}
+
+Motor units can function independently of neural input from the central nervous system.
+
+- [True]{data-explanation="This is incorrect. Motor units require neural input from motor neurons to function."}
+- [False]{.correct data-explanation="Correct! Motor units always require neural input from motor neurons to function."}
+
+## Sensory Integration {.quiz-question}
+
+Sensory integration combines information from multiple sensory systems to guide movement.
+
+- [True]{.correct data-explanation="Correct! Sensory integration involves combining multiple sensory inputs for movement control."}
+- [False]{data-explanation="This is incorrect. Sensory integration does combine multiple sensory inputs."}
+
+## Movement Disorders {.quiz-question}
+
+Movement disorders only affect physical movement, not the planning or processing of movement.
+
+- [True]{data-explanation="This is incorrect. Movement disorders can affect all aspects of movement, including planning and processing."}
+- [False]{.correct data-explanation="Correct! Movement disorders can affect all aspects of movement, including planning and processing."}
+
+## Physics Role {.quiz-question}
+
+Physical principles are important for understanding forces and energy efficiency in movement.
+
+- [True]{.correct data-explanation="Correct! Physics principles are essential for understanding movement mechanics and efficiency."}
+- [False]{data-explanation="This is incorrect. Physics is crucial for understanding movement mechanics."}
