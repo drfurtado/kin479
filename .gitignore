@@ -56,9 +56,10 @@ ENV/
 ehthumbs.db
 Thumbs.db
 
-# Keep only webapp directory
+# Keep only specific directories
 /*
 !/webapp/
+!/slides/
 !/.gitignore
 !/README.md
 !/requirements.txt
