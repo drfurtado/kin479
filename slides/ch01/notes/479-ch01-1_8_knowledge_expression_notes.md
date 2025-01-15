@@ -1,0 +1,7 @@
+As someone interested in motor control, you might have noticed something interesting: while most people can perform complex movements easily, they often struggle to explain how they do it. This highlights a fascinating aspect of motor knowledge - the difference between being able to do something and being able to explain it.
+
+Consider this: most adults can ride a bicycle, but very few can explain the physics and motor control principles that make it possible. Even brilliant scientists would need time to articulate exactly how they maintain balance while cycling. This is because much of our motor knowledge is tacit or implicit - we know how to do it, but we can't easily put it into words.
+
+However, being able to express motor control knowledge verbally is crucial for several reasons. In teaching and coaching, clear communication helps transfer skills more effectively. In research, we need to be able to describe and share our understanding of motor control principles. And in clinical settings, being able to explain movement patterns helps in diagnosis and treatment.
+
+The challenge lies in bridging the gap between practical motor knowledge and theoretical understanding. This is why motor control experts work to develop clear, precise language for describing movement, while also recognizing that some aspects of motor learning will always remain in the realm of practical experience rather than verbal instruction.
