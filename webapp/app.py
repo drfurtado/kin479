@@ -221,6 +221,9 @@ def main():
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards and quizzes.
     
+    The content in this application is based on:  
+    Rosenbaum, D. A. (2010). *Human motor control* (2nd ed). Elsevier Inc.
+    
     ### How to Use
     1. Select a chapter from the dropdown menu below
     2. Choose between **Flashcards** or **Quiz** mode
