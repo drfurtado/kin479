@@ -1,7 +1,0 @@
-Did you know that engineering plays a crucial role in advancing our understanding of human motor control? Engineers bring their unique problem-solving approaches to help us understand and improve human movement.
-
-The relationship between engineering and motor control is particularly evident when we look at robotics. Current robots embody much of what we know about motor control, yet they still struggle with tasks that humans find simple. For example, two-legged robots can barely walk across uneven surfaces without toppling over, and tasks like making a bed or folding laundry remain beyond their capabilities.
-
-This limitation of robots highlights just how sophisticated human motor control is. In dangerous situations, like space repairs, mining operations, or disaster recovery, we often still rely on humans rather than robots because of our superior motor control abilities. Engineers are working to bridge this gap, studying human movement to develop better robotic systems that could eventually take over these hazardous tasks.
-
-The engineering approach to motor control also contributes to the development of assistive technologies. By understanding how humans move and control their bodies, engineers can create more effective devices to help people with movement disabilities. This combination of biomechanics, electrical engineering, and computer science is transforming lives through innovative solutions.
