@@ -1,7 +1,0 @@
-Have you ever watched animals move and wondered what they could teach us about human movement? Animal research provides fascinating insights into the fundamental mechanisms of motor control that we share with our fellow creatures on Earth.
-
-What makes animal research so valuable is that many basic movement mechanisms are preserved across species. By studying how animals move, learn new movements, and adapt to different situations, we can better understand the core principles of motor control. This is particularly useful because animals often allow us to study movement in ways that wouldn't be possible or ethical with human subjects.
-
-The applications of this research are quite remarkable. For instance, studying how birds maintain balance during flight has helped us understand human balance control. Research on how animals recover from injuries has led to better rehabilitation strategies for humans. And observations of animal movement efficiency have inspired improvements in robotic design and human movement techniques.
-
-But perhaps most fascinating is how animal research reveals the evolutionary aspects of motor control. Many of our movement capabilities are built on neural and muscular systems that evolved over millions of years. Understanding this evolutionary history helps explain why our movement control systems work the way they do, and why certain movement patterns seem to come naturally while others require more conscious effort.
