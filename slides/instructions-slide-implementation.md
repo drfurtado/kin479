@@ -340,6 +340,68 @@ Example format:
 6. Keep TRUE option as the first choice always
 7. Disable option shuffling in YAML configuration
 
+## Adding New Chapters
+
+To add a new chapter to the web application, follow these steps:
+
+1. **Create Directory Structure**
+   Create a new directory under `slides/` following the naming convention `chXX` (where XX is the two-digit chapter number, e.g., `ch01`, `ch02`):
+
+   ```
+   slides/
+   ├── chXX/
+   │   ├── flashcards/
+   │   │   └── part-1.qmd  # Flashcards for part 1
+   │   └── quizzes/
+   │       └── part-1.qmd  # Quiz for part 1
+   ```
+
+2. **Create Flashcard Files**
+   In the `flashcards` directory, create `.qmd` files following this format:
+
+   ```markdown
+   ---
+   title: "Chapter XX Flashcards"
+   ---
+
+   Term: [Term Name]
+   Definition: [Term Definition]
+
+   Term: [Another Term]
+   Definition: [Another Definition]
+   ```
+
+3. **Create Quiz Files**
+   In the `quizzes` directory, create `.qmd` files following this format:
+
+   ```markdown
+   ---
+   title: "Chapter XX Quiz"
+   ---
+
+   .quiz-question
+   [Question Text]
+   [Answer Option 1].correct
+   [Answer Option 2]
+
+   .quiz-question
+   [Another Question]
+   [Answer Option 1]
+   [Answer Option 2].correct
+   ```
+
+4. **File Naming Convention**
+   - For flashcards: `part-N.qmd` (where N is the part number)
+   - For quizzes: `part-N.qmd` (where N is the part number)
+
+5. **Deploy Changes**
+   After adding new content:
+   1. Commit your changes to Git
+   2. Push to GitHub
+   3. Reboot the Streamlit app
+
+The web application will automatically detect and display the new chapter in the dropdown menu.
+
 ## Testing
 
 1. **Audio**
