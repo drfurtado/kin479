@@ -1,14 +1,64 @@
+# R files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
+# Quarto
 /.quarto/
+/_site/
 
 # Environment files
 .env
 .env.local
+.env.*
 .env.*.local
 
 # API Keys and Secrets
 **/config.local.js
+**/config.js
+**/dalle-config.js
+**/flux-config.js
+**/api_keys.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+venv311/
+.venv/
+ENV/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Keep only webapp directory
+/*
+!/webapp/
+!/.gitignore
+!/README.md
+!/requirements.txt
