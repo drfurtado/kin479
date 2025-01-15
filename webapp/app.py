@@ -223,10 +223,18 @@ def main():
         st.session_state.card_flipped = False
     
     base_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'slides')
-    chapters = sorted([d for d in os.listdir(base_path) if d.startswith('ch') and os.path.isdir(os.path.join(base_path, d))])
+    
+    # Create the base path if it doesn't exist
+    os.makedirs(base_path, exist_ok=True)
+    
+    try:
+        chapters = sorted([d for d in os.listdir(base_path) if d.startswith('ch') and os.path.isdir(os.path.join(base_path, d))])
+    except Exception as e:
+        st.error(f"Error accessing chapters: {str(e)}")
+        chapters = []
     
     if not chapters:
-        st.error("No chapters found!")
+        st.warning("No chapters found. Please add chapter directories (e.g., ch01, ch02) in the 'slides' folder.")
         return
     
     # Chapter selection
