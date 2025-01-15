@@ -2,13 +2,15 @@
 title: Human Motor Control
 subtitle: An Introduction
 format: 
-  pptx: default
   revealjs: default
+  pptx: default
 author:
   - name: Ovande Furtado Jr
     orcid: 0000-0003-3847-6314
     email: ovandef@csun.edu
     affiliations: California State University, Northridge
+scrollable: true
+smaller: true
 date: last-modified
 footer:  "[https://drfurtado.github.io/kin377/](https://drfurtado.github.io/kin377/)"
 logo: "/images/logo.png"
@@ -23,7 +25,7 @@ Here is a more comprehensive slide deck that covers all the main sections of the
 -   Chapter covers new lines of work integrating different activities and non-motor activities
 -   Glimpse into new advances in theorizing, genetics, and technology
 
-::: {notes}
+::: {.notes}
 This chapter covers a lot of ground in the field of human motor control. After pursuing a general introduction and discussion of the core problems in the field, the previous chapters reviewed the physiological and psychological foundations of human motor control and discussed several activity systems.
 
 This final chapter looks at new lines of work that integrate different activities, consider new paths of investigation that integrate motor and non-motor activities, and glimpse new advances in theorizing about human motor control as well as relevant innovations in genetics and technology. These developments signal an exciting future for this already dynamic field.
@@ -35,7 +37,7 @@ This final chapter looks at new lines of work that integrate different activitie
 -   Golf putting
 -   Walking and reaching
 
-::: {notes}
+::: {.notes}
 This chapter highlights the growing research on the integration and coordination of various complex motor activities. Examples include:
 
 -   Hitting oncoming balls, which requires predicting ball flight and precise timing of strokes
@@ -52,7 +54,7 @@ These studies reveal the sophistication of the motor control system in combining
 -   Pendulum swinging and reaction times affected by cognitive states
 -   More subtle manifestations of cognition in action
 
-::: {notes}
+::: {.notes}
 A major theme of recent work is the close coupling between cognition, emotion, and motor control. This "enactive cognition" view emphasizes that our thoughts and feelings are deeply linked to our physical actions.
 
 Examples include: - Counting performance is impaired when pointing is prevented - Walking variability and body sway increase during demanding cognitive tasks - Pendulum swinging and reaction times are affected by cognitive states
@@ -67,7 +69,7 @@ These findings highlight the rich interplay between mental processes and motor b
 -   Spontaneous entrainment of movements between interacting individuals
 -   Taking others' perspectives into account in simple reaction time tasks
 
-::: {notes}
+::: {.notes}
 Humans are inherently social, and much of our behavior involves coordinating our actions with others. Research on joint action reveals:
 
 -   Spontaneous entrainment of movements, like leg swinging, between interacting individuals\
@@ -82,7 +84,7 @@ This line of work underscores the deeply social nature of human motor behavior a
 -   Emotional stress can disrupt motor performance and may contribute to chronic pain
 -   Long history of thought about motion and emotion, but little modern research
 
-::: {notes}
+::: {.notes}
 The links between emotion and motion are also receiving increased attention. Studies show that:
 
 -   Kinematic features of movement can convey emotional activation, if not valence
@@ -99,7 +101,7 @@ Understanding these emotion-motion links has important implications for optimizi
 -   Clumsy children deficient in timing ability and proprioception
 -   Difficult to find good predictors of grace vs. awkwardness in normal population
 
-::: {notes}
+::: {.notes}
 Individual differences have been demonstrated in various aspects of motor control, including:
 
 -   Response speed
@@ -121,7 +123,7 @@ While individual differences in motor control are evident, understanding their o
 -   Optimization theory: understanding motor control in terms of maximizing desirable variables and minimizing undesirable ones
 -   Role of theories, hypotheses, models, and predictions in motor control research
 
-::: {notes}
+::: {.notes}
 Two major theoretical approaches are being applied to understand the complexity of motor behavior:
 
 1.  Dynamical systems theory uses mathematical tools to model the self-organizing, emergent properties of movement that can give rise to sudden transitions and other nonlinear phenomena.
@@ -139,7 +141,7 @@ More broadly, theories, hypotheses, models, and predictions all play important r
 -   Mutations of specific genes linked to disorders of behavioral sequencing and compulsivity
 -   Specific genes (e.g., FOXP2) implicated in motor sequencing and language-related deficits
 
-::: {notes}
+::: {.notes}
 Advances in genetics are shedding new light on the biological underpinnings of motor control. Behavioral genetics research indicates that:
 
 -   Specific motor abilities, like tongue rolling, can run in families
@@ -157,7 +159,7 @@ Genetic approaches provide a new window into the innate building blocks and cons
 -   Methods for harvesting energy from biological motion
 -   Automatic recognition of biological motion patterns
 
-::: {notes}
+::: {.notes}
 Technology is advancing rapidly, opening up new possibilities for both basic research and clinical application in the domain of motor control. Exciting developments include:
 
 -   Brain-machine interfaces that can bypass damaged neural pathways
@@ -177,7 +179,7 @@ As these technologies continue to advance, it will be important to integrate the
 -   Complex computations and adaptive choices carried out beneath conscious awareness
 -   Contrasts with suboptimality often seen in explicit economic decisions
 
-::: {notes}
+::: {.notes}
 A striking finding is that the motor system exhibits a remarkable capacity for optimal decision making, often surpassing what is seen in more deliberate, consciously controlled choices.
 
 In tasks involving rapid target reaching under risk and uncertainty, people show near-optimal performance in motor decisions, even as their explicit reasoning may show biases and suboptimalities.
@@ -198,7 +200,7 @@ Understanding the nature and origins of this motor intelligence remains an impor
 -   Recognition of inherent links between motor control, cognition, and emotion
 -   Exciting time of discovery for the science of human movement
 
-::: {notes}
+::: {.notes}
 In summary, the study of human motor control is advancing rapidly on multiple fronts, from the analysis of complex skills to the dissection of genetic mechanisms.
 
 Key trends include: - Tighter integration across behavioral, cognitive, and neural levels of analysis - Increased focus on naturalistic, real-world behaviors - Application of mathematical tools for modeling complexity and optimality - Technological innovations for measurement and intervention - Recognition of the inherent links between motor control, cognitive processes, and emotional states
