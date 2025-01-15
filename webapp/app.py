@@ -216,7 +216,21 @@ def display_quiz(questions):
             st.rerun()
 
 def main():
-    st.title("KIN479 Study Materials")
+    st.title("KIN 479 Interactive Learning")
+    
+    st.markdown("""
+    Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards and quizzes.
+    
+    ### How to Use
+    1. Select a chapter from the dropdown menu below
+    2. Choose between **Flashcards** or **Quiz** mode
+    3. For Flashcards:
+       - Click on a card to flip it and reveal the answer
+       - Use the navigation buttons to move between cards
+    4. For Quizzes:
+       - Answer each question to the best of your ability
+       - Submit your answers to see your score and feedback
+    """)
     
     # Initialize session state
     if 'card_flipped' not in st.session_state:
