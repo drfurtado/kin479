@@ -1,0 +1,7 @@
+Did you know about the fascinating way researchers test artificial movement systems? It's called the Turing test for motor intelligence, and it's based on a simple but powerful idea: if a robot can move so naturally that you can't tell it apart from a human, we've achieved a deep understanding of human motor control.
+
+This concept comes from Alan Turing, the brilliant mathematician who helped crack Nazi codes during World War II. While the original Turing test was about verbal intelligence, the motor version focuses on movement. Imagine watching a robot perform a task - if you can't tell whether it's a robot or a human moving, that robot has passed the motor Turing test.
+
+Current robotics gives us a humbling perspective on human motor control. Take the example of humanoid robots playing air hockey - while they can match human performance in this specific task, they're still far from matching our general movement capabilities. A human can walk away from the air hockey table, navigate through a building, and respond to unexpected situations, while the robot remains limited to its programmed task.
+
+This limitation of current robots highlights just how sophisticated human motor control really is. Our ability to adapt to new situations, learn new movements, and seamlessly coordinate complex actions is still far beyond what we can program into machines. Each advance in robotics not only brings us closer to more capable machines but also deepens our appreciation for the remarkable capabilities of human motor control.
