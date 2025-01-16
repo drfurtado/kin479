@@ -10,6 +10,12 @@ website:
         text: Home
       - href: syllabus.qmd
         text: Syllabus
+      - text: Assignments
+        menu:
+          - href: assignments/pres.qmd
+            text: Presentation Guidelines
+          - href: assignments/pres-template.qmd
+            text: Presentation Template
       - href: https://kin479-3t5d82oo7mixcokkbn6rzh.streamlit.app/  
         text: Study App
 
