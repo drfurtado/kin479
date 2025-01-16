@@ -64,3 +64,6 @@ Thumbs.db
 !/.gitignore
 !/README.md
 !/requirements.txt
+!/_quarto.yml
+!/_extensions/
+!/styles.css
