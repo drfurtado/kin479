@@ -1,11 +1,48 @@
 ---
-title: "kin479"
+title: "KIN 479: Motor Control"
+subtitle: "Spring 2025 | California State University, Northridge"
+format:
+    html:
+        toc: true
+        toc-depth: 2
+editor: source
 ---
 
-This is a Quarto website.
+## Welcome!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to KIN 479: Motor Control! This course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan. We will explore how the nervous system controls movement, from basic reflexes to complex motor skills.
 
-```{r}
-1 + 1
-```
+## Quick Links
+
+-   [Course Syllabus](syllabus.qmd)
+-   [Presentation Guidelines](assig-presentation.qmd)
+
+## Course Overview
+
+This course covers:
+
+-   Foundational knowledge in motor control
+-   Sensory and motor physiology
+-   Motor control theories and their applications
+-   Rehabilitation and clinical practice applications
+-   Current research in motor control
+
+## Course Materials
+
+All course materials, including lecture slides and assignments, will be posted on this website. Check back regularly for updates.
+
+## Contact Information
+
+**Instructor**: Ovande Furtado Jr, Ph.D.\
+**Office**: RE 289\
+**Email**: Use Canvas Inbox for communication\
+**Office Hours**: Tuesdays & Thursdays, 9:00 AM – 12:00 PM\
+[Schedule an Appointment](https://bit.ly/drfurtado-appointment)
+
+## Important Dates
+
+-   **First Day of Class**: January 20, 2025
+-   **Midterm Exam**: March 10-17, 2025
+-   **Spring Break**: March 17-24, 2025
+-   **Presentations Due**: April 14, 2025
+-   **Final Exam**: May 5-13, 2025
