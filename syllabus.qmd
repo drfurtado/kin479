@@ -1,0 +1,118 @@
+---
+title: "KIN 479: Motor Control Syllabus"
+date: "Spring 2025"
+format: html
+editor: source
+---
+
+# Instructor Information
+
+**Instructor**: Ovande Furtado Jr, Ph.D.\
+**Office**: RE 289\
+**Email**: Use Canvas Inbox for communication\
+**Phone**: 818-677-5968
+
+**Office Hours**:\
+Tuesdays & Thursdays: 9:00 AM – 12:00 PM\
+Also available by appointment: [Schedule Appointment](https://bit.ly/drfurtado-appointment)
+
+# Course Description
+
+Welcome to Motor Control! This course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan. Emphasis will be placed on the perception-action loop, linking sensation, cognition, and movement. The course includes:
+
+-   Foundational knowledge in motor control, sensory and motor physiology, and related theories.\
+-   Applications to rehabilitation, clinical practice, sport, and research.\
+-   Engagement with recent applied research in motor control.
+
+**Required Textbook**:\
+Rosenbaum, D. A. *Human Motor Control* (2nd Edition).
+
+# Learning Objectives
+
+By the end of this course, students will be able to:
+
+1.  Describe approaches to understanding motor control, including dynamical systems.\
+2.  Apply knowledge of sensorimotor structures to motor control applications.\
+3.  Explain theories of motor control.\
+4.  Design evidence-based exercises using scholarly articles.\
+5.  Critique current motor control research.\
+6.  Reflect on the historical evolution of motor control theories.
+
+# Course Format and Attendance
+
+-   **Delivery**: Fully online and asynchronous. Materials will be posted every Monday by 5:00 PM.
+-   **Deadlines**: Weekly assignments are due the following Monday.
+-   **No attendance or participation points**: Students are expected to demonstrate learning through assignment quality.
+
+# Communication and Respectful Environment
+
+Proper communication etiquette is essential for fostering a respectful learning environment. Please:
+
+-   Use clear and respectful language in emails and discussion posts.
+-   Be mindful of diverse perspectives and identities.\
+-   Confidential disclosures about sexual misconduct will be reported per Title IX policies.
+
+**CSUN Title IX Coordinator**: Barrett Morris ([barrett.morris\@csun.edu](mailto:barrett.morris@csun.edu))
+
+# Graduate Student Expectations
+
+Graduate students will complete presentations independently, following specific guidelines.
+
+# Student Performance Evaluation
+
+-   **Quizzes (25%)**: Weekly, timed quizzes administered on Canvas. Lowest quiz score dropped.
+-   **Presentation (15%)**: Group presentations on movement disorders. Due April 14 by 5:00 PM.
+-   **Midterm Exam (30%)**: Assigned March 10, due March 17.
+-   **Final Exam (30%)**: Assigned May 5, due May 13.
+
+**Grading Scale**:
+
+| Grade | Percentage |
+|-------|------------|
+| A     | 93%-100%   |
+| A-    | 90%-92.9%  |
+| B+    | 87%-89.9%  |
+| B     | 83%-86.9%  |
+| B-    | 80%-82.9%  |
+| C+    | 77%-79.9%  |
+| C     | 73%-76.9%  |
+| C-    | 70%-72.9%  |
+| D+    | 67%-69.9%  |
+| D     | 63%-66.9%  |
+| D-    | 60%-62.9%  |
+| F     | Below 60%  |
+
+# Course Schedule
+
+| Week | Dates        | Topics                        | Readings/Tasks                               | Assignments Due         |
+|-------------|-------------|--------------|---------------------|-------------|
+| 1    | Jan 20-27    | Intro Course and Syllabus     | Syllabus                                     | Syllabus Quiz           |
+| 2    | Jan 27-Feb 3 | Introduction to Motor Control | Chapter 1 (pgs. 1-8); Chapter 2 (pgs. 11-38) | Quiz Ch1-2              |
+| 3    | Feb 3-10     | Sensory Physiology            | Chapter 3 (pgs. 43-45; 50-55)                | Quiz Ch3                |
+| 4    | Feb 10-17    | Vision                        | Chapter 6 (pgs. 174-207)                     | Quiz Ch6                |
+| 5    | Feb 17-24    | Motor Physiology              | Chapter 3 (pgs. 46-49; 55-89)                | Quiz Ch3                |
+| 6    | Feb 24-Mar 3 | Psychology and Motor Control  | Chapter 4 (pgs. 94-103; 106-131)             | Quiz Ch4                |
+| 7    | Mar 3-10     | Theories of Motor Control     | Chapter 4 (pgs. 103-106); Chapter 12         | Quiz Ch4                |
+| 8    | Mar 10-17    | Midterm Exam                  | Study Materials                              | Midterm Exam Due Mar 17 |
+| 9    | Mar 17-24    | Spring Break – No Class       |                                              |                         |
+| 10   | Mar 24-31    | Locomotion                    | Chapter 5 (pgs. 136-170)                     | Quiz Ch5                |
+| 11   | Mar 31-Apr 7 | Reaching and Grasping         | Chapter 7 (pgs. 214-247)                     | Quiz Ch7                |
+| 12   | Apr 7-14     | Drawing and Writing           | Chapter 8 (pgs. 254-272)                     | Quiz Ch8                |
+| 13   | Apr 14-21    | Speaking and Singing          | Chapter 10 (pgs. 324-358)                    | Presentations           |
+| 14   | Apr 21-28    | Facial Control                | Chapter 11 (pgs. 364-376)                    | Quiz Ch11               |
+| 15   | Apr 28-May 5 | Final Exam Review             | Chapter 12 (pgs. 379-394)                    | Quiz Ch12               |
+| 16   | May 5-13     | Final Exam                    | Study Materials                              | Final Exam Due May 13   |
+
+# Accessibility and Support
+
+Students with disabilities are encouraged to request accommodations early through the Office of Students with Disabilities Resources. Contact: (818) 677-2684.
+
+# Academic Integrity
+
+All students are expected to adhere to CSUN's policies on academic honesty. Violations may result in a failing grade and further disciplinary actions.
+
+# Contact Information
+
+**Instructor**: Ovande Furtado Jr\
+**Office**: RE 289\
+**Email**: Use Canvas Inbox
