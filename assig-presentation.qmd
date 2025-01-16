@@ -2,17 +2,20 @@
 title: "Group Presentation Assignment"
 subtitle: "KIN 479 - Motor Control"
 format:
+  html:
+    toc: true
   pdf:
     toc: true
     number-sections: true
     number-depth: 4
 author:
-  - name: Ovande Furtado Jr., PhD @ Cal State Northridge
+  - name: Ovande Furtado Jr., PhD
     affiliations:
       - name: Cal State Northridge
     email: ovandef@csun.edu
 bibliography: bibliography.bib
 csl: apa.csl
+editor: source
 ---
 
 ## Overview
@@ -31,7 +34,7 @@ In this group presentation assignment, you will choose a specific movement disor
 3.  Record a group presentation of your slides, ensuring that each group member participates.
 4.  Submissions:
     1.  Topic submission
-        1.  The `group's leader` submits three topics for consideration by **Feb 10 @ 5pm**.
+        1.  The `group's leader` submits three topics for consideration by **Feb 10 \@ 5pm**.
         2.  The instructor selects a topic and notifies the group
     2.  Video Recording (70 points)
         1.  The `group's leader` submits the recorded presentation (under Discussion) by **April 14 \@ 5pm**.
@@ -111,15 +114,15 @@ Download template[^2]: Available on Canvas under Modules \> Presentation
 
 #### Video Recording (70 points)
 
-| Criteria | Excellent (9-10) | Good (7-8) | Fair (5-6) | Poor (0-4) |
+| Criteria                 | Excellent (9-10)                                  | Good (7-8)                                     | Fair (5-6)                                           | Poor (0-4)                                            |
 |---------------|---------------|---------------|---------------|---------------|
-| Content coverage | Thoroughly addresses all required content areas | Adequately addresses most content areas | Some content areas missing or inadequately addressed | Significant content areas missing or poorly addressed |
-| Organization and clarity | Well-organized, clear, and easy to follow | Mostly organized and clear, minor issues | Some disorganization or lack of clarity | Disorganized, unclear, and difficult to follow |
-| Presentation delivery | Engaging, professional, and well-rehearsed | Mostly engaging and professional, minor issues | Some lack of engagement or professionalism | Unengaging, unprofessional, or unrehearsed |
-| Visual aids | Visually appealing, informative, and relevant | Mostly appealing and informative, minor issues | Some issues with visual appeal or relevance | Unappealing, uninformative, or irrelevant |
-| References and citations | Properly cited throughout, minimum references met | Mostly properly cited, minor issues | Some issues with citations or references | Significant issues with citations or references |
-| Length and timing | Within the 15-minute limit | Slightly over or under the limit | Moderately over or under the limit | Significantly over or under the limit |
-| Recording quality | Excellent sound and visual quality | Good sound and visual quality, minor issues | Some issues with sound or visual quality | Poor sound or visual quality, significant issues |
+| Content coverage         | Thoroughly addresses all required content areas   | Adequately addresses most content areas        | Some content areas missing or inadequately addressed | Significant content areas missing or poorly addressed |
+| Organization and clarity | Well-organized, clear, and easy to follow         | Mostly organized and clear, minor issues       | Some disorganization or lack of clarity              | Disorganized, unclear, and difficult to follow        |
+| Presentation delivery    | Engaging, professional, and well-rehearsed        | Mostly engaging and professional, minor issues | Some lack of engagement or professionalism           | Unengaging, unprofessional, or unrehearsed            |
+| Visual aids              | Visually appealing, informative, and relevant     | Mostly appealing and informative, minor issues | Some issues with visual appeal or relevance          | Unappealing, uninformative, or irrelevant             |
+| References and citations | Properly cited throughout, minimum references met | Mostly properly cited, minor issues            | Some issues with citations or references             | Significant issues with citations or references       |
+| Length and timing        | Within the 15-minute limit                        | Slightly over or under the limit               | Moderately over or under the limit                   | Significantly over or under the limit                 |
+| Recording quality        | Excellent sound and visual quality                | Good sound and visual quality, minor issues    | Some issues with sound or visual quality             | Poor sound or visual quality, significant issues      |
 
 #### Topic Submission (10 points)
 
@@ -131,21 +134,21 @@ Not completed = 0pts
 
 Each group member should evaluate their teammates' contributions to the project using the following rubric. The total score for each member will be the average of the scores given by their teammates.
 
-| Criteria | Excellent (4) | Good (3) | Fair (2) | Poor (1) |
-|--------------|----------------|--------------|--------------|--------------|
-| Attendance and punctuality | Always attends meetings and is punctual | Mostly attends meetings and is punctual, with few exceptions | Occasionally misses meetings or is late | Frequently misses meetings or is late |
-| Participation and communication | Actively participates in discussions, shares ideas, and communicates effectively | Mostly participates and communicates, with minor issues | Some lack of participation or communication issues | Rarely participates or communicates, significant issues |
-| Quality of work | Consistently delivers high-quality work that meets or exceeds expectations | Mostly delivers good quality work, with minor issues | Some issues with work quality or consistency | Frequently delivers poor quality work or fails to meet expectations |
-| Responsibility and reliability | Always completes assigned tasks on time and is reliable | Mostly completes tasks on time and is reliable, with few exceptions | Occasionally misses deadlines or is unreliable | Frequently misses deadlines or is unreliable |
-| Collaboration and teamwork | Works well with others, contributes to a positive team dynamic, and helps resolve conflicts | Mostly collaborative and contributes to a positive team dynamic, with minor issues | Some issues with collaboration or teamwork | Rarely collaborates or contributes to a positive team dynamic, significant issues |
+| Criteria                        | Excellent (4)                                                                               | Good (3)                                                                           | Fair (2)                                           | Poor (1)                                                                          |
+|---------------|---------------|---------------|---------------|---------------|
+| Attendance and punctuality      | Always attends meetings and is punctual                                                     | Mostly attends meetings and is punctual, with few exceptions                       | Occasionally misses meetings or is late            | Frequently misses meetings or is late                                             |
+| Participation and communication | Actively participates in discussions, shares ideas, and communicates effectively            | Mostly participates and communicates, with minor issues                            | Some lack of participation or communication issues | Rarely participates or communicates, significant issues                           |
+| Quality of work                 | Consistently delivers high-quality work that meets or exceeds expectations                  | Mostly delivers good quality work, with minor issues                               | Some issues with work quality or consistency       | Frequently delivers poor quality work or fails to meet expectations               |
+| Responsibility and reliability  | Always completes assigned tasks on time and is reliable                                     | Mostly completes tasks on time and is reliable, with few exceptions                | Occasionally misses deadlines or is unreliable     | Frequently misses deadlines or is unreliable                                      |
+| Collaboration and teamwork      | Works well with others, contributes to a positive team dynamic, and helps resolve conflicts | Mostly collaborative and contributes to a positive team dynamic, with minor issues | Some issues with collaboration or teamwork         | Rarely collaborates or contributes to a positive team dynamic, significant issues |
 
 #### Peer Engagement - Extra Credit (9 points)
 
-| Criteria | Excellent (3) | Good (2) | Fair (1) | Poor (0) |
+| Criteria                  | Excellent (3)                            | Good (2)                                             | Fair (1)                                        | Poor (0)                                          |
 |---------------|---------------|---------------|---------------|---------------|
-| Asking questions | Thoughtful, relevant questions asked | Mostly relevant questions asked | Some irrelevant or low-quality questions | No questions asked or all questions irrelevant |
-| Number of questions asked | At least 5 relevant questions asked | 1-4 relevant questions asked | 1-2 relevant questions asked | Only ask one question |
-| Responding to questions | Thorough, accurate, and timely responses | Mostly thorough and accurate responses, minor issues | Some issues with response quality or timeliness | No responses or significant issues with responses |
+| Asking questions          | Thoughtful, relevant questions asked     | Mostly relevant questions asked                      | Some irrelevant or low-quality questions        | No questions asked or all questions irrelevant    |
+| Number of questions asked | At least 5 relevant questions asked      | 1-4 relevant questions asked                         | 1-2 relevant questions asked                    | Only ask one question                             |
+| Responding to questions   | Thorough, accurate, and timely responses | Mostly thorough and accurate responses, minor issues | Some issues with response quality or timeliness | No responses or significant issues with responses |
 
 To earn the full extra credit points[^3], students must:
 

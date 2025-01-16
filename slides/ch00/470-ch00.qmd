@@ -1,43 +1,186 @@
 ---
-title: "Chapter 00"
-subtitle: "Course Introduction"
-
-author:
-  - name: Ovande Furtado Jr
-    title: Assistant Professor
-    department: Kinesiology/KIN479-Motor Control
-    orcid: 0000-0003-3847-6314
-    email: ovandef@csun.edu
-    affiliations: California State University, Northridge
-
-# Document Settings
-date: last-modified
-logo: "/images/logo.png"
-
-format: 
-  revealjs:
-    # Theme and Styling
-    theme: default
-    css: ../common/styles.css
-    width: 1600
-    height: 900
-    fontsize: 40px
-    margin: 0.1
-
-    # Navigation Controls
-    controls: true
-    controls-layout: edges
-    controls-back-arrows: visible
-    controls-position: bottom
-    controls-tutorial: true
-    navigation-mode: linear
-    progress: true
-    slide-number: c/t
-    show-slide-number: all
-
-    # Menu Settings
-    menu: true
-    menu-position: left
-    editor: source
+title: "Welcome to KIN 479: Motor Control"
+subtitle: "Spring 2025"
+author: "Ovande Furtado Jr, Ph.D."
+institute: "California State University, Northridge"
+format:
+    revealjs:
+        theme: simple
+        logo: /images/csun-logo.png
+        footer: "[Back to Course Site](/index.qmd) | KIN 479: Motor Control | Spring 2025"
+        slide-number: true
+        scrollable: true 
+editor: source
 ---
 
+## Course Overview
+
+This course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan.
+
+::: {.incremental}
+- Focus on perception-action loop
+- Links between sensation, cognition, and movement
+- Applications to rehabilitation and clinical practice
+- Engagement with current research
+:::
+
+## Learning Objectives
+
+By the end of this course, you will be able to:
+
+::: {.incremental}
+1. Describe approaches to understanding motor control
+2. Apply knowledge of sensorimotor structures
+3. Explain theories of motor control
+4. Design evidence-based exercises
+5. Critique current motor control research
+6. Reflect on historical evolution of motor control theories
+:::
+
+## Course Format
+
+::: {.columns}
+::: {.column width="50%"}
+### Structure
+- Fully online and asynchronous
+- Materials posted Mondays by 5:00 PM
+- Weekly assignments due following Monday
+:::
+
+::: {.column width="50%"}
+### Materials
+- Required Textbook: Rosenbaum's "Human Motor Control" (2nd Ed.)
+- Canvas for assignments and communication
+- Weekly readings and quizzes
+:::
+:::
+
+## Group Project Overview
+
+This course includes a major group project where you'll investigate a movement disorder:
+
+::: {.incremental}
+- Work in assigned groups (check Canvas > People > Groups)
+- Develop expertise in a specific movement disorder
+- Create and record a professional presentation
+- Engage with peer presentations and provide feedback
+:::
+
+[View complete presentation guidelines](assig-presentation.qmd)
+
+## Movement Disorders
+
+Choose from disorders such as:
+
+::: {.columns}
+::: {.column width="50%"}
+- Parkinson's disease
+- Cerebral palsy
+- Multiple sclerosis
+- Huntington's disease
+:::
+
+::: {.column width="50%"}
+- Essential tremor
+- Ataxia
+- ALS
+- Tourette's syndrome
+:::
+:::
+
+**Important Dates**:
+
+- Topic submission: Feb 10 @ 5pm
+- Video presentation: April 14 @ 5pm
+- Peer evaluation: May 13 @ 5pm
+
+See [course syllabus](syllabus.qmd) for complete schedule and policies.
+
+## Presentation Requirements
+
+::: {.columns}
+::: {.column width="50%"}
+### Format
+- 15-minute video presentation
+- Include slides and speakers
+- Professional delivery
+- Minimum 7 peer-reviewed references
+:::
+
+::: {.column width="50%"}
+### Content
+- Neurophysiology
+- Skill performance
+- Treatment approaches
+- Overall outlook
+:::
+:::
+
+## Communication
+
+::: {.incremental}
+- **Email**: Use Canvas Inbox
+- **Office Hours**: 
+    - Tuesdays & Thursdays: 9:00 AM – 12:00 PM
+    - [Schedule appointments](https://bit.ly/drfurtado-appointment)
+- **Office**: RE 289
+- **Response Time**: Within 24 hours on weekdays
+:::
+
+## Course Topics
+
+We'll explore:
+
+::: {.incremental}
+- Foundational motor control concepts
+- Sensory and motor physiology
+- Motor control theories and applications
+- Research methods in motor control
+- Clinical and rehabilitation applications
+- Current trends in motor control research
+:::
+
+## Assessment
+
+Your learning will be evaluated through:
+
+::: {.columns}
+::: {.column width="50%"}
+- Weekly chapter quizzes
+- Group presentations
+- Final exam
+:::
+
+::: {.column width="50%"}
+- Focus on understanding
+- Application of concepts
+- Critical thinking
+- Research analysis
+:::
+:::
+
+## Resources for Success
+
+::: {.incremental}
+- Regular engagement with materials
+- Active participation in discussions
+- Timely completion of assignments
+- Utilize office hours
+- Form study groups
+:::
+
+## Questions?
+
+::: {.columns}
+::: {.column width="60%"}
+Feel free to:
+
+- Ask during office hours
+- Email through Canvas
+- Schedule an appointment
+:::
+
+::: {.column width="40%"}
+![](/images/csun-logo.png)
+:::
+:::
