@@ -58,6 +58,7 @@ Thumbs.db
 
 # Keep only specific directories
 /*
+!*.qmd
 !/webapp/
 !/slides/
 !/.gitignore
