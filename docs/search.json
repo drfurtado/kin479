@@ -1,128 +1,1129 @@
 [
   {
+    "objectID": "ch12.html#introduction",
+    "href": "ch12.html#introduction",
+    "title": "Human Motor Control",
+    "section": "Introduction",
+    "text": "Introduction\n\nResearch in human motor control includes complex tasks\nField has matured to study more ecologically relevant topics\nChapter covers new lines of work integrating different activities and non-motor activities\nGlimpse into new advances in theorizing, genetics, and technology\n\n\nThis chapter covers a lot of ground in the field of human motor control. After pursuing a general introduction and discussion of the core problems in the field, the previous chapters reviewed the physiological and psychological foundations of human motor control and discussed several activity systems.\nThis final chapter looks at new lines of work that integrate different activities, consider new paths of investigation that integrate motor and non-motor activities, and glimpse new advances in theorizing about human motor control as well as relevant innovations in genetics and technology. These developments signal an exciting future for this already dynamic field."
+  },
+  {
+    "objectID": "ch12.html#integration-of-complex-motor-activities",
+    "href": "ch12.html#integration-of-complex-motor-activities",
+    "title": "Human Motor Control",
+    "section": "Integration of Complex Motor Activities",
+    "text": "Integration of Complex Motor Activities\n\nHitting oncoming balls\nGolf putting\nWalking and reaching\n\n\nThis chapter highlights the growing research on the integration and coordination of various complex motor activities. Examples include:\n\nHitting oncoming balls, which requires predicting ball flight and precise timing of strokes\nGolf putting, where experts show different coordination patterns than novices\nWalking and reaching, which are well-coordinated, possibly due to our evolutionary history\n\nThese studies reveal the sophistication of the motor control system in combining and adapting skills to meet the demands of challenging real-world tasks."
+  },
+  {
+    "objectID": "ch12.html#enactive-cognition-linking-thought-feeling-and-action",
+    "href": "ch12.html#enactive-cognition-linking-thought-feeling-and-action",
+    "title": "Human Motor Control",
+    "section": "Enactive Cognition: Linking Thought, Feeling, and Action",
+    "text": "Enactive Cognition: Linking Thought, Feeling, and Action\n\nCounting performance impaired when pointing is prevented\nWalking variability and body sway increase during demanding cognitive tasks\nPendulum swinging and reaction times affected by cognitive states\nMore subtle manifestations of cognition in action\n\n\nA major theme of recent work is the close coupling between cognition, emotion, and motor control. This “enactive cognition” view emphasizes that our thoughts and feelings are deeply linked to our physical actions.\nExamples include: - Counting performance is impaired when pointing is prevented - Walking variability and body sway increase during demanding cognitive tasks - Pendulum swinging and reaction times are affected by cognitive states\nIn addition to these overt manifestations, more subtle changes in motor states also accompany cognition, such as the dynamics of ongoing movement reflecting the time course of information processing.\nThese findings highlight the rich interplay between mental processes and motor behavior, challenging the traditional separation between thinking and doing."
+  },
+  {
+    "objectID": "ch12.html#joint-action-and-social-coordination",
+    "href": "ch12.html#joint-action-and-social-coordination",
+    "title": "Human Motor Control",
+    "section": "Joint Action and Social Coordination",
+    "text": "Joint Action and Social Coordination\n\nSpontaneous entrainment of movements between interacting individuals\nTaking others’ perspectives into account in simple reaction time tasks\n\n\nHumans are inherently social, and much of our behavior involves coordinating our actions with others. Research on joint action reveals:\n\nSpontaneous entrainment of movements, like leg swinging, between interacting individuals\n\nTaking others’ perspectives into account, even in simple reaction time tasks\n\nThis line of work underscores the deeply social nature of human motor behavior and the attunement of our motor system to the actions and intentions of others."
+  },
+  {
+    "objectID": "ch12.html#emotion-stress-and-movement",
+    "href": "ch12.html#emotion-stress-and-movement",
+    "title": "Human Motor Control",
+    "section": "Emotion, Stress, and Movement",
+    "text": "Emotion, Stress, and Movement\n\nKinematic features of movement can convey emotional activation\nEmotional stress can disrupt motor performance and may contribute to chronic pain\nLong history of thought about motion and emotion, but little modern research\n\n\nThe links between emotion and motion are also receiving increased attention. Studies show that:\n\nKinematic features of movement can convey emotional activation, if not valence\nEmotional stress can disrupt motor performance and may contribute to chronic pain conditions\n\nDespite a long history of thought about the relation between motion and emotion (e.g., Darwin’s work on emotional expressions), there has been surprisingly little modern research on this topic from a motor control perspective.\nUnderstanding these emotion-motion links has important implications for optimizing performance under pressure, treating clinical disorders involving emotionally-triggered motor symptoms, and appreciating the embodied nature of emotional experience."
+  },
+  {
+    "objectID": "ch12.html#individual-differences-in-motor-control",
+    "href": "ch12.html#individual-differences-in-motor-control",
+    "title": "Human Motor Control",
+    "section": "Individual Differences in Motor Control",
+    "text": "Individual Differences in Motor Control\n\nDifferences in response speed, timing accuracy, precision of force production, etc.\nClumsy children deficient in timing ability and proprioception\nDifficult to find good predictors of grace vs. awkwardness in normal population\n\n\nIndividual differences have been demonstrated in various aspects of motor control, including:\n\nResponse speed\nTiming accuracy\nPrecision of force production\nFinger dexterity\nArm-hand steadiness\n\nClumsy children appear to be particularly deficient in timing ability and proprioception.\nHowever, within the normal population, it has proven difficult to find good predictors of overall motor skill or grace vs. awkwardness. Correlations between different motor tasks tend to be quite low, suggesting a high degree of task specificity in motor abilities.\nWhile individual differences in motor control are evident, understanding their origins and predictors remains an ongoing challenge."
+  },
+  {
+    "objectID": "ch12.html#theoretical-frameworks-dynamical-systems-and-optimization",
+    "href": "ch12.html#theoretical-frameworks-dynamical-systems-and-optimization",
+    "title": "Human Motor Control",
+    "section": "Theoretical Frameworks: Dynamical Systems and Optimization",
+    "text": "Theoretical Frameworks: Dynamical Systems and Optimization\n\nDynamical systems theory: modeling emergent properties and nonlinear phenomena\nOptimization theory: understanding motor control in terms of maximizing desirable variables and minimizing undesirable ones\nRole of theories, hypotheses, models, and predictions in motor control research\n\n\nTwo major theoretical approaches are being applied to understand the complexity of motor behavior:\n\nDynamical systems theory uses mathematical tools to model the self-organizing, emergent properties of movement that can give rise to sudden transitions and other nonlinear phenomena.\nOptimization theory seeks to understand motor control in terms of the maximization of desirable variables and the minimization of undesirable ones.\n\nBoth frameworks leverage sophisticated computational methods to capture the adaptive, goal-directed nature of the motor system.\nMore broadly, theories, hypotheses, models, and predictions all play important roles in the science of human motor control. Theories are general principles, hypotheses are conjectures about specific situations, models are detailed mathematical instantiations, and predictions are forecasts that can be tested. The hypothetico-deductive method involves deriving predictions from theories and hypotheses and then empirically testing those predictions."
+  },
+  {
+    "objectID": "ch12.html#the-genetic-bases-of-motor-control",
+    "href": "ch12.html#the-genetic-bases-of-motor-control",
+    "title": "Human Motor Control",
+    "section": "The Genetic Bases of Motor Control",
+    "text": "The Genetic Bases of Motor Control\n\nSpecific motor abilities, like tongue rolling, can run in families\nMutations of specific genes linked to disorders of behavioral sequencing and compulsivity\nSpecific genes (e.g., FOXP2) implicated in motor sequencing and language-related deficits\n\n\nAdvances in genetics are shedding new light on the biological underpinnings of motor control. Behavioral genetics research indicates that:\n\nSpecific motor abilities, like tongue rolling, can run in families\nMutations of specific genes are linked to disorders of behavioral sequencing and compulsivity\n\nIn addition, specific genes, such as FOXP2, have been implicated in deficits of motor sequencing, language, and other sequential behaviors in humans and animal models.\nGenetic approaches provide a new window into the innate building blocks and constraints that shape the development of motor skills and the manifestation of certain movement-related disorders. While genetic influences on motor behavior are evident, it is important to remember that genes always interact with experience and environment in shaping the final outcome."
+  },
+  {
+    "objectID": "ch12.html#technological-frontiers",
+    "href": "ch12.html#technological-frontiers",
+    "title": "Human Motor Control",
+    "section": "Technological Frontiers",
+    "text": "Technological Frontiers\n\nBrain-machine interfaces that can bypass damaged neural pathways\nRobotics and virtual reality for movement rehabilitation\nMethods for harvesting energy from biological motion\nAutomatic recognition of biological motion patterns\n\n\nTechnology is advancing rapidly, opening up new possibilities for both basic research and clinical application in the domain of motor control. Exciting developments include:\n\nBrain-machine interfaces that can bypass damaged neural pathways\nRobotics and virtual reality for movement rehabilitation\nMethods for harvesting energy from biological motion\nAutomatic recognition of biological motion patterns\n\nThese innovations are transforming our ability to measure, manipulate, and model the complexities of the human motor system. They are also enabling new forms of treatment and optimization of motor function in both healthy and clinical populations.\nAs these technologies continue to advance, it will be important to integrate them with our growing understanding of the biological and psychological principles governing motor behavior."
+  },
+  {
+    "objectID": "ch12.html#the-implicit-intelligence-of-motor-behavior",
+    "href": "ch12.html#the-implicit-intelligence-of-motor-behavior",
+    "title": "Human Motor Control",
+    "section": "The Implicit Intelligence of Motor Behavior",
+    "text": "The Implicit Intelligence of Motor Behavior\n\nMotor system exhibits remarkable capacity for optimal decision making\nNear-optimal performance in motor decisions involving risk and uncertainty\nComplex computations and adaptive choices carried out beneath conscious awareness\nContrasts with suboptimality often seen in explicit economic decisions\n\n\nA striking finding is that the motor system exhibits a remarkable capacity for optimal decision making, often surpassing what is seen in more deliberate, consciously controlled choices.\nIn tasks involving rapid target reaching under risk and uncertainty, people show near-optimal performance in motor decisions, even as their explicit reasoning may show biases and suboptimalities.\nThese results point to a kind of implicit intelligence in motor control, where complex computations and adaptive choices are carried out beneath the level of conscious awareness.\nThe contrast between the optimality of motor decisions and the suboptimality often seen in explicit economic decisions (as famously demonstrated by the work of Kahneman and Tversky) is particularly intriguing. It suggests that the motor system has access to a form of implicit knowledge or computation that is not always available to conscious reasoning.\nUnderstanding the nature and origins of this motor intelligence remains an important challenge for ongoing research, with implications for both theory and application."
+  },
+  {
+    "objectID": "ch12.html#conclusions-and-future-directions",
+    "href": "ch12.html#conclusions-and-future-directions",
+    "title": "Human Motor Control",
+    "section": "Conclusions and Future Directions",
+    "text": "Conclusions and Future Directions\n\nTighter integration across behavioral, cognitive, and neural levels of analysis\nIncreased focus on naturalistic, real-world behaviors\nApplication of mathematical tools for modeling complexity and optimality\nTechnological innovations for measurement and intervention\nRecognition of inherent links between motor control, cognition, and emotion\nExciting time of discovery for the science of human movement\n\n\nIn summary, the study of human motor control is advancing rapidly on multiple fronts, from the analysis of complex skills to the dissection of genetic mechanisms.\nKey trends include: - Tighter integration across behavioral, cognitive, and neural levels of analysis - Increased focus on naturalistic, real-world behaviors - Application of mathematical tools for modeling complexity and optimality - Technological innovations for measurement and intervention - Recognition of the inherent links between motor control, cognitive processes, and emotional states\nAs the field moves forward, there is a rich potential for cross-disciplinary collaboration and for translating basic insights into practical applications.\nThe coming years promise to be an exciting time of continued discovery in the science of human movement. By pursuing an integrative understanding of the many factors shaping motor behavior, from the level of genes to the level of social interactions, researchers are paving the way for a new era in the study of human motor control.\nUltimately, this work holds the promise of enhancing our ability to optimize motor function, treat movement disorders, and design technologies that intelligently interface with the motor system. The principles of human movement, deeply rooted in our evolutionary heritage, continue to find new expressions and applications in the modern world.\n\n\n\n\n\nhttps://drfurtado.github.io/kin377/"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html",
+    "href": "slides/instructions-slide-implementation.html",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "This document provides instructions for implementing Quarto presentations for the KIN479 course, based on successful implementations.\n\n\nslides/\n├── ch01/\n│   ├── source-files/      # Contains Quarto files\n│   │   ├── js/           # JavaScript files\n│   │   │   ├── audio-player.js\n│   │   │   ├── record-presentation.js\n│   │   │   ├── flux-config.js\n│   │   │   └── flux-bundle.js\n│   │   └── 479-ch01-1_8.qmd\n│   └── audio/            # Contains audio files\n│       └── 479-ch01-1_8_*.mp3\n│   ├── flashcards/\n│   │   ├── 479-ch01-1_8-1-flashcards.qmd  # Part 1 flashcards\n│   │   ├── 479-ch01-1_8-2-flashcards.qmd  # Part 2 flashcards\n│   │   └── ...\n│   └── quizzes/\n│       ├── 479-ch01-1_8-1-quiz.qmd  # Part 1 quiz\n│       ├── 479-ch01-1_8-2-quiz.qmd  # Part 2 quiz\n│       └── ...\n\n\n\n\n\n---\ntitle: \"Chapter Title\"\nsubtitle: \"Subtitle\"\n\nauthor:\n  - name: Author Name\n    title: Title\n    department: Department\n    orcid: ORCID\n    email: Email\n    affiliations: Institution\n\n# Document Settings\ndate: last-modified\nlogo: \"images/logos/logo.png\"\n\nformat: \n  revealjs:\n    theme: default\n    width: 1600\n    height: 900\n    margin: 0.1\n    controls: true\n    navigation-mode: linear\n    menu: true\n    menu-position: left\n    slide-level: 2\n\ninclude-in-header:\n  - text: |\n      &lt;style&gt;\n      .flux-generated-image {\n        max-width: 100%;\n      }\n      &lt;/style&gt;\n      &lt;script&gt;\n      window.addEventListener('load', function() {\n          Reveal.configure({ keyboard: false });\n      });\n      &lt;/script&gt;\n      &lt;script src=\"js/audio-player.js\"&gt;&lt;/script&gt;\n      &lt;script src=\"js/record-presentation.js\"&gt;&lt;/script&gt;\n      &lt;script src=\"js/flux-config.js\"&gt;&lt;/script&gt;\n      &lt;script src=\"js/flux-bundle.js\"&gt;&lt;/script&gt;\n      &lt;div id=\"start-overlay\"&gt;...&lt;/div&gt;\n---\n\n\n\nEach slide should follow this structure:\n## Slide Title\n\n:::: {.columns}\n\n::: {.column width=\"50%\"}\n- Bullet point 1\n- Bullet point 2\n- Bullet point 3\n:::\n\n::: {.column width=\"50%\"}\n::: {.flux-container data-prompt=\"Detailed prompt for image generation\"}\n:::\n:::\n\n::::\n\n&lt;div class=\"audio-source\" style=\"display: none;\"&gt;\n&lt;audio preload=\"none\" controls&gt;\n&lt;source src=\"../audio/479-ch01-1_8_slide_name.mp3\" type=\"audio/mpeg\"&gt;\nYour browser does not support the audio element. &lt;/audio&gt;\n&lt;/div&gt;\n\n::: notes\nDetailed speaker notes that match the audio content\n:::\n\n\n\n\n\nAudio Files\n\nPlace in audio directory\nUse naming convention: 479-ch01-1_8_slide_name.mp3\nAudio paths should be relative: ../audio/\n\nImage Generation\n\nUse .flux-container with detailed prompts\nInclude style specifications in prompts\nKeep prompts consistent with slide content\n\nLayout\n\nUse two-column layout with 50% width each\nLeft column for bullet points\nRight column for generated images\nKeep bullet points concise and clear\n\nNotes\n\nInclude detailed speaker notes for each slide\nNotes should match audio content\nUse conversational, engaging tone\n\n\n\n\n\n\n\nFor better engagement and clarity, long presentations should be broken down into mini-lectures of approximately 10 minutes each. Follow these guidelines:\n\nFile Naming Convention\n\nBase name: Original presentation filename\nAppend -1, -2, etc. for each part\nExample: 479-ch01-1_8.qmd becomes:\n\n479-ch01-1_8-1.qmd\n479-ch01-1_8-2.qmd\netc.\n\n\nStructure of Each Part\n\nReview Slide (Start of each part except first)\n## Review and Preview\n\n:::::::::: columns\n::: {.column width=\"50%\"}\n**Previously Covered:**\n- Key points from previous part\n:::\n\n::: {.column width=\"50%\"}\n**In This Section:**\n- Topics to be covered\n:::\n::::::::::\nContent Slides\n\nMaintain consistent formatting\nInclude all original content\nPreserve audio references\nKeep speaker notes\n\nTransition Slide (End of each part except last)\n## Coming Up Next: [Next Part Title]\n\n:::::::::: columns\n::: {.column width=\"60%\"}\nIn the next part, we'll explore:\n\n- Topic 1\n- Topic 2\n- Topic 3\n\nBrief description of why these topics matter.\n:::\n\n::: {.column width=\"40%\"}\n::: {.center}\n&lt;div class=\"icon-container\"&gt;\n&lt;i class=\"fas fa-[relevant-icon] fa-7x\"&gt;&lt;/i&gt;\n&lt;/div&gt;\n:::\n:::\n::::::::::\n\nFinal Part Special Considerations\n\nReplace transition slide with summary\nInclude comprehensive review\nAdd “Looking Ahead” section\n\nContent Distribution\n\nAim for equal length parts\nKeep related topics together\nEnsure logical flow between parts\nMaintain all original content\n\nAudio Files\n\nKeep original audio file names\nEnsure audio references match new file structure\nUpdate audio paths if needed\n\nNavigation\n\nEach part functions as standalone presentation\nMaintain consistent styling across parts\nUse menu for easy navigation between parts\n\n\n\n\n\n\n\n\nslides/\n├── ch01/\n│   └── flashcards/\n│       ├── 479-ch01-1_8-1-flashcards.qmd  # Part 1 flashcards\n│       ├── 479-ch01-1_8-2-flashcards.qmd  # Part 2 flashcards\n│       └── ...\n\n\n\n---\ntitle: \"Chapter X-Y Flashcards\"\nsubtitle: \"Topic: Specific Topic\"\nformat:\n  revealjs:\n    theme: default\n    width: 1600\n    height: 900\n    margin: 0.1\n    controls: true\n    navigation-mode: linear\n    flashcards:\n      flipKey: 'q'\n      shuffleKey: 't'\n      showFlipButton: true\n    footer: \"Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous\"\n    slide-number: true\nrevealjs-plugins:\n  - flashcards\neditor: source\n---\n\n\n\nEach flashcard should follow this format:\n## Term Name {.flashcard}\n\n::: {.flashcard-front}\nTerm: [The concept or term]\n:::\n\n::: {.flashcard-back}\nDefinition: [Clear, comprehensive definition]\n:::\n\n\n\n\n\n\nslides/\n├── ch01/\n│   └── quizzes/\n│       ├── 479-ch01-1_8-1-quiz.qmd  # Part 1 quiz\n│       ├── 479-ch01-1_8-2-quiz.qmd  # Part 2 quiz\n│       └── ...\n\n\n\n---\ntitle: \"Chapter X-Y Quiz\"\nsubtitle: \"Topic: Specific Topic\"\nformat:\n  revealjs:\n    theme: default\n    width: 1600\n    height: 900\n    margin: 0.1\n    controls: true\n    navigation-mode: linear\n    quiz:\n      checkKey: 'c'\n      resetKey: 'r'\n      shuffleKey: 't'\n      allowNumberKeys: true\n      disableOnCheck: false\n      shuffleOptions: false\n      defaultCorrect: \"Correct! You understand this concept.\"\n      defaultIncorrect: \"Review this concept in your notes.\"\n    footer: \"Navigation: Press 'c' to check answer | 'r' to reset | Arrow keys for next/previous\"\n    slide-number: true\nrevealjs-plugins:\n  - quiz\neditor: source\n---\n\n\n\nEach quiz question should follow these guidelines: 1. TRUE option always appears first 2. Mix of TRUE and FALSE as correct answers (approximately 50/50) 3. Clear question statement that supports the correct answer 4. Detailed explanations for both options\nExample format:\n## Topic Name {.quiz-question}\n\n[Question statement that makes the TRUE/FALSE answer logical]\n\n- [True]{.correct data-explanation=\"Detailed explanation why this is correct\"}\n- [False]{data-explanation=\"Detailed explanation why this is incorrect\"}\n\n# OR\n\n- [True]{data-explanation=\"Detailed explanation why this is incorrect\"}\n- [False]{.correct data-explanation=\"Detailed explanation why this is correct\"}\n\n\n\n\nMaintain consistent formatting across all questions\nEnsure questions test understanding, not just memorization\nWrite clear, unambiguous questions\nProvide helpful, educational explanations\nBalance TRUE/FALSE correct answers throughout the quiz\nKeep TRUE option as the first choice always\nDisable option shuffling in YAML configuration\n\n\n\n\n\nTo add a new chapter to the web application, follow these steps:\n\nCreate Directory Structure Create a new directory under slides/ following the naming convention chXX (where XX is the two-digit chapter number, e.g., ch01, ch02):\nslides/\n├── chXX/\n│   ├── flashcards/\n│   │   └── part-1.qmd  # Flashcards for part 1\n│   └── quizzes/\n│       └── part-1.qmd  # Quiz for part 1\nCreate Flashcard Files In the flashcards directory, create .qmd files following this format:\n---\ntitle: \"Chapter XX Flashcards\"\n---\n\nTerm: [Term Name]\nDefinition: [Term Definition]\n\nTerm: [Another Term]\nDefinition: [Another Definition]\nCreate Quiz Files In the quizzes directory, create .qmd files following this format:\n---\ntitle: \"Chapter XX Quiz\"\n---\n\n.quiz-question\n[Question Text]\n[Answer Option 1].correct\n[Answer Option 2]\n\n.quiz-question\n[Another Question]\n[Answer Option 1]\n[Answer Option 2].correct\nFile Naming Convention\n\nFor flashcards: part-N.qmd (where N is the part number)\nFor quizzes: part-N.qmd (where N is the part number)\n\nDeploy Changes After adding new content:\n\nCommit your changes to Git\nPush to GitHub\nReboot the Streamlit app\n\n\nThe web application will automatically detect and display the new chapter in the dropdown menu.\n\n\n\n\nAudio\n\nVerify all audio files exist and paths are correct\nTest audio playback on each slide\nCheck audio file names match slide content\n\nImages\n\nVerify flux containers are properly configured\nCheck image generation prompts\nEnsure images display correctly\n\nLayout\n\nTest responsive behavior\nVerify column alignment\nCheck for any content overflow\n\n\n\n\n\n\nAudio 404 Errors\n\nCheck file paths are relative (../audio/)\nVerify file names match exactly\nEnsure audio files exist in correct directory\n\nLayout Problems\n\nKeep YAML margin setting at 0.1\nUse proper column width settings\nMaintain consistent structure across slides\n\nImage Generation\n\nProvide detailed, specific prompts\nInclude style specifications\nKeep prompts consistent with content"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#directory-structure",
+    "href": "slides/instructions-slide-implementation.html#directory-structure",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "slides/\n├── ch01/\n│   ├── source-files/      # Contains Quarto files\n│   │   ├── js/           # JavaScript files\n│   │   │   ├── audio-player.js\n│   │   │   ├── record-presentation.js\n│   │   │   ├── flux-config.js\n│   │   │   └── flux-bundle.js\n│   │   └── 479-ch01-1_8.qmd\n│   └── audio/            # Contains audio files\n│       └── 479-ch01-1_8_*.mp3\n│   ├── flashcards/\n│   │   ├── 479-ch01-1_8-1-flashcards.qmd  # Part 1 flashcards\n│   │   ├── 479-ch01-1_8-2-flashcards.qmd  # Part 2 flashcards\n│   │   └── ...\n│   └── quizzes/\n│       ├── 479-ch01-1_8-1-quiz.qmd  # Part 1 quiz\n│       ├── 479-ch01-1_8-2-quiz.qmd  # Part 2 quiz\n│       └── ..."
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#quarto-file-structure",
+    "href": "slides/instructions-slide-implementation.html#quarto-file-structure",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "---\ntitle: \"Chapter Title\"\nsubtitle: \"Subtitle\"\n\nauthor:\n  - name: Author Name\n    title: Title\n    department: Department\n    orcid: ORCID\n    email: Email\n    affiliations: Institution\n\n# Document Settings\ndate: last-modified\nlogo: \"images/logos/logo.png\"\n\nformat: \n  revealjs:\n    theme: default\n    width: 1600\n    height: 900\n    margin: 0.1\n    controls: true\n    navigation-mode: linear\n    menu: true\n    menu-position: left\n    slide-level: 2\n\ninclude-in-header:\n  - text: |\n      &lt;style&gt;\n      .flux-generated-image {\n        max-width: 100%;\n      }\n      &lt;/style&gt;\n      &lt;script&gt;\n      window.addEventListener('load', function() {\n          Reveal.configure({ keyboard: false });\n      });\n      &lt;/script&gt;\n      &lt;script src=\"js/audio-player.js\"&gt;&lt;/script&gt;\n      &lt;script src=\"js/record-presentation.js\"&gt;&lt;/script&gt;\n      &lt;script src=\"js/flux-config.js\"&gt;&lt;/script&gt;\n      &lt;script src=\"js/flux-bundle.js\"&gt;&lt;/script&gt;\n      &lt;div id=\"start-overlay\"&gt;...&lt;/div&gt;\n---\n\n\n\nEach slide should follow this structure:\n## Slide Title\n\n:::: {.columns}\n\n::: {.column width=\"50%\"}\n- Bullet point 1\n- Bullet point 2\n- Bullet point 3\n:::\n\n::: {.column width=\"50%\"}\n::: {.flux-container data-prompt=\"Detailed prompt for image generation\"}\n:::\n:::\n\n::::\n\n&lt;div class=\"audio-source\" style=\"display: none;\"&gt;\n&lt;audio preload=\"none\" controls&gt;\n&lt;source src=\"../audio/479-ch01-1_8_slide_name.mp3\" type=\"audio/mpeg\"&gt;\nYour browser does not support the audio element. &lt;/audio&gt;\n&lt;/div&gt;\n\n::: notes\nDetailed speaker notes that match the audio content\n:::"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#important-guidelines",
+    "href": "slides/instructions-slide-implementation.html#important-guidelines",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "Audio Files\n\nPlace in audio directory\nUse naming convention: 479-ch01-1_8_slide_name.mp3\nAudio paths should be relative: ../audio/\n\nImage Generation\n\nUse .flux-container with detailed prompts\nInclude style specifications in prompts\nKeep prompts consistent with slide content\n\nLayout\n\nUse two-column layout with 50% width each\nLeft column for bullet points\nRight column for generated images\nKeep bullet points concise and clear\n\nNotes\n\nInclude detailed speaker notes for each slide\nNotes should match audio content\nUse conversational, engaging tone"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#mini-lecture-implementation",
+    "href": "slides/instructions-slide-implementation.html#mini-lecture-implementation",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "For better engagement and clarity, long presentations should be broken down into mini-lectures of approximately 10 minutes each. Follow these guidelines:\n\nFile Naming Convention\n\nBase name: Original presentation filename\nAppend -1, -2, etc. for each part\nExample: 479-ch01-1_8.qmd becomes:\n\n479-ch01-1_8-1.qmd\n479-ch01-1_8-2.qmd\netc.\n\n\nStructure of Each Part\n\nReview Slide (Start of each part except first)\n## Review and Preview\n\n:::::::::: columns\n::: {.column width=\"50%\"}\n**Previously Covered:**\n- Key points from previous part\n:::\n\n::: {.column width=\"50%\"}\n**In This Section:**\n- Topics to be covered\n:::\n::::::::::\nContent Slides\n\nMaintain consistent formatting\nInclude all original content\nPreserve audio references\nKeep speaker notes\n\nTransition Slide (End of each part except last)\n## Coming Up Next: [Next Part Title]\n\n:::::::::: columns\n::: {.column width=\"60%\"}\nIn the next part, we'll explore:\n\n- Topic 1\n- Topic 2\n- Topic 3\n\nBrief description of why these topics matter.\n:::\n\n::: {.column width=\"40%\"}\n::: {.center}\n&lt;div class=\"icon-container\"&gt;\n&lt;i class=\"fas fa-[relevant-icon] fa-7x\"&gt;&lt;/i&gt;\n&lt;/div&gt;\n:::\n:::\n::::::::::\n\nFinal Part Special Considerations\n\nReplace transition slide with summary\nInclude comprehensive review\nAdd “Looking Ahead” section\n\nContent Distribution\n\nAim for equal length parts\nKeep related topics together\nEnsure logical flow between parts\nMaintain all original content\n\nAudio Files\n\nKeep original audio file names\nEnsure audio references match new file structure\nUpdate audio paths if needed\n\nNavigation\n\nEach part functions as standalone presentation\nMaintain consistent styling across parts\nUse menu for easy navigation between parts"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#flashcards-implementation",
+    "href": "slides/instructions-slide-implementation.html#flashcards-implementation",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "slides/\n├── ch01/\n│   └── flashcards/\n│       ├── 479-ch01-1_8-1-flashcards.qmd  # Part 1 flashcards\n│       ├── 479-ch01-1_8-2-flashcards.qmd  # Part 2 flashcards\n│       └── ...\n\n\n\n---\ntitle: \"Chapter X-Y Flashcards\"\nsubtitle: \"Topic: Specific Topic\"\nformat:\n  revealjs:\n    theme: default\n    width: 1600\n    height: 900\n    margin: 0.1\n    controls: true\n    navigation-mode: linear\n    flashcards:\n      flipKey: 'q'\n      shuffleKey: 't'\n      showFlipButton: true\n    footer: \"Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous\"\n    slide-number: true\nrevealjs-plugins:\n  - flashcards\neditor: source\n---\n\n\n\nEach flashcard should follow this format:\n## Term Name {.flashcard}\n\n::: {.flashcard-front}\nTerm: [The concept or term]\n:::\n\n::: {.flashcard-back}\nDefinition: [Clear, comprehensive definition]\n:::"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#quiz-implementation",
+    "href": "slides/instructions-slide-implementation.html#quiz-implementation",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "slides/\n├── ch01/\n│   └── quizzes/\n│       ├── 479-ch01-1_8-1-quiz.qmd  # Part 1 quiz\n│       ├── 479-ch01-1_8-2-quiz.qmd  # Part 2 quiz\n│       └── ...\n\n\n\n---\ntitle: \"Chapter X-Y Quiz\"\nsubtitle: \"Topic: Specific Topic\"\nformat:\n  revealjs:\n    theme: default\n    width: 1600\n    height: 900\n    margin: 0.1\n    controls: true\n    navigation-mode: linear\n    quiz:\n      checkKey: 'c'\n      resetKey: 'r'\n      shuffleKey: 't'\n      allowNumberKeys: true\n      disableOnCheck: false\n      shuffleOptions: false\n      defaultCorrect: \"Correct! You understand this concept.\"\n      defaultIncorrect: \"Review this concept in your notes.\"\n    footer: \"Navigation: Press 'c' to check answer | 'r' to reset | Arrow keys for next/previous\"\n    slide-number: true\nrevealjs-plugins:\n  - quiz\neditor: source\n---\n\n\n\nEach quiz question should follow these guidelines: 1. TRUE option always appears first 2. Mix of TRUE and FALSE as correct answers (approximately 50/50) 3. Clear question statement that supports the correct answer 4. Detailed explanations for both options\nExample format:\n## Topic Name {.quiz-question}\n\n[Question statement that makes the TRUE/FALSE answer logical]\n\n- [True]{.correct data-explanation=\"Detailed explanation why this is correct\"}\n- [False]{data-explanation=\"Detailed explanation why this is incorrect\"}\n\n# OR\n\n- [True]{data-explanation=\"Detailed explanation why this is incorrect\"}\n- [False]{.correct data-explanation=\"Detailed explanation why this is correct\"}\n\n\n\n\nMaintain consistent formatting across all questions\nEnsure questions test understanding, not just memorization\nWrite clear, unambiguous questions\nProvide helpful, educational explanations\nBalance TRUE/FALSE correct answers throughout the quiz\nKeep TRUE option as the first choice always\nDisable option shuffling in YAML configuration"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#adding-new-chapters",
+    "href": "slides/instructions-slide-implementation.html#adding-new-chapters",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "To add a new chapter to the web application, follow these steps:\n\nCreate Directory Structure Create a new directory under slides/ following the naming convention chXX (where XX is the two-digit chapter number, e.g., ch01, ch02):\nslides/\n├── chXX/\n│   ├── flashcards/\n│   │   └── part-1.qmd  # Flashcards for part 1\n│   └── quizzes/\n│       └── part-1.qmd  # Quiz for part 1\nCreate Flashcard Files In the flashcards directory, create .qmd files following this format:\n---\ntitle: \"Chapter XX Flashcards\"\n---\n\nTerm: [Term Name]\nDefinition: [Term Definition]\n\nTerm: [Another Term]\nDefinition: [Another Definition]\nCreate Quiz Files In the quizzes directory, create .qmd files following this format:\n---\ntitle: \"Chapter XX Quiz\"\n---\n\n.quiz-question\n[Question Text]\n[Answer Option 1].correct\n[Answer Option 2]\n\n.quiz-question\n[Another Question]\n[Answer Option 1]\n[Answer Option 2].correct\nFile Naming Convention\n\nFor flashcards: part-N.qmd (where N is the part number)\nFor quizzes: part-N.qmd (where N is the part number)\n\nDeploy Changes After adding new content:\n\nCommit your changes to Git\nPush to GitHub\nReboot the Streamlit app\n\n\nThe web application will automatically detect and display the new chapter in the dropdown menu."
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#testing",
+    "href": "slides/instructions-slide-implementation.html#testing",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "Audio\n\nVerify all audio files exist and paths are correct\nTest audio playback on each slide\nCheck audio file names match slide content\n\nImages\n\nVerify flux containers are properly configured\nCheck image generation prompts\nEnsure images display correctly\n\nLayout\n\nTest responsive behavior\nVerify column alignment\nCheck for any content overflow"
+  },
+  {
+    "objectID": "slides/instructions-slide-implementation.html#common-issues-and-solutions",
+    "href": "slides/instructions-slide-implementation.html#common-issues-and-solutions",
+    "title": "Slide Implementation Instructions",
+    "section": "",
+    "text": "Audio 404 Errors\n\nCheck file paths are relative (../audio/)\nVerify file names match exactly\nEnsure audio files exist in correct directory\n\nLayout Problems\n\nKeep YAML margin setting at 0.1\nUse proper column width settings\nMaintain consistent structure across slides\n\nImage Generation\n\nProvide detailed, specific prompts\nInclude style specifications\nKeep prompts consistent with content"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#knowledge-expression",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#knowledge-expression",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Knowledge Expression",
+    "text": "Knowledge Expression\nScientific knowledge in motor control can only be expressed through mathematical equations.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#statistical-modeling",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#statistical-modeling",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Statistical Modeling",
+    "text": "Statistical Modeling\nStatistical modeling helps identify patterns and relationships in movement data.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#hypothesis-testing",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#hypothesis-testing",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\nIn motor control research, hypotheses can only be tested through laboratory experiments.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#cognitive-science",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#cognitive-science",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Cognitive Science",
+    "text": "Cognitive Science\nCognitive science approaches help understand the mental processes involved in movement control.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#memory-systems",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#memory-systems",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Memory Systems",
+    "text": "Memory Systems\nMotor memory is completely separate from other types of memory in the brain.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#attention-control",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#attention-control",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Attention Control",
+    "text": "Attention Control\nAttention control plays a crucial role in learning and performing motor skills.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#neuroscience-methods",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#neuroscience-methods",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Neuroscience Methods",
+    "text": "Neuroscience Methods\nBrain imaging is the only valid method for studying neural aspects of movement.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#synaptic-plasticity",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-3-quiz.html#synaptic-plasticity",
+    "title": "Chapter 1-3 Quiz",
+    "section": "Synaptic Plasticity",
+    "text": "Synaptic Plasticity\nSynaptic plasticity enables the nervous system to adapt and refine movement patterns.\n\nTrue\nFalse\n\n\n\n\nNavigation: Press ‘c’ to check answer | ‘r’ to reset | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#turing-test",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#turing-test",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Turing Test",
+    "text": "Turing Test\nThe Turing test in motor control only evaluates the final outcome of movement, not the process.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#human-like-motion",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#human-like-motion",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Human-Like Motion",
+    "text": "Human-Like Motion\nUnderstanding human-like motion helps in developing better robotic and prosthetic systems.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#human-factors",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#human-factors",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Human Factors",
+    "text": "Human Factors\nHuman factors engineering only focuses on workplace safety, not performance efficiency.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#ergonomic-design",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#ergonomic-design",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Ergonomic Design",
+    "text": "Ergonomic Design\nErgonomic design principles can help prevent movement-related injuries and improve performance.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#animal-research",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#animal-research",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Animal Research",
+    "text": "Animal Research\nAnimal research findings cannot be applied to understanding human motor control.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#movement-evolution",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#movement-evolution",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Movement Evolution",
+    "text": "Movement Evolution\nStudying movement evolution helps understand current human motor capabilities.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#performance-variability",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#performance-variability",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Performance Variability",
+    "text": "Performance Variability\nAll movement variability is harmful and should be eliminated through practice.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#error-correction",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-4-quiz.html#error-correction",
+    "title": "Chapter 1-4 Quiz",
+    "section": "Error Correction",
+    "text": "Error Correction\nError correction mechanisms help improve movement accuracy and learning.\n\nTrue\nFalse\n\n\n\n\nNavigation: Press ‘c’ to check answer | ‘r’ to reset | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_primary_focus_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_primary_focus_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever wondered about the incredible complexity of human movement? The field of human motor control tackles fascinating questions like: How do we walk, talk, sing, and smile? How do we manage to perform on the athletic field, play musical instruments, craft tools, and produce works of art?\nUnderstanding how we control our body movements has significant implications across many areas. In sports, where skillful movement is essential, this knowledge can enhance competitive performance. In the fine arts, it can improve self-expression and training methods. In medicine, it helps develop better rehabilitation strategies for those with movement disabilities.\nThe motor system isn’t just about movement - it’s also about stability. Think about holding an object steady while standing in a moving train. Without proper muscular control, such tasks would be impossible. This is why we study both movement and stabilization as part of motor control.\nWhat’s particularly fascinating is how our motor system differs from machines. Unlike conventional motors that perform repetitive tasks, our behavior is endlessly adaptable, reflecting millions of years of evolution. This sophistication becomes evident when we compare human capabilities to current robots. While we can easily walk on uneven surfaces or perform complex tasks like folding laundry, even the most advanced robots struggle with these seemingly simple activities.\nThis understanding of human motor control isn’t just academic - it has practical applications in making our world safer and more efficient. From designing better workplace equipment to developing more effective rehabilitation techniques, the insights we gain from studying motor control can enhance many aspects of human life."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_cognitive_science_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_cognitive_science_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Isn’t it fascinating how our brain manages to control our movements with such precision? The cognitive science perspective on motor control reveals the remarkable complexity of the decision-making and problem-solving processes involved in even seemingly simple movements.\nWhat makes this particularly interesting is that most of our movement control happens without conscious thought. Think about it - when you’re walking while having a conversation, you’re not actively thinking about lifting your feet or maintaining balance. Your cognitive system is handling these complex motor tasks automatically, leaving your conscious mind free to focus on the conversation.\nThis automatic processing is a result of sophisticated cognitive mechanisms that have evolved to handle movement efficiently. Your brain is constantly processing sensory information, making split-second decisions, and adjusting your movements in real-time. For example, when you’re reaching for a cup, your brain is simultaneously processing visual information about the cup’s location, planning the movement path, and preparing your muscles for the appropriate force needed to lift it.\nUnderstanding these cognitive processes is crucial for many applications. In rehabilitation, it helps therapists design better strategies for retraining movement after injury. In sports, it aids in developing more effective training methods. And in human-computer interaction, it helps create more intuitive interfaces that work with our natural cognitive processes rather than against them."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_conclusion_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_conclusion_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "As we conclude this introduction to motor control, it’s amazing to reflect on how far our understanding has come and yet how much there still is to discover. The human ability to move and adapt to different situations remains one of nature’s most remarkable achievements.\nThe principles we’ve discussed - from the role of variability in movement to the importance of understanding implementation at multiple levels - have practical applications in many fields. Whether you’re interested in sports performance, rehabilitation, robotics, or human-computer interaction, these fundamental concepts of motor control provide a foundation for understanding and improving human movement.\nLooking ahead, the field of motor control continues to evolve with new technologies and insights. As we learn more about how humans control movement, we can develop better ways to help people recover from injuries, improve athletic performance, and create more intuitive human-machine interfaces."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_experimental_methods_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_experimental_methods_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever wondered how scientists actually study human movement in detail? The field of motor control uses a fascinating array of experimental methods that combine cutting-edge technology with careful scientific observation. Let me share some of the exciting ways we investigate movement.\nOne of our most powerful tools is motion capture technology - similar to what’s used in making movies and video games. But instead of creating entertainment, we use it to track movement with millimeter precision. Imagine being able to see exactly how a professional athlete’s body moves during a perfect serve in tennis, or how a pianist’s fingers dance across the keys. This technology lets us break down these complex movements into their smallest components.\nWe also use sophisticated equipment like EMG sensors that detect the electrical signals in your muscles, showing us exactly when and how strongly each muscle activates. Combined with force plates that measure the pressures and forces during movement, and eye-tracking devices that show where people look while performing tasks, we get a complete picture of how the body coordinates movement.\nBut perhaps most fascinating is how we study the brain during movement. Using techniques like fMRI and EEG, we can actually see which parts of the brain are active when planning and executing movements. This helps us understand the incredible neural choreography behind even the simplest actions, like reaching for a cup or maintaining balance while walking."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_computational_level_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_computational_level_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever wondered how scientists make sense of the complex ways our brain controls movement? This is where computational analysis comes in, using mathematical models to understand the intricate processes of motor control.\nOne fascinating aspect of motor control is that while most of us can perform complex movements easily, we can’t explicitly explain how we do it. Take riding a bicycle, for example. Even brilliant minds like Albert Einstein would have needed time to explain the physics behind cycling! This is because much of our motor knowledge is tacit or implicit - we know how to do it, but we can’t easily put it into words.\nHowever, through computational analysis, researchers have been able to break down these complex movements into understandable components. For instance, the mathematics of bicycle riding involves maintaining balance by making continuous adjustments: when falling to one side, you turn the handlebars in that direction, creating a centrifugal force that counteracts gravity. The curvature of each correction is actually inversely proportional to the square of your speed!\nThis type of mathematical and computational analysis helps us understand not just how we move, but also how we learn new movements and why some people are better at certain motor tasks than others. It’s led to groundbreaking discoveries in fields like neurology and robotics, showing us just how remarkable our motor control system really is."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_human_factors_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_human_factors_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever noticed how some products just feel “right” when you use them? That’s no accident - it’s the result of careful study of human factors in motor control! This fascinating field focuses on how humans interact with their environment and uses that knowledge to create better, more user-friendly designs.\nHuman factors research is all about understanding how people move and interact with objects in their environment. This knowledge is crucial for designing everything from workplace tools to sports equipment. When something is well-designed from a human factors perspective, it works with our natural movement patterns rather than against them, making tasks easier and reducing the risk of errors or injuries.\nWhat’s particularly interesting is how this field combines insights from motor control research with practical design principles. For example, understanding how people naturally reach and grasp objects helps in designing better handles and controls. Knowledge about human attention and motor coordination influences the layout of control panels and interfaces.\nThe impact of human factors research extends far beyond just making things more comfortable. In medical settings, it helps create safer equipment and procedures. In workplaces, it leads to more efficient and ergonomic designs that reduce fatigue and prevent injuries. And in everyday products, it results in designs that are more intuitive and enjoyable to use. It’s amazing how understanding human movement can make such a difference in our daily lives!"
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_summary_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_summary_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "As we’ve explored in this chapter, human motor control is a fascinating field that brings together multiple scientific disciplines to understand how we move and interact with our world. From the physics of movement to the cognitive processes behind motor learning, each perspective adds a crucial piece to our understanding.\nWe’ve seen how engineering helps us build better movement systems, how statistics reveals patterns in performance, and how neuroscience uncovers the brain’s role in movement. We’ve also explored how this knowledge applies to real-world situations, from helping athletes improve their performance to developing better rehabilitation strategies for people with movement disorders.\nThe interdisciplinary nature of motor control research shows us that understanding human movement requires multiple viewpoints and approaches. Whether we’re studying basic motor functions or complex skilled movements, this comprehensive approach helps us better understand and improve human movement capabilities."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_demonstrating_understanding_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_demonstrating_understanding_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "If you want to truly understand motor control, you need to go beyond just reading about it - you need to see it in action and experience it yourself! This practical aspect of motor control knowledge is crucial because movement is inherently about doing rather than just knowing.\nThink about it this way: you can read about how to ride a bicycle all day long, but until you actually get on a bike and try it, you won’t really understand the complex interplay of balance, coordination, and control involved. This is because motor skills involve what we call “tacit knowledge” - knowledge that’s difficult to verbalize but essential for actual performance.\nWhat’s fascinating is how theoretical understanding and practical demonstration work together. When you can connect the scientific principles you’ve learned with actual movement experiences, you develop a deeper understanding of both. For instance, understanding the physics of balance helps you analyze and improve your performance in sports or daily activities."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_turing_test_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_turing_test_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Did you know about the fascinating way researchers test artificial movement systems? It’s called the Turing test for motor intelligence, and it’s based on a simple but powerful idea: if a robot can move so naturally that you can’t tell it apart from a human, we’ve achieved a deep understanding of human motor control.\nThis concept comes from Alan Turing, the brilliant mathematician who helped crack Nazi codes during World War II. While the original Turing test was about verbal intelligence, the motor version focuses on movement. Imagine watching a robot perform a task - if you can’t tell whether it’s a robot or a human moving, that robot has passed the motor Turing test.\nCurrent robotics gives us a humbling perspective on human motor control. Take the example of humanoid robots playing air hockey - while they can match human performance in this specific task, they’re still far from matching our general movement capabilities. A human can walk away from the air hockey table, navigate through a building, and respond to unexpected situations, while the robot remains limited to its programmed task.\nThis limitation of current robots highlights just how sophisticated human motor control really is. Our ability to adapt to new situations, learn new movements, and seamlessly coordinate complex actions is still far beyond what we can program into machines. Each advance in robotics not only brings us closer to more capable machines but also deepens our appreciation for the remarkable capabilities of human motor control."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_introduction_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_introduction_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Human motor control is a fascinating field that explores how we coordinate and control our body movements. Have you ever wondered how we can perform such a wide range of movements, from delicate tasks like threading a needle to complex skills like playing a musical instrument?\nAt its core, motor control involves the complex interaction between our brain, muscles, and environment. It’s about understanding how we learn new movements, adapt to different situations, and recover from injuries. This knowledge has important applications in many areas, from helping athletes improve their performance to developing better treatments for movement disorders.\nWhat’s particularly remarkable is how these biological systems achieve something that even our most advanced robots struggle to replicate. While robots can perform precise, pre-programmed movements, they lack the natural fluidity and adaptability that comes from our biological implementation."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "As someone interested in motor control, you might have noticed something interesting: while most people can perform complex movements easily, they often struggle to explain how they do it. This highlights a fascinating aspect of motor knowledge - the difference between being able to do something and being able to explain it.\nConsider this: most adults can ride a bicycle, but very few can explain the physics and motor control principles that make it possible. Even brilliant scientists would need time to articulate exactly how they maintain balance while cycling. This is because much of our motor knowledge is tacit or implicit - we know how to do it, but we can’t easily put it into words.\nHowever, being able to express motor control knowledge verbally is crucial for several reasons. In teaching and coaching, clear communication helps transfer skills more effectively. In research, we need to be able to describe and share our understanding of motor control principles. And in clinical settings, being able to explain movement patterns helps in diagnosis and treatment.\nThe challenge lies in bridging the gap between practical motor knowledge and theoretical understanding. This is why motor control experts work to develop clear, precise language for describing movement, while also recognizing that some aspects of motor learning will always remain in the realm of practical experience rather than verbal instruction."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_implementation_level_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_implementation_level_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever wondered about the incredible machinery behind our ability to move? At the implementation level, we’re looking at the actual physical and biological mechanisms that make movement possible.\nThis level of analysis is fascinating because it reveals the complex interplay between different systems in our body. Your nervous system, muscles, and skeletal structure all work together in perfect harmony to produce even the simplest movements. Think about picking up a cup of coffee - this seemingly simple action involves precise coordination between your visual system, brain, spinal cord, and numerous muscles in your arm and hand.\nWhat’s particularly remarkable is how these biological systems achieve something that even our most advanced robots struggle to replicate. While robots can perform precise, pre-programmed movements, they lack the natural fluidity and adaptability that comes from our biological implementation. This biological system has evolved over millions of years to handle an endless variety of situations and tasks.\nUnderstanding the implementation level is crucial for medical applications. When something goes wrong with movement, whether through injury or disease, knowing how the system is implemented helps doctors and therapists target their treatments more effectively. It’s also vital for developing better assistive technologies that can work in harmony with our natural biological systems."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#experimental-methods",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#experimental-methods",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Experimental Methods",
+    "text": "Experimental Methods\n\nTerm: Experimental Methods\n\n\nDefinition: Systematic approaches to studying motor control, including research design, data collection techniques, and analysis methods used to understand human movement."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#research-design",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#research-design",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Research Design",
+    "text": "Research Design\n\nTerm: Research Design\n\n\nDefinition: The structured planning of motor control studies, including selection of variables, control measures, and appropriate measurement techniques."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#demonstration-learning",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#demonstration-learning",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Demonstration Learning",
+    "text": "Demonstration Learning\n\nTerm: Demonstration Learning\n\n\nDefinition: The process of learning motor skills through observation and replication of demonstrated movements, incorporating visual and cognitive processing."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#visual-learning",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#visual-learning",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Visual Learning",
+    "text": "Visual Learning\n\nTerm: Visual Learning\n\n\nDefinition: The acquisition of motor skills through visual observation and processing, including movement pattern recognition and spatial understanding."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#skill-transfer",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#skill-transfer",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Skill Transfer",
+    "text": "Skill Transfer\n\nTerm: Skill Transfer\n\n\nDefinition: The ability to apply learned motor skills from one context to another, influenced by similarity of movement patterns and task requirements."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#pattern-recognition",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#pattern-recognition",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Pattern Recognition",
+    "text": "Pattern Recognition\n\nTerm: Pattern Recognition\n\n\nDefinition: The ability to identify and understand recurring movement patterns and their variations in motor control tasks."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#learning-progression",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#learning-progression",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Learning Progression",
+    "text": "Learning Progression\n\nTerm: Learning Progression\n\n\nDefinition: The systematic stages through which motor skills are acquired, from initial understanding to automated execution."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#adaptation-studies",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-5-flashcards.html#adaptation-studies",
+    "title": "Chapter 1-5 Flashcards",
+    "section": "Adaptation Studies",
+    "text": "Adaptation Studies\n\nTerm: Adaptation Studies\n\n\nDefinition: Research examining how individuals modify their movements in response to changes in task demands or environmental conditions.\n\n\n\n\nNavigation: Press ‘q’ to flip card | ‘t’ to shuffle | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#knowledge-expression",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#knowledge-expression",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Knowledge Expression",
+    "text": "Knowledge Expression\n\nTerm: Knowledge Expression\n\n\nDefinition: The methods and frameworks used to communicate and document understanding of motor control, including theoretical models, practical applications, and research findings."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#statistical-modeling",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#statistical-modeling",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Statistical Modeling",
+    "text": "Statistical Modeling\n\nTerm: Statistical Modeling\n\n\nDefinition: The use of mathematical and statistical techniques to analyze movement data, test hypotheses, and make predictions about motor control behaviors."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#hypothesis-testing",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#hypothesis-testing",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Hypothesis Testing",
+    "text": "Hypothesis Testing\n\nTerm: Hypothesis Testing\n\n\nDefinition: The scientific method of proposing and testing theories about motor control through controlled experiments and statistical analysis."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#cognitive-science-perspective",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#cognitive-science-perspective",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Cognitive Science Perspective",
+    "text": "Cognitive Science Perspective\n\nTerm: Cognitive Science Perspective\n\n\nDefinition: The study of mental processes involved in movement control, including attention, memory, learning, and decision-making in motor tasks."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#memory-systems",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#memory-systems",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Memory Systems",
+    "text": "Memory Systems\n\nTerm: Memory Systems\n\n\nDefinition: The neural mechanisms that store and retrieve movement patterns, skills, and motor learning experiences for future use."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#attention-control",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#attention-control",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Attention Control",
+    "text": "Attention Control\n\nTerm: Attention Control\n\n\nDefinition: The cognitive process of focusing mental resources on relevant aspects of movement while filtering out distractions during motor tasks."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#neuroscience-methods",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#neuroscience-methods",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Neuroscience Methods",
+    "text": "Neuroscience Methods\n\nTerm: Neuroscience Methods\n\n\nDefinition: Techniques and approaches used to study the neural basis of movement, including brain imaging, electrophysiology, and behavioral analysis."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#synaptic-plasticity",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-3-flashcards.html#synaptic-plasticity",
+    "title": "Chapter 1-3 Flashcards",
+    "section": "Synaptic Plasticity",
+    "text": "Synaptic Plasticity\n\nTerm: Synaptic Plasticity\n\n\nDefinition: The ability of neural connections to strengthen or weaken over time, forming the basis for motor learning and skill acquisition.\n\n\n\n\nNavigation: Press ‘q’ to flip card | ‘t’ to shuffle | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#course-overview",
+    "href": "slides/ch00/479-ch00.html#course-overview",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Course Overview",
+    "text": "Course Overview\nThis course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan.\n\n\nFocus on perception-action loop\nLinks between sensation, cognition, and movement\nApplications to rehabilitation and clinical practice\nEngagement with current research"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#learning-objectives",
+    "href": "slides/ch00/479-ch00.html#learning-objectives",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this course, you will be able to:\n\n\nDescribe approaches to understanding motor control\nApply knowledge of sensorimotor structures\nExplain theories of motor control\nDesign evidence-based exercises\nCritique current motor control research\nReflect on historical evolution of motor control theories"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#course-format",
+    "href": "slides/ch00/479-ch00.html#course-format",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Course Format",
+    "text": "Course Format\n\n\nStructure\n\nFully online and asynchronous\nMaterials posted Mondays by 5:00 PM\nWeekly assignments due following Monday\n\n\nMaterials\n\nRequired Textbook: Rosenbaum’s “Human Motor Control” (2nd Ed.)\nCanvas for assignments and communication\nWeekly readings and quizzes"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#group-project-overview",
+    "href": "slides/ch00/479-ch00.html#group-project-overview",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Group Project Overview",
+    "text": "Group Project Overview\nThis course includes a major group project where you’ll investigate a movement disorder:\n\n\nWork in assigned groups (check Canvas &gt; People &gt; Groups)\nDevelop expertise in a specific movement disorder\nCreate and record a professional presentation\nEngage with peer presentations and provide feedback\n\n\nView complete presentation guidelines"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#movement-disorders",
+    "href": "slides/ch00/479-ch00.html#movement-disorders",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Movement Disorders",
+    "text": "Movement Disorders\nChoose from disorders such as:\n\n\n\nParkinson’s disease\nCerebral palsy\nMultiple sclerosis\nHuntington’s disease\n\n\n\nEssential tremor\nAtaxia\nALS\nTourette’s syndrome\n\n\n\nImportant Dates:\n\nTopic submission: Feb 10 @ 5pm\nVideo presentation: April 14 @ 5pm\nPeer evaluation: May 13 @ 5pm\n\nSee course syllabus for complete schedule and policies."
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#presentation-requirements",
+    "href": "slides/ch00/479-ch00.html#presentation-requirements",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Presentation Requirements",
+    "text": "Presentation Requirements\n\n\nFormat\n\n15-minute video presentation\nInclude slides and speakers\nProfessional delivery\nMinimum 7 peer-reviewed references\n\n\nContent\n\nNeurophysiology\nSkill performance\nTreatment approaches\nOverall outlook"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#communication",
+    "href": "slides/ch00/479-ch00.html#communication",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Communication",
+    "text": "Communication\n\n\nEmail: Use Canvas Inbox\nOffice Hours:\n\nTuesdays & Thursdays: 9:00 AM – 12:00 PM\nSchedule appointments\n\nOffice: RE 289\nResponse Time: Within 24 hours on weekdays"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#course-topics",
+    "href": "slides/ch00/479-ch00.html#course-topics",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Course Topics",
+    "text": "Course Topics\nWe’ll explore:\n\n\nFoundational motor control concepts\nSensory and motor physiology\nMotor control theories and applications\nResearch methods in motor control\nClinical and rehabilitation applications\nCurrent trends in motor control research"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#assessment",
+    "href": "slides/ch00/479-ch00.html#assessment",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Assessment",
+    "text": "Assessment\nYour learning will be evaluated through:\n\n\n\nWeekly chapter quizzes\nGroup presentations\nFinal exam\n\n\n\nFocus on understanding\nApplication of concepts\nCritical thinking\nResearch analysis"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#resources-for-success",
+    "href": "slides/ch00/479-ch00.html#resources-for-success",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Resources for Success",
+    "text": "Resources for Success\n\n\nRegular engagement with materials\nActive participation in discussions\nTimely completion of assignments\nUtilize office hours\nForm study groups"
+  },
+  {
+    "objectID": "slides/ch00/479-ch00.html#questions",
+    "href": "slides/ch00/479-ch00.html#questions",
+    "title": "Welcome to KIN 479: Motor Control",
+    "section": "Questions?",
+    "text": "Questions?\n\n\nFeel free to:\n\nAsk during office hours\nEmail through Canvas\nSchedule an appointment\n\n\n\n\n\n\n\n\n\nBack to Course Site | KIN 479: Motor Control | Spring 2025"
+  },
+  {
+    "objectID": "notes-audio-files/slides/example.html#key-concepts",
+    "href": "notes-audio-files/slides/example.html#key-concepts",
+    "title": "Example Slide Deck",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\nFirst important concept\n\nDetail A\nDetail B\n\nSecond important concept\n\nDetail X\nDetail Y"
+  },
+  {
+    "objectID": "notes-audio-files/slides/example.html#examples",
+    "href": "notes-audio-files/slides/example.html#examples",
+    "title": "Example Slide Deck",
+    "section": "Examples",
+    "text": "Examples\n\nReal-world example 1\n\nHow it works\nWhy it matters\n\nReal-world example 2\n\nPractical application\nCommon challenges"
+  },
+  {
+    "objectID": "assignments/pres.html",
+    "href": "assignments/pres.html",
+    "title": "Group Presentation Assignment",
+    "section": "",
+    "text": "In this group presentation assignment, you will choose a specific movement disorder and create a slide presentation covering the following aspects:\n\nNeurophysiology/pathophysiology\nSkill performance\nTreatment (PT, medication, etc.)\nOverall outlook"
+  },
+  {
+    "objectID": "assignments/pres.html#overview",
+    "href": "assignments/pres.html#overview",
+    "title": "Group Presentation Assignment",
+    "section": "",
+    "text": "In this group presentation assignment, you will choose a specific movement disorder and create a slide presentation covering the following aspects:\n\nNeurophysiology/pathophysiology\nSkill performance\nTreatment (PT, medication, etc.)\nOverall outlook"
+  },
+  {
+    "objectID": "assignments/pres.html#group-instructions",
+    "href": "assignments/pres.html#group-instructions",
+    "title": "Group Presentation Assignment",
+    "section": "Group Instructions",
+    "text": "Group Instructions\n\nChoose one movement disorder from the list of topics (Appendix A: Topics) provided or select another relevant disorder.\nCreate a slide presentation addressing the required content areas (see Appendix B: Presentation Template).\nRecord a group presentation of your slides, ensuring that each group member participates.\nSubmissions:\n\nTopic submission\n\nThe group's leader submits three topics for consideration by Feb 10 @ 5pm.\nThe instructor selects a topic and notifies the group\n\nVideo Recording (70 points)\n\nThe group's leader submits the recorded presentation (under Discussion) by April 14 @ 5pm.\n\nPeer Evaluation\n\nEveryone submits a peer evaluation by May 13 @ 5 pm.\n\nPeer Engagement (extra credit)\n\nEveryone watches other groups’ presentation videos, formulates questions, and submits them to the group's leader before April 21.\n\nThe group's leader chooses no more than 5 questions and posts them to their respective submissions (#4.2 above) by April 28 @ 5pm.\nIf your group received questions, an assigned member responds to the questions by May 5 @ 5pm1.\nI will ask group leaders who submitted questions for consideration. Only those students who submitted questions to the group leader will be eligible to receive the extra points."
+  },
+  {
+    "objectID": "assignments/pres.html#group-members",
+    "href": "assignments/pres.html#group-members",
+    "title": "Group Presentation Assignment",
+    "section": "Group Members",
+    "text": "Group Members\nLog into Canvas and head to our course, then:\n\nClick on People –&gt; Groups.\nYou will see your name under one of the groups. Please, make note what group you belong to."
+  },
+  {
+    "objectID": "assignments/pres.html#requirements",
+    "href": "assignments/pres.html#requirements",
+    "title": "Group Presentation Assignment",
+    "section": "Requirements",
+    "text": "Requirements\n\nPresentation length: No longer than 15 minutes total\nReferences: Minimum of 7 peer-reviewed references, cited in APA style (7th edition)\nRecording: Include both slides and speakers’ faces, ensure good sound and lighting quality\n\nUse software of choice (Zoom, Panopto, etc.)\nOnce done, download the video and upload it to Canvas (under Project: Video Recording)\n\nSlides: Visually interesting but not distracting, limited text, use figures where possible\nVideos: Short, no more than 2 minutes total\nProfessionalism: Maintain a professional demeanor throughout the presentation"
+  },
+  {
+    "objectID": "assignments/pres.html#appendices",
+    "href": "assignments/pres.html#appendices",
+    "title": "Group Presentation Assignment",
+    "section": "Appendices",
+    "text": "Appendices\n\nAppendix A: Topics\n\nChoose one movement disorder to present on\nExamples (not comprehensive):\n\nParkinson’s disease\nEssential tremor\nHuntington’s disease\nCerebral palsy\nHemiballisimus\nAtaxia\nMultiple sclerosis\nRestless leg syndrome\nAmyotrophic lateral sclerosis\nTardive dyskinesia\nMyoclonus\nTourette’s syndrome\n\n\n\n\nAppendix B: Presentation Template\nDownload template2: Available on Canvas under Modules &gt; Presentation\n\nIntroduction/Neurophysiology\n\nDescribe your movement disorder\nExplain its physiological basis\nDiscuss who it generally affects\n\nSkill Performance\n\nDescribe how individuals with this disorder perform certain skills\n\nTreatment\n\nDiscuss common pharmacological treatments (detailed mechanisms not required)\nExplain typical rehab approaches\n\nOverall Outlook\n\nDiscuss the current state of the science\nSuggest areas for future research focus\nMention any new treatment modalities on the horizon\n\nReferences\n\nCite references throughout the presentation using APA style (7th edition)\nInclude a slide at the end with full references\n\n\n\n\nAppendix C: Evaluation Rubrics\n\nVideo Recording (70 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (9-10)\nGood (7-8)\nFair (5-6)\nPoor (0-4)\n\n\n\n\nContent coverage\nThoroughly addresses all required content areas\nAdequately addresses most content areas\nSome content areas missing or inadequately addressed\nSignificant content areas missing or poorly addressed\n\n\nOrganization and clarity\nWell-organized, clear, and easy to follow\nMostly organized and clear, minor issues\nSome disorganization or lack of clarity\nDisorganized, unclear, and difficult to follow\n\n\nPresentation delivery\nEngaging, professional, and well-rehearsed\nMostly engaging and professional, minor issues\nSome lack of engagement or professionalism\nUnengaging, unprofessional, or unrehearsed\n\n\nVisual aids\nVisually appealing, informative, and relevant\nMostly appealing and informative, minor issues\nSome issues with visual appeal or relevance\nUnappealing, uninformative, or irrelevant\n\n\nReferences and citations\nProperly cited throughout, minimum references met\nMostly properly cited, minor issues\nSome issues with citations or references\nSignificant issues with citations or references\n\n\nLength and timing\nWithin the 15-minute limit\nSlightly over or under the limit\nModerately over or under the limit\nSignificantly over or under the limit\n\n\nRecording quality\nExcellent sound and visual quality\nGood sound and visual quality, minor issues\nSome issues with sound or visual quality\nPoor sound or visual quality, significant issues\n\n\n\n\n\nTopic Submission (10 points)\nCompleted = 10pts\nNot completed = 0pts\n\n\nPeer Evaluation for Group Members (20 points)\nEach group member should evaluate their teammates’ contributions to the project using the following rubric. The total score for each member will be the average of the scores given by their teammates.\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (4)\nGood (3)\nFair (2)\nPoor (1)\n\n\n\n\nAttendance and punctuality\nAlways attends meetings and is punctual\nMostly attends meetings and is punctual, with few exceptions\nOccasionally misses meetings or is late\nFrequently misses meetings or is late\n\n\nParticipation and communication\nActively participates in discussions, shares ideas, and communicates effectively\nMostly participates and communicates, with minor issues\nSome lack of participation or communication issues\nRarely participates or communicates, significant issues\n\n\nQuality of work\nConsistently delivers high-quality work that meets or exceeds expectations\nMostly delivers good quality work, with minor issues\nSome issues with work quality or consistency\nFrequently delivers poor quality work or fails to meet expectations\n\n\nResponsibility and reliability\nAlways completes assigned tasks on time and is reliable\nMostly completes tasks on time and is reliable, with few exceptions\nOccasionally misses deadlines or is unreliable\nFrequently misses deadlines or is unreliable\n\n\nCollaboration and teamwork\nWorks well with others, contributes to a positive team dynamic, and helps resolve conflicts\nMostly collaborative and contributes to a positive team dynamic, with minor issues\nSome issues with collaboration or teamwork\nRarely collaborates or contributes to a positive team dynamic, significant issues\n\n\n\n\n\nPeer Engagement - Extra Credit (9 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (3)\nGood (2)\nFair (1)\nPoor (0)\n\n\n\n\nAsking questions\nThoughtful, relevant questions asked\nMostly relevant questions asked\nSome irrelevant or low-quality questions\nNo questions asked or all questions irrelevant\n\n\nNumber of questions asked\nAt least 5 relevant questions asked\n1-4 relevant questions asked\n1-2 relevant questions asked\nOnly ask one question\n\n\nResponding to questions\nThorough, accurate, and timely responses\nMostly thorough and accurate responses, minor issues\nSome issues with response quality or timeliness\nNo responses or significant issues with responses\n\n\n\nTo earn the full extra credit points3, students must:\n\nAsk at least 5 relevant questions across different groups’ presentations\nProvide high-quality questions and responses that are thoughtful, relevant, well-articulated, thorough, accurate, and timely\nRespond to asked questions providing thorough, accurate, and timely responses"
+  },
+  {
+    "objectID": "assignments/pres.html#footnotes",
+    "href": "assignments/pres.html#footnotes",
+    "title": "Group Presentation Assignment",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nEach group must assign individuals to answer questions on their presentation video submission.↩︎\nIf you do not have Microsoft PowerPoint, download the file and open it using Google Slides.↩︎\nThis is for the entire group, not individuals.↩︎"
+  },
+  {
+    "objectID": "assignments/pres-template.html",
+    "href": "assignments/pres-template.html",
+    "title": "Title Slide Deck",
+    "section": "",
+    "text": "Describe your movement disorder\nExplain its physiological basis\nDiscuss who it generally affects"
+  },
+  {
+    "objectID": "assignments/pres-template.html#introductionneurophysiology",
+    "href": "assignments/pres-template.html#introductionneurophysiology",
+    "title": "Title Slide Deck",
+    "section": "",
+    "text": "Describe your movement disorder\nExplain its physiological basis\nDiscuss who it generally affects"
+  },
+  {
+    "objectID": "assignments/pres-template.html#skill-performance",
+    "href": "assignments/pres-template.html#skill-performance",
+    "title": "Title Slide Deck",
+    "section": "Skill Performance",
+    "text": "Skill Performance\n\n\n\n\n\nDescribe how individuals with this disorder perform certain skills"
+  },
+  {
+    "objectID": "assignments/pres-template.html#treatment",
+    "href": "assignments/pres-template.html#treatment",
+    "title": "Title Slide Deck",
+    "section": "Treatment",
+    "text": "Treatment\n\n\n\n\n\nDiscuss common pharmacological treatments (detailed mechanisms not required)\nExplain typical rehab approaches"
+  },
+  {
+    "objectID": "assignments/pres-template.html#overall-outlook",
+    "href": "assignments/pres-template.html#overall-outlook",
+    "title": "Title Slide Deck",
+    "section": "Overall Outlook",
+    "text": "Overall Outlook\n\n\n\n\n\nDiscuss the current state of the science\nSuggest areas for future research focus\nMention any new treatment modalities on the horizon"
+  },
+  {
+    "objectID": "assignments/pres-template.html#about-references",
+    "href": "assignments/pres-template.html#about-references",
+    "title": "Title Slide Deck",
+    "section": "About References",
+    "text": "About References\n\nCite references throughout the presentation using APA style (7th edition)\n\ne.g., (Driskell et al., 1992)\n\nInclude a slide at the end with full references\nSee below how the source (Driskell et al., 1992) is listed on the Reference slide\nFor more information about apa style citation click here for in-text citation and click here for creating references"
+  },
+  {
+    "objectID": "notes-audio-files/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "href": "notes-audio-files/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "As someone who’s interested in the field of motor control, you know that effective communication through language is key. Whether you’re reading up on the latest theories or trying to apply your knowledge in practice, language plays a huge role. From the foundational concepts to the real-world applications, it’s all about being able to convey your ideas in a way that others can understand."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "",
     "text": "Welcome to KIN 479: Motor Control! This course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan. We will explore how the nervous system controls movement, from basic reflexes to complex motor skills."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "",
     "text": "Welcome to KIN 479: Motor Control! This course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan. We will explore how the nervous system controls movement, from basic reflexes to complex motor skills."
   },
   {
     "objectID": "index.html#quick-links",
     "href": "index.html#quick-links",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "Quick Links",
     "text": "Quick Links\n\nCourse Syllabus\nPresentation Guidelines"
   },
   {
     "objectID": "index.html#course-overview",
     "href": "index.html#course-overview",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "Course Overview",
     "text": "Course Overview\nThis course covers:\n\nFoundational knowledge in motor control\nSensory and motor physiology\nMotor control theories and their applications\nRehabilitation and clinical practice applications\nCurrent research in motor control"
   },
   {
     "objectID": "index.html#course-materials",
     "href": "index.html#course-materials",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "Course Materials",
     "text": "Course Materials\nAll course materials, including lecture slides and assignments, will be posted on this website. Check back regularly for updates."
   },
   {
     "objectID": "index.html#contact-information",
     "href": "index.html#contact-information",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "Contact Information",
     "text": "Contact Information\nInstructor: Ovande Furtado Jr, Ph.D.\nOffice: RE 289\nEmail: Use Canvas Inbox for communication\nOffice Hours: Tuesdays & Thursdays, 9:00 AM – 12:00 PM\nSchedule an Appointment"
   },
   {
     "objectID": "index.html#important-dates",
     "href": "index.html#important-dates",
-    "title": "Welcome to KIN 479: Motor Control",
+    "title": "KIN 479: Motor Control",
     "section": "Important Dates",
     "text": "Important Dates\n\nFirst Day of Class: January 20, 2025\nMidterm Exam: March 10-17, 2025\nSpring Break: March 17-24, 2025\nPresentations Due: April 14, 2025\nFinal Exam: May 5-13, 2025"
   },
   {
-    "objectID": "index.html#course-overview-1",
-    "href": "index.html#course-overview-1",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Course Overview",
-    "text": "Course Overview\nThis course examines foundational and applied aspects of human motor control through an integrated approach to movement across the lifespan.\n\n\nFocus on perception-action loop\nLinks between sensation, cognition, and movement\nApplications to rehabilitation and clinical practice\nEngagement with current research"
+    "objectID": "index.html#introduction-to-course",
+    "href": "index.html#introduction-to-course",
+    "title": "KIN 479: Motor Control",
+    "section": "Introduction to Course",
+    "text": "Introduction to Course\n    View slides in full screen"
   },
   {
-    "objectID": "index.html#learning-objectives-1",
-    "href": "index.html#learning-objectives-1",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\nBy the end of this course, you will be able to:\n\n\nDescribe approaches to understanding motor control\nApply knowledge of sensorimotor structures\nExplain theories of motor control\nDesign evidence-based exercises\nCritique current motor control research\nReflect on historical evolution of motor control theories"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#turing-test-in-motor-control",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#turing-test-in-motor-control",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Turing Test in Motor Control",
+    "text": "Turing Test in Motor Control\n\nTerm: Turing Test in Motor Control\n\n\nDefinition: A method for evaluating whether artificially generated movements are indistinguishable from human movements, used to understand what makes human movement unique."
   },
   {
-    "objectID": "index.html#course-format",
-    "href": "index.html#course-format",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Course Format",
-    "text": "Course Format\n\n\n\nStructure\n\nFully online and asynchronous\nMaterials posted Mondays by 5:00 PM\nWeekly assignments due following Monday\n\n\n\n\nMaterials\n\nRequired Textbook: Rosenbaum’s “Human Motor Control” (2nd Ed.)\nCanvas for assignments and communication\nWeekly readings and quizzes"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#human-like-motion",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#human-like-motion",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Human-Like Motion",
+    "text": "Human-Like Motion\n\nTerm: Human-Like Motion\n\n\nDefinition: Movement patterns that closely resemble natural human movements, incorporating characteristics like smoothness, efficiency, and adaptability."
   },
   {
-    "objectID": "index.html#group-project-overview",
-    "href": "index.html#group-project-overview",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Group Project Overview",
-    "text": "Group Project Overview\nThis course includes a major group project where you’ll investigate a movement disorder:\n\n\nWork in assigned groups (check Canvas &gt; People &gt; Groups)\nDevelop expertise in a specific movement disorder\nCreate and record a professional presentation\nEngage with peer presentations and provide feedback\n\n\nView complete presentation guidelines"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#human-factors-engineering",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#human-factors-engineering",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Human Factors Engineering",
+    "text": "Human Factors Engineering\n\nTerm: Human Factors Engineering\n\n\nDefinition: The application of motor control principles to design equipment, interfaces, and environments that optimize human performance and safety."
   },
   {
-    "objectID": "index.html#movement-disorders",
-    "href": "index.html#movement-disorders",
-    "title": "Welcome to KIN 479: Motor Control",
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#ergonomic-design",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#ergonomic-design",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Ergonomic Design",
+    "text": "Ergonomic Design\n\nTerm: Ergonomic Design\n\n\nDefinition: The practice of designing tools and environments to match human capabilities and limitations, based on motor control principles."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#animal-research-models",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#animal-research-models",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Animal Research Models",
+    "text": "Animal Research Models\n\nTerm: Animal Research Models\n\n\nDefinition: The study of movement control in animals to understand fundamental principles of motor control that may apply to humans."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#movement-evolution",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#movement-evolution",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Movement Evolution",
+    "text": "Movement Evolution\n\nTerm: Movement Evolution\n\n\nDefinition: The study of how movement control systems have developed over evolutionary time, providing insights into current human motor capabilities."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#performance-variability",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#performance-variability",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Performance Variability",
+    "text": "Performance Variability\n\nTerm: Performance Variability\n\n\nDefinition: Natural variations in movement execution, including both beneficial variability that allows adaptation and unwanted variability that reduces precision."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#error-correction",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-4-flashcards.html#error-correction",
+    "title": "Chapter 1-4 Flashcards",
+    "section": "Error Correction",
+    "text": "Error Correction\n\nTerm: Error Correction\n\n\nDefinition: The process of detecting and adjusting movements in response to mistakes or deviations from intended movement patterns.\n\n\n\n\nNavigation: Press ‘q’ to flip card | ‘t’ to shuffle | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#computational-level-analysis",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#computational-level-analysis",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Computational Level Analysis",
+    "text": "Computational Level Analysis\n\nTerm: Computational Level Analysis\n\n\nDefinition: The mathematical and theoretical study of how the nervous system processes information to produce movement, including modeling of neural computations and movement planning."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#neural-networks",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#neural-networks",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Neural Networks",
+    "text": "Neural Networks\n\nTerm: Neural Networks\n\n\nDefinition: Interconnected networks of neurons that process and transmit information for movement control, serving as both biological systems and computational models."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#control-theory",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#control-theory",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Control Theory",
+    "text": "Control Theory\n\nTerm: Control Theory\n\n\nDefinition: The mathematical study of how systems regulate themselves, applied to understanding how the nervous system controls movement and maintains stability."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#implementation-level",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#implementation-level",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Implementation Level",
+    "text": "Implementation Level\n\nTerm: Implementation Level\n\n\nDefinition: The physical and neural mechanisms through which motor control is executed, including muscle activation patterns and sensory integration."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#motor-units",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#motor-units",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Motor Units",
+    "text": "Motor Units\n\nTerm: Motor Units\n\n\nDefinition: The functional unit of muscle control, consisting of a motor neuron and all the muscle fibers it innervates."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#sensory-integration",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#sensory-integration",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Sensory Integration",
+    "text": "Sensory Integration\n\nTerm: Sensory Integration\n\n\nDefinition: The process of combining information from multiple sensory systems to guide and adjust movement control and coordination."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#movement-disorders",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#movement-disorders",
+    "title": "Chapter 1-2 Flashcards",
     "section": "Movement Disorders",
-    "text": "Movement Disorders\nChoose from disorders such as:\n\n\n\nParkinson’s disease\nCerebral palsy\nMultiple sclerosis\nHuntington’s disease\n\n\n\nEssential tremor\nAtaxia\nALS\nTourette’s syndrome\n\n\n\nImportant Dates:\n\nTopic submission: Feb 10 @ 5pm\nVideo presentation: April 14 @ 5pm\nPeer evaluation: May 13 @ 5pm\n\nSee course syllabus for complete schedule and policies."
+    "text": "Movement Disorders\n\nTerm: Movement Disorders\n\n\nDefinition: Neurological conditions that affect the control, quality, and execution of movement, providing insights into normal motor control function."
   },
   {
-    "objectID": "index.html#presentation-requirements",
-    "href": "index.html#presentation-requirements",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Presentation Requirements",
-    "text": "Presentation Requirements\n\n\n\nFormat\n\n15-minute video presentation\nInclude slides and speakers\nProfessional delivery\nMinimum 7 peer-reviewed references\n\n\n\n\nContent\n\nNeurophysiology\nSkill performance\nTreatment approaches\nOverall outlook"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#physics-in-motor-control",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-2-flashcards.html#physics-in-motor-control",
+    "title": "Chapter 1-2 Flashcards",
+    "section": "Physics in Motor Control",
+    "text": "Physics in Motor Control\n\nTerm: Physics in Motor Control\n\n\nDefinition: The application of physical principles to understand forces, motion, balance, and energy efficiency in human movement.\n\n\n\n\nNavigation: Press ‘q’ to flip card | ‘t’ to shuffle | Arrow keys for next/previous"
   },
   {
-    "objectID": "index.html#communication",
-    "href": "index.html#communication",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Communication",
-    "text": "Communication\n\n\nEmail: Use Canvas Inbox\nOffice Hours:\n\nTuesdays & Thursdays: 9:00 AM – 12:00 PM\nSchedule appointments\n\nOffice: RE 289\nResponse Time: Within 24 hours on weekdays"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#motor-control",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#motor-control",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Motor Control",
+    "text": "Motor Control\n\nTerm: Motor Control\n\n\nDefinition: The study of how humans coordinate and control body movements, including the processes of movement planning, execution, and adaptation."
   },
   {
-    "objectID": "index.html#course-topics",
-    "href": "index.html#course-topics",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Course Topics",
-    "text": "Course Topics\nWe’ll explore:\n\n\nFoundational motor control concepts\nSensory and motor physiology\nMotor control theories and applications\nResearch methods in motor control\nClinical and rehabilitation applications\nCurrent trends in motor control research"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#movement-production",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#movement-production",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Movement Production",
+    "text": "Movement Production\n\nTerm: Movement Production\n\n\nDefinition: The process of initiating, planning, and executing physical movements through the coordinated action of the nervous system and muscles."
   },
   {
-    "objectID": "index.html#assessment",
-    "href": "index.html#assessment",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Assessment",
-    "text": "Assessment\nYour learning will be evaluated through:\n\n\n\nWeekly chapter quizzes\nGroup presentations\nFinal exam\n\n\n\nFocus on understanding\nApplication of concepts\nCritical thinking\nResearch analysis"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#movement-regulation",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#movement-regulation",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Movement Regulation",
+    "text": "Movement Regulation\n\nTerm: Movement Regulation\n\n\nDefinition: The continuous monitoring and adjustment of movements based on sensory feedback to maintain accuracy and achieve desired outcomes."
   },
   {
-    "objectID": "index.html#resources-for-success",
-    "href": "index.html#resources-for-success",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Resources for Success",
-    "text": "Resources for Success\n\n\nRegular engagement with materials\nActive participation in discussions\nTimely completion of assignments\nUtilize office hours\nForm study groups"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#movement-adaptation",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#movement-adaptation",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Movement Adaptation",
+    "text": "Movement Adaptation\n\nTerm: Movement Adaptation\n\n\nDefinition: The ability to modify movement patterns in response to changes in the environment or task requirements."
   },
   {
-    "objectID": "index.html#questions",
-    "href": "index.html#questions",
-    "title": "Welcome to KIN 479: Motor Control",
-    "section": "Questions?",
-    "text": "Questions?\n\n\nFeel free to:\n\nAsk during office hours\nEmail through Canvas\nSchedule an appointment"
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#feedback-processing",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#feedback-processing",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Feedback Processing",
+    "text": "Feedback Processing\n\nTerm: Feedback Processing\n\n\nDefinition: The continuous analysis of sensory information during movement to detect errors and make necessary adjustments for improved performance."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#motor-learning",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#motor-learning",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Motor Learning",
+    "text": "Motor Learning\n\nTerm: Motor Learning\n\n\nDefinition: The process of acquiring and refining movement skills through practice and experience, resulting in relatively permanent changes in movement capability."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#biomechanics",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#biomechanics",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Biomechanics",
+    "text": "Biomechanics\n\nTerm: Biomechanics\n\n\nDefinition: The study of the mechanical principles of movement in living organisms, including forces, motion, and structural analysis of human movement."
+  },
+  {
+    "objectID": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#control-systems",
+    "href": "slides/ch01/flashcards/479-ch01-1_8-1-flashcards.html#control-systems",
+    "title": "Chapter 1-1 Flashcards",
+    "section": "Control Systems",
+    "text": "Control Systems\n\nTerm: Control Systems\n\n\nDefinition: The neural and mechanical mechanisms that regulate movement, including feedback loops, error detection, and movement correction processes.\n\n\n\n\nNavigation: Press ‘q’ to flip card | ‘t’ to shuffle | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_welcome_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_welcome_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Welcome to an exciting journey into the world of human motor control! In this chapter, we’ll explore one of the most fascinating aspects of human behavior - how we control our movements. From simple actions like reaching for a cup to complex skills like playing a musical instrument, movement is at the heart of everything we do.\nThroughout this chapter, we’ll discover how different scientific fields come together to help us understand movement. We’ll explore the amazing capabilities of the human body and mind in controlling movement, and see how this knowledge can improve lives through better rehabilitation, sports training, and technology design.\nWhether you’re interested in sports, healthcare, robotics, or simply curious about how your own body works, this chapter will give you valuable insights into the science of human movement."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_physics_role_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_physics_role_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Did you know that physics plays a fundamental role in understanding how we move? It’s true! Every movement we make is governed by physical laws and constraints that determine what’s possible and what isn’t.\nThink about it - there are clear physical limits to what our bodies can do. We can only jump so high, run so fast, or push so hard. These limitations aren’t just about our muscles or training; they’re about the basic physics of force, motion, and energy. Understanding these physical principles helps us grasp why certain movements are possible while others aren’t.\nThe physics of movement becomes particularly interesting when we look at complex activities. For instance, when you’re maintaining balance while standing in a moving train, you’re dealing with multiple physical forces: gravity pulling you down, inertia trying to keep you in place, and the train’s acceleration pushing you in different directions. Your motor system has to constantly calculate and adjust to these forces, even though you’re not consciously aware of doing these calculations.\nThis knowledge of physics in motor control has practical applications too. In sports training, understanding the physics of movement can help athletes optimize their performance. In rehabilitation, it helps therapists design more effective treatment strategies. And in everyday life, it helps us design better equipment and environments that work with our natural movement patterns rather than against them."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_animal_research_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_animal_research_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever watched animals move and wondered what they could teach us about human movement? Animal research provides fascinating insights into the fundamental mechanisms of motor control that we share with our fellow creatures on Earth.\nWhat makes animal research so valuable is that many basic movement mechanisms are preserved across species. By studying how animals move, learn new movements, and adapt to different situations, we can better understand the core principles of motor control. This is particularly useful because animals often allow us to study movement in ways that wouldn’t be possible or ethical with human subjects.\nThe applications of this research are quite remarkable. For instance, studying how birds maintain balance during flight has helped us understand human balance control. Research on how animals recover from injuries has led to better rehabilitation strategies for humans. And observations of animal movement efficiency have inspired improvements in robotic design and human movement techniques.\nBut perhaps most fascinating is how animal research reveals the evolutionary aspects of motor control. Many of our movement capabilities are built on neural and muscular systems that evolved over millions of years. Understanding this evolutionary history helps explain why our movement control systems work the way they do, and why certain movement patterns seem to come naturally while others require more conscious effort."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_variability_performance_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_variability_performance_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever noticed how no two movements are exactly the same, even when performing the same action? This natural variability in human movement is actually a fascinating aspect of motor control that tells us a lot about how our motor system works.\nUnlike rigid machines that perform identical movements repeatedly, human movement shows endless variety and adaptability. This variability isn’t a flaw - it’s a feature that evolved over millions of years, allowing us to adapt to ever-changing conditions in our environment. When you think about it, this adaptability is quite remarkable. Whether you’re walking on different surfaces, catching a ball in varying wind conditions, or adjusting your grip strength for different objects, your motor system is constantly making subtle adjustments.\nWhat’s particularly interesting is how this variability changes with skill level. In some cases, more skilled performers show less variability in certain aspects of movement, while maintaining flexibility in others. This balance between consistency and adaptability is a hallmark of skilled motor performance.\nUnderstanding movement variability has important practical applications too. In rehabilitation, it helps therapists distinguish between normal movement variations and problematic irregularities. In sports training, coaches can use this knowledge to help athletes develop more consistent yet adaptable movement patterns."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_neuroscience_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_neuroscience_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Did you know that every movement you make involves an incredibly complex dance between your brain and muscles? The field of neuroscience helps us understand this fascinating connection between our nervous system and movement control.\nWhen you think about it, it’s amazing how your brain can coordinate countless muscles to perform precise movements. Whether you’re threading a needle or catching a ball, your nervous system is processing information and sending signals at lightning speed. This intricate brain-muscle interaction involves multiple areas of the brain, the spinal cord, and a vast network of nerves throughout your body.\nWhat’s particularly fascinating is how the nervous system handles both planned and reactive movements. When you decide to reach for a cup, your brain plans the movement in advance. But if the cup suddenly starts to tip, your nervous system can trigger corrective movements faster than you can consciously think about them. This combination of planned and reactive control makes our movement system incredibly versatile and efficient.\nUnderstanding these neural mechanisms isn’t just academically interesting - it has important practical applications. In rehabilitation medicine, this knowledge helps develop better treatments for movement disorders. In sports training, it informs techniques for improving motor skills. And in the development of neural prosthetics, it guides the creation of devices that can interface directly with the nervous system."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_statistics_contribution_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_statistics_contribution_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Have you ever wondered how researchers make sense of the incredible complexity of human movement? Statistics is their secret weapon! This powerful tool helps scientists understand patterns in movement that might not be visible to the naked eye.\nStatistics plays a crucial role in motor control research because human movement naturally varies from one attempt to the next. Even skilled performers never make exactly the same movement twice. By using statistical methods, researchers can distinguish between normal variability and significant changes in performance. This helps us understand what aspects of movement are most important for successful performance.\nThe applications of statistics in motor control research are incredibly diverse. From analyzing the development of fine motor skills in children to studying the effects of aging on movement, statistical tools help reveal patterns and relationships that would otherwise remain hidden. For instance, statistical analysis can show how practice affects performance, how different movement strategies compare in effectiveness, or how various factors like fatigue or stress impact motor control.\nWhat’s particularly exciting is how modern statistical techniques, combined with advanced measurement technologies, are giving us unprecedented insights into human movement. These tools are helping us better understand not just how we move, but also how we learn new movements and how we can optimize performance in various tasks."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_engineering_contributions_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_engineering_contributions_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Did you know that engineering plays a crucial role in advancing our understanding of human motor control? Engineers bring their unique problem-solving approaches to help us understand and improve human movement.\nThe relationship between engineering and motor control is particularly evident when we look at robotics. Current robots embody much of what we know about motor control, yet they still struggle with tasks that humans find simple. For example, two-legged robots can barely walk across uneven surfaces without toppling over, and tasks like making a bed or folding laundry remain beyond their capabilities.\nThis limitation of robots highlights just how sophisticated human motor control is. In dangerous situations, like space repairs, mining operations, or disaster recovery, we often still rely on humans rather than robots because of our superior motor control abilities. Engineers are working to bridge this gap, studying human movement to develop better robotic systems that could eventually take over these hazardous tasks.\nThe engineering approach to motor control also contributes to the development of assistive technologies. By understanding how humans move and control their bodies, engineers can create more effective devices to help people with movement disabilities. This combination of biomechanics, electrical engineering, and computer science is transforming lives through innovative solutions."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_procedural_level_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_procedural_level_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Did you know that when it comes to motor tasks, the ability to make real-time adjustments and adapt to changes is just as important as having a solid plan or strategy? According to Marr’s procedural level analysis, these tasks rely heavily on dynamic processes that require quick thinking and on-the-spot adjustments.\nThink about catching a ball - it’s not just about having a plan to catch it, but being able to adjust your movements as the ball’s trajectory changes due to wind or spin. This procedural level of analysis helps us understand how our motor system handles these real-time adaptations.\nWhat’s particularly fascinating is how our brain processes these adjustments without conscious thought. Whether you’re walking on uneven terrain, maintaining balance on a moving bus, or playing a musical instrument, your motor system is constantly making subtle procedural adjustments to maintain performance."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_overview_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_overview_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Let’s take a look at the fascinating journey ahead in this chapter. We’ll be exploring how different scientific fields come together to help us understand human movement. From engineering to physics, from cognitive science to statistics, each field brings unique insights into how we control our movements.\nWhat makes this particularly exciting is how these different approaches complement each other. Engineers help us understand the mechanical aspects of movement, physicists reveal the fundamental laws that govern motion, and cognitive scientists show us how our brain plans and executes movements. Together, these perspectives give us a complete picture of motor control.\nAs we progress through the chapter, you’ll see how this knowledge applies to real-world situations. Whether it’s improving athletic performance, developing better rehabilitation techniques, or designing more intuitive technology, understanding motor control has practical benefits in many areas of life."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_movement_disorders_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_movement_disorders_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Did you know that studying movement disorders provides crucial insights into how normal movement works? It’s fascinating how understanding what goes wrong can teach us so much about what usually goes right.\nWhen we study normal movement, it’s easy to take for granted how smoothly everything works together. However, when movement is impaired through accident or disease, we get a unique window into the complexity of motor control. Each type of movement disorder highlights different aspects of the motor system, helping us understand how various components contribute to normal function.\nThis knowledge isn’t just academic - it has real-world impact. By understanding the mechanisms behind movement disorders, scientists can develop more effective treatments and rehabilitation strategies. For example, insights from studying balance disorders have led to better treatments for vertigo, while understanding coordination problems has improved therapy for stroke patients.\nWhat’s particularly interesting is how studying movement disorders has revealed the remarkable adaptability of our motor system. Even when parts of the system are damaged, the brain often finds alternative ways to accomplish tasks. This adaptability is both a testament to our motor system’s sophistication and a source of hope for developing new therapeutic approaches."
+  },
+  {
+    "objectID": "slides/ch01/notes/479-ch01-1_8_understanding_demonstration_notes.html",
+    "href": "slides/ch01/notes/479-ch01-1_8_understanding_demonstration_notes.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "If you want to truly understand motor control, you need to go beyond just reading about it - you need to see it in action and experience it yourself! This practical aspect of motor control knowledge is crucial because movement is inherently about doing rather than just knowing.\nThink about it this way: you can read about how to ride a bicycle all day long, but until you actually get on a bike and try it, you won’t really understand the complex interplay of balance, coordination, and control involved. This is because motor skills involve what we call “tacit knowledge” - knowledge that’s difficult to verbalize but essential for actual performance.\nWhat’s fascinating is how theoretical understanding and practical demonstration work together. When you can connect the scientific principles you’ve learned with actual movement experiences, you develop a deeper understanding of both. For instance, understanding the physics of balance helps you analyze and improve your performance in sports or daily activities.\nThis combination of theory and practice is especially important in fields like physical therapy, sports coaching, and movement education. Being able to demonstrate and explain movements helps others learn more effectively. It’s not enough to know what should happen - you need to be able to show how it happens and guide others in experiencing it themselves."
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#motor-control-definition",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#motor-control-definition",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Motor Control Definition",
+    "text": "Motor Control Definition\nMotor control only focuses on the physical aspects of movement, not the mental processes.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#movement-production",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#movement-production",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Movement Production",
+    "text": "Movement Production\nMovement production requires both the nervous system and muscles working together.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#feedback-role",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#feedback-role",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Feedback Role",
+    "text": "Feedback Role\nFeedback in motor control is only useful for correcting errors after they occur.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#engineering-contribution",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#engineering-contribution",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Engineering Contribution",
+    "text": "Engineering Contribution\nEngineering principles have contributed to motor control research through robotics and biomechanics.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#movement-adaptation",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#movement-adaptation",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Movement Adaptation",
+    "text": "Movement Adaptation\nOnce learned, movement patterns cannot be modified or adapted to new situations.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#motor-learning",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#motor-learning",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Motor Learning",
+    "text": "Motor Learning\nMotor learning requires practice and experience over time.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#biomechanics-role",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#biomechanics-role",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Biomechanics Role",
+    "text": "Biomechanics Role\nBiomechanics only considers muscle activity, not the skeletal system’s role in movement.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#control-systems",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-1-quiz.html#control-systems",
+    "title": "Chapter 1-1 Quiz",
+    "section": "Control Systems",
+    "text": "Control Systems\nControl systems in motor control involve both conscious and automatic processes.\n\nTrue\nFalse\n\n\n\n\nNavigation: Press ‘c’ to check answer | ‘r’ to reset | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#experimental-methods",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#experimental-methods",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Experimental Methods",
+    "text": "Experimental Methods\nExperimental methods in motor control can only be conducted in controlled laboratory settings.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#research-design",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#research-design",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Research Design",
+    "text": "Research Design\nGood research design considers both internal validity and real-world application.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#demonstration-learning",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#demonstration-learning",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Demonstration Learning",
+    "text": "Demonstration Learning\nLearning through demonstration requires only visual observation of the movement.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#visual-learning",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#visual-learning",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Visual Learning",
+    "text": "Visual Learning\nVisual feedback plays a crucial role in movement learning and correction.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#skill-transfer",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#skill-transfer",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Skill Transfer",
+    "text": "Skill Transfer\nSkills learned in one context cannot transfer to different movement situations.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#pattern-recognition",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#pattern-recognition",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Pattern Recognition",
+    "text": "Pattern Recognition\nPattern recognition helps in identifying and understanding movement sequences.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#learning-progression",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#learning-progression",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Learning Progression",
+    "text": "Learning Progression\nMotor learning occurs at the same rate for all individuals regardless of practice.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#adaptation-studies",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-5-quiz.html#adaptation-studies",
+    "title": "Chapter 1-5 Quiz",
+    "section": "Adaptation Studies",
+    "text": "Adaptation Studies\nStudying movement adaptation helps understand how people adjust to new conditions.\n\nTrue\nFalse\n\n\n\n\nNavigation: Press ‘c’ to check answer | ‘r’ to reset | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#computational-analysis",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#computational-analysis",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Computational Analysis",
+    "text": "Computational Analysis\nComputational level analysis only deals with simple mathematical calculations, not theoretical frameworks.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#neural-networks",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#neural-networks",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Neural Networks",
+    "text": "Neural Networks\nNeural networks in motor control can serve as both biological systems and computational models.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#control-theory",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#control-theory",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Control Theory",
+    "text": "Control Theory\nControl theory in motor control only applies to conscious movements, not automatic ones.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#implementation-level",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#implementation-level",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Implementation Level",
+    "text": "Implementation Level\nThe implementation level includes both physical mechanisms and neural processes of movement control.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#motor-units",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#motor-units",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Motor Units",
+    "text": "Motor Units\nMotor units can function independently of neural input from the central nervous system.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#sensory-integration",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#sensory-integration",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Sensory Integration",
+    "text": "Sensory Integration\nSensory integration combines information from multiple sensory systems to guide movement.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#movement-disorders",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#movement-disorders",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Movement Disorders",
+    "text": "Movement Disorders\nMovement disorders only affect physical movement, not the planning or processing of movement.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#physics-role",
+    "href": "slides/ch01/quizzes/479-ch01-1_8-2-quiz.html#physics-role",
+    "title": "Chapter 1-2 Quiz",
+    "section": "Physics Role",
+    "text": "Physics Role\nPhysical principles are important for understanding forces and energy efficiency in movement.\n\nTrue\nFalse\n\n\n\n\nNavigation: Press ‘c’ to check answer | ‘r’ to reset | Arrow keys for next/previous"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "KIN 479: Motor Control Syllabus",
+    "section": "",
+    "text": "Instructor: Ovande Furtado Jr, Ph.D.\nOffice: RE 289\nEmail: Use Canvas Inbox for communication\nPhone: 818-677-5968\nOffice Hours:\nTuesdays & Thursdays: 9:00 AM – 12:00 PM\nAlso available by appointment: Schedule Appointment"
+  },
+  {
+    "objectID": "syllabus.html#footnotes",
+    "href": "syllabus.html#footnotes",
+    "title": "KIN 479: Motor Control Syllabus",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis schedule is subject to change.↩︎"
   }
 ]

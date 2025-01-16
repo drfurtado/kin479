@@ -46,3 +46,7 @@ All course materials, including lecture slides and assignments, will be posted o
 -   **Spring Break**: March 17-24, 2025
 -   **Presentations Due**: April 14, 2025
 -   **Final Exam**: May 5-13, 2025
+
+## Introduction to Course
+
+{{< revealjs "slides/ch00/479-ch00.html" >}}
