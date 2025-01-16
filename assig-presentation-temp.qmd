@@ -6,6 +6,7 @@ format:
   pptx: default
 bibliography: references.bib
 csl: apa.csl
+editor: source
 ---
 
 ## Introduction/Neurophysiology
