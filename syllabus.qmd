@@ -1,7 +1,10 @@
 ---
 title: "KIN 479: Motor Control Syllabus"
+subtitle: "Sections 19236 and 18404"
 date: "Spring 2025"
-format: html
+format:
+    pdf: default
+    html: default
 editor: source
 ---
 
