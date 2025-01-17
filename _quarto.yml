@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!slides/"
 
 website:
   title: "KIN 479: Human Motor Control"
@@ -24,14 +27,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-  revealjs:
-    theme: simple
-    logo: images/logos/csun-logo.png
-    footer: "[Back to Course Site](../../index.qmd) | KIN 479: Motor Control | Spring 2025"
-    slide-number: true
-    scrollable: true
-    controls: true
-    controls-tutorial: true
-    link-external-newwindow: true
-
-editor: visual
