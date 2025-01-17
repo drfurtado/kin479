@@ -679,7 +679,7 @@ Ovande Furtado Jr <a href="https://orcid.org/0000-0003-3847-6314" class="quarto-
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': false,
+'controlsAuto': true,
 'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -689,11 +689,11 @@ Ovande Furtado Jr <a href="https://orcid.org/0000-0003-3847-6314" class="quarto-
 'smaller': true,
  
         // Display controls in the bottom right corner
-        controls: true,
+        controls: false,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: true,
+        controlsTutorial: false,
 
         // Determines where controls appear, "edges" or "bottom-right"
         controlsLayout: 'edges',
@@ -706,7 +706,7 @@ Ovande Furtado Jr <a href="https://orcid.org/0000-0003-3847-6314" class="quarto-
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'c/t',
+        slideNumber: false,
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -968,11 +968,6 @@ Ovande Furtado Jr <a href="https://orcid.org/0000-0003-3847-6314" class="quarto-
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

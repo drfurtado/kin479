@@ -3,7 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
-    - "!slides/"
+    - "slides/**/*.qmd"
 
 website:
   title: "KIN 479: Human Motor Control"

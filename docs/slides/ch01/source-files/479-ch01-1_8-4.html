@@ -245,7 +245,6 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
-      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -322,71 +321,8 @@
       margin-right: 0; 
     }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="_partials/styles.css">
-  <style>
-  .flux-generated-image {
-    max-width: 70%;
-    display: block;
-    margin: auto;
-    border-style: none !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    background: none !important;
-    -webkit-box-shadow: none !important;
-  }
-  .flux-container {
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .flux-container img {
-    max-width: 70%;
-    display: block;
-    margin: auto;
-    border-style: none !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    background: none !important;
-    -webkit-box-shadow: none !important;
-  }
-  </style>
-  <script src="_partials/scripts.js"></script>
-  <script>
-  document.addEventListener('DOMContentLoaded', function() {
-      // Handle slide transitions
-      Reveal.on('slidechanged', function(event) {
-          // Stop all audio elements
-          document.querySelectorAll('audio').forEach(audio => {
-              audio.pause();
-              audio.currentTime = 0;
-          });
-      });
-
-      // Initialize audio elements
-      document.querySelectorAll('audio').forEach(audio => {
-          audio.preload = 'none';  // Don't preload audio
-          
-          // Add ended event listener
-          audio.addEventListener('ended', function() {
-              this.currentTime = 0;  // Reset to beginning
-          });
-      });
-  });
-  </script>
-  <script src="js/audio-player.js"></script>
-  <script src="js/record-presentation.js"></script>
-  <script src="js/flux-config.js"></script>
-  <script src="js/flux-bundle.js"></script>
-  </head><body class="quarto-light"><div id="start-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; display: flex; justify-content: center; align-items: center;">
-      <button id="start-presentation" style="padding: 20px 40px; font-size: 24px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 5px;">Start Presentation</button>
-  </div>
-
-
+</head>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
@@ -650,7 +586,7 @@ Your browser does not support the audio element. </audio>
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: true,
+        controlsTutorial: false,
 
         // Determines where controls appear, "edges" or "bottom-right"
         controlsLayout: 'edges',
@@ -925,11 +861,6 @@ Your browser does not support the audio element. </audio>
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
