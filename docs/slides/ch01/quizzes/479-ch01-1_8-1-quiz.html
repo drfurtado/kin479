@@ -244,7 +244,6 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
-      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -399,7 +398,6 @@
 </ul>
 
 <div class="quarto-auto-generated-content">
-<p><img src="../../../images/logos/csun-logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Navigation: Press ‘c’ to check answer | ‘r’ to reset | Arrow keys for next/previous</p>
 </div>
@@ -445,7 +443,7 @@
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: true,
+        controlsTutorial: false,
 
         // Determines where controls appear, "edges" or "bottom-right"
         controlsLayout: 'edges',
@@ -720,11 +718,6 @@
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
