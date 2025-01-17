@@ -6,7 +6,7 @@ institute: "California State University, Northridge"
 format:
   revealjs:
     theme: simple
-    logo: ../../images/logos/csun-logo.png
+    logo: images/logos/csun-logo.png
     footer: "[Back to Course Site](../../index.qmd) | KIN 479: Motor Control | Spring 2025"
     slide-number: true
     scrollable: true
