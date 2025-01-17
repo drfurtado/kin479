@@ -1,0 +1,207 @@
+---
+title: Human Motor Control
+subtitle: An Introduction
+format: 
+  pptx: default
+  clean-revealjs: default
+author:
+  - name: Ovande Furtado Jr
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+date: last-modified
+footer:  "[https://drfurtado.github.io/kin377/](https://drfurtado.github.io/kin377/)"
+logo: "/images/logo.png"
+---
+
+## Primary Focus of Human Motor Control
+
+-   Emphasis on controlling and understanding human body movements
+-   Integration of various scientific approaches
+
+::: notes
+The study of human motor control primarily centers on understanding and controlling the movements of the human body, incorporating a variety of scientific approaches for a comprehensive view.
+:::
+
+## Contributions from Engineering to Motor Control
+
+-   Application of engineering principles to human movement
+-   Development of tools and models
+
+::: notes
+Engineering plays a pivotal role in motor control research, applying design principles to human movement and aiding in the development of tools and models.
+:::
+
+## Computational Level of Analysis
+
+-   Use of mathematical and computational models
+-   Understanding movement control and coordination
+
+::: notes
+The computational level focuses on mathematical and computational models to comprehend movement control and coordination, breaking down motor functions into understandable elements.
+:::
+
+## Importance of Variability in Performance
+
+-   Reflection of the natural variation in human performance
+-   Insight into the adaptability and flexibility of motor control
+
+::: notes
+Variability in human motor performance reflects natural variation and adaptability in actions, providing insights into the efficiency of motor control systems.
+:::
+
+## Procedural Level in Marr's Analysis
+
+-   Focus on real-time processes and events
+-   Behavioral and cognitive states during motor performance
+
+::: notes
+The procedural level, as outlined by Marr, delves into real-time processes and cognitive states involved in motor performance, emphasizing the dynamic nature of motor control.
+:::
+
+## Role of Physics in Motor Control
+
+-   Physical constraints and principles applied to movement
+-   Influence on biomechanics and motor skill development
+
+::: notes
+Physics contributes to motor control by applying physical principles to understand movement constraints and biomechanics, elucidating fundamental aspects of motor skill development.
+:::
+
+## Implementation Level in Motor Control
+
+-   Physical and biological basis for motor tasks
+-   Anatomical and physiological aspects
+
+::: notes
+The implementation level focuses on the physical and biological basis of motor tasks, involving the study of anatomical and physiological mechanisms.
+:::
+
+## Focus on Movement Disorders
+
+-   Exploration of abnormal motor control
+-   Relevance to medical and therapeutic interventions
+
+::: notes
+Studying movement disorders is integral to motor control research, providing insights into abnormal motor functions and potential therapeutic interventions.
+:::
+
+## Contribution of Statistics
+
+-   Analysis of data variability and trends in motor control
+-   Statistical methods to interpret motor performance
+
+::: notes
+Statistics contribute significantly to motor control by offering methods to analyze and interpret variability and patterns in motor performance data.
+:::
+
+## Cognitive Science and Software Aspect of Behavior
+
+-   Understanding cognitive processes in motor tasks
+-   Relation to decision-making and problem-solving in movement
+
+::: notes
+Cognitive science offers insights into the cognitive processes in motor tasks, emphasizing decision-making and problem-solving aspects of motor behavior.
+:::
+
+## Expression of Knowledge in Motor Control
+
+-   Verbal and written communication of concepts
+-   Theoretical and practical aspects of motor skills
+
+::: notes
+Knowledge in motor control is often articulated through verbal and written communication, encompassing both the theoretical underpinnings and practical applications.
+:::
+
+## Turing Test and Motor Control
+
+-   Assessment of robot movements compared to humans
+-   Implications for artificial intelligence and robotics
+
+::: notes
+The Turing Test's application in motor control involves assessing robot movements compared to humans, highlighting robotics and AI intersections.
+:::
+
+## Human Factors Focus
+
+-   Designing ergonomic and user-friendly interfaces
+-   Application in workspace and tool design
+
+::: notes
+The field of human factors focuses on designing ergonomic and user-friendly interfaces, improving human-environment interactions.
+:::
+
+## Importance of Animal Research
+
+-   Comparative studies between animals and humans
+-   Insights into basic motor mechanisms
+
+::: notes
+Animal research provides comparative insights into basic motor mechanisms, enhancing our understanding of human motor control.
+:::
+
+## Neuroscience in Motor Control
+
+-   Examination of the nervous system's role in movement
+-   Brain-muscle interaction and control pathways
+
+::: notes
+Neuroscience plays a critical role in examining the nervous system's influence on movement, focusing on brain-muscle interactions and control mechanisms.
+:::
+
+## Procedural Level in Marr's Analysis
+
+-   Emphasis on dynamic processes during motor tasks
+-   Real-time monitoring and adaptation of movements
+
+::: notes
+Marr's procedural level analysis highlights the importance of dynamic processes and real-time adjustments in motor tasks.
+:::
+
+## Engineering's Contribution
+
+-   Problem-solving approaches in motor control
+-   Design and testing of assistive technologies
+
+::: notes
+Engineering contributes to motor control research through problem-solving and design, particularly in developing assistive technologies.
+:::
+
+## Demonstrating Understanding in Motor Control
+
+-   Simulation and practical demonstration of motor tasks
+-   Application of theoretical knowledge to real-world scenarios
+
+::: notes
+Demonstrating understanding in motor control often involves simulating motor tasks and applying theoretical knowledge to practical scenarios::: {.notes} Simulation and practical demonstrations in motor control help apply theoretical knowledge to real-world scenarios, illustrating proficiency in understanding motor tasks.
+:::
+
+## Interdisciplinary Nature of Motor Control Study
+
+-   Integration of multiple scientific and academic fields
+-   Cross-disciplinary research and application
+
+::: notes
+The study of motor control is inherently interdisciplinary, integrating various scientific fields and methodologies to offer a holistic understanding of movement.
+:::
+
+## Variability in Motor Performance
+
+-   Indication of human performance's inherent imperfection
+-   Factors influencing variability and skill level
+
+::: notes
+Variability in motor performance highlights the inherent imperfection in human actions and reflects the factors influencing skill level and performance outcomes.
+:::
+
+## Conclusion
+
+-   Integration of diverse scientific disciplines enriches our understanding of human motor control.
+-   Engineering, neuroscience, and cognitive science offer unique perspectives and methodologies.
+-   Real-time analysis and computational models are crucial for understanding and simulating motor tasks.
+-   The study of motor control is not only theoretical but also has practical applications in areas like robotics, medicine, and ergonomic design.
+-   Future research and interdisciplinary collaboration continue to be vital for advancements in understanding and enhancing human motor performance.
+
+::: notes
+In conclusion, the field of human motor control stands as a testament to the benefits of interdisciplinary research. It combines insights from engineering, neuroscience, and cognitive science, among others, to deepen our understanding of how humans control movement. The practical applications of this research are vast, influencing fields like robotics, therapeutic interventions, and ergonomic design. The ongoing evolution of this field underscores the importance of continued research and collaborative efforts.
+:::
