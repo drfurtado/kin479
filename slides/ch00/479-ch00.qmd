@@ -71,8 +71,6 @@ This course includes a major group project where you'll investigate a movement d
 - Engage with peer presentations and provide feedback
 :::
 
-[View complete presentation guidelines](../../assig-presentation.qmd)
-
 ## Movement Disorders
 
 Choose from disorders such as:
@@ -99,7 +97,7 @@ Choose from disorders such as:
 - Video presentation: April 14 @ 5pm
 - Peer evaluation: May 13 @ 5pm
 
-See [course syllabus](syllabus.qmd) for complete schedule and policies.
+See [course syllabus](../../syllabus.qmd) for complete schedule and policies.
 
 ## Presentation Requirements
 

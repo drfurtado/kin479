@@ -10,22 +10,25 @@ author:
     email: ovandef@csun.edu
     affiliations: California State University, Northridge
 
+# Document Settings
 date: last-modified
+logo: "images/logos/csun-logo.png"
 
 format: 
   revealjs:
-    theme: simple
+    theme: default
     width: 1600
     height: 900
-    logo: images/logos/csun-logo.png
-    footer: "[Back to Course Site](../../../index.qmd) | KIN 479: Motor Control"
-    slide-number: true
-    scrollable: true
+    margin: 0.1
     controls: true
-    controls-tutorial: true
-    link-external-newwindow: true
-    preview-links: auto
-    embed-resources: true
+    navigation-mode: linear
+    menu: true
+    menu-position: left
+    slide-level: 2
+    footer: "Dr. Furtado | CSUN | KIN Department | KIN479 - Human Motor Control"
+    slide-number: true
+    editor: source
+    include-in-header: _partials/header.html
 
 ---
 
@@ -338,7 +341,7 @@ The physics of movement becomes particularly interesting when we look at complex
 
 <div class="audio-source" style="display: none;">
 <audio preload="none" controls>
-<source src="../audio/479-ch01-1_8_knowledge_expression.mp3" type="audio/mpeg">
+<source src="../audio/479-ch01-1_8_understanding_demonstration.mp3" type="audio/mpeg">
 Your browser does not support the audio element. </audio>
 </div>
 
@@ -347,7 +350,10 @@ If you want to truly understand motor control, you need to go beyond just readin
 
 Think about it this way: you can read about how to ride a bicycle all day long, but until you actually get on a bike and try it, you won't really understand the complex interplay of balance, coordination, and control involved. This is because motor skills involve what we call "tacit knowledge" - knowledge that's difficult to verbalize but essential for actual performance.
 
-What's fascinating is how theoretical understanding and practical demonstration work together. When you can connect the scientific principles you've learned with actual movement experiences, you develop a deeper understanding of both.
+What's fascinating is how theoretical understanding and practical demonstration work together. When you can connect the scientific principles you've learned with actual movement experiences, you develop a deeper understanding of both. For instance, understanding the physics of balance helps you analyze and improve your performance in sports or daily activities.
+
+This combination of theory and practice is especially important in fields like physical therapy, sports coaching, and movement education. Being able to demonstrate and explain movements helps others learn more effectively. It's not enough to know what should happen - you need to be able to show how it happens and guide others in experiencing it themselves.
+
 :::
 
 ## Statistical Contributions
@@ -564,7 +570,7 @@ The applications of this research are quite remarkable. For instance, studying h
 
 <div class="audio-source" style="display: none;">
 <audio preload="none" controls>
-<source src="../audio/479-ch01-1_8_variability_performance.mp3" type="audio/mpeg">
+<source src="../audio/479-ch01-1_8_procedural_level.mp3" type="audio/mpeg">
 Your browser does not support the audio element. </audio>
 </div>
 
@@ -596,18 +602,18 @@ What's particularly fascinating is how our brain processes these adjustments wit
 
 <div class="audio-source" style="display: none;">
 <audio preload="none" controls>
-<source src="../audio/479-ch01-1_8_experimental_methods.mp3" type="audio/mpeg">
+<source src="../audio/479-ch01-1_8_engineering_contributions.mp3" type="audio/mpeg">
 Your browser does not support the audio element. </audio>
 </div>
 
 ::: notes
-Have you ever wondered how scientists actually study human movement in a scientific way? Well, experimental methods are the backbone of motor control research! These methods allow us to gather precise data about how people move and control their bodies. From sophisticated motion capture systems to detailed analysis of muscle activity, these techniques help us understand the complexities of human movement. It's amazing how technology has advanced to help us study something as natural as movement in such detail!
+Did you know that engineering plays a crucial role in advancing our understanding of human motor control? Engineers bring their unique problem-solving approaches to help us understand and improve human movement.
 
-One of our most powerful tools is motion capture technology - similar to what's used in making movies and video games. But instead of creating entertainment, we use it to track movement with millimeter precision. Imagine being able to see exactly how a professional athlete's body moves during a perfect serve in tennis, or how a pianist's fingers dance across the keys. This technology lets us break down these complex movements into their smallest components.
+The relationship between engineering and motor control is particularly evident when we look at robotics. Current robots embody much of what we know about motor control, yet they still struggle with tasks that humans find simple. For example, two-legged robots can barely walk across uneven surfaces without toppling over, and tasks like making a bed or folding laundry remain beyond their capabilities.
 
-We also use sophisticated equipment like EMG sensors that detect the electrical signals in your muscles, showing us exactly when and how strongly each muscle activates. Combined with force plates that measure the pressures and forces during movement, and eye-tracking devices that show where people look while performing tasks, we get a complete picture of how the body coordinates movement.
+This limitation of robots highlights just how sophisticated human motor control is. In dangerous situations, like space repairs, mining operations, or disaster recovery, we often still rely on humans rather than robots because of our superior motor control abilities. Engineers are working to bridge this gap, studying human movement to develop better robotic systems that could eventually take over these hazardous tasks.
 
-But perhaps most fascinating is how we study the brain during movement. Using techniques like fMRI and EEG, we can actually see which parts of the brain are active when planning and executing movements. This helps us understand the incredible neural choreography behind even the simplest actions, like reaching for a cup or maintaining balance while walking.
+The engineering approach to motor control also contributes to the development of assistive technologies. By understanding how humans move and control their bodies, engineers can create more effective devices to help people with movement disabilities. This combination of biomechanics, electrical engineering, and computer science is transforming lives through innovative solutions.
 :::
 
 ## Demonstrating Understanding in Motor Control
@@ -664,7 +670,7 @@ This combination of theory and practice is especially important in fields like p
 
 <div class="audio-source" style="display: none;">
 <audio preload="none" controls>
-<source src="../audio/479-ch01-1_8_variability.mp3" type="audio/mpeg">
+<source src="../audio/479-ch01-1_8_variability_performance.mp3" type="audio/mpeg">
 Your browser does not support the audio element. </audio>
 </div>
 

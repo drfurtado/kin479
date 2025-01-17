@@ -1,0 +1,99 @@
+---
+title: "Presentation Guidelines"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+---
+
+# Overview
+
+This document outlines the guidelines for student presentations in KIN 479 - Motor Control.
+
+# Presentation Format
+
+## Time Allocation
+- Each presentation should be 15-20 minutes long
+- Additional 5-10 minutes will be allocated for questions and discussion
+
+## Content Requirements
+
+### Introduction
+- Clear statement of the topic/research question
+- Brief background information
+- Significance of the topic
+
+### Main Body
+- Thorough coverage of the topic
+- Clear organization of ideas
+- Supporting evidence from peer-reviewed sources
+- Relevant examples and applications
+
+### Conclusion
+- Summary of key points
+- Implications for motor control and learning
+- Future directions or open questions
+
+## Visual Aids
+- Use of clear, readable slides
+- Appropriate use of graphics, tables, and figures
+- Consistent formatting throughout
+- Proper citations for all sources
+
+# Evaluation Criteria
+
+## Content (50%)
+- Depth of understanding
+- Quality of research
+- Relevance to course material
+- Critical analysis
+
+## Delivery (30%)
+- Clear speaking voice
+- Professional demeanor
+- Time management
+- Engagement with audience
+
+## Visual Materials (20%)
+- Organization of slides
+- Quality of visual aids
+- Professional appearance
+- Proper citations
+
+# Submission Requirements
+
+## Before Presentation
+1. Submit presentation slides 24 hours before scheduled time
+2. Include a reference list in APA format
+3. Ensure all multimedia elements are working
+
+## After Presentation
+1. Submit a brief reflection (1 page)
+2. Address feedback received
+3. Discuss potential improvements
+
+# Tips for Success
+
+1. Practice your presentation multiple times
+2. Use concrete examples to illustrate concepts
+3. Engage with your audience through questions
+4. Be prepared for discussion
+5. Stay within the time limit
+6. Use professional, academic language
+7. Proofread all materials carefully
+
+# Resources
+
+## Recommended Reading
+- Course textbook chapters related to your topic
+- Recent peer-reviewed articles in motor control
+- Relevant case studies
+
+## Technical Support
+- Contact IT services for technical assistance
+- Test all equipment before presentation day
+
+# Questions?
+
+If you have any questions about these guidelines, please contact the instructor.

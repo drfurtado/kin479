@@ -1,9 +1,7 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - "*.qmd"
-    - "slides/**/*.qmd"
+
 
 website:
   title: "KIN 479: Human Motor Control"
