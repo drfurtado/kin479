@@ -146,7 +146,7 @@ This approach helps:
 
 <div class="audio-source" style="display: none;">
 <audio preload="none" controls>
-<source src="../audio/479-ch01-1_8_movement_variability.mp3" type="audio/mpeg">
+<source src="../audio/479-ch01-1_8_variability_performance.mp3" type="audio/mpeg">
 Your browser does not support the audio element. </audio>
 </div>
 

@@ -55,19 +55,3 @@ ENV/
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-# Keep only specific directories
-/*
-!*.qmd
-!/webapp/
-!/slides/
-!/.gitignore
-!/README.md
-!/requirements.txt
-!/_quarto.yml
-!/_extensions/
-!/styles.css
-!/docs/
-
-# Other files that should be ignored
-478-pres-topics-sp24.qmd
