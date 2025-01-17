@@ -1,7 +1,6 @@
 ---
-title: "Chapter 01 - Part 5"
-subtitle: "Introduction to Human Motor Control"
-
+title: "Chapter 01-5"
+subtitle: "Introduction to Human Motor Control: Methods & Applications"
 author:
   - name: Ovande Furtado Jr
     title: Assistant Professor
@@ -10,22 +9,25 @@ author:
     email: ovandef@csun.edu
     affiliations: California State University, Northridge
 
+# Document Settings
 date: last-modified
+logo: "images/logos/csun-logo.png"
 
 format: 
   revealjs:
-    theme: simple
+    theme: default
     width: 1600
     height: 900
-    logo: images/logos/csun-logo.png
-    footer: "[Back to Course Site](../../../index.qmd) | KIN 479: Motor Control"
-    slide-number: true
-    scrollable: true
+    margin: 0.1
     controls: true
-    controls-tutorial: true
-    link-external-newwindow: true
-    preview-links: auto
-    embed-resources: true
+    navigation-mode: linear
+    menu: true
+    menu-position: left
+    slide-level: 2
+    footer: "Dr. Furtado | CSUN | KIN Department | KIN479 - Human Motor Control"
+    slide-number: true
+    editor: source
+    include-in-header: _partials/header.html
 ---
 
 ## Review and Preview
@@ -188,18 +190,12 @@ Your browser does not support the audio element. </audio>
 </div>
 
 ::: notes
-Throughout this chapter, we've explored the multifaceted nature of human motor control. We've seen how different approaches - from computational models to practical applications - contribute to our understanding.
+As we've explored in this chapter, human motor control is a fascinating field that brings together multiple scientific disciplines to understand how we move and interact with our world. From the physics of movement to the cognitive processes behind motor learning, each perspective adds a crucial piece to our understanding.
 
-Key takeaways include:
-- The complexity of motor control systems
-- The importance of interdisciplinary approaches
-- The practical applications in various fields
-- The ongoing nature of research and discovery
+We've seen how engineering helps us build better movement systems, how statistics reveals patterns in performance, and how neuroscience uncovers the brain's role in movement. We've also explored how this knowledge applies to real-world situations, from helping athletes improve their performance to developing better rehabilitation strategies for people with movement disorders.
 
-This knowledge forms the foundation for:
-- Further study in specific areas
-- Practical applications in various fields
-- Future research directions
+The interdisciplinary nature of motor control research shows us that understanding human movement requires multiple viewpoints and approaches. Whether we're studying basic motor functions or complex skilled movements, this comprehensive approach helps us better understand and improve human movement capabilities.
+
 :::
 
 ## Looking Ahead
