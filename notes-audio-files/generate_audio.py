@@ -2,11 +2,18 @@ import requests
 import json
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 def generate_audio(text, filename):
     # API Configuration
-    API_KEY = "sk_fc2bb47c436a4379a953859cf54e1438c5f064c7c818da74"  # Replace with your ElevenLabs API key
-    VOICE_ID = "WFP1Wqyc9POBM5u5N5gr"  # You can change this to your preferred voice
+    API_KEY = os.getenv("ELEVENLABS_API_KEY")  # Get API key from environment variable
+    if not API_KEY:
+        raise ValueError("Missing ELEVENLABS_API_KEY environment variable")
+        
+    VOICE_ID = os.getenv("ELEVENLABS_VOICE_ID", "WFP1Wqyc9POBM5u5N5gr")  # Default voice ID if not specified
     XI_API_URL = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}"
 
     # Headers for the API request
