@@ -907,7 +907,7 @@
     "href": "index.html#quick-links",
     "title": "KIN 479: Motor Control",
     "section": "Quick Links",
-    "text": "Quick Links\n\nCourse Syllabus\nPresentation Guidelines"
+    "text": "Quick Links\n\nCourse Syllabus\nPresentation Guidelines\nPresentation Template"
   },
   {
     "objectID": "index.html#course-overview",
@@ -1944,5 +1944,82 @@
     "title": "KIN 479: Human Motor Control",
     "section": "",
     "text": "That brings us to the end of our course overview! I hope I’ve given you a good picture of what to expect this semester. Now, I’d love to hear from you - what questions do you have? Whether it’s about the course content, assignments, or anything else we’ve covered, don’t hesitate to ask. Remember, if you have a question, chances are someone else in the class is wondering the same thing!\nIf you have questions later, here’s how to reach out: For personal concerns or matters requiring confidentiality, contact me through Canvas Inbox. For questions about assignments, please post them under the week’s announcement on Canvas &gt; Announcements - this way, everyone can benefit from the answers. I’m here to help you succeed in this course!"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "What is the required textbook for this course? * [x] Human Motor Control (2nd Edition) by David A. Rosenbaum * [ ] Motor Control and Learning (6th Edition) by Schmidt & Lee * [ ] Human Motor Control (1st Edition) by David A. Rosenbaum * [ ] Motor Learning and Performance by Schmidt & Wrisberg\n\n\n\nWhen are new course materials posted each week? * [ ] Sunday at midnight * [x] Monday by 5:00 PM * [ ] Monday at midnight * [ ] Tuesday by 5:00 PM\n\n\n\nWhat software is required for this course? * [ ] Only PowerPoint * [ ] Only Excel * [x] Microsoft Office (including PowerPoint and Excel) * [ ] Google Workspace\n\n\n\nWhat is the preferred method of communication with the instructor? * [ ] Personal email * [x] Canvas Inbox * [ ] Phone * [ ] Text message\n\n\n\nWhen are the instructor’s office hours? * [ ] Mondays & Wednesdays, 9:00 AM – 12:00 PM * [x] Tuesdays & Thursdays, 9:00 AM – 12:00 PM * [ ] Wednesdays & Fridays, 9:00 AM – 12:00 PM * [ ] By appointment only\n\n\n\nWhat is one of the main focuses of this course regarding human movement? * [ ] Biomechanics principles * [x] The perception-action loop * [ ] Strength training * [ ] Sports psychology\n\n\n\nWhen are weekly assignments due? * [ ] Friday of the same week * [ ] Sunday at midnight * [x] The following Monday * [ ] Two weeks after being assigned\n\n\n\nHow is attendance handled in this course? * [ ] Daily attendance is required * [ ] Weekly check-ins are required * [ ] Participation points are given for attendance * [x] No attendance is taken due to the asynchronous format\n\n\n\nWhen is the final exam due? * [ ] May 1 * [ ] May 5 * [x] May 13 * [ ] May 15\n\n\n\nWhat should be completed before starting other course-related tasks each week? * [ ] Weekly quizzes * [x] Reading assignments * [ ] Discussion posts * [ ] PowerPoint presentations"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-1",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-1",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "What is the required textbook for this course? * [x] Human Motor Control (2nd Edition) by David A. Rosenbaum * [ ] Motor Control and Learning (6th Edition) by Schmidt & Lee * [ ] Human Motor Control (1st Edition) by David A. Rosenbaum * [ ] Motor Learning and Performance by Schmidt & Wrisberg"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-2",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-2",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "When are new course materials posted each week? * [ ] Sunday at midnight * [x] Monday by 5:00 PM * [ ] Monday at midnight * [ ] Tuesday by 5:00 PM"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-3",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-3",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "What software is required for this course? * [ ] Only PowerPoint * [ ] Only Excel * [x] Microsoft Office (including PowerPoint and Excel) * [ ] Google Workspace"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-4",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-4",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "What is the preferred method of communication with the instructor? * [ ] Personal email * [x] Canvas Inbox * [ ] Phone * [ ] Text message"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-5",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-5",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "When are the instructor’s office hours? * [ ] Mondays & Wednesdays, 9:00 AM – 12:00 PM * [x] Tuesdays & Thursdays, 9:00 AM – 12:00 PM * [ ] Wednesdays & Fridays, 9:00 AM – 12:00 PM * [ ] By appointment only"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-6",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-6",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "What is one of the main focuses of this course regarding human movement? * [ ] Biomechanics principles * [x] The perception-action loop * [ ] Strength training * [ ] Sports psychology"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-7",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-7",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "When are weekly assignments due? * [ ] Friday of the same week * [ ] Sunday at midnight * [x] The following Monday * [ ] Two weeks after being assigned"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-8",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-8",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "How is attendance handled in this course? * [ ] Daily attendance is required * [ ] Weekly check-ins are required * [ ] Participation points are given for attendance * [x] No attendance is taken due to the asynchronous format"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-9",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-9",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "When is the final exam due? * [ ] May 1 * [ ] May 5 * [x] May 13 * [ ] May 15"
+  },
+  {
+    "objectID": "webapp/quizzes/ch00-syllabus-quiz.html#question-10",
+    "href": "webapp/quizzes/ch00-syllabus-quiz.html#question-10",
+    "title": "Syllabus Quiz",
+    "section": "",
+    "text": "What should be completed before starting other course-related tasks each week? * [ ] Weekly quizzes * [x] Reading assignments * [ ] Discussion posts * [ ] PowerPoint presentations"
   }
 ]

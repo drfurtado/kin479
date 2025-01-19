@@ -15,7 +15,8 @@ Welcome to KIN 479: Motor Control! This course examines foundational and applied
 ## Quick Links
 
 -   [Course Syllabus](syllabus.qmd)
--   [Presentation Guidelines](assig-presentation.qmd)
+-   [Presentation Guidelines](/assignments/pres.qmd) 
+-   [Presentation Template](/assignments/pres-template.qmd)
 
 ## Course Overview
 
