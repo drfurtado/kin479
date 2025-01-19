@@ -164,6 +164,7 @@ Your learning will be evaluated through:
 ::: {.column width="50%"}
 - Weekly chapter quizzes
 - Group presentations
+- Midterm exam
 - Final exam
 :::
 
