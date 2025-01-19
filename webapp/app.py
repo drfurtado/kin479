@@ -84,29 +84,46 @@ def parse_quiz_content(content):
     current_options = []
     current_correct = None
     
-    for line in content.split('\n'):
-        if '.quiz-question' in line:
-            if current_question:
+    lines = content.split('\n')
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        # Skip empty lines and non-content lines
+        if not line or line.startswith('---') or line.startswith(':::') or line.startswith('##'):
+            i += 1
+            continue
+            
+        # Question starts with a number
+        if line and line[0].isdigit() and '.' in line:
+            # Save previous question if exists
+            if current_question and current_options:
                 questions.append({
                     "question": current_question,
                     "options": current_options,
                     "correct": current_correct
                 })
-            current_question = ""
+            
+            # Start new question
+            current_question = line.split('.', 1)[1].strip()
             current_options = []
             current_correct = None
-        elif current_question is not None:
-            if line.strip() and not line.startswith('#') and not '.quiz-question' in line:
-                if '[True]' in line or '[False]' in line:
-                    option = "True" if '[True]' in line else "False"
-                    is_correct = '.correct' in line
-                    current_options.append(option)
-                    if is_correct:
-                        current_correct = option
-                elif line.strip() and not '{' in line and not '}' in line:
-                    current_question = line.strip()
+            
+        # Option line starts with -
+        elif line.startswith('-'):
+            option_text = line[1:].strip()  # Remove the dash
+            if '[x]' in option_text:  # Correct answer
+                option = option_text.replace('[x]', '').strip()
+                current_options.append(option)
+                current_correct = option
+            elif '[ ]' in option_text:  # Wrong answer
+                option = option_text.replace('[ ]', '').strip()
+                current_options.append(option)
+                
+        i += 1
     
-    if current_question:
+    # Add the last question
+    if current_question and current_options:
         questions.append({
             "question": current_question,
             "options": current_options,
@@ -179,40 +196,101 @@ def display_quiz(questions):
         st.session_state.current_question = 0
         st.session_state.answers = {}
         st.session_state.show_explanation = False
+        st.session_state.quiz_completed = False
 
     current = st.session_state.current_question
     question = questions[current]
 
+    # Display progress
+    progress = len(st.session_state.answers) / len(questions)
+    st.progress(progress)
+    
     st.write(f"### Question {current + 1} of {len(questions)}")
     st.write(question['question'])
 
-    for option in ['True', 'False']:
-        if option not in st.session_state.answers.get(current, {}):
-            if st.button(option, key=f"option_{option}"):
-                st.session_state.answers[current] = {
-                    'selected': option,
-                    'correct': option == question['correct']
-                }
-                st.session_state.show_explanation = True
-                st.rerun()
+    # Display options as radio buttons
+    selected_option = st.radio(
+        "Select your answer:",
+        question['options'],
+        key=f"question_{current}"
+    )
 
+    # Check answer button
+    if st.button("Submit Answer", key=f"check_{current}"):
+        st.session_state.answers[current] = {
+            'selected': selected_option,
+            'correct': selected_option == question['correct']
+        }
+        st.session_state.show_explanation = True
+        
+        # If this was the last question, mark the quiz as completed
+        if len(st.session_state.answers) == len(questions):
+            st.session_state.quiz_completed = True
+            
+        st.rerun()
+
+    # Display result if answer is selected
     if current in st.session_state.answers:
         answer = st.session_state.answers[current]
         if answer['correct']:
             st.success("✅ Correct!")
         else:
-            st.error("❌ Incorrect. The correct answer is: " + question['correct'])
+            st.error(f"❌ Incorrect. The correct answer is: {question['correct']}")
 
-    col1, col2 = st.columns(2)
-    with col1:
-        if current > 0 and st.button("⬅️ Previous Question"):
-            st.session_state.current_question -= 1
+        # Only show navigation buttons after answering the current question
+        col1, col2 = st.columns(2)
+        with col1:
+            if current > 0 and st.button("⬅️ Previous Question"):
+                st.session_state.current_question -= 1
+                st.session_state.show_explanation = False
+                st.rerun()
+        with col2:
+            if current < len(questions) - 1:
+                # Only allow moving to next question if current question is answered
+                if st.button("Next Question ➡️"):
+                    st.session_state.current_question += 1
+                    st.session_state.show_explanation = False
+                    st.rerun()
+    else:
+        # Show message if question hasn't been answered
+        st.info("⚠️ Please submit your answer before moving to the next question.")
+
+    # Display final score when quiz is completed
+    if st.session_state.quiz_completed:
+        correct_count = sum(1 for a in st.session_state.answers.values() if a['correct'])
+        score_percentage = (correct_count/len(questions)*100)
+        
+        st.markdown("---")
+        st.markdown("### 🎉 Quiz Complete!")
+        st.markdown(f"#### Your Score: {correct_count}/{len(questions)} ({score_percentage:.1f}%)")
+        
+        # Add encouraging message based on score
+        if score_percentage == 100:
+            st.success("🌟 Perfect score! Excellent work!")
+        elif score_percentage >= 80:
+            st.success("🎯 Great job! You've demonstrated a strong understanding!")
+        elif score_percentage >= 60:
+            st.info("📚 Good effort! Review the material and try again to improve your score.")
+        else:
+            st.warning("📖 Keep studying! Review the course materials and try again.")
+            
+        # Show a summary of incorrect answers
+        if score_percentage < 100:
+            st.markdown("### Review Incorrect Answers")
+            for i, q in enumerate(questions):
+                if not st.session_state.answers[i]['correct']:
+                    st.markdown(f"""
+                    **Question {i + 1}:** {q['question']}  
+                    Your answer: {st.session_state.answers[i]['selected']}  
+                    Correct answer: {q['correct']}
+                    """)
+            
+        # Add a retry button
+        if st.button("Try Quiz Again"):
+            st.session_state.current_question = 0
+            st.session_state.answers = {}
             st.session_state.show_explanation = False
-            st.rerun()
-    with col2:
-        if current < len(questions) - 1 and st.button("Next Question ➡️"):
-            st.session_state.current_question += 1
-            st.session_state.show_explanation = False
+            st.session_state.quiz_completed = False
             st.rerun()
 
 def main():
