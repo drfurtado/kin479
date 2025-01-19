@@ -317,7 +317,9 @@ def main():
     if 'card_flipped' not in st.session_state:
         st.session_state.card_flipped = False
     
-    base_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'slides')
+    # Get the absolute path to the slides directory
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    base_path = os.path.abspath(os.path.join(current_dir, '..', 'slides'))
     
     # Create the base path if it doesn't exist
     os.makedirs(base_path, exist_ok=True)
