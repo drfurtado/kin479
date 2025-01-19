@@ -422,7 +422,7 @@ def main():
                 # Quiz selection with URL parameter support
                 part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
                 # Update URL parameters for quizzes
-                current_url = f"https://kin479.streamlit.app/?chapter={chapter}&mode={mode}&quiz={part}"
+                current_url = f"https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/?chapter={chapter}&mode={mode}&quiz={part}"
                 st.experimental_set_query_params(
                     chapter=chapter,
                     mode=mode,
