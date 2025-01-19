@@ -84,51 +84,88 @@ def parse_quiz_content(content):
     current_options = []
     current_correct = None
     
-    lines = content.split('\n')
-    i = 0
-    while i < len(lines):
-        line = lines[i].strip()
-        
-        # Skip empty lines and YAML front matter
-        if not line or line.startswith('---'):
-            i += 1
-            continue
+    # Check if this is the new RevealJS quiz format or the old format
+    if '{.quiz-question}' in content:
+        # New RevealJS quiz format
+        lines = content.split('\n')
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
             
-        # Question starts with ## and {.quiz-question}
-        if line.startswith('##') and '{.quiz-question}' in line:
-            # Save previous question if exists
-            if current_question and current_options:
-                questions.append({
-                    "question": current_question,
-                    "options": current_options,
-                    "correct": current_correct
-                })
-            
-            # Get the question text from the next line
-            i += 1
-            while i < len(lines) and not lines[i].strip():
+            # Skip empty lines and YAML front matter
+            if not line or line.startswith('---'):
                 i += 1
-            if i < len(lines):
-                current_question = lines[i].strip()
-                current_options = []
-                current_correct = None
-            
-        # Option line starts with -
-        elif line.startswith('-'):
-            option_text = line[1:].strip()  # Remove the dash
-            
-            # Extract the actual option text (remove markdown formatting)
-            option = re.sub(r'\[([^\]]+)\].*', r'\1', option_text).strip()
-            
-            # Check if this is the correct answer
-            if '{.correct' in option_text:
-                current_correct = option
-            
-            current_options.append(option)
+                continue
                 
-        i += 1
+            # Question starts with ## and {.quiz-question}
+            if line.startswith('##') and '{.quiz-question}' in line:
+                # Save previous question if exists
+                if current_question and current_options:
+                    questions.append({
+                        "question": current_question,
+                        "options": current_options,
+                        "correct": current_correct
+                    })
+                
+                # Get the question text from the next line
+                i += 1
+                while i < len(lines) and not lines[i].strip():
+                    i += 1
+                if i < len(lines):
+                    current_question = lines[i].strip()
+                    current_options = []
+                    current_correct = None
+                
+            # Option line starts with -
+            elif line.startswith('-'):
+                option_text = line[1:].strip()  # Remove the dash
+                
+                # Extract the actual option text (remove markdown formatting)
+                option = re.sub(r'\[([^\]]+)\].*', r'\1', option_text).strip()
+                
+                # Check if this is the correct answer
+                if '{.correct' in option_text:
+                    current_correct = option
+                
+                current_options.append(option)
+                    
+            i += 1
+    else:
+        # Old quiz format
+        quiz_section = re.search(r'::: {\.quiz-options}(.*?):::', content, re.DOTALL)
+        if quiz_section:
+            quiz_content = quiz_section.group(1)
+            questions_raw = re.split(r'\d+\.\s+', quiz_content)[1:]  # Split by numbered items
+            
+            for q_raw in questions_raw:
+                lines = q_raw.strip().split('\n')
+                if not lines:
+                    continue
+                    
+                question = lines[0].strip()
+                options = []
+                correct = None
+                
+                for line in lines[1:]:
+                    line = line.strip()
+                    if line.startswith('-'):
+                        # Extract option text
+                        option_match = re.search(r'-\s*\[(x| )\]\s*(.*)', line)
+                        if option_match:
+                            is_correct = option_match.group(1) == 'x'
+                            option_text = option_match.group(2).strip()
+                            options.append(option_text)
+                            if is_correct:
+                                correct = option_text
+                
+                if question and options:
+                    questions.append({
+                        "question": question,
+                        "options": options,
+                        "correct": correct
+                    })
     
-    # Add the last question
+    # Add the last question for RevealJS format
     if current_question and current_options:
         questions.append({
             "question": current_question,
@@ -302,6 +339,12 @@ def display_quiz(questions):
 def main():
     st.title("KIN 479 Interactive Learning")
     
+    # Get URL parameters
+    params = st.experimental_get_query_params()
+    selected_chapter = params.get("chapter", [None])[0]
+    selected_mode = params.get("mode", [None])[0]
+    selected_quiz = params.get("quiz", [None])[0]
+    
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards and quizzes.
     
@@ -340,12 +383,19 @@ def main():
         st.warning("No chapters found. Please add chapter directories (e.g., ch01, ch02) in the 'slides' folder.")
         return
     
-    # Chapter selection
-    chapter = st.selectbox("Select Chapter", chapters)
+    # Chapter selection with URL parameter support
+    chapter = st.selectbox("Select Chapter", chapters, index=chapters.index(selected_chapter) if selected_chapter in chapters else 0)
     chapter_path = os.path.join(base_path, chapter)
     
-    # Mode selection
-    mode = st.radio("Select Mode", ["Flashcards", "Quiz"])
+    # Mode selection with URL parameter support
+    mode_options = ["Flashcards", "Quiz"]
+    mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
+    
+    # Update URL parameters
+    st.experimental_set_query_params(
+        chapter=chapter,
+        mode=mode
+    )
     
     if mode == "Flashcards":
         flashcards_path = os.path.join(chapter_path, 'flashcards')
@@ -353,6 +403,12 @@ def main():
             parts = sorted([f for f in os.listdir(flashcards_path) if f.endswith('.qmd')])
             if parts:
                 part = st.selectbox("Select Part", parts)
+                # Update URL parameters for flashcards
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    quiz=part
+                )
                 content = load_content(os.path.join(flashcards_path, part))
                 flashcards = parse_flashcard_content(content)
                 display_flashcards(flashcards)
@@ -363,7 +419,19 @@ def main():
         if os.path.exists(quizzes_path):
             parts = sorted([f for f in os.listdir(quizzes_path) if f.endswith('.qmd')])
             if parts:
-                part = st.selectbox("Select Part", parts)
+                # Quiz selection with URL parameter support
+                part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
+                # Update URL parameters for quizzes
+                current_url = f"https://kin479.streamlit.app/?chapter={chapter}&mode={mode}&quiz={part}"
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    quiz=part
+                )
+                # Display shareable link with copy button
+                col1, col2 = st.columns([3, 1])
+                with col1:
+                    st.text_input("📎 Share this quiz:", value=current_url, key="share_url", help="Copy this URL to share the quiz")
                 content = load_content(os.path.join(quizzes_path, part))
                 questions = parse_quiz_content(content)
                 display_quiz(questions)
