@@ -9,10 +9,7 @@ slides/
 ├── ch01/
 │   ├── source-files/      # Contains Quarto files
 │   │   ├── js/           # JavaScript files
-│   │   │   ├── audio-player.js
-│   │   │   ├── record-presentation.js
-│   │   │   ├── flux-config.js
-│   │   │   └── flux-bundle.js
+│   │   │   └── audio-player.js
 │   │   └── 479-ch01-1_8.qmd
 │   └── audio/            # Contains audio files
 │       └── 479-ch01-1_8_*.mp3
@@ -61,9 +58,6 @@ format:
 include-in-header:
   - text: |
       <style>
-      .flux-generated-image {
-        max-width: 100%;
-      }
       </style>
       <script>
       window.addEventListener('load', function() {
@@ -71,9 +65,6 @@ include-in-header:
       });
       </script>
       <script src="js/audio-player.js"></script>
-      <script src="js/record-presentation.js"></script>
-      <script src="js/flux-config.js"></script>
-      <script src="js/flux-bundle.js"></script>
       <div id="start-overlay">...</div>
 ---
 ```
@@ -92,7 +83,6 @@ Each slide should follow this structure:
 :::
 
 ::: {.column width="50%"}
-::: {.flux-container data-prompt="Detailed prompt for image generation"}
 :::
 :::
 
@@ -116,21 +106,58 @@ Detailed speaker notes that match the audio content
    - Use naming convention: `479-ch01-1_8_slide_name.mp3`
    - Audio paths should be relative: `../audio/`
 
-2. **Image Generation**
-   - Use `.flux-container` with detailed prompts
-   - Include style specifications in prompts
-   - Keep prompts consistent with slide content
-
 3. **Layout**
    - Use two-column layout with 50% width each
    - Left column for bullet points
-   - Right column for generated images
+   - Right column for content
    - Keep bullet points concise and clear
 
 4. **Notes**
    - Include detailed speaker notes for each slide
    - Notes should match audio content
    - Use conversational, engaging tone
+
+## Slide Design Guidelines
+
+### Images and Icons
+
+1. **Using Font Awesome Icons**
+   - Include Font Awesome in your YAML header:
+     ```yaml
+     format:
+       revealjs:
+         include-in-header:
+           - text: |
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+     ```
+   - Use icons in your slides:
+     ```markdown
+     <i class="fas fa-brain fa-2x"></i>  <!-- Brain icon -->
+     <i class="fas fa-running fa-2x"></i> <!-- Running person -->
+     <i class="fas fa-dumbbell fa-2x"></i> <!-- Dumbbell -->
+     ```
+   - Size options: fa-xs, fa-sm, fa-lg, fa-2x through fa-10x
+   - Browse icons at [Font Awesome](https://fontawesome.com/icons)
+
+2. **Icon Styling**
+   - Add color:
+     ```markdown
+     <i class="fas fa-brain fa-2x" style="color: #ff0000;"></i>
+     ```
+   - Center icons:
+     ```markdown
+     <div style="text-align: center;">
+       <i class="fas fa-brain fa-2x"></i>
+     </div>
+     ```
+   - Multiple icons:
+     ```markdown
+     <div style="text-align: center;">
+       <i class="fas fa-brain fa-2x" style="margin-right: 20px;"></i>
+       <i class="fas fa-arrow-right fa-2x"></i>
+       <i class="fas fa-running fa-2x" style="margin-left: 20px;"></i>
+     </div>
+     ```
 
 ## Mini-Lecture Implementation
 
@@ -340,6 +367,193 @@ Example format:
 6. Keep TRUE option as the first choice always
 7. Disable option shuffling in YAML configuration
 
+## PowerPoint to Quarto Conversion
+
+### Features
+
+- Converts PowerPoint slides to Quarto RevealJS presentation format
+- Preserves speaker notes and formats them according to Quarto's documentation
+- Automatically extracts and saves images from slides
+- Creates two-column layout for slides containing images (65% text, 35% images)
+- Uses level 2 headers (##) for slide titles
+- Maintains PowerPoint bullet points and text formatting
+- Saves output files with the same name as input files (e.g., `lecture.pptx` → `lecture.qmd`)
+
+### Requirements
+
+- Python 3.x
+- python-pptx
+- python-slugify
+
+### Setup Instructions
+
+1. Create a virtual environment (only needed once):
+```bash
+cd slides  # Navigate to the slides directory
+python3 -m venv venv
+```
+
+2. Activate the virtual environment:
+```bash
+# On macOS/Linux:
+source venv/bin/activate
+
+# On Windows:
+venv\Scripts\activate
+```
+
+3. Install required packages (only needed once):
+```bash
+pip install python-pptx python-slugify
+```
+
+### Using the Converter
+
+1. Make sure your virtual environment is activated (see step 2 above)
+
+2. Run the converter:
+```bash
+# If using the virtual environment's Python:
+./venv/bin/python pptx_converter.py path/to/your/presentation.pptx
+
+# Or if your virtual environment is activated:
+python pptx_converter.py path/to/your/presentation.pptx
+```
+
+The script will:
+1. Create an `images` subdirectory in the chapter folder (e.g., `ch01/images/`)
+2. Extract all images from the PowerPoint and save them in the `images` directory
+3. Generate a `.qmd` file with the same name as your PPTX file
+4. Preserve any speaker notes from the PowerPoint in Quarto's `::: {.notes}` format
+
+## Audio Implementation
+
+### Audio Generation Details
+
+The audio files are generated using the ElevenLabs API. To use the audio generation script:
+
+1. Set up ElevenLabs:
+   - Create an account at [ElevenLabs](https://elevenlabs.io)
+   - Get your API key from your account settings
+   - Update the `API_KEY` in `generate_audio.py`
+
+2. Configure Voice Settings:
+   - Default voice ID: `WFP1Wqyc9POBM5u5N5gr`
+   - Model: `eleven_multilingual_v2`
+   - Settings:
+     ```python
+     "voice_settings": {
+         "stability": 0.5,
+         "similarity_boost": 0.75
+     }
+     ```
+   - You can adjust these settings or choose a different voice in the script
+
+3. Running the Script:
+   ```bash
+   # Make sure you're in the virtual environment
+   source venv/bin/activate
+   
+   # Run the script
+   python generate_audio.py
+   ```
+
+4. The script will:
+   - Read all note files from your chapter directory
+   - Generate an audio file for each note
+   - Save the audio files in the chapter's `audio` directory
+   - Use the same base filename as the note file
+
+Remember to keep your API key secure and never commit it to version control.
+
+### Audio Implementation Steps
+
+1. Create the audio-player.js file in your chapter's js directory:
+   ```javascript
+   // Audio player functionality for Reveal.js slides
+   document.addEventListener('DOMContentLoaded', function() {
+       // Function to handle slide transitions
+       function handleSlideTransition() {
+           const currentSlide = Reveal.getCurrentSlide();
+           const audio = currentSlide.querySelector('audio');
+           
+           if (audio) {
+               // If slide has audio, play it and wait for completion
+               audio.play().catch(e => console.log('Audio playback failed:', e));
+               audio.addEventListener('ended', () => {
+                   setTimeout(() => Reveal.next(), 1000); // Wait 1s after audio ends
+               });
+           } else {
+               // If no audio, wait 5 seconds then advance
+               setTimeout(() => Reveal.next(), 5000);
+           }
+       }
+
+       // Configure Reveal.js
+       Reveal.configure({
+           autoSlide: 0, // Disable default auto-sliding
+           loop: false,
+           autoPlayMedia: true // Enable auto-play for media
+       });
+
+       // Listen for slide changes
+       Reveal.on('slidechanged', handleSlideTransition);
+       
+       // Start audio playback for first slide
+       handleSlideTransition();
+   });
+   ```
+
+2. Update your QMD file's YAML header:
+   ```yaml
+   format: 
+     revealjs:
+       # Other settings...
+       auto-play-media: true
+       include-in-header:
+         - text: |
+             <script src="js/audio-player.js"></script>
+   ```
+
+3. Add audio to individual slides:
+   ```markdown
+   ## Your Slide Title
+
+   - Your slide content here
+   - More content
+
+   <div class="audio-source" style="display: none;" data-slide="slide01">
+   <audio preload="none">
+     <source src="../audio/your-audio-file.mp3" type="audio/mpeg">
+   </audio>
+   </div>
+   ```
+
+4. Audio Behavior:
+   - Audio plays automatically when each slide is shown
+   - Slides advance automatically after:
+     - Audio finishes playing (plus 1 second delay)
+     - 5 seconds if there's no audio
+   - You can still use arrow keys or space to manually control slides
+
+5. File Paths:
+   - Audio files: Use relative paths from your QMD file (e.g., `../audio/filename.mp3`)
+   - JavaScript: Place in `js` directory next to your QMD file
+   - Reference paths relative to the QMD file's location
+
+## Troubleshooting
+
+If you see "command not found: python" or similar errors:
+1. Make sure you're using the Python from the virtual environment:
+   ```bash
+   ./venv/bin/python pptx_converter.py your_file.pptx
+   ```
+2. Or activate the virtual environment first:
+   ```bash
+   source venv/bin/activate  # On macOS/Linux
+   python pptx_converter.py your_file.pptx
+   ```
+
 ## Adding New Chapters
 
 To add a new chapter to the web application, follow these steps:
@@ -410,9 +624,7 @@ The web application will automatically detect and display the new chapter in the
    - Check audio file names match slide content
 
 2. **Images**
-   - Verify flux containers are properly configured
-   - Check image generation prompts
-   - Ensure images display correctly
+   - Verify images display correctly
 
 3. **Layout**
    - Test responsive behavior

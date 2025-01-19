@@ -15,8 +15,20 @@ format:
     link-external-newwindow: true
     preview-links: auto
     embed-resources: true
+    auto-play-media: true
 editor: source
 ---
+
+## About the Instructor
+
+::: {.instructor}
+**Instructor**: Ovande Furtado Jr, Ph.D.\
+**Office**: RE 289\
+**Email**: Use Canvas Inbox\
+**Phone**: 818-677-5968
+
+My line of research focuses on three main areas: (1) validation of observational models in psychomotor assessment instruments; (2) the relationship between motor skill competence, perceived motor competence, physical activity levels, and body composition; (3) using AI pattern recognition models to assess fundamental movement skill in children.
+:::
 
 ## Course Overview
 
@@ -69,6 +81,7 @@ This course includes a major group project where you'll investigate a movement d
 - Develop expertise in a specific movement disorder
 - Create and record a professional presentation
 - Engage with peer presentations and provide feedback
+- Ensure to read the full instructions for this assignment, which can be found on Canvas
 :::
 
 ## Movement Disorders
@@ -91,7 +104,7 @@ Choose from disorders such as:
 :::
 :::
 
-**Important Dates**:
+## Important Dates  
 
 - Topic submission: Feb 10 @ 5pm
 - Video presentation: April 14 @ 5pm
@@ -187,3 +200,4 @@ Feel free to:
 ![](/images/logos/csun-logo.png)
 :::
 :::
+

@@ -3,10 +3,17 @@ import json
 import os
 import time
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Configuration
-API_KEY = "sk_fc2bb47c436a4379a953859cf54e1438c5f064c7c818da74"  # Your ElevenLabs API key
-VOICE_ID = "WFP1Wqyc9POBM5u5N5gr"  # You can change this to your preferred voice
+API_KEY = os.getenv("ELEVENLABS_API_KEY")  # Get API key from environment variable
+if not API_KEY:
+    raise ValueError("Missing ELEVENLABS_API_KEY environment variable")
+    
+VOICE_ID = os.getenv("ELEVENLABS_VOICE_ID", "WFP1Wqyc9POBM5u5N5gr")  # Default voice ID if not specified
 XI_API_URL = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}"
 
 def generate_audio(text, output_path):
@@ -56,8 +63,8 @@ def read_note_file(file_path):
 def main():
     # Setup paths
     base_dir = Path(__file__).parent.parent
-    notes_dir = base_dir / "slides" / "ch01" / "notes"
-    audio_dir = base_dir / "slides" / "ch01" / "audio"
+    notes_dir = base_dir / "slides" / "ch00" / "notes"
+    audio_dir = base_dir / "slides" / "ch00" / "audio"
     
     # Create audio directory if it doesn't exist
     audio_dir.mkdir(parents=True, exist_ok=True)
@@ -68,7 +75,7 @@ def main():
         audio_file.unlink()
     
     # Process each note file
-    for note_file in notes_dir.glob("479-ch01-1_8_*_notes.md"):
+    for note_file in notes_dir.glob("479-ch00_*_notes.md"):
         # Extract the identifier from the filename
         identifier = note_file.stem.replace('_notes', '')
         output_path = audio_dir / f"{identifier}.mp3"

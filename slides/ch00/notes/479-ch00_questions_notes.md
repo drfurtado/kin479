@@ -1,0 +1,3 @@
+That brings us to the end of our course overview! I hope I've given you a good picture of what to expect this semester. Now, I'd love to hear from you - what questions do you have? Whether it's about the course content, assignments, or anything else we've covered, don't hesitate to ask. Remember, if you have a question, chances are someone else in the class is wondering the same thing!
+
+If you have questions later, here's how to reach out: For personal concerns or matters requiring confidentiality, contact me through Canvas Inbox. For questions about assignments, please post them under the week's announcement on Canvas > Announcements - this way, everyone can benefit from the answers. I'm here to help you succeed in this course!
