@@ -89,13 +89,13 @@ def parse_quiz_content(content):
     while i < len(lines):
         line = lines[i].strip()
         
-        # Skip empty lines and non-content lines
-        if not line or line.startswith('---') or line.startswith(':::') or line.startswith('##'):
+        # Skip empty lines and YAML front matter
+        if not line or line.startswith('---'):
             i += 1
             continue
             
-        # Question starts with a number
-        if line and line[0].isdigit() and '.' in line:
+        # Question starts with ## and {.quiz-question}
+        if line.startswith('##') and '{.quiz-question}' in line:
             # Save previous question if exists
             if current_question and current_options:
                 questions.append({
@@ -104,21 +104,27 @@ def parse_quiz_content(content):
                     "correct": current_correct
                 })
             
-            # Start new question
-            current_question = line.split('.', 1)[1].strip()
-            current_options = []
-            current_correct = None
+            # Get the question text from the next line
+            i += 1
+            while i < len(lines) and not lines[i].strip():
+                i += 1
+            if i < len(lines):
+                current_question = lines[i].strip()
+                current_options = []
+                current_correct = None
             
         # Option line starts with -
         elif line.startswith('-'):
             option_text = line[1:].strip()  # Remove the dash
-            if '[x]' in option_text:  # Correct answer
-                option = option_text.replace('[x]', '').strip()
-                current_options.append(option)
+            
+            # Extract the actual option text (remove markdown formatting)
+            option = re.sub(r'\[([^\]]+)\].*', r'\1', option_text).strip()
+            
+            # Check if this is the correct answer
+            if '{.correct' in option_text:
                 current_correct = option
-            elif '[ ]' in option_text:  # Wrong answer
-                option = option_text.replace('[ ]', '').strip()
-                current_options.append(option)
+            
+            current_options.append(option)
                 
         i += 1
     
