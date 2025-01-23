@@ -1,0 +1,270 @@
+---
+title: "Chapter 02"
+subtitle: "Current Issues in Human Motor Control"
+
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN479-Motor Control
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+logo: "../../common/images/csun-logo.png"
+
+format: 
+  revealjs:
+    # Theme and Styling
+    theme: default
+    css: ../../common/styles.css
+    width: 1600
+    height: 900
+    fontsize: 40px
+    margin: 0.1
+
+    # Navigation Controls
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: visible
+    controls-position: bottom
+    controls-tutorial: true
+    navigation-mode: linear
+    progress: true
+    slide-number: c/t
+    show-slide-number: all
+
+    # Menu Settings
+    menu: true
+    menu-position: left
+    editor: source
+
+---
+
+## Four "Problems" - Introduction
+
+- **Core Themes** in Human Motor Control:
+  1. **Degrees of Freedom**: Selecting optimal movements from infinite possibilities
+  2. **Sequencing and Timing**: Organizing movement patterns effectively
+  3. **Perceptual-Motor Integration**: Using sensory input to guide movement
+  4. **Neural Plasticity**: Understanding brain adaptation and reorganization
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_four_problems_notes.md >}}
+:::
+
+## Degrees of Freedom Problem
+
+::::: columns
+
+::: {.column width="50%"}
+- **Definition**: 1 degree of freedom = 1 plane of rotation about a joint
+- **Challenge**: Managing multiple degrees of freedom across joints
+- **Key Questions**:
+  - How do we select from infinite movement possibilities?
+  - What guides our movement choices?
+  - How do we achieve coordinated movement?
+:::
+
+::: {.column width="50%"}
+![](../images/slide_3_content-placeholder-5.png)
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_degrees_of_freedom_notes.md >}}
+:::
+
+## 1. Degrees of Freedom Problem
+
+::::: columns
+
+::: {.column width="50%"}
+- **Bernstein's Question** (1967):
+  - How do we select appropriate movement patterns?
+  - What principles guide movement selection?
+- **Hierarchical Organization**:
+  1. Muscle activation coordination
+  2. Joint angle relationships
+  3. Integrated movement patterns
+:::
+
+::: {.column width="50%"}
+![](../images/slide_4_picture-5.png){.center width=80%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_degrees_of_freedom_problem_bernstein_question_notes.md >}}
+:::
+
+## 1. Degrees of Freedom Problem – Solutions
+
+::::: columns
+
+::: {.column width="50%"}
+- Synergies : Groups of muscles that act as a single functional unit
+- Reduces the number of DOF to control
+- Synergies are typically learned
+:::
+
+::: {.column width="50%"}
+![](../images/slide_5_picture-5.png){.center width=80%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_dof_synergies_notes.md >}}
+:::
+
+## 1. Degrees of Freedom Problem -- Solutions
+
+Efficiency :
+
+$$\varepsilon = \frac{W_{TOT}}{E}$$
+
+- $\varepsilon$: Movement efficiency
+- $W_{TOT}$: Total work performed by the body
+- Positive work: Concentric muscle activity
+- Negative work: Eccentric muscle activity
+- $E$: Metabolic energy expenditure
+- Other reasons why we would select a solution?
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_dof_efficiency_notes.md >}}
+:::
+
+## 2. Sequencing and Timing Problem
+
+::::: columns
+
+::: {.column width="65%"}
+- How do we order and time movements that have distinct parts?
+- Simple reaction time (typically 200 ms): Time it takes to respond to a single stimulus
+- Choice reaction time (typically more than 200 ms): Time it takes to respond to stimuli with multiple pairs
+- Which skills need to be sequenced and timed faster than 200 ms?
+:::
+
+::: {.column width="35%"}
+![](../images/slide_7_picture-6.png)
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_sequencing_timing_notes.md >}}
+:::
+
+## 2. Sequencing and Timing Problem
+
+- Typing
+- How is this possible if the time it takes to respond to a stimulus can't be less than 200 ms?
+- Co-articulation: Planning and preparing for one movement while performing another
+- Common in: Speech, drawing/writing, keyboarding
+
+![](../images/sora-piano.gif)
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_sequencing_typing_notes.md >}}
+:::
+
+## 3. Perceptual-Motor Integration Problem
+
+- Perception and action are closely linked—but how?
+    - Two independent processes: feedforward and feedback
+- Feedforward control :
+
+![](../images/slide_10_picture-5.png)
+
+- For which types of movements would we use feedforward control?
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_perceptual_feedforward_notes.md >}}
+:::
+
+## 3. Perceptual-Motor Integration Problem
+
+- Feedback control
+- Which types of movements are controlled by feedback?
+
+![](../images/slide_11_picture-5.png)
+
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_perceptual_feedback_notes.md >}}
+:::
+
+## 3. Perceptual-Motor Integration Problem
+
+- Mirror Neurons: same brain activity while observing movement as performing the movement
+- Can we "practice" through perception?
+- Perception and movement are "coupled"
+
+![](../images/mirror-neurons.png)
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_perceptual_mirror_notes.md >}}
+:::
+
+## 4. Neural plasticity
+
+::::: columns
+
+::: {.column width="65%"}
+- We re-organize neural circuitry due to experience, practice, or development
+- Younger people are more "plastic" than older people
+- Trauma to the brain can make it more "plastic" for a certain period of time
+:::
+
+::: {.column width="35%"}
+![](../images/slide_13_picture-3.png)
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_neural_plasticity_notes.md >}}
+:::
+
+## 4. Neural plasticity
+
+- Somatosensory cortex: Receives information from mechanoreceptors (e.g., muscle spindle)
+
+![](../images/slide_14_picture-5.png)
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_neural_plasticity_somatosensory_cortex_notes.md >}}
+:::
+
+## 4. Neural plasticity
+
+
+- Phantom limb sensations
+- Reorganization of somatosensory cortex
+
+![](../images/slide_15_picture-4.png)
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_neural_plasticity_phantom_limb_sensations_notes.md >}}
+:::
+
+## Summary
+
+- Degrees of Freedom Problem: How do we select the correct movement among infinite solutions?
+- Sequencing and Timing Problem: How do we order our movements?
+- Perceptual-Motor Integration Problem: How do we use sensory information to shape movement?
+- Neural plasticity: How does the brain reorganize due to age, experience, or trauma?
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_summary_notes.md >}}
+:::
+
+## The Four "Problems" - Conclusion
+
+- How do we organize all degrees of freedom?
+- How do we sequence and time our movements?
+- How do perception and action interact?
+- How does the brain adapt to new movements?
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_four_problems_conclusion_notes.md >}}
+:::

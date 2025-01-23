@@ -1,0 +1,7 @@
+Let's talk about what we mean by degrees of freedom in movement. Imagine each joint in your body - like your shoulder, elbow, or wrist. Each of these joints can rotate in different ways, and each direction of rotation is what we call a degree of freedom. For example, your shoulder can move up and down, forward and back, and rotate around - that's three degrees of freedom right there!
+
+Now, here's where it gets interesting. When you think about all the joints in your body working together, there are countless ways to perform even a simple movement. Take reaching for something - you could keep your elbow low or high, rotate your wrist differently, or shift your shoulder in various ways. All these possibilities create what we call the degrees of freedom problem.
+
+Back in 1967, a scientist named Bernstein asked a fascinating question: how do humans choose the right movement pattern from all these possibilities? It's like having too many options at a restaurant - how do you decide what to order? Our body faces a similar challenge with movement, but somehow it manages to choose effectively.
+
+The way our body solves this problem is quite clever. Instead of controlling each muscle and joint separately, it organizes them into coordinated groups. Think of it like conducting an orchestra - rather than telling each musician exactly what to do, the conductor guides groups of instruments to work together harmoniously. Our nervous system does something similar with movement.

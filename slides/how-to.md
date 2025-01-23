@@ -378,6 +378,7 @@ Example format:
 - Uses level 2 headers (##) for slide titles
 - Maintains PowerPoint bullet points and text formatting
 - Saves output files with the same name as input files (e.g., `lecture.pptx` → `lecture.qmd`)
+- if the image is too wide, place it below the bullet points.
 
 ### Requirements
 

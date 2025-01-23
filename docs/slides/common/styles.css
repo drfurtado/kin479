@@ -1,0 +1,32 @@
+/* Base presentation styles */
+.reveal {
+    font-size: 40px;
+}
+
+/* Column layout */
+.reveal .columns {
+    display: flex;
+    gap: 2em;
+}
+
+.reveal .column {
+    flex: 1;
+}
+
+/* Flux container */
+.flux-container {
+    width: 100%;
+    min-height: 500px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flux-generated-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,91 @@
+/* General Styles */
+.reveal {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    color: #333;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.reveal h1 {
+    font-size: 2.5em;
+}
+
+.reveal h2 {
+    font-size: 1.8em;
+}
+
+.reveal h3 {
+    font-size: 1.4em;
+}
+
+/* List Styles */
+.reveal ul, .reveal ol {
+    margin-left: 1em;
+}
+
+.reveal li {
+    margin: 0.5em 0;
+}
+
+/* Column Layout */
+.columns {
+    display: flex;
+    gap: 2em;
+}
+
+.column {
+    flex: 1;
+}
+
+/* Images */
+.reveal img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Code Blocks */
+.reveal pre {
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+/* Notes Section */
+.notes {
+    display: none;
+    font-size: 0.9em;
+    color: #666;
+    padding: 1em;
+    background-color: #f8f9fa;
+    border-left: 4px solid #2c3e50;
+    margin: 1em 0;
+}
+
+/* Author Information */
+.author {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+/* Links */
+.reveal a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.reveal a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
