@@ -1,0 +1,129 @@
+---
+title: "Chapter 02: Current Issues in Human Motor Control"
+subtitle: "Sequencing and Timing Problem"
+
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN479-Motor Control
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+format: 
+  revealjs:
+    # Theme and Styling
+    theme: default
+    css: ../../common/styles.css
+    width: 1600
+    height: 900
+    fontsize: 40px
+    margin: 0.1
+
+    # Navigation Controls
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: visible
+    controls-position: bottom
+    controls-tutorial: true
+    navigation-mode: linear
+    progress: true
+    slide-number: c/t
+    show-slide-number: all
+
+    # Menu Settings
+    menu: true
+    menu-position: left
+    editor: source
+
+    # Auto-advance and Audio Settings
+    keyboard: false
+    include-in-header: "../../common-all-slides/_partials/header.html"
+    include-after-body: "../../common-all-slides/_partials/start-overlay.html"
+
+---
+
+## Review and Preview
+
+:::::::::: columns
+::: {.column width="50%"}
+- **Previous**: Degrees of Freedom Problem
+  - Selecting optimal movements
+  - Synergies and coordination
+  - Efficiency in movement
+:::
+
+::: {.column width="50%"}
+- **Next**: Sequencing and Timing Problem
+  - Organizing movement components
+  - Temporal precision
+  - Motor planning
+:::
+::::::::::
+
+## 2. Sequencing and Timing - Reaction Time
+
+::::: columns
+
+::: {.column width="65%"}
+- How do we order and time movements that have distinct parts?
+- Simple reaction time (typically 200 ms): Time it takes to respond to a single stimulus
+- Choice reaction time (typically more than 200 ms): Time it takes to respond to stimuli with multiple pairs
+- Which skills need to be sequenced and timed faster than 200 ms?
+:::
+
+::: {.column width="35%"}
+![](../images/slide_7_picture-6.png)
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_sequencing_timing_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_sequencing_timing.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 2. Sequencing and Timing - Co-articulation
+
+:::::::::: columns
+::: {.column width="50%"}
+- Typing Example
+  - Skilled typists type faster than they can consciously process
+  - Fingers move in anticipation of future keystrokes
+  - Movements are organized in advance
+:::
+
+::: {.column width="50%"}
+::: {.center}
+![](../images/sora-piano.gif)
+:::
+:::
+::::::::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_sequencing_typing_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_sequencing_typing.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+
+## Coming Up Next: Perceptual-Motor Integration
+
+- Understanding the order of movement components
+- Timing precision in motor control
+- Role of feedback in movement sequences
+- Applications in sports and rehabilitation
+
+

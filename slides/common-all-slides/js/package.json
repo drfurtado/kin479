@@ -1,0 +1,15 @@
+{
+  "name": "together-ai-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Together.ai API",
+  "main": "together-proxy.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0"
+  },
+  "scripts": {
+    "start": "node together-proxy.js"
+  }
+}
