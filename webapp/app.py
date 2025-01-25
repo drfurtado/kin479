@@ -4,6 +4,7 @@ import glob
 import re
 import random
 import base64
+import json
 
 # Set page config
 st.set_page_config(
@@ -423,19 +424,37 @@ def main():
             else:
                 st.warning("No flashcards found for this chapter.")
     elif mode == "Audio Overview":
-        audio_path = os.path.join(chapter_path, 'audio')
-        audio_file = os.path.join(audio_path, 'overview.mp3')
-        if os.path.exists(audio_file):
-            # Display audio player
-            st.audio(audio_file)
-            
-            # Update URL parameters for audio
-            st.experimental_set_query_params(
-                chapter=chapter,
-                mode=mode
-            )
+        # First check for audio URL in chapter config
+        config_path = os.path.join(chapter_path, 'config.json')
+        audio_url = None
+        
+        if os.path.exists(config_path):
+            try:
+                with open(config_path, 'r') as f:
+                    config = json.loads(f.read())
+                    audio_url = config.get('audio_overview_url')
+            except Exception as e:
+                st.error(f"Error reading chapter configuration: {str(e)}")
+        
+        # If we have a URL, use it
+        if audio_url:
+            st.audio(audio_url)
+            st.markdown(f"*Audio hosted externally*")
         else:
-            st.info("No audio overview available for this chapter yet.")
+            # Fall back to local file if exists
+            audio_path = os.path.join(chapter_path, 'audio')
+            audio_file = os.path.join(audio_path, 'overview.mp3')
+            if os.path.exists(audio_file):
+                st.audio(audio_file)
+                st.markdown(f"*Audio hosted locally*")
+            else:
+                st.info("No audio overview available for this chapter yet.")
+        
+        # Update URL parameters for audio
+        st.experimental_set_query_params(
+            chapter=chapter,
+            mode=mode
+        )
     else:
         quizzes_path = os.path.join(chapter_path, 'quizzes')
         if os.path.exists(quizzes_path):
