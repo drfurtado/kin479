@@ -3,6 +3,7 @@ import os
 import glob
 import re
 import random
+import base64
 
 # Set page config
 st.set_page_config(
@@ -344,6 +345,7 @@ def main():
     selected_chapter = params.get("chapter", [None])[0]
     selected_mode = params.get("mode", [None])[0]
     selected_quiz = params.get("quiz", [None])[0]
+    selected_audio = params.get("audio", [None])[0]
     
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards and quizzes.
@@ -353,7 +355,7 @@ def main():
     
     ### How to Use
     1. Select a chapter from the dropdown menu below
-    2. Choose between **Flashcards** or **Quiz** mode
+    2. Choose between **Flashcards**, **Quiz**, or **Audio Overview** mode
     3. For Flashcards:
        - Click on a card to flip it and reveal the answer
        - Use the navigation buttons to move between cards
@@ -387,8 +389,14 @@ def main():
     chapter = st.selectbox("Select Chapter", chapters, index=chapters.index(selected_chapter) if selected_chapter in chapters else 0)
     chapter_path = os.path.join(base_path, chapter)
     
+    # Display shareable link for chapter
+    current_url = f"https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/?chapter={chapter}"
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
+    
     # Mode selection with URL parameter support
-    mode_options = ["Flashcards", "Quiz"]
+    mode_options = ["Flashcards", "Quiz", "Audio Overview"]
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
     # Update URL parameters
@@ -414,6 +422,20 @@ def main():
                 display_flashcards(flashcards)
             else:
                 st.warning("No flashcards found for this chapter.")
+    elif mode == "Audio Overview":
+        audio_path = os.path.join(chapter_path, 'audio')
+        audio_file = os.path.join(audio_path, 'overview.mp3')
+        if os.path.exists(audio_file):
+            # Display audio player
+            st.audio(audio_file)
+            
+            # Update URL parameters for audio
+            st.experimental_set_query_params(
+                chapter=chapter,
+                mode=mode
+            )
+        else:
+            st.info("No audio overview available for this chapter yet.")
     else:
         quizzes_path = os.path.join(chapter_path, 'quizzes')
         if os.path.exists(quizzes_path):
@@ -422,16 +444,11 @@ def main():
                 # Quiz selection with URL parameter support
                 part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
                 # Update URL parameters for quizzes
-                current_url = f"https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/?chapter={chapter}&mode={mode}&quiz={part}"
                 st.experimental_set_query_params(
                     chapter=chapter,
                     mode=mode,
                     quiz=part
                 )
-                # Display shareable link with copy button
-                col1, col2 = st.columns([3, 1])
-                with col1:
-                    st.text_input("📎 Share this quiz:", value=current_url, key="share_url", help="Copy this URL to share the quiz")
                 content = load_content(os.path.join(quizzes_path, part))
                 questions = parse_quiz_content(content)
                 display_quiz(questions)
