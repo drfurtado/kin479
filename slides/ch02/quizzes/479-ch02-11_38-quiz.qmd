@@ -1,0 +1,96 @@
+---
+title: "Chapter 2 Quiz"
+subtitle: "Four Problems in Human Motor Control"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    quiz:
+      checkKey: 'c'
+      resetKey: 'r'
+      shuffleKey: 't'
+      allowNumberKeys: true
+      disableOnCheck: false
+      shuffleOptions: false
+      defaultCorrect: "Correct! You understand this concept."
+      defaultIncorrect: "Review this concept in your notes."
+    footer: "Navigation: Press 'c' to check answer | 'r' to reset | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - quiz
+editor: source
+---
+
+## Movement Synergies {.quiz-question}
+
+Movement synergies help simplify motor control by allowing the brain to direct pre-organized teams of muscles rather than controlling each muscle independently.
+
+- [True]{.correct data-explanation="Correct! Like a soccer team executing practiced plays, synergies allow the brain to manage coordinated groups of muscles instead of controlling hundreds of individual muscles separately."}
+- [False]{data-explanation="Incorrect. Synergies do simplify motor control by grouping muscles into functional teams, reducing what the brain needs to control."}
+
+## Neural Plasticity in Youth {.quiz-question}
+
+Young people's brains are less adaptable than adult brains, making it harder for them to learn new skills.
+
+- [True]{data-explanation="Incorrect. Young brains are actually more adaptable, like softer clay that's more easily molded."}
+- [False]{.correct data-explanation="Correct! Young people's brains are especially adaptable, making it easier for them to learn new skills like languages or sports compared to adults."}
+
+## Reaction Time {.quiz-question}
+
+Simple reaction time to a single stimulus is typically faster than choice reaction time when choosing between different responses.
+
+- [True]{.correct data-explanation="Correct! Simple reaction time is about 200 milliseconds, while choice reaction time (like choosing between different tennis responses) takes longer due to the added complexity of decision-making."}
+- [False]{data-explanation="Incorrect. Choice reaction time does take longer than simple reaction time due to the additional processing needed for decision-making."}
+
+## Movement Sequences {.quiz-question}
+
+Fast movement sequences, like piano playing, are limited by our basic reaction time of 200 milliseconds per movement.
+
+- [True]{data-explanation="Incorrect. We can perform movements faster than our reaction time by grouping them into pre-programmed sequences that unfold automatically."}
+- [False]{.correct data-explanation="Correct! We can perform faster sequences by grouping movements into pre-programmed routines, like dominoes that automatically trigger once set up."}
+
+## Mirror Neurons {.quiz-question}
+
+Mirror neurons in the brain activate only when we physically perform an action, not when we observe others performing it.
+
+- [True]{data-explanation="Incorrect. Mirror neurons activate both when performing an action AND when watching others perform the same action."}
+- [False]{.correct data-explanation="Correct! Mirror neurons activate both when performing an action and when observing others, creating a mental mirror of others' movements."}
+
+## Feedback Control {.quiz-question}
+
+Feedback control in movement involves constant adjustments based on sensory information, similar to steering a car.
+
+- [True]{.correct data-explanation="Correct! Like driving a car, feedback control involves constantly making adjustments based on sensory input (vision, touch, proprioception) during movement."}
+- [False]{data-explanation="Incorrect. Feedback control does involve continuous adjustments based on sensory information during movement."}
+
+## Neural Plasticity After Injury {.quiz-question}
+
+After brain injury, there is a period of increased neural plasticity that can aid in recovery and rehabilitation.
+
+- [True]{.correct data-explanation="Correct! Following brain trauma, the brain enters a period of increased plasticity - like clay becoming temporarily more pliable - which is crucial for rehabilitation and recovery."}
+- [False]{data-explanation="Incorrect. There is indeed a window of enhanced plasticity after brain injury that can help with recovery."}
+
+## Synergy Development {.quiz-question}
+
+Movement synergies are innate and don't require practice to develop.
+
+- [True]{data-explanation="Incorrect. Synergies are learned through practice - initially movements are awkward because we control everything separately."}
+- [False]{.correct data-explanation="Correct! Synergies develop through practice as the brain learns which muscles work well together and organizes them into efficient teams."}
+
+## Observation Learning {.quiz-question}
+
+Watching skilled performances can completely replace physical practice in learning motor skills.
+
+- [True]{data-explanation="Incorrect. While observation through mirror neurons can enhance learning, it cannot completely replace physical practice."}
+- [False]{.correct data-explanation="Correct! While mirror neurons help us learn by observing, we still need actual physical practice to develop capabilities and fine-tune control."}
+
+## Movement Control Integration {.quiz-question}
+
+Most skilled movements rely on a combination of both feedforward and feedback control systems.
+
+- [True]{.correct data-explanation="Correct! We use feedforward control to initiate movements and feedback control to fine-tune them, allowing for quick, accurate, and adaptable movements."}
+- [False]{data-explanation="Incorrect. Skilled movements do combine both feedforward planning and feedback adjustments for optimal control."}

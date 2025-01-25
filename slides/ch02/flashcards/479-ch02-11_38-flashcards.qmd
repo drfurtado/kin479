@@ -1,0 +1,121 @@
+---
+title: "Chapter 2 Flashcards"
+subtitle: "Four Problems in Human Motor Control"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    flashcards:
+      flipKey: 'q'
+      shuffleKey: 't'
+      showFlipButton: true
+    footer: "Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - flashcards
+editor: source
+---
+
+## Movement Synergies {.flashcard}
+
+::: {.flashcard-front}
+Movement Synergies
+:::
+
+::: {.flashcard-back}
+Teams of muscles working together as a single unit to simplify movement control, reducing the number of elements the brain needs to control independently.
+:::
+
+## Simple Reaction Time {.flashcard}
+
+::: {.flashcard-front}
+Simple Reaction Time
+:::
+
+::: {.flashcard-back}
+The time taken to respond to a single stimulus, approximately 200 milliseconds.
+:::
+
+## Choice Reaction Time {.flashcard}
+
+::: {.flashcard-front}
+Choice Reaction Time
+:::
+
+::: {.flashcard-back}
+The time taken to respond when choosing between different possible responses, longer than 200 milliseconds.
+:::
+
+## Neural Plasticity {.flashcard}
+
+::: {.flashcard-front}
+Neural Plasticity
+:::
+
+::: {.flashcard-back}
+The brain's ability to adapt and change its structure and function in response to experience, learning, and injury.
+:::
+
+## Mirror Neurons {.flashcard}
+
+::: {.flashcard-front}
+Mirror Neurons
+:::
+
+::: {.flashcard-back}
+Brain cells that activate both when performing an action and when observing others perform the same action.
+:::
+
+## Feedback Control {.flashcard}
+
+::: {.flashcard-front}
+Feedback Control
+:::
+
+::: {.flashcard-back}
+A movement control system that uses sensory information to make corrections and adjustments during ongoing movement.
+:::
+
+## Feedforward Control {.flashcard}
+
+::: {.flashcard-front}
+Feedforward Control
+:::
+
+::: {.flashcard-back}
+A movement control system where actions are planned and executed based on predicted outcomes, without waiting for sensory feedback.
+:::
+
+## Movement Sequence {.flashcard}
+
+::: {.flashcard-front}
+Movement Sequence
+:::
+
+::: {.flashcard-back}
+A pre-programmed routine of movements that can be triggered to unfold automatically, allowing faster execution than individual reactions.
+:::
+
+## Degrees of Freedom Problem {.flashcard}
+
+::: {.flashcard-front}
+Degrees of Freedom Problem
+:::
+
+::: {.flashcard-back}
+The challenge of how the nervous system manages and controls the numerous possible ways to perform a movement.
+:::
+
+## Perceptual-Motor Integration {.flashcard}
+
+::: {.flashcard-front}
+Perceptual-Motor Integration
+:::
+
+::: {.flashcard-back}
+The process of combining sensory information with motor output to guide and adjust movements.
+:::

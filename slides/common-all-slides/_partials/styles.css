@@ -1,0 +1,67 @@
+.icon-container {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(240, 240, 240, 0.1);
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+.icon-container i {
+  font-size: 8rem;
+  margin-bottom: 1rem;
+  color: #4A90E2;
+}
+.icon-container.neural i { color: #E24A4A; }
+.icon-container.physics i { color: #4AE24A; }
+.icon-container.cognitive i { color: #E2E24A; }
+.icon-container.ergonomic i { color: #4A4AE2; }
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+}
+.icon-grid .icon-item {
+  text-align: center;
+}
+.icon-grid i {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.flux-generated-image {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  border-style: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: none !important;
+  -webkit-box-shadow: none !important;
+}
+.flux-container {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.flux-container img {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+/* Audio source container */
+.audio-source {
+  display: none;
+}
+
+/* Center content */
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

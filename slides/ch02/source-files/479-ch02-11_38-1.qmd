@@ -1,0 +1,186 @@
+---
+title: "Chapter 02: Current Issues in Human Motor Control"
+subtitle: "Degrees of Freedom Problem"
+
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN479-Motor Control
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+format: 
+  revealjs:
+    # Theme and Styling
+    theme: default
+    css: ../../common/styles.css
+    width: 1600
+    height: 900
+    fontsize: 40px
+    margin: 0.1
+
+    # Navigation Controls
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: visible
+    controls-position: bottom
+    controls-tutorial: true
+    navigation-mode: linear
+    progress: true
+    slide-number: c/t
+    show-slide-number: all
+
+    # Menu Settings
+    menu: true
+    menu-position: left
+    editor: source
+
+    # Auto-advance and Audio Settings
+    keyboard: false
+    include-in-header: "../../common-all-slides/_partials/header.html"
+    include-after-body: "../../common-all-slides/_partials/start-overlay.html"
+
+---
+
+## Four "Problems" - Introduction
+
+- **Core Themes** in Human Motor Control:
+  1. **Degrees of Freedom**: Selecting optimal movements from infinite possibilities
+  2. **Sequencing and Timing**: Organizing movement components
+  3. **Perceptual-Motor Integration**: Using sensory input to guide movement
+  4. **Neural Plasticity**: Understanding brain adaptation and reorganization
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_four_problems_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_four_problems.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 1. Degrees of Freedom Problem - Definition
+
+::::: columns
+::: {.column width="50%"}
+- Nikolai Bernstein (1896-1966)
+- Russian physiologist and biomechanist
+- Pioneer in motor control research
+- Studied skilled movements
+:::
+
+::: {.column width="50%"}
+![](../images/slide_3_content-placeholder-5.png)
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_degrees_of_freedom_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_degrees_of_freedom.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 1. Degrees of Freedom Problem - Bernstein Question
+
+::::: columns
+::: {.column width="50%"}
+- **Bernstein's Question** (1967):
+  - How do we select appropriate movement patterns?
+  - What principles guide movement selection?
+- **Hierarchical Organization**:
+  1. Muscle activation coordination
+  2. Joint angle relationships
+  3. Integrated movement patterns
+:::
+
+::: {.column width="50%"}
+![](../images/slide_4_picture-5.png){.center width=80%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_degrees_of_freedom_problem_bernstein_question_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_degrees_of_freedom_problem_bernstein_question.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 1.Degrees of Freedom Problem – Synergies
+
+::::: columns
+::: {.column width="50%"}
+- **Synergies**: Groups of muscles working together
+- **Freezing**: Temporarily reducing available degrees of freedom
+- **Releasing**: Gradually increasing degrees of freedom with practice
+:::
+
+::: {.column width="50%"}
+![](../images/slide_5_picture-5.png){.center width=80%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_dof_synergies_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_dof_synergies.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 1. Degrees of Freedom Problem - Efficiency
+
+Efficiency:
+
+$$\varepsilon = \frac{W_{TOT}}{E}$$
+
+- $\varepsilon$: Movement efficiency
+- $W_{TOT}$: Total work performed by the body
+- Positive work: Concentric muscle activity
+- Negative work: Eccentric muscle activity
+- $E$: Metabolic energy expenditure
+- Other reasons why we would select a solution?
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_dof_efficiency_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_dof_efficiency.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## Coming Up Next: Sequencing and Timing
+
+:::::::::: columns
+::: {.column width="60%"}
+- Understanding the order of movement components
+- Timing precision in motor control
+- Role of feedback in movement sequences
+- Applications in sports and rehabilitation
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<i class="fas fa-clock fa-7x"></i>
+:::
+:::
+::::::::::

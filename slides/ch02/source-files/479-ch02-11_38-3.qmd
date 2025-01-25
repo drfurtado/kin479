@@ -1,0 +1,173 @@
+---
+title: "Chapter 02: Current Issues in Human Motor Control"
+subtitle: "Perceptual-Motor Integration Problem"
+
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN479-Motor Control
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+format: 
+  revealjs:
+    # Theme and Styling
+    theme: default
+    css: ../../common/styles.css
+    logo: ../../common/images/csun-logo.png
+    width: 1600
+    height: 900
+    fontsize: 40px
+    margin: 0.1
+
+    # Navigation Controls
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: visible
+    controls-position: bottom
+    controls-tutorial: true
+    navigation-mode: linear
+    progress: true
+    slide-number: c/t
+    show-slide-number: all
+
+    # Menu Settings
+    menu: true
+    menu-position: left
+    editor: source
+
+    # Auto-advance and Audio Settings
+    keyboard: false
+    include-in-header: "../../common-all-slides/_partials/header.html"
+    include-after-body: "../../common-all-slides/_partials/start-overlay.html"
+
+---
+
+## Review and Preview
+
+:::::::::: columns
+::: {.column width="50%"}
+**Previously Covered:**
+
+- Sequencing and Timing Problem
+- Reaction time concepts
+- Co-articulation in movement
+- Complex movement patterns
+:::
+
+::: {.column width="50%"}
+**In This Section:**
+
+- Perceptual-Motor Integration
+- Feedforward and feedback control
+- Mirror neurons
+- Perception-action coupling
+:::
+::::::::::
+
+## 3. Perceptual-Motor Integration - Feedforward
+
+:::::::::: columns
+::: {.column width="60%"}
+- How sensory information guides movement
+- Visual and proprioceptive feedback
+- Closed-loop vs. open-loop control
+- Real-world applications
+:::
+
+::: {.column width="40%"}
+::: {.center}
+![](../images/slide_10_picture-5.png)
+:::
+:::
+::::::::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_perceptual_feedforward_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_perceptual_feedforward.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 3. Perceptual-Motor Integration - Feedback
+
+:::::::::: columns
+::: {.column width="60%"}
+- **Feedforward Control**: Planning ahead
+- **Feedback Control**: Using sensory information
+- **Hybrid Control**: Combining both approaches
+- Examples in daily activities
+:::
+
+::: {.column width="40%"}
+::: {.center}
+![](../images/slide_11_picture-5.png)
+:::
+:::
+::::::::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_perceptual_feedback_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_perceptual_feedback.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 3. Perceptual-Motor Integration - Mirror Neurons
+
+:::::::::: columns
+::: {.column width="50%"}
+- Mirror neurons fire both when:
+  - Performing an action
+  - Observing someone else perform the same action
+- Implications for:
+  - Motor learning
+  - Rehabilitation
+  - Social interaction
+:::
+
+::: {.column width="50%"}
+::: {.center}
+![](../images/mirror-neurons.png)
+:::
+:::
+::::::::::
+
+::: {.notes}
+{{< include ../notes/479-ch02-11_38_perceptual_mirror_notes.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/479-ch02-11_38_perceptual_mirror.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## Coming Up Next: Neural Plasticity
+
+:::::::::: columns
+::: {.column width="60%"}
+- Brain adaptability and learning
+- Motor learning principles
+- Recovery and rehabilitation
+- Practical applications
+:::
+
+::: {.column width="40%"}
+::: {.center}
+<i class="fas fa-network-wired fa-7x"></i>
+:::
+:::
+::::::::::
