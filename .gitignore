@@ -47,6 +47,11 @@ venv311/
 .venv/
 ENV/
 
+# Audio files
+*.mp3
+slides/**/audio/
+docs/slides/**/audio/
+
 # OS files
 .DS_Store
 .DS_Store?
