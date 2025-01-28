@@ -18,7 +18,7 @@ website:
           - href: assignments/pres-template.qmd
             text: Presentation Template
       - href: https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/  
-        text: Study App
+        text: StudyApp
 
 format:
   html:
