@@ -1,6 +1,6 @@
 ---
 title: "KIN 479: Motor Control Syllabus"
-subtitle: "Sections 19236 and 18404"
+subtitle: "Sections 19236, 18404, and 20917"
 date-modified: last-modified
 date-format: "MMMM D, YYYY"
 format:
