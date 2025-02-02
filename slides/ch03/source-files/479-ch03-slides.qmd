@@ -1,0 +1,892 @@
+---
+title: "Chapter 03: Sensory Physiology"
+
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN479-Motor Control
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+
+logo: "../../assets/images/csun-logo.png"
+
+format: 
+  revealjs:
+    # Theme and Styling
+    theme: default
+    width: 1600
+    height: 900
+    fontsize: 40px
+    margin: 0.1
+
+    # Navigation Controls
+    controls: true
+    controls-layout: edges
+    controls-back-arrows: visible
+    controls-position: bottom
+    controls-tutorial: true
+    navigation-mode: linear
+    progress: true
+    slide-number: c/t
+    show-slide-number: all
+    hash-type: number
+    preview-links: false
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 3
+      buttons: false
+
+    # Menu Settings
+    menu: true
+    menu-position: left
+    editor: source
+
+    # Auto-advance and Audio Settings
+    keyboard: false
+    include-in-header: "../../assets/_partials/header.html"
+    include-after-body: "../../assets/_partials/start-overlay.html"
+---
+
+## 1. Overview
+
+- Our daily lives
+- Sensory receptors
+- Proprioception
+- Major principles of motor neuroscience
+- Body as a complex and coordinated system
+
+
+::: {.notes}
+{{< include ../notes/100.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/100.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 2. Sensory systems (SS)
+
+- The sensory system can be divided into:
+ - Visual
+ - Vestibular
+ - Haptics/proprioception (mechanoreceptors)
+ - Smell - no covered here
+ - Taste – not covered here
+
+
+::: {.notes}
+{{< include ../notes/200.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/200.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+# Chapter 03: Part 1/4: Sensory Systems
+
+## 3. SS Organization
+
+::::: columns
+
+::: {.column width="65%"}
+- Three levels of sensory integration
+    - Receptor level: the sensory receptors…INPUT
+    - Circuit level: ascending pathways…RELAY
+    - Perceptual level: neuronal circuits in the somatosensory cortex (or visual, auditory, vestibular areas)…PROCESSING
+- Each is discussed in the next slides
+:::
+
+::: {.column width="35%"}
+![](images/300.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/300.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/300.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 3.1. SS Organization - Receptor Level
+
+::::: columns
+
+::: {.column width="50%"}
+- Classification
+    - Mechanoreceptors
+        - Free nerve endings, Merkel’s discs, muscle spindles, etc.
+    - Thermoreceptors
+        - Cold, warmth
+    - Electromagnetic Receptors
+        - Vision (rods, cones)
+    - Chemoreceptors
+        - Taste, pH, O 2, etc.
+- Nociceptors?
+:::
+
+::: {.column width="50%"}
+![](images/310.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/310.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/310.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 3.2. SS Organization - Circuit Level
+
+::::: columns
+
+::: {.column width="65%"}
+- Two sensory pathways to the CNS:
+- Dorsal column-medial  lemniscal  tract (DCML)
+    - High degree of spatial localization
+    - Vibration, fine touch, proprioception
+    - FAST: 30-110 m/sec
+- Spinothalamic tract
+    - Poor spatial localization
+    - Temperature, crude touch, pressure, “pain”
+    - SLOWER: 2-40 m/sec
+- Both relay through the thalamus, terminate at the somatosensory cortex
+:::
+
+::: {.column width="35%"}
+![](images/320.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/320.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/320.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 3.3. SS Organization - Perceptual Level
+
+::::: columns
+
+::: {.column width="50%"}
+- Receives input from all spinal cord ascending pathways
+- Relays information to other parts of the brain dedicated to interpreting sensation (Parietal cortex)
+- Spatially organized
+- Larger area dedicated to region = more sensitivity
+:::
+
+::: {.column width="50%"}
+![](images/330.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/330.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/330.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+# Chapter 03: Part 2/4: Proprioception
+
+
+## Transition to Part 2
+
+::::: columns
+::: {.column width="50%"}
+**What we covered:**
+
+- Sensory Systems Organization
+- Types of Sensory Receptors
+- Signal Processing
+- Integration in CNS
+:::
+
+::: {.column width="50%"}
+**What we will cover:**
+
+- Proprioception System
+- Muscle Spindles
+- Golgi Tendon Organs
+- Joint and Skin Receptors
+:::
+:::::
+
+---
+
+## 4. Proprioception - Overview
+
+::::: columns
+
+::: {.column width="65%"}
+- Proprioception: knowledge of one’s position and motion of the body in space
+- Sensory (afferent) information sent to the CNS from different receptors in different structures
+:::
+
+::: {.column width="35%"}
+![](images/400.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/400.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/400.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.1. Proprioception – Muscle Spindle
+
+::::: columns
+
+::: {.column width="50%"}
+- Muscle spindle: Increased firing rate when muscle stretches ( Ia  afferent)
+- Muscle spindle fires at a constant rate when relaxed
+- Action potentials from gamma motor neurons cause contraction of  intrafusal  muscle fiber
+- Stretch of  intrafusal  muscle fiber > increased firing rate from muscle spindle
+- Relaxation > decreased firing rate
+:::
+
+::: {.column width="50%"}
+![](images/410.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/410.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/410.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.2. Proprioception – Golgi Tendon
+
+- Golgi tendon organs (GTO): increased firing rate when muscle is under tension
+
+![](images/420.png){width=100%}
+
+
+
+::: {.notes}
+{{< include ../notes/420.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/420.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.3. Proprioception – Cutaneous Receptors
+
+::::: columns
+
+::: {.column width="50%"}
+- Joint kinesthetic receptors
+    - Joint angles
+    - Combination of different mechanoreceptors
+    - Sense pressure and acceleration/deceleration
+- Cutaneous receptors—sense skin disturbances
+:::
+
+::: {.column width="50%"}
+![](images/430.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/430.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/430.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.4. Proprioception – Tactile Receptors
+
+::::: columns
+
+::: {.column width="50%"}
+- Free nerve endings
+    - Mechanoreceptive or  thermoreceptive
+    - Stimulated by tissue damage (physical or temperature)
+    - Detects ‘pain’, temperature, and crude touch
+- Meissner’s corpuscle
+    - Mechnoreceptive
+    - Discharges at a low frequency (30-50 Hz)
+    - Detects ‘flutter’, or light touch
+:::
+
+::: {.column width="50%"}
+![](images/440.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/440.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/440.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.5. Proprioception – Corpuscles
+
+::::: columns
+
+::: {.column width="50%"}           
+- Pacinian corpuscle
+    - Mechanoreceptive
+    - Discharges at a relatively high frequency (100-300 Hz)
+    - Detects vibration
+- Ruffini’s corpuscle
+    - Mechanoreceptive, parallel to the surface of the skin
+    - Collagen fibers inside lengthen when the skin does
+    - Detects skin stretch
+:::
+
+::: {.column width="50%"}
+![](images/450.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/450.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/450.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.6. Proprioception – Merkel’s Disc
+
+::::: columns
+
+::: {.column width="60%"}
+- Merkel’s disc
+    - Mechanoreceptive
+    - Distorts due to the skin above it moving
+    - Detects fine touch and localization
+- Hair follicle
+    - Located at the base of individual hairs
+    - Discharges when hair is displaced
+    - Detects direction and velocity through hair movement
+:::
+
+::: {.column width="40%"}
+![](images/460.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/460.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/460.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 4.7. Proprioception - Recap
+
+
+![](images/470.png){width=100%}
+
+
+::: {.notes}
+{{< include ../notes/470.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/470.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+# Chapter 03: Part 3/4: Spinal Cord Reflexes
+
+
+## Transition to Part 3
+
+::::: columns
+::: {.column width="50%"}
+**What we covered:**
+
+- Proprioception System
+- Muscle and Joint Receptors
+- Sensory Integration
+- Movement Control
+:::
+
+::: {.column width="50%"}
+**What we will cover:**
+
+- Spinal Cord Reflexes
+- Stretch Reflex
+- Reciprocal Inhibition
+- Motor Control Applications
+:::
+:::::
+
+
+## 5. Spinal Cord Reflexes - Fundamentals
+
+::::: columns
+
+::: {.column width="35%"}
+- Reflexes: Muscle activity that is sensed and regulated at the spinal cord level
+- Crossed extensor reflex: inhibits extensors on one side, excites on the other
+- Reason for this reflex?
+:::
+
+::: {.column width="65%"}
+![](images/500.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/500.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/500.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 5.1. Spinal Cord Reflexes – Reciprocal Inhibition
+
+::::: columns
+
+::: {.column width="50%"}
+- The contraction of one muscle inhibits antagonist activity (and vice versa)
+- The afferent signal comes from the muscle spindle
+- Reason for this reflex?
+:::
+
+::: {.column width="50%"}
+![](images/510.png){width=100%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/510.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/510.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+# Chapter 03: Part 4/4: Vestibular System
+
+## Transition to Part 4
+
+::::: columns
+::: {.column width="50%"}
+**What we covered:**
+
+- Spinal Cord Reflexes
+- Stretch Reflex Mechanisms
+- Motor Control Integration
+- Movement Applications
+:::
+
+::: {.column width="50%"}
+**What we will cover:**
+
+- Vestibular System Anatomy
+- Semicircular Canals
+- Otolith Organs
+- Balance and Orientation
+:::
+:::::
+
+
+## 6. Vestibular System - Anatomy
+
+::::: columns
+
+::: {.column width="60%"}
+- Sensory receptors in the inner ear that sense head rotation and linear acceleration
+- 3 semicircular canals – head rotation
+- Saccule and utricle–head linear acceleration
+:::
+
+::: {.column width="40%"}
+![](images/600.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/600.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/600.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 6.1 Vestibular System - Semicircular Canals
+
+::::: columns
+
+::: {.column width="50%"}   
+- Semicircular canals
+- Filled with fluid (endolymph)
+- Endolymph moves opposite to the head rotation
+- Movement of fluid detected by hair cells in the cupula
+:::
+
+::: {.column width="50%"}
+![](images/610.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/610.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/610.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 6.2 Vestibular System – Mechanotransduction
+
+::::: columns
+
+::: {.column width="50%"}
+- Hair cells
+- Composed of many  stereocilia  and one  kinocilium
+- Move with fluid movement
+- Movement of  stereocilia  transduced into neural activity
+:::
+
+::: {.column width="50%"}
+![](images/620.png){width=100%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/620.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/620.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 6.3 Vestibular System – Polarization 
+
+::::: columns
+
+::: {.column width="50%"}
+- Stereocilia  towards  kinocilium  = depolarization of hair cell
+- Sterocilia  away from  kinocilium  = hyperpolarization
+:::
+
+::: {.column width="50%"}
+![](images/630.png){width=100%}
+:::
+:::::
+
+::: {.notes}
+{{< include ../notes/630.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/630.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+## 6.4 Vestibular System – Head Motion
+
+::::: columns
+
+::: {.column width="50%"}   
+- Head rotation means one hair cell depolarizes, and the other side hyperpolarizes
+    - Head rotation = CCW
+        - CW endolymph fluid movement
+        - Left semicircular canal:  stereocilia  pushed towards  kinocilium  (depolarization, excitation)
+        - Right semicircular canal:  stereocilia  pushed away from  kinocilium  (hyperpolarization, inhibition)
+:::
+
+::: {.column width="50%"}
+![](images/640.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/640.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/640.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.4.1 Vestibular System – Head Motion
+
+![](images/641.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/641.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/641.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.4.2 Vestibular System – Head Motion
+
+![](images/642.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/642.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/642.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.4.3 Vestibular System – Head Motion
+
+![](images/643.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/643.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/643.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.4.4 Vestibular System – Head Motion    
+
+![](images/644.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/644.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/644.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.4.5 Vestibular System – Head Motion
+
+![](images/645.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/645.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/645.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.4.6 Vestibular System – Head Motion
+
+![](images/646.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/646.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/646.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.5 Vestibular System - Otoliths
+
+::::: columns
+
+::: {.column width="60%"}
+- Otoliths: calcium carbonate crystals ( otoconia ) embedded into gelatinous material
+- Hair cells project into material from the other side, and are displaced when the head moves linearly
+- Utricle: horizontal linear acceleration
+- Saccule: vertical linear acceleration
+:::
+
+::: {.column width="40%"}
+![](images/650.png){width=100%}
+:::
+:::::
+
+
+::: {.notes}
+{{< include ../notes/650.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/650.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 6.5.1 Vestibular System - Otolith Response
+
+![](images/651.png){width=100%}
+
+::: {.notes}
+{{< include ../notes/651.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/651.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+---
+
+## 7. Key takeaways
+
+- Proprioception is essential for movement and balance, operating without visual input. Muscle spindles and Golgi tendon organs regulate muscle activity and prevent injury.
+- Cutaneous receptors provide detailed sensations of touch, pressure, and temperature.
+- The vestibular system, including the semicircular canals and otolith organs, is fundamental for equilibrium and spatial orientation.
+- Hair cells transduce mechanical stimuli from movement and gravity into neural signals.
+- The body’s sensory systems work in concert to create a comprehensive understanding of our environment and our place within it.
+
+
+::: {.notes}
+{{< include ../notes/700.md >}}
+:::
+
+<div class="audio-source" style="display: none;">
+<audio preload="none" controls>
+<source src="../audio/700.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>

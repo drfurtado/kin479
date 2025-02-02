@@ -177,6 +177,26 @@ def parse_quiz_content(content):
     
     return questions
 
+def parse_qa_content(content):
+    """Extract Q&A pairs from Quarto markdown content."""
+    qa_pairs = []
+    current_question = None
+    current_answer = None
+    
+    for line in content.split('\n'):
+        if 'Question:' in line:
+            if current_question and current_answer:
+                qa_pairs.append({"question": current_question, "answer": current_answer})
+            current_question = line.split('Question:')[-1].strip()
+            current_answer = None
+        elif 'Answer:' in line:
+            current_answer = line.split('Answer:')[-1].strip()
+    
+    if current_question and current_answer:
+        qa_pairs.append({"question": current_question, "answer": current_answer})
+    
+    return qa_pairs
+
 def load_content(file_path):
     """Load content from file."""
     with open(file_path, 'r') as file:
@@ -338,6 +358,26 @@ def display_quiz(questions):
             st.session_state.quiz_completed = False
             st.rerun()
 
+def display_qa(qa_pairs):
+    """Display Q&A pairs interactively."""
+    if not qa_pairs:
+        st.warning("No Q&A pairs found in this section.")
+        return
+    
+    # Initialize session state for Q&A
+    if 'qa_expanded' not in st.session_state:
+        st.session_state.qa_expanded = [False] * len(qa_pairs)
+    
+    st.markdown("### Questions & Answers")
+    
+    for i, qa in enumerate(qa_pairs):
+        # Create an expander for each Q&A pair
+        with st.expander(f"Q: {qa['question']}", expanded=st.session_state.qa_expanded[i]):
+            st.markdown(f"**A:** {qa['answer']}")
+            # Update session state when expander is clicked
+            if st.session_state.qa_expanded[i] != st.session_state.get(f'qa_expanded_{i}', False):
+                st.session_state.qa_expanded[i] = not st.session_state.qa_expanded[i]
+
 def main():
     st.title("KIN 479 Interactive Learning")
     
@@ -349,20 +389,25 @@ def main():
     selected_audio = params.get("audio", [None])[0]
     
     st.markdown("""
-    Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards and quizzes.
+    Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and audio content.
+    
+    Created by [Ovande Furtado Jr](https://drfurtado.github.io/site/)
     
     The content in this application is based on:  
     Rosenbaum, D. A. (2010). *Human motor control* (2nd ed). Elsevier Inc.
     
     ### How to Use
     1. Select a chapter from the dropdown menu below
-    2. Choose between **Flashcards**, **Quiz**, or **Audio Overview** mode
+    2. Choose between **Flashcards**, **Quiz**, **Q&A**, or **Audio Overview** mode
     3. For Flashcards:
        - Click on a card to flip it and reveal the answer
        - Use the navigation buttons to move between cards
     4. For Quizzes:
        - Answer each question to the best of your ability
        - Submit your answers to see your score and feedback
+    5. For Q&A:
+       - Click on any question to expand and view its answer
+       - Questions are organized by topic for easy reference
     """)
     
     # Initialize session state
@@ -397,7 +442,7 @@ def main():
         st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
     
     # Mode selection with URL parameter support
-    mode_options = ["Flashcards", "Quiz", "Audio Overview"]
+    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
     # Update URL parameters
@@ -455,6 +500,25 @@ def main():
             chapter=chapter,
             mode=mode
         )
+    elif mode == "Q&A":
+        qa_path = os.path.join(chapter_path, 'qa')
+        if os.path.exists(qa_path):
+            parts = sorted([f for f in os.listdir(qa_path) if f.endswith('.qmd')])
+            if parts:
+                part = st.selectbox("Select Part", parts)
+                # Update URL parameters for Q&A
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    quiz=part
+                )
+                content = load_content(os.path.join(qa_path, part))
+                qa_pairs = parse_qa_content(content)
+                display_qa(qa_pairs)
+            else:
+                st.warning("No Q&A content found for this chapter.")
+        else:
+            st.warning("No Q&A directory found for this chapter. Please create a 'qa' directory with .qmd files.")
     else:
         quizzes_path = os.path.join(chapter_path, 'quizzes')
         if os.path.exists(quizzes_path):

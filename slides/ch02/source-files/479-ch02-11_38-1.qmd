@@ -40,8 +40,8 @@ format:
 
     # Auto-advance and Audio Settings
     keyboard: false
-    include-in-header: "../../common-all-slides/_partials/header.html"
-    include-after-body: "../../common-all-slides/_partials/start-overlay.html"
+    include-in-header: "../../assets/_partials/header.html"
+    include-after-body: "../../assets/_partials/start-overlay.html"
 
 ---
 

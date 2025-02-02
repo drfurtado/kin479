@@ -1,0 +1,191 @@
+---
+title: "Chapter 3 Flashcards"
+subtitle: "Topic: Sensory Physiology"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    flashcards:
+      flipKey: 'q'
+      shuffleKey: 't'
+      showFlipButton: true
+    footer: "Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - flashcards
+editor: source
+---
+
+## Automatic vs. Deliberate Movements {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the difference between automatic and deliberate movements?
+:::
+
+::: {.flashcard-back}
+Definition: Automatic movements are rapid responses to stimuli (like withdrawing hand from a hot stove), while deliberate movements require conscious control (like conducting an orchestra).
+:::
+
+## Movement Signals {.flashcard}
+
+::: {.flashcard-front}
+Term: What types of signals trigger movements?
+:::
+
+::: {.flashcard-back}
+Definition: Movements are triggered by both external signals (traffic lights, sounds, physical contact) and internal signals (memories, thoughts, emotions).
+:::
+
+## Muscle Coordination {.flashcard}
+
+::: {.flashcard-front}
+Term: How do muscles work together in movement?
+:::
+
+::: {.flashcard-back}
+Definition: Almost all movements involve multiple muscles working together without conscious control. If we had to consciously control each muscle, skilled movement would be impossible.
+:::
+
+## Synaptic Connections {.flashcard}
+
+::: {.flashcard-front}
+Term: What are the types of synaptic connections and their significance?
+:::
+
+::: {.flashcard-back}
+Definition: Neural connections can be monosynaptic (single synapse) or polysynaptic (multiple synapses). Monosynaptic connections allow for extremely rapid and automatic motor responses.
+:::
+
+## Spinal Cord Pathways {.flashcard}
+
+::: {.flashcard-front}
+Term: How does the spinal cord facilitate nervous system communication?
+:::
+
+::: {.flashcard-back}
+Definition: The spinal cord contains ascending pathways for afferent (incoming sensory) signals and descending pathways for efferent (outgoing motor) signals, enabling communication between the peripheral and central nervous systems.
+:::
+
+## Brain Neural Network {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the scale and structure of the brain's neural network?
+:::
+
+::: {.flashcard-back}
+Definition: The brain contains 10¹² to 10¹⁴ neurons, each with 10⁴ or more synaptic connections, organized into distinct anatomical regions visible to the naked eye.
+:::
+
+## Muscle Structure Components {.flashcard}
+
+::: {.flashcard-front}
+Term: What are extrafusal and intrafusal fibers?
+:::
+
+::: {.flashcard-back}
+Definition: Extrafusal fibers are the main muscle fibers that generate force and produce movement. Intrafusal fibers are smaller fibers contained within muscle spindles, connected to extrafusal fibers to monitor muscle length and movement.
+:::
+
+## Proprioception and Muscle Spindles {.flashcard}
+
+::: {.flashcard-front}
+Term: What is proprioception and how do muscle spindles contribute to it?
+:::
+
+::: {.flashcard-back}
+Definition: Proprioception is the body's ability to understand its position in space. Muscle spindles are key sensory structures that increase their firing rate when muscles stretch and maintain a constant rate when relaxed. They work with other receptors (Golgi tendon organs, joint and skin receptors) to provide comprehensive position and movement information.
+:::
+
+## Pacinian Corpuscle Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the Pacinian corpuscle and what type of sensation does it detect?
+:::
+
+::: {.flashcard-back}
+Definition: The Pacinian corpuscle is a high-frequency vibration detector that fires at 100-300 Hz frequencies. It's specialized for detecting fast, "buzzing" sensations and sudden changes in pressure, like the vibration from power tools or electric toothbrushes.
+:::
+
+## Pacinian Corpuscle Structure {.flashcard}
+
+::: {.flashcard-front}
+Term: How is the Pacinian corpuscle structured and why is this important?
+:::
+
+::: {.flashcard-back}
+Definition: The Pacinian corpuscle has a layered structure like an onion. These layers help filter out slower or constant pressure, making it specifically sensitive to sudden changes in pressure or vibration, enabling detection of quick, transient stimuli.
+:::
+
+## Ruffini's Corpuscles Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the primary function of Ruffini's corpuscles?
+:::
+
+::: {.flashcard-back}
+Definition: Ruffini's corpuscles are mechanoreceptors that lie parallel to the skin surface and specialize in detecting skin stretch. They monitor joint positions and body posture by sensing the elongation of collagen fibers during movements like gripping or wrist twisting.
+:::
+
+## Mechanoreceptor Integration {.flashcard}
+
+::: {.flashcard-front}
+Term: Why do we need different types of mechanoreceptors?
+:::
+
+::: {.flashcard-back}
+Definition: Different mechanoreceptors (Meissner's, Pacinian, Ruffini's) provide a full spectrum of tactile and proprioceptive information. Each type specializes in different sensations (light touch, vibration, stretch), collectively building our overall sense of proprioception and enabling precise movement control.
+:::
+
+## Flexion Reflex {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the flexion reflex and how does it work?
+:::
+
+::: {.flashcard-back}
+Definition: The flexion reflex is a protective response triggered when encountering painful stimuli (like stepping on a tack). Sensory neurons send signals to the spinal cord, activating flexor muscles and inhibiting extensors to rapidly withdraw the affected limb from danger.
+:::
+
+## Crossed Extensor Reflex {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the crossed extensor reflex and why is it important?
+:::
+
+::: {.flashcard-back}
+Definition: The crossed extensor reflex is a contralateral response that maintains balance during the flexion reflex. When one leg withdraws from pain, interneurons in the spinal cord activate extensors and inhibit flexors in the opposite leg to support body weight.
+:::
+
+## Sensorimotor Integration {.flashcard}
+
+::: {.flashcard-front}
+Term: How does sensorimotor integration work in protective reflexes?
+:::
+
+::: {.flashcard-back}
+Definition: Sensorimotor integration in protective reflexes involves coordinating sensory input (pain detection) with motor output (muscle activation/inhibition) while maintaining postural control, all managed through spinal cord circuits without conscious control.
+:::
+
+## Gamma Motor Neurons {.flashcard}
+
+::: {.flashcard-front}
+Term: How do gamma motor neurons affect muscle spindles?
+:::
+
+::: {.flashcard-back}
+Definition: Action potentials from gamma motor neurons cause contraction of intrafusal muscle fibers. When the intrafusal fiber stretches, it leads to an increased firing rate from the muscle spindle.
+:::
+
+## Somatosensory Integration {.flashcard}
+
+::: {.flashcard-front}
+Term: How does the brain process somatosensory information?
+:::
+
+::: {.flashcard-back}
+Definition: The brain receives input from all spinal cord ascending pathways and relays information to parts dedicated to interpreting sensation (Parietal cortex). It's spatially organized, with larger areas dedicated to regions requiring more sensitivity.
+:::

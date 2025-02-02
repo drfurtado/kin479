@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>KIN 479: Human Motor Control – ch03_43-45_50-55</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">KIN 479: Human Motor Control</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-assignments" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Assignments</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-assignments">    
+        <li>
+    <a class="dropdown-item" href="../../../assignments/pres.html">
+ <span class="dropdown-text">Presentation Guidelines</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../assignments/pres-template.html">
+ <span class="dropdown-text">Presentation Template</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/"> 
+<span class="menu-text">StudyApp</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p>Chapter 03 – 43-45</p>
+<p>Movements are made in response to a variety of signals. Some come from the external environment—a traffic light changing from red to green, the sound of a car horn, a thumbtack stepped on accidentally. Others come from the internal environment—a suddenly remembered appointment, an impulsive thought, a deep sentiment. Meanwhile, some movements are automatic while others are deliberate. Withdrawing one’s hand from an unexpectedly hot stove is automatic. Giving a downbeat to a symphony orchestra is usually more deliberate.</p>
+<p>No matter what the signal or context for movement, virtually all movements involve a large number of muscles (see Figure 3.1). These muscles act on our behalf but not with our deliberation. If we had to think about what our muscles do, we would be unable to move skillfully. Given that we move as skillfully as we do, the main challenge in the study of motor physiology is to understand how, from a physical standpoint, we can move and maintain positions as adaptively and effortlessly as we do.</p>
+<p>The nervous system allows for skilled motor performance by relying on a set of linked special-purpose mechanisms. At the lowest levels are sensory receptors and muscle fibers. These structures are connected through a variable number of synapses, or gaps, between neurons. Some of the connections involve only a single synapse (monosynaptic connections). Other connections involve many synapses (polysynaptic connections). Because only a few synapses are required for some sensorimotor loops, some motor responses to sensory inputs are extremely rapid and automatic. The patellar tendon tap, the procedure in which the tendon below your knee is tapped by a physician, is a familiar example.</p>
+<p>Pathways running through the spinal cord allow for communication between the peripheral and central nervous systems. Ascending spinal pathways allow afferent (incoming sensory) signals from the periphery to reach the brain. Descending spinal pathways from the brain allow efferent (outgoing motor) signals from higher centers to reach the periphery, where they excite or inhibit motor neurons and excite or inhibit interneurons (neurons that synapse onto other neurons).</p>
+<p>The brain contains a neural network consisting of 1012 to 1014 neurons, each of which may have 104 or more synaptic connections. The brain is not anatomically homogeneous. Even to the naked eye, distinct brain regions can be discerned (see Figure 3.2). Through dissection and other neuroanatomical techniques, one can see a number of cell types and patterns of connectivity in the brain.</p>
+<p>By recording the activity of neurons in different brain regions and by studying the effects of lesions in various brain sites, it has been found that there are important functional distinctions among brain centers. Some of these centers are primarily devoted to hearing, others are mainly dedicated to vision, others are mainly devoted to smell, and so forth. In the domain of motor control, some centers are involved in relatively low-level aspects of the control of movement and posture, such as the direction and force of single limb movements. Other centers are involved in higher-level aspects, such as the planning of extended sequences of movements. The notion that different parts of the nervous system provide different levels of control provides a helpful didactic principle for reviewing motor neuroscience. To a large extent, it is the principle around which this chapter is organized.</p>
+<p>Some disclaimers should be offered for the review to follow. The review is not meant to be an exhaustive treatment of motor physiology or neuroanatomy. Knowing about these topics is important for a complete understanding of motor neuroscience, but this book is mainly about the psychology of human motor control. Therefore, the more modest aim of this chapter, vis-à-vis neuroscience, is to convey a sense of the major principles of this approach. The Further Reading section at the end of the chapter provides pointers to more information.</p>
+<p>Chapter 3 – 50-55</p>
+<p>Proprioception</p>
+<p>Information about the position and motion of the limbs is provided both by the overt consequences of our actions, perceived primarily through the eyes and ears, and also from sensory receptors within the muscles, tendons, joints, and skin. Information provided by the latter receptors is called proprioception. Proprioceptive information specifically related to movement is called kinesthesis. In this section, we will rely on the term proprioception as an umbrella term for all internal sensing of position, whether position stays constant or changes over time.</p>
+<p>Muscle Spindles</p>
+<p>Only some of the muscle fibers within a muscle group are powerful enough to move or stabilize a limb. These large-diameter muscle fibers are called extrafusal fibers (or extrafusals). In parallel with the extrafusal fibers, and attached to them, are muscle spindles. Muscle spindles contain small muscle fibers called intrafusal fibers (or intrafusals). The intrafusals that make up a muscle spindle are connected to a single extrafusal, as shown in Figure 3.6. The midsection of the muscle spindle contains the spindle’s cell nuclei, which are housed in either a nuclear bag fiber or a nuclear chain fiber.</p>
+<p>A sensory nerve fiber—the Ia afferent—is wrapped around the central region of the nuclear bag fiber as well as the central region of the nuclear chain fiber; the part of the Ia afferent surrounding the spindle is called the primary ending. The Ia afferent responds primarily to differences between the length of the extrafusal and the intrafusal, as well as changes in this length difference over time (Matthews, 1972). When an extrafusal fiber contracts relative to an intrafusal fiber, Ia activity diminishes, but when an extrafusal fiber stretches relative to an intrafusal, Ia activity increases. The increase in Ia activity results in signals being sent to the spinal cord, where they can trigger reflex responses.</p>
+<p>Another sensory fiber—the group II afferent—is wrapped around the peripheral region of the nuclear chain fiber, in what is called the secondary ending. Like the Ia, the activity of the group II afferent diminishes when the extrafusal contracts relative to the intrafusal. Conversely, the activity of the group II afferent increases when the extrafusal stretches relative to the intrafusal. In general, the group II afferent is less sensitive than the Ia (Matthews, 1972; Rothwell, 1987).</p>
+<p>For some time, it was thought that muscle spindle discharge does not contribute to the conscious perception of muscle stretch. This belief was prompted by the claim that awake patients undergoing routine operations on the ankle literally could not tell when someone was pulling their leg (Gelfan &amp; Carter, 1967). In this study, the investigators pulled on the long tendon of the toe muscles to determine whether patients could tell that their tendons were being pulled. They could not. The same result was obtained for the wrist. The long tendons of the finger muscles were tugged and again patients seemed unaware that this manipulation was being carried out. These findings appeared to rule out a contribution of muscle spindle activity to the conscious perception of muscle stretch.</p>
+<p>Matthews and Simmonds (1974) later repeated this procedure and found that patients could in fact detect muscle and tendon stretch quite well. In another study not involving surgery Goodwin, McCloskey, and Matthews (1972) applied vibration to the biceps muscle. Vibration applied to muscle stimulates muscle spindles. Goodwin, McCloskey, and Matthews reasoned that the vibration would activate muscle stretch receptors, so if subjects sensed muscle stretch, they would be able to perceive the limb as being more outstretched than it really was. This is just what happened. As shown in Figure 3.7, when subjects positioned the non-vibrated arm so it matched the perceived position of the vibrated arm they overestimated the angle of the elbow joint; the subjects’ eyes were closed in this procedure. In a control condition, when subjects were asked simply to match the position of the non-vibrated arm with the other arm, they could do so nearly perfectly. Thus, subjects could accurately match the positions of the two arms. The systematic errors observed in the vibration condition suggested that muscle stretch can in fact be perceived.</p>
+<p>Golgi Tendon Organs</p>
+<p>Muscles attach to other anatomical structures—bone or skin—through tendons. Attachments of muscle to skin permit, among other things, changes in facial expression. Dimples, it turns out, are a cute by-product of tendon-to-skin attachments.</p>
+<p>Within tendons are sensory receptors called Golgi tendon organs. These receptors have distinct afferent fibers (Ib fibers) whose response characteristics are, to a first approximation, the opposite of muscle spindles’ (see Figure 3.8). When a muscle twitches—that is, when it undergoes a rapid, single contraction—its muscle stretch receptors usually fire less than before the twitch. By contrast, Golgi tendon organs fire more when the twitch begins and usually stop firing when the twitch is over (Matthews, 1972).</p>
+<p>For some time, it was believed that the exclusive role of Golgi tendon organs is to signal dangerously high muscle tensions. This belief was fostered by the impression that Golgi tendon organs have high thresholds for firing, supposedly because it took a great deal of muscle tension to activate Ib afferents (Rothwell, 1987). More detailed study revealed, however, that tendon organs are in fact quite sensitive to muscle tension. For example, Ib afferents actually respond to induced muscle tensions of a tenth of a gram or less (Binder, Kroin, &amp; Moore, 1977; Houk &amp; Henneman, 1967).</p>
+<p>The threshold for responding to Golgi tendon organ input is modulated by the brain. Patients with reduced communication between the spinal cord and brain due to brain damage may show a symptom that is specifically related to the processing of Golgi tendon organ inputs. In such patients, or at least those with lesions of upper motor neurons, tugging on the arm shows it to be rigid; the muscle has very high tonus. However, if the tugging force is increased, the arm suddenly lets go. This sudden release following earlier sustained resistance to stretch is called the clasp knife response, by analogy to the tendency of a jackknife to resist opening during gradually increasing force, but then to release. The clasp knife response is due to the Golgi tendon organ’s exceeding an unusually high threshold in the patients who exhibit this anomoly. The absence of the clasp knife response in neurologically normal individuals is likely due to low thresholds for muscle contraction in response to stretch of the Golgi tendon organs.</p>
+<p>Joint Receptors</p>
+<p>Sensory endings in the joint provide another source of proprioceptive information. Skoglund (1956) reported that individual joint receptors respond preferentially to different joint angles (see Figure 3.9). Because it also appeared in this study that joint receptors adapt very slowly, continuing to fire for a long time after a joint angle is assumed, Skoglund proposed that joint receptors supply information about static limb position only. Later work called this view into question. Clark and Burgess (1975) and Grigg (1976) found that joint receptors actually adapt quickly, though these receptors mainly fire at extreme joint angles, as if signaling that the body is approaching a not-very-useful position (Rothwell, 1987).</p>
+<p>Cutaneous Receptors</p>
+<p>When movements are made, the skin surface deforms. Standing creates pressure sensations in the soles of the feet, and rubbing one’s hand on a table produces sensations of displacement over the skin surface. The sensory receptors that respond to mechanical deformation of the skin are called mechanoreceptors. Other skin receptors transmit signals that are coded as temperature-related or painful.</p>
+<p>Damage to cutaneous mechanoreceptors can have disruptive effects on performance. Patients with damage to the pressure sensors in the soles of the feet have difficulty maintaining balance if their eyes are closed (Romberg’s sign). Similarly, fine manipulations with the hands and fingers, performed without visual feedback, become difficult if mechanoreceptors in the skin of the hand or fingers are damaged (Rothwell, 1987).</p>
+<p>An indication of the tightness of the coupling between mechanoreceptor activity and motor control is the rapidity with which people can respond to tactile stimuli. In lifting a small object with the fingers, the grip may tighten 80 ms after the object has slipped very slightly (Johansson &amp; Westling, 1988).</p>
+<p>There has been relatively little research on the role of cutaneous receptors in motor control. In the area of robotics, however, increasing attention has been paid to touch because of the need for precise sensing of mechanical disturbances in machine assembly and related tasks. Robots that place nuts on screws perform better if equipped with sensitive touch sensors than if they are not so equipped (Brady et al., 1986). The Steinway piano company has found that equipping robot piano polishers with tactile sensors enhances the robots’ polishing performance (Amato, 1989).</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
