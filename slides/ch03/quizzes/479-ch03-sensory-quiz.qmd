@@ -1,0 +1,96 @@
+---
+title: "Chapter 03 Quiz"
+subtitle: "Topic: Sensory Physiology"
+format:
+  revealjs:
+    theme: default
+    width: 1600
+    height: 900
+    margin: 0.1
+    controls: true
+    navigation-mode: linear
+    quiz:
+      checkKey: 'c'
+      resetKey: 'r'
+      shuffleKey: 't'
+      allowNumberKeys: true
+      disableOnCheck: false
+      shuffleOptions: false
+      defaultCorrect: "Correct! You understand this concept."
+      defaultIncorrect: "Review this concept in your notes."
+    footer: "Navigation: Press 'c' to check answer | 'r' to reset | Arrow keys for next/previous"
+    slide-number: true
+revealjs-plugins:
+  - quiz
+editor: source
+---
+
+## Proprioception Definition {.quiz-question}
+
+Proprioception is considered the body's 'sixth sense' because it allows us to understand our position in space without relying on visual input.
+
+- [True]{.correct data-explanation="Correct! Proprioception relies on signals from muscles, joints, and connective tissue to enable confident movement even without visual confirmation."}
+- [False]{data-explanation="Incorrect. Proprioception is indeed a 'sixth sense' that provides information about body position and movement through non-visual sensory inputs."}
+
+## Muscle Spindle Function {.quiz-question}
+
+Muscle spindles decrease their firing rate when a muscle stretches and increase their rate when the muscle relaxes.
+
+- [True]{data-explanation="Incorrect. This is the opposite of how muscle spindles function."}
+- [False]{.correct data-explanation="Correct! Muscle spindles actually increase their firing rate (Ia afferent) when the muscle stretches and maintain a constant rate when relaxed."}
+
+## Pacinian Corpuscle Detection {.quiz-question}
+
+Pacinian corpuscles are specialized mechanoreceptors that detect high-frequency vibrations between 100-300 Hz.
+
+- [True]{.correct data-explanation="Correct! Pacinian corpuscles are indeed specialized for detecting fast, 'buzzing' sensations in this frequency range, like those from power tools or electric toothbrushes."}
+- [False]{data-explanation="Incorrect. Pacinian corpuscles do specifically detect high-frequency vibrations in the 100-300 Hz range."}
+
+## Ruffini's Corpuscles Location {.quiz-question}
+
+Ruffini's corpuscles are located perpendicular to the skin surface to better detect pressure changes.
+
+- [True]{data-explanation="Incorrect. Ruffini's corpuscles are actually oriented parallel to the skin surface."}
+- [False]{.correct data-explanation="Correct! Ruffini's corpuscles lie parallel to the surface of the skin, which allows them to better detect skin stretch and elongation of collagen fibers."}
+
+## Flexion Reflex Response {.quiz-question}
+
+In the flexion reflex, both flexor and extensor muscles in the affected limb contract simultaneously for better protection.
+
+- [True]{data-explanation="Incorrect. The flexion reflex involves activation of flexors and inhibition of extensors, not simultaneous contraction."}
+- [False]{.correct data-explanation="Correct! The flexion reflex involves activation of flexor muscles and inhibition of extensor muscles to withdraw the limb from danger."}
+
+## Crossed Extensor Reflex {.quiz-question}
+
+The crossed extensor reflex activates extensors in the opposite limb to maintain balance during the flexion reflex.
+
+- [True]{.correct data-explanation="Correct! This reflex activates extensors and inhibits flexors in the opposite leg to support body weight while the affected limb withdraws."}
+- [False]{data-explanation="Incorrect. The crossed extensor reflex does activate extensors in the opposite limb to maintain balance during withdrawal."}
+
+## Gamma Motor Neurons {.quiz-question}
+
+Gamma motor neurons directly cause muscle contraction for movement.
+
+- [True]{data-explanation="Incorrect. Gamma motor neurons contract intrafusal fibers within muscle spindles, not the main muscle fibers."}
+- [False]{.correct data-explanation="Correct! Gamma motor neurons cause contraction of intrafusal muscle fibers within muscle spindles, affecting sensitivity rather than directly causing movement."}
+
+## Somatosensory Processing {.quiz-question}
+
+The brain processes somatosensory information uniformly across all body regions.
+
+- [True]{data-explanation="Incorrect. The brain dedicates different amounts of processing area based on the sensitivity needs of different body regions."}
+- [False]{.correct data-explanation="Correct! The brain's somatosensory processing is spatially organized, with larger areas dedicated to regions requiring more sensitivity."}
+
+## Mechanoreceptor Types {.quiz-question}
+
+Different types of mechanoreceptors are redundant and serve the same function in detecting touch and pressure.
+
+- [True]{data-explanation="Incorrect. Each type of mechanoreceptor is specialized for detecting different types of sensory information."}
+- [False]{.correct data-explanation="Correct! Different mechanoreceptors (Meissner's, Pacinian, Ruffini's) are specialized for different sensations like light touch, vibration, and stretch respectively."}
+
+## Spinal Cord Function {.quiz-question}
+
+The spinal cord's role in reflexes requires conscious control from the brain for all protective responses.
+
+- [True]{data-explanation="Incorrect. The spinal cord can facilitate rapid motor responses independent of brain intervention."}
+- [False]{.correct data-explanation="Correct! The spinal cord enables rapid motor responses and postural adjustments through reflexes without requiring conscious brain intervention."}

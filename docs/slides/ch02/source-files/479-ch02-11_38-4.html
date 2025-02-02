@@ -322,27 +322,6 @@
       margin-right: 0; 
     }
   </style>
-  <link rel="stylesheet" href="../../common-all-slides/_partials/styles.css">
-  <script src="../../common-all-slides/_partials/scripts.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-  <style>
-  .audio-source {
-    position: fixed;
-    bottom: 10px;
-    right: 120px;
-    z-index: 1000;
-    display: none !important;
-    align-items: center;
-  }
-
-  .audio-source audio {
-    width: 150px;
-    height: 30px;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  </style>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -781,41 +760,6 @@ Your browser does not support the audio element. </audio>
         ]
       });
     </script>
-    <style>
-    #start-overlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.9);
-        z-index: 1000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #start-presentation {
-        font-size: 24px;
-        padding: 15px 30px;
-        background: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background 0.3s;
-    }
-
-    #start-presentation:hover {
-        background: #0056b3;
-    }
-    </style>
-
-    <div id="start-overlay">
-      <h2 style="color: white; margin-bottom: 20px;">Click to Start Presentation</h2>
-      <button id="start-presentation">Start</button>
-    </div>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

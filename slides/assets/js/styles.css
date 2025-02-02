@@ -1,0 +1,71 @@
+
+/* Base presentation styles */
+.reveal {
+    font-size: 40px;
+}
+
+/* Title slide customization */
+.reveal .title-slide {
+    text-align: left;
+}
+
+.reveal .title-slide h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.reveal .title-slide h2 {
+    font-size: 1.8em;
+    color: #666;
+}
+
+.reveal .title-slide .author {
+    margin-top: 2em;
+}
+
+.reveal .title-slide .affiliation {
+    font-style: italic;
+    color: #666;
+}
+
+/* Content styles */
+.reveal h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.reveal ul {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.reveal li {
+    margin-bottom: 0.5em;
+}
+
+/* Image and caption styles */
+.reveal img {
+    margin: 0 auto;
+    display: block;
+}
+
+.reveal figcaption {
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+/* Column layout */
+.reveal .slides section {
+    height: 100%;
+}
+
+.reveal .column {
+    font-size: 1em;
+}
+
+.reveal .columns {
+    display: flex;
+    align-items: center;
+}

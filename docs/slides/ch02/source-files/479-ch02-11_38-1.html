@@ -11,7 +11,7 @@
   <meta name="generator" content="quarto-1.5.32">
 
   <meta name="author" content="Ovande Furtado Jr">
-  <meta name="dcterms.date" content="2025-01-24">
+  <meta name="dcterms.date" content="2025-02-02">
   <title>KIN 479: Human Motor Control – Chapter 02: Current Issues in Human Motor Control</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -366,7 +366,7 @@ Ovande Furtado Jr <a href="https://orcid.org/0000-0003-3847-6314" class="quarto-
     </div>
 </div>
 
-  <p class="date">2025-01-24</p>
+  <p class="date">2025-02-02</p>
 </section>
 <section id="four-problems---introduction" class="slide level2">
 <h2>Four “Problems” - Introduction</h2>
@@ -823,78 +823,6 @@ Your browser does not support the audio element. </audio>
       <h2 style="color: white; margin-bottom: 20px;">Click to Start Presentation</h2>
       <button id="start-presentation">Start</button>
     </div>
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const startButton = document.getElementById('start-presentation');
-        const startOverlay = document.getElementById('start-overlay');
-        let presentationStarted = false;
-        let currentAudio = null;
-        
-        function handleSlideChange(event) {
-            if (!presentationStarted) return;
-            
-            // Stop any currently playing audio
-            if (currentAudio) {
-                currentAudio.pause();
-                currentAudio.currentTime = 0;
-            }
-            
-            const currentSlide = event.currentSlide || Reveal.getCurrentSlide();
-            const audioSource = currentSlide.querySelector('.audio-source audio');
-            
-            if (audioSource) {
-                // Disable auto-advance while audio is playing
-                Reveal.configure({ autoSlide: 0 });
-                currentAudio = audioSource;
-                
-                // Play audio after a short delay
-                setTimeout(() => {
-                    const playPromise = currentAudio.play();
-                    if (playPromise !== undefined) {
-                        playPromise.catch(error => {
-                            console.log("Audio playback error:", error);
-                            Reveal.configure({ autoSlide: 5000 });
-                        });
-                    }
-                }, 300);
-                
-                // When audio ends, wait 1 second then advance
-                currentAudio.addEventListener('ended', () => {
-                    setTimeout(() => {
-                        Reveal.next();
-                    }, 1000);
-                });
-            } else {
-                // No audio on this slide, set 5-second auto-advance
-                Reveal.configure({ autoSlide: 5000 });
-            }
-        }
-        
-        if (startButton && startOverlay) {
-            startButton.addEventListener('click', function() {
-                startOverlay.style.display = 'none';
-                presentationStarted = true;
-                
-                // Configure Reveal
-                Reveal.configure({ 
-                    keyboard: true,
-                    touch: true,
-                    autoSlide: 0
-                });
-                
-                // Set up slide change listener
-                Reveal.on('slidechanged', handleSlideChange);
-                
-                // Force a layout update
-                window.dispatchEvent(new Event('resize'));
-                
-                // Start from beginning and handle first slide
-                Reveal.slide(0);
-                handleSlideChange({ currentSlide: Reveal.getCurrentSlide() });
-            });
-        }
-    });</script>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
