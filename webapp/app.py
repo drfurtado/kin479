@@ -5,7 +5,6 @@ import re
 import random
 import base64
 import json
-import pyperclip
 
 # Set page config
 st.set_page_config(
@@ -443,9 +442,18 @@ def main():
         share_url = st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
     with col2:
         # Add a copy to clipboard button
+        st.write("") # Add a blank space to align the button
         if st.button("📋 Copy", key="copy_url_button"):
-            # Attempt to copy to clipboard
-            pyperclip.copy(current_url)
+            # Use Streamlit's built-in clipboard copy
+            st.write(f'<textarea id="copy-text" style="opacity:0;position:absolute;top:-9999px;">{current_url}</textarea>', unsafe_allow_html=True)
+            st.write('''
+            <script>
+            var copyText = document.getElementById("copy-text");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            document.execCommand("copy");
+            </script>
+            ''', unsafe_allow_html=True)
             st.toast('URL Copied to Clipboard!', icon='📋')
     
     # Mode selection with URL parameter support
