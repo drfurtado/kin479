@@ -436,7 +436,7 @@ def main():
     chapter_path = os.path.join(base_path, chapter)
     
     # Display shareable link for chapter
-    current_url = f"https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/?chapter={chapter}"
+    current_url = f"https://kin479.streamlit.app/?chapter={chapter}"
     col1, col2 = st.columns([3, 1])
     with col1:
         st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
