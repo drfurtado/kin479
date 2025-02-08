@@ -2,4 +2,3 @@ streamlit==1.29.0
 pandas>=2.1.0
 markdown==3.5.1
 numpy>=1.26.0
-pyperclip>=1.8.2
