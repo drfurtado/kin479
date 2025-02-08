@@ -1,5 +1,16 @@
-<link rel="stylesheet" href="../../common-all-slides/_partials/styles.css">
-<script src="../../common-all-slides/_partials/scripts.js"></script>
+<link rel="stylesheet" href="../../../slides/assets/_partials/styles.css">
+<script>
+window.addEventListener('load', function() {
+    console.log('Window loaded');
+    if (typeof Reveal !== 'undefined') {
+        console.log('Reveal.js is loaded');
+        console.log('Reveal.js version:', Reveal.VERSION);
+    } else {
+        console.error('Reveal.js is not loaded!');
+    }
+});
+</script>
+<script src="../../../slides/assets/_partials/scripts.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <style>
