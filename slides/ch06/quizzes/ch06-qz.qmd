@@ -1,0 +1,180 @@
+## Eye Movement Control {.quiz-question}
+
+The superior oblique muscle is primarily responsible for straightforward upward eye movement.
+
+-   [True]{data-explanation="Incorrect. The superior rectus is primarily active when looking up."}
+-   [False]{.correct data-explanation="Correct! The superior oblique muscle controls more complex eye rotations."}
+
+## Cranial Nerve Function {.quiz-question}
+
+The abducens nerve (CN VI) controls the medial rectus muscle, which moves the eye towards the nose.
+
+-   [True]{data-explanation="Incorrect. The oculomotor nerve (CN III) controls the medial rectus muscle."}
+-   [False]{.correct data-explanation="Correct! The abducens nerve (CN VI) controls the lateral rectus muscle, which moves the eye away from the nose."}
+
+## Rods and Scotopic Vision {.quiz-question}
+
+Rods are most effective in bright light conditions and are responsible for color vision.
+
+-   [True]{data-explanation="Incorrect. Cones are crucial for our color vision and visual acuity."}
+-   [False]{.correct data-explanation="Correct! Rods are responsible for vision at low light levels (scotopic vision) and do not mediate color."}
+
+## Cone Distribution {.quiz-question}
+
+Cones are evenly distributed throughout the retina, providing consistent visual acuity across the entire visual field.
+
+-   [True]{data-explanation="Incorrect. The fovea is densely packed with cones."}
+-   [False]{.correct data-explanation="Correct! Cones are mostly concentrated in the central vision, particularly in the fovea, leading to higher visual acuity in that area."}
+
+## Optic Chiasm Function {.quiz-question}
+
+At the optic chiasm, all nerve fibers from both eyes cross over to the opposite side of the brain.
+
+-   [True]{data-explanation="Incorrect. At the optic chiasm, there's a crucial crossover of nerve fibers."}
+-   [False]{.correct data-explanation="Correct! Only the nerve fibers from the medial part of the retina cross over to the other side at the optic chiasm."}
+
+## LGN and Visual Fields {.quiz-question}
+
+The right LGN processes information from the left visual field of both eyes.
+
+-   [True]{data-explanation="Incorrect. The right LGN processes information from the right visual field of both eyes."}
+-   [False]{.correct data-explanation="Correct! The right LGN processes information from the right visual field, and the left LGN processes information from the left visual field."}
+
+## Magnocellular Pathway {.quiz-question}
+
+The magnocellular pathway is primarily responsible for processing color and fine details.
+
+-   [True]{data-explanation="Incorrect. Layers 3 through 6 are parvocellular, dealing with fine detail and color."}
+-   [False]{.correct data-explanation="Correct! The magnocellular pathway detects movement and depth and is monochrome."}
+
+## Parvocellular Pathway {.quiz-question}
+
+The parvocellular pathway is faster than the magnocellular pathway and has high-frequency detection capabilities.
+
+-   [True]{data-explanation="Incorrect. The magnocellular layers process movements and broad outlines."}
+-   [False]{.correct data-explanation="Correct! The parvocellular pathway is slower (low frequency) and responsible for color perception, texture, and shape."}
+
+## Fixations and Eye Movement {.quiz-question}
+
+During fixations, the eyes are in constant, rapid motion to gather as much visual information as possible.
+
+-   [True]{data-explanation="Incorrect. Saccades are rapid, ballistic movement of the eyes that abruptly changes the point of fixation."}
+-   [False]{.correct data-explanation="Correct! Fixations are periods where the eye is motionless."}
+
+## Saccades and Reading {.quiz-question}
+
+Saccades are smooth, continuous eye movements used to track moving objects.
+
+-   [True]{data-explanation="Incorrect. Smooth pursuit is the tracking of a moving target across the visual field."}
+-   [False]{.correct data-explanation="Correct! Saccades are rapid, "jumpy" eye movements from fixation to fixation."}
+
+## Scanpath Definition {.quiz-question}
+
+A scanpath refers only to the saccadic movements of the eyes, excluding fixations.
+
+-   [True]{data-explanation="Incorrect. A saccade represents rapid, jerky movements as the eye jumps to a new target."}
+-   [False]{.correct data-explanation="Correct! A scanpath is the trajectory that is a combination of saccades and fixations."}
+
+## Smooth Pursuit Velocity {.quiz-question}
+
+Smooth pursuit eye movements can accurately track targets moving at velocities exceeding 300 degrees per second.
+
+-   [True]{data-explanation="Incorrect. Understanding these movements is critical in many practical applications, from diagnosing neurological disorders to optimizing user interfaces in software design."}
+-   [False]{.correct data-explanation="Correct! Tracking deteriorates closer to 30 deg/s, and corrective saccades can occur for faster velocities."}
+
+## VOR Stabilization {.quiz-question}
+
+The vestibulo-ocular reflex (VOR) helps stabilize vision during head movements by moving the eyes in the same direction as the head.
+
+-   [True]{data-explanation="Incorrect. The last step is the compensatory eye movement, known as the vestibulo-ocular reflex."}
+-   [False]{.correct data-explanation="Correct! The VOR compensates for head motion by causing counter-motion of the eyes."}
+
+## Fovea and Peripheral Vision {.quiz-question}
+
+The fovea is primarily responsible for peripheral vision, allowing for enhanced motion detection in the outer visual field.
+
+-   [True]{data-explanation="Incorrect. The fovea is responsible for our central, sharpest vision."}
+-   [False]{.correct data-explanation="Correct! The fovea is responsible for sharp central vision, not peripheral vision."}
+
+## Visual Cortex Location {.quiz-question}
+
+The visual cortex is located in the frontal lobe of the brain, near the forehead.
+
+-   [True]{data-explanation="Incorrect. Lesion B is located at the optic chiasma."}
+-   [False]{.correct data-explanation="Correct! The visual cortex is located at the back of the brain."}
+
+## Anopia Definition {.quiz-question}
+
+Anopia refers to a condition where a person experiences double vision.
+
+-   [True]{data-explanation="Incorrect. The VOR is critical for maintaining balance and visual focus."}
+-   [False]{.correct data-explanation="Correct! Anopia refers to blindness in one or both eyes; left anopia is the loss of vision in the left eye."}
+
+## Hemifield Processing {.quiz-question}
+
+Information from the right visual field of both eyes is processed in the right LGN.
+
+-   [True]{data-explanation="Incorrect. The brain has complex neural pathways."}
+-   [False]{.correct data-explanation="Correct! Information from the right visual field of both eyes is processed in the left LGN."}
+
+## Contralateral Eye Pathways {.quiz-question}
+
+Information from the contralateral eye goes to LGN layers 2, 3, and 5.
+
+-   [True]{data-explanation="Incorrect. The vestibular system allows us to interact with our environment smoothly."}
+-   [False]{.correct data-explanation="Correct! Information from the contralateral eye goes to LGN layers 1, 4, and 6."}
+
+## Ipsilateral Eye Pathways {.quiz-question}
+
+The ipsilateral eye sends signals to LGN layers 1, 4, and 6.
+
+-   [True]{data-explanation="Incorrect. This is why, when you're trying to read something, you must turn your head or eyes to get the text into your central field of vision."}
+-   [False]{.correct data-explanation="Correct! The ipsilateral eye sends signals to layers 2, 3, and 5."}
+
+## VR and Depth Perception {.quiz-question}
+
+Virtual Reality technology creates immersive experiences without regard for how the eyes perceive depth and distance.
+
+-   [True]{data-explanation="Incorrect. Each position is controlled by a specific set of muscles working in harmony."}
+-   [False]{.correct data-explanation="Correct! VR technology utilizes our understanding of the eye to simulate immersive experiences by mimicking how our eyes perceive depth and distance."}
+
+## Extraocular Muscle Number {.quiz-question}
+
+There are eight rectus muscles attached to each eye, controlling its movement.
+
+-   [True]{data-explanation="Incorrect. This involves rapid and precise adjustments to maintain stable and clear vision."}
+-   [False]{.correct data-explanation="Correct! There are six muscles attached to the eye: four rectus muscles and two oblique muscles."}
+
+## Retina as a Sensor {.quiz-question}
+
+The retina acts like a projector, casting images onto the back of the eye for interpretation.
+
+-   [True]{data-explanation="Incorrect. This helps us pinpoint the damage location based on the patient's symptoms."}
+-   [False]{.correct data-explanation="Correct! The retina works like a camera sensor, converting light into neural signals for our brain to interpret."}
+
+## Visual Acuity and Fixation {.quiz-question}
+
+Visual acuity is highest in the peripheral vision, away from the fixation point.
+
+-   [True]{data-explanation="Incorrect. These saccades represent both eyes' quick, simultaneous movements between fixation points when reading."}
+-   [False]{.correct data-explanation="Correct! Visual acuity is highest at the fixation point in the fovea."}
+
+## Saccades in Reading Fluency {.quiz-question}
+
+Frequent regressions (backward saccades) always indicate superior reading comprehension.
+
+-   [True]{data-explanation="Incorrect. Consider how you can read a sign while walking or nod your head without losing focus on what you're looking at. That's your vestibular system and vestibulo-ocular reflex in action."}
+-   [False]{.correct data-explanation="Correct! Efficient saccades, not regressions, are essential for reading fluency."}
+
+## Left-Side Neglect Definition {.quiz-question}
+
+Left-side neglect is a visual impairment where individuals cannot see objects on their left side.
+
+-   [True]{data-explanation="Incorrect. That's because you're relying more on your rods, which are more sensitive to light but located more peripherally in your retina."}
+-   [False]{.correct data-explanation="Correct! Left-side neglect is a condition where patients ignore or are unaware of the left side of space."}
+
+## VOR and Head Movement {.quiz-question}
+
+During the VOR, if the head turns to the right, the eyes move to the right to maintain focus.
+
+-   [True]{data-explanation="Incorrect. Assessme
