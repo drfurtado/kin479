@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.32">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ovande Furtado Jr., PhD">
 
-<title>KIN 479: Human Motor Control – Group Presentation Assignment</title>
+<title>Group Presentation Assignment – KIN 479: Human Motor Control</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/"> 
+    <a class="nav-link" href="https://kin479.streamlit.app/"> 
 <span class="menu-text">StudyApp</span></a>
   </li>  
 </ul>
@@ -306,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="appendix-c-evaluation-rubrics">Appendix C: Evaluation Rubrics</h3>
 <section id="video-recording-70-points" class="level4">
 <h4 class="anchored" data-anchor-id="video-recording-70-points">Video Recording (70 points)</h4>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 20%">
@@ -384,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="peer-evaluation-for-group-members-20-points" class="level4">
 <h4 class="anchored" data-anchor-id="peer-evaluation-for-group-members-20-points">Peer Evaluation for Group Members (20 points)</h4>
 <p>Each group member should evaluate their teammates’ contributions to the project using the following rubric. The total score for each member will be the average of the scores given by their teammates.</p>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 20%">
@@ -442,7 +442,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="peer-engagement---extra-credit-9-points" class="level4">
 <h4 class="anchored" data-anchor-id="peer-engagement---extra-credit-9-points">Peer Engagement - Extra Credit (9 points)</h4>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 20%">
 <col style="width: 20%">
@@ -586,8 +586,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -698,7 +696,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

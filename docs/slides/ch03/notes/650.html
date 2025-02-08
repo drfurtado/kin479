@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.32">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KIN 479: Human Motor Control – quarto-inputb8149bdc55a1a2cd</title>
+<title>quarto-input6b0fdf7da88d0fd3 – KIN 479: Human Motor Control</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/"> 
+    <a class="nav-link" href="https://kin479.streamlit.app/"> 
 <span class="menu-text">StudyApp</span></a>
   </li>  
 </ul>
@@ -130,12 +130,12 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<p>This slide illustrates the dynamic response of the otolith organs to changes in head position, offering a concrete example of how these structures detect head tilts and the force of gravity. On the right, we see two illustrations. The top one shows the head upright, with the otoliths exerting pressure directly downwards on the hair cells due to gravity. The bottom illustration depicts the head tilted forward, changing the direction of the gravitational force on the otoliths and, consequently, on the sensory hair cells. The left-hand graphs correspond to these positions and demonstrate how the hair cells’ discharge rate changes over time during and after a tilt. Graph (A) shows the response to a constant head tilt, with a high and steady discharge rate that eventually adapts to a lower steady state, reflecting the static position. Graph (B) shows the initial response to a head tilt, with a spike in activity that quickly returns to a baseline as the head remains tilted. This represents the dynamic phase of adaptation, when the head first tilts and the otoliths move, followed by the static phase, when the head stops moving. These graphs reveal the otolith organs’ ability to quickly adapt to new head positions, an essential feature for maintaining balance and orientation in our daily activities. This script is constructed to explain how otolith organs in the vestibular system respond to head tilts, using graphical data to convey the concept of sensory adaptation in balance and orientation. It prompts the audience to engage with the content by asking questions or seeking further clarification.</p>
+<p>This diagram provides a detailed view of the otolith organs within the vestibular system: the utricle and the saccule. These structures are key to understanding how we perceive linear acceleration and gravitational forces. The upper section of the image depicts the anatomical layout of the inner ear, including the utricle and saccule, highlighted here. These organs contain sensory hair cells covered by a gel-like layer topped with tiny calcium carbonate crystals called otoconia. The lower part of the image magnifies the otolithic membrane, where the hair cells and otoconia reside. When we experience movement, such as tilting or linear acceleration, gravity causes the otoconia to shift. This shift exerts a force on the otolithic membrane, bending the hair cells beneath. As the hair cells bend, they transduce these mechanical forces into electrical signals sent via the vestibular nerve. The brain interprets these signals to discern changes in our head’s position relative to gravity, aiding our overall sense of balance. This precise mechanism allows us to maintain our equilibrium while performing activities such as standing up, walking, or riding in a vehicle. In short, the otolith organs explain how they contribute to the body’s sense of equilibrium by translating the mechanical forces of movement into electrical signals for the brain to interpret. It encourages further inquiry into their functions and significance.</p>
 
 
 
@@ -222,8 +222,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -334,7 +332,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
