@@ -441,20 +441,14 @@ def main():
     with col1:
         share_url = st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
     with col2:
-        # Add a copy to clipboard button
-        st.write("") # Add a blank space to align the button
-        if st.button("📋 Copy", key="copy_url_button"):
-            # Use Streamlit's built-in clipboard copy
-            st.write(f'<textarea id="copy-text" style="opacity:0;position:absolute;top:-9999px;">{current_url}</textarea>', unsafe_allow_html=True)
-            st.write('''
-            <script>
-            var copyText = document.getElementById("copy-text");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999);
-            document.execCommand("copy");
-            </script>
-            ''', unsafe_allow_html=True)
-            st.toast('URL Copied to Clipboard!', icon='📋')
+        # Add a blank space to align the button
+        st.write("") 
+        # Use st.components to create a clipboard copy button
+        copy_html = f'''
+        <button onclick="navigator.clipboard.writeText('{current_url}').then(() => 
+            alert('URL Copied to Clipboard!'))">📋 Copy</button>
+        '''
+        st.components.v1.html(copy_html, height=50)
     
     # Mode selection with URL parameter support
     mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
