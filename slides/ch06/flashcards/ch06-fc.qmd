@@ -1,0 +1,299 @@
+## Lateral/Medial Rectus {.flashcard}
+
+::: {.flashcard-front}
+Term: **Lateral/Medial Rectus**
+:::
+
+::: {.flashcard-back}
+Definition: Muscles responsible for **horizontal eye movement**.
+:::
+
+## Superior/Inferior Rectus {.flashcard}
+
+::: {.flashcard-front}
+Term: **Superior/Inferior Rectus**
+:::
+
+::: {.flashcard-back}
+Definition: Muscles responsible for **up/down eye movement + medial movement**.
+:::
+
+## Superior/Inferior Oblique {.flashcard}
+
+::: {.flashcard-front}
+Term: **Superior/Inferior Oblique**
+:::
+
+::: {.flashcard-back}
+Definition: Muscles responsible for **down/up eye movement + lateral movement**.
+:::
+
+## Oculomotor Nerve (CN III) {.flashcard}
+
+::: {.flashcard-front}
+Term: **Oculomotor Nerve (CN III)**
+:::
+
+::: {.flashcard-back}
+Definition: Cranial nerve that controls the **superior rectus, medial rectus, inferior rectus, and inferior oblique muscles**.
+:::
+
+## Trochlear Nerve (CN IV) {.flashcard}
+
+::: {.flashcard-front}
+Term: **Trochlear Nerve (CN IV)**
+:::
+
+::: {.flashcard-back}
+Definition: Cranial nerve that controls the **superior oblique muscle**.
+:::
+
+## Abducens Nerve (CN VI) {.flashcard}
+
+::: {.flashcard-front}
+Term: **Abducens Nerve (CN VI)**
+:::
+
+::: {.flashcard-back}
+Definition: Cranial nerve that controls the **lateral rectus muscle**.
+:::
+
+## Rods {.flashcard}
+
+::: {.flashcard-front}
+Term: **Rods**
+:::
+
+::: {.flashcard-back}
+Definition: Photoreceptors responsible for **vision at low light levels (scotopic vision)**, do not mediate color, have low acuity, and are mostly in peripheral vision.
+:::
+
+## Cones {.flashcard}
+
+::: {.flashcard-front}
+Term: **Cones**
+:::
+
+::: {.flashcard-back}
+Definition: Photoreceptors responsible for **vision in bright light (photopic vision)**, mediate color, have high acuity, and are mostly in central vision.
+:::
+
+## Optic Nerve {.flashcard}
+
+::: {.flashcard-front}
+Term: **Optic Nerve**
+:::
+
+::: {.flashcard-back}
+Definition: Carries **information from each eye** to the brain.
+:::
+
+## Optic Chiasm {.flashcard}
+
+::: {.flashcard-front}
+Term: **Optic Chiasm**
+:::
+
+::: {.flashcard-back}
+Definition: Location where **light detected on the medial part of the retina crosses over to the other side of the brain**.
+:::
+
+## Lateral Geniculate Nucleus (LGN) {.flashcard}
+
+::: {.flashcard-front}
+Term: **Lateral Geniculate Nucleus (LGN)**
+:::
+
+::: {.flashcard-back}
+Definition: Relay in the **thalamus** where visual information terminates before being relayed to the visual cortex for processing. The right LGN processes information from the right visual field of both eyes, and vice versa.
+:::
+
+## Magnocellular Pathway {.flashcard}
+
+::: {.flashcard-front}
+Term: **Magnocellular Pathway**
+:::
+
+::: {.flashcard-back}
+Definition: One of two LGN pathways, also known as the “where” pathway or ventral pathway, detects **movement and depth**, is faster (high frequency), and monochrome.
+:::
+
+## Parvocellular Pathway {.flashcard}
+
+::: {.flashcard-front}
+Term: **Parvocellular Pathway**
+:::
+
+::: {.flashcard-back}
+Definition: One of two LGN pathways, also known as the “what” pathway or dorsal pathway, responsible for **color perception, texture, and shape**, and is slower (low frequency).
+:::
+
+## Fixations {.flashcard}
+
+::: {.flashcard-front}
+Term: **Fixations**
+:::
+
+::: {.flashcard-back}
+Definition: Periods where the **eye is motionless**, varying from 100-1000 ms. Goal is centering of fovea.
+:::
+
+## Saccades {.flashcard}
+
+::: {.flashcard-front}
+Term: **Saccades**
+:::
+
+::: {.flashcard-back}
+Definition: **"Jumpy" eye movements** from fixation to fixation, very fast (can be over 700 degrees/sec), and occur in between fixations.
+:::
+
+## Scanpath {.flashcard}
+
+::: {.flashcard-front}
+Term: **Scanpath**
+:::
+
+::: {.flashcard-back}
+Definition: Trajectory that is a **combination of saccades and fixations**.
+:::
+
+## Smooth Pursuit {.flashcard}
+
+::: {.flashcard-front}
+Term: **Smooth Pursuit**
+:::
+
+::: {.flashcard-back}
+Definition: **Tracking of a moving target** across the visual field, with the CNS goal being matching of velocity of target and saccades matching position of target.
+:::
+
+## Vestibular-Ocular Reflex (VOR) {.flashcard}
+
+::: {.flashcard-front}
+Term: **Vestibular-Ocular Reflex (VOR)**
+:::
+
+::: {.flashcard-back}
+Definition: Interaction between the **visual system and vestibular system** to maintain fixations. Motion of the head is compensated for by counter-motion of eyes.
+:::
+
+## Fovea {.flashcard}
+
+::: {.flashcard-front}
+Term: **Fovea**
+:::
+
+::: {.flashcard-back}
+Definition: **Center of field of vision** where retinal cones are more concentrated. It is a small pit located in the macula of the retina, responsible for sharpest vision. Critical for tasks that require visual detail, such as reading and driving.
+:::
+
+## Visual Cortex {.flashcard}
+
+::: {.flashcard-front}
+Term: **Visual Cortex**
+:::
+
+::: {.flashcard-back}
+Definition: Located at the back of the brain, this is where **signals are interpreted, allowing us to see shapes, colors, and movements**.
+:::
+
+## Left Anopia {.flashcard}
+
+::: {.flashcard-front}
+Term: **Left Anopia**
+:::
+
+::: {.flashcard-back}
+Definition: Represents a **complete interruption on the left, resulting in the loss of vision in the left eye**.
+:::
+
+## Visual Field Defect {.flashcard}
+
+::: {.flashcard-front}
+Term: **Visual Field Defect**
+:::
+
+::: {.flashcard-back}
+Definition: Damage at any point along the visual pathway can lead to specific types of vision loss. Lesions in different parts of the visual pathway can lead to specific visual field defects.
+:::
+
+## Hemifields and LGN {.flashcard}
+
+::: {.flashcard-front}
+Term: **Hemifields and LGN**
+:::
+
+::: {.flashcard-back}
+Definition: **Visual information from the right hemifield of both eyes is transmitted to the left LGN and information from the left hemifield to the right LGN**. This crossover is crucial for binocular vision and depth perception.
+:::
+
+## Contralateral Eye {.flashcard}
+
+::: {.flashcard-front}
+Term: **Contralateral Eye**
+:::
+
+::: {.flashcard-back}
+Definition: **Information from the contralateral eye (opposite side) goes to LGN layers 1, 4, and 6**.
+:::
+
+## Ipsilateral Eye {.flashcard}
+
+::: {.flashcard-front}
+Term: **Ipsilateral Eye**
+:::
+
+::: {.flashcard-back}
+Definition: **The ipsilateral eye (same side) sends signals to layers 2, 3, and 5**.
+:::
+
+## Eye Movement and Virtual Reality {.flashcard}
+
+::: {.flashcard-front}
+Term: **Eye Movement and Virtual Reality**
+:::
+
+::: {.flashcard-back}
+Definition: VR technology utilizes our understanding of the eye to **simulate immersive experiences by mimicking how our eyes perceive depth and distance**.
+:::
+
+## Extraocular Muscles {.flashcard}
+
+::: {.flashcard-front}
+Term: **Extraocular Muscles**
+:::
+
+::: {.flashcard-back}
+Definition: Six muscles attach to the eye, each responsible for different movements: **four rectus muscles control the straightforward movements up, down, left, and right, while the two oblique muscles control the more complex eye rotations**.
+:::
+
+## Retina {.flashcard}
+
+::: {.flashcard-front}
+Term: **Retina**
+:::
+
+::: {.flashcard-back}
+Definition: At the back of the eye, the retina **works like a camera sensor, converting light into neural signals for our brain to interpret**.
+:::
+
+## Visual Acuity {.flashcard}
+
+::: {.flashcard-front}
+Term: **Visual Acuity**
+:::
+
+::: {.flashcard-back}
+Definition: The **clarity or sharpness of vision**. Acuity decreases as we move further away from the fixation point, so peripheral vision is less sharp.
+:::
+
+## Left-Side Neglect {.flashcard}
+
+::: {.flashcard-front}
+Term: **Left-Side Neglect**
+:::
+
+::: {.flashcard-back}
+Definition: A neurological condition that causes the patient to **ignore or be unaware of the left side of space**.
+:::

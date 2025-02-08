@@ -1,0 +1,89 @@
+Question: What is the function of the lateral and medial rectus muscles?
+Answer: The lateral and medial rectus muscles are responsible for **horizontal eye movement**.
+
+Question: What movements do the superior and inferior rectus muscles control?
+Answer: The superior and inferior rectus muscles control **up/down eye movement** and **medial movement**.
+
+Question: What is the role of the superior and inferior oblique muscles?
+Answer: The superior and inferior oblique muscles are responsible for **down/up eye movement** and **lateral movement**.
+
+Question: Which cranial nerve innervates the superior rectus, medial rectus, inferior rectus, and inferior oblique muscles?
+Answer: The **oculomotor nerve (CN III)** controls the superior rectus, medial rectus, inferior rectus, and inferior oblique muscles.
+
+Question: Which cranial nerve controls the superior oblique muscle?
+Answer: The **trochlear nerve (CN IV)** controls the superior oblique muscle.
+
+Question: Which cranial nerve innervates the lateral rectus muscle?
+Answer: The **abducens nerve (CN VI)** controls the lateral rectus muscle.
+
+Question: What type of vision are rods responsible for?
+Answer: Rods are responsible for **vision at low light levels (scotopic vision)**. They do not mediate color, have low acuity, and are mostly in peripheral vision.
+
+Question: What is the function of cones in vision?
+Answer: Cones are responsible for **vision in bright light (photopic vision)**. They mediate color, have high acuity, and are mostly in central vision.
+
+Question: What is the role of the optic nerve?
+Answer: The optic nerve carries **information from each eye** to the brain.
+
+Question: What happens at the optic chiasm?
+Answer: At the optic chiasm, **light detected on the medial part of the retina crosses over to the other side of the brain**.
+
+Question: What is the lateral geniculate nucleus (LGN)?
+Answer: The lateral geniculate nucleus (LGN) is a **relay in the thalamus** where visual information terminates before being relayed to the visual cortex for processing. The right LGN processes information from the right visual field of both eyes, and vice versa.
+
+Question: What does the magnocellular pathway detect?
+Answer: The magnocellular pathway, also known as the “where” pathway, detects **movement and depth**, is faster (high frequency), and monochrome.
+
+Question: What is the function of the parvocellular pathway?
+Answer: The parvocellular pathway, also known as the “what” pathway, is responsible for **color perception, texture, and shape**, and is slower (low frequency).
+
+Question: What are fixations in eye movements?
+Answer: Fixations are periods where the **eye is motionless**, varying from 100-1000 ms. The goal is centering of fovea.
+
+Question: What are saccades?
+Answer: Saccades are **"jumpy" eye movements** from fixation to fixation, very fast (can be over 700 degrees/sec), and occur in between fixations.
+
+Question: What is a scanpath?
+Answer: A scanpath is a trajectory that is a **combination of saccades and fixations**.
+
+Question: What is smooth pursuit eye movement?
+Answer: Smooth pursuit is the **tracking of a moving target** across the visual field, with the CNS goal being matching of velocity of target and saccades matching position of target.
+
+Question: What is the vestibulo-ocular reflex (VOR)?
+Answer: The vestibulo-ocular reflex (VOR) is the interaction between the **visual system and vestibular system** to maintain fixations. Motion of the head is compensated for by counter-motion of eyes.
+
+Question: What is the function of the fovea?
+Answer: The **fovea** is the center of the field of vision where retinal cones are more concentrated. It is responsible for sharp central vision and is critical for tasks that require visual detail, such as reading and driving.
+
+Question: What is the role of the visual cortex?
+Answer: Located at the back of the brain, the **visual cortex** is where signals are interpreted, allowing us to see shapes, colors, and movements.
+
+Question: What is left anopia?
+Answer: Left anopia represents a **complete interruption on the left, resulting in the loss of vision in the left eye**.
+
+Question: What can cause a visual field defect?
+Answer: Damage at any point along the visual pathway can lead to specific types of vision loss. Lesions in different parts of the visual pathway can lead to specific visual field defects.
+
+Question: How are hemifields and the LGN related?
+Answer: **Visual information from the right hemifield of both eyes is transmitted to the left LGN and information from the left hemifield to the right LGN**. This crossover is crucial for binocular vision and depth perception.
+
+Question: What is the contralateral eye's role in neural pathways of vision?
+Answer: **Information from the contralateral eye (opposite side) goes to LGN layers 1, 4, and 6**.
+
+Question: What is the ipsilateral eye's role in neural pathways of vision?
+Answer: **The ipsilateral eye (same side) sends signals to layers 2, 3, and 5**.
+
+Question: How is eye movement related to virtual reality?
+Answer: VR technology utilizes our understanding of the eye to **simulate immersive experiences by mimicking how our eyes perceive depth and distance**.
+
+Question: What are the extraocular muscles?
+Answer: Six muscles attach to the eye, each responsible for different movements: **four rectus muscles control the straightforward movements up, down, left, and right, while the two oblique muscles control the more complex eye rotations**.
+
+Question: What is the function of the retina?
+Answer: At the back of the eye, the retina **works like a camera sensor, converting light into neural signals for our brain to interpret**.
+
+Question: What is visual acuity?
+Answer: **Visual acuity** is the clarity or sharpness of vision. Acuity decreases as we move further away from the fixation point, so peripheral vision is less sharp.
+
+Question: What is left-side neglect?
+Answer: Left-side neglect is a neurological condition that causes the patient to **ignore or be unaware of the left side of space**.
