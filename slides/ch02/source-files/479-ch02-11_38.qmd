@@ -13,6 +13,8 @@ author:
 # Document Settings
 date: last-modified
 logo: "../../common/images/csun-logo.png"
+footer: "Dr. Furtado | CSUN | KIN Department | KIN479 - Human Motor Control"
+
 
 format: 
   revealjs:

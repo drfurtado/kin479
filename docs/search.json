@@ -2707,5 +2707,12 @@
     "title": "Slide Implementation Instructions",
     "section": "",
     "text": "Audio 404 Errors\n\nCheck file paths are relative (../audio/)\nVerify file names match exactly\nEnsure audio files exist in correct directory\n\nLayout Problems\n\nKeep YAML margin setting at 0.1\nUse proper column width settings\nMaintain consistent structure across slides\n\nImage Generation\n\nProvide detailed, specific prompts\nInclude style specifications\nKeep prompts consistent with content"
+  },
+  {
+    "objectID": "slides/ch03/source-files/479-ch03-slides.html#references",
+    "href": "slides/ch03/source-files/479-ch03-slides.html#references",
+    "title": "Chapter 03: Sensory Physiology",
+    "section": "References",
+    "text": "References\n\n\nRosenbaum, D. A. (2010). Human motor control (2nd ed.). Academic Press.\n\n\n\n\n\n\nDr. Furtado | CSUN | KIN Department | KIN479 - Human Motor Control"
   }
 ]

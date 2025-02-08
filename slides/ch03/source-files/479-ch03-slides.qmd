@@ -1,5 +1,7 @@
 ---
 title: "Chapter 03: Sensory Physiology"
+bibliography: "../../../references.bib"
+csl: "../../../apa.csl"
 
 author:
   - name: Ovande Furtado Jr
@@ -11,12 +13,14 @@ author:
 
 # Document Settings
 date: last-modified
-
 logo: "../../assets/images/csun-logo.png"
+footer: "Dr. Furtado | CSUN | KIN Department | KIN479 - Human Motor Control"
+nocite: |
+  @rosenbaum2010
 
 format: 
   revealjs:
-    # Theme and Styling
+    reference-location: document
     theme: default
     width: 1600
     height: 900
@@ -47,8 +51,11 @@ format:
 
     # Auto-advance and Audio Settings
     keyboard: false
-    include-in-header: "../../assets/_partials/header.html"
-    include-after-body: "../../assets/_partials/start-overlay.html"
+    css: "../../../slides/assets/_partials/styles.css"
+    include-in-header: "../../../slides/assets/_partials/header.html"
+    include-after-body: "../../../slides/assets/_partials/start-overlay.html"
+    include-after: "../../../slides/assets/_partials/scripts.js"
+
 ---
 
 ## 1. Overview
@@ -157,8 +164,6 @@ Your browser does not support the audio element.
 </audio>
 </div>
 
----
-
 ## 3.2. SS Organization - Circuit Level
 
 ::::: columns
@@ -248,7 +253,6 @@ Your browser does not support the audio element.
 :::
 :::::
 
----
 
 ## 4. Proprioception - Overview
 
@@ -379,7 +383,7 @@ Your browser does not support the audio element.
 ::: {.column width="50%"}
 ![](images/440.png){width=100%}
 :::
-:::::
+::::
 
 
 ::: {.notes}
@@ -890,3 +894,8 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 </div>
+
+## References {.smaller}
+
+::: {#refs}
+:::

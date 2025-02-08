@@ -6,7 +6,7 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.9);
-    z-index: 1000;
+    z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
+    z-index: 10000;
 }
 
 #start-presentation:hover {
@@ -31,5 +32,21 @@
 
 <div id="start-overlay">
   <h2 style="color: white; margin-bottom: 20px;">Click to Start Presentation</h2>
-  <button id="start-presentation">Start</button>
+  <button id="start-presentation" onclick="console.log('Start button clicked directly')">Start</button>
 </div>
+
+<script>
+console.log('Start overlay loaded');
+document.addEventListener('DOMContentLoaded', function() {
+    const startBtn = document.getElementById('start-presentation');
+    if (startBtn) {
+        console.log('Start button found in overlay');
+        startBtn.addEventListener('click', function(e) {
+            console.log('Start button clicked via event listener');
+            e.stopPropagation();
+        });
+    } else {
+        console.error('Start button not found in overlay!');
+    }
+});
+</script>
