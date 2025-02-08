@@ -5,6 +5,7 @@ import re
 import random
 import base64
 import json
+import pyperclip
 
 # Set page config
 st.set_page_config(
@@ -439,7 +440,13 @@ def main():
     current_url = f"https://kin479.streamlit.app/?chapter={chapter}"
     col1, col2 = st.columns([3, 1])
     with col1:
-        st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
+        share_url = st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
+    with col2:
+        # Add a copy to clipboard button
+        if st.button("📋 Copy", key="copy_url_button"):
+            # Attempt to copy to clipboard
+            pyperclip.copy(current_url)
+            st.toast('URL Copied to Clipboard!', icon='📋')
     
     # Mode selection with URL parameter support
     mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
