@@ -17,7 +17,7 @@ website:
             text: Presentation Guidelines
           - href: assignments/pres-template.qmd
             text: Presentation Template
-      - href: https://kin479-czqrgcuobnss5nxpjbp7tb.streamlit.app/  
+      - href: https://kin479.streamlit.app/  
         text: StudyApp
 
 format:
