@@ -5,6 +5,7 @@ import re
 import random
 import base64
 import json
+from chatbot import ChatBot
 
 # Set page config
 st.set_page_config(
@@ -451,7 +452,7 @@ def main():
         st.components.v1.html(copy_html, height=50)
     
     # Mode selection with URL parameter support
-    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
+    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview", "Chat"]
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
     # Update URL parameters
@@ -528,6 +529,42 @@ def main():
                 st.warning("No Q&A content found for this chapter.")
         else:
             st.warning("No Q&A directory found for this chapter. Please create a 'qa' directory with .qmd files.")
+    elif mode == "Chat":
+        # Initialize chatbot with course materials
+        if 'chatbot' not in st.session_state:
+            st.session_state.chatbot = ChatBot()
+            # Load all chapters
+            st.session_state.chatbot.load_all_chapters(base_path)
+        
+        # Chat interface
+        st.markdown("### Chat with AI Assistant")
+        
+        # Initialize chat history
+        if "messages" not in st.session_state:
+            st.session_state.messages = []
+        
+        # Display chat history
+        for message in st.session_state.messages:
+            with st.chat_message(message["role"]):
+                st.markdown(message["content"])
+        
+        # Accept user input
+        if prompt := st.text_input("Ask a question about the course material..."):
+            # Add user message to chat history
+            st.session_state.messages.append({"role": "user", "content": prompt})
+            
+            # Display user message
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            
+            # Show thinking message
+            with st.chat_message("assistant"):
+                with st.spinner("🤔 Thinking..."):
+                    response = st.session_state.chatbot.get_response(prompt)
+                st.markdown(response)
+                
+            # Add assistant response to chat history
+            st.session_state.messages.append({"role": "assistant", "content": response})
     else:
         quizzes_path = os.path.join(chapter_path, 'quizzes')
         if os.path.exists(quizzes_path):
