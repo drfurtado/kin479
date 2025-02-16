@@ -1,0 +1,318 @@
+---
+title: "Chapter 9 - Attention as a Limited Capacity Resource"
+format:
+  revealjs:
+    auto-stretch: true
+    theme: default
+    controls: true
+    slideNumber: c/t
+    showSlideNumber: all
+    progress: true
+    footer: '[Back to Index](index.qmd) | Press ''q'' to flip | ''t'' to shuffle | arrows to navigate'
+    flashcards:
+      flipKey: q
+      shuffleKey: t
+      showFlipButton: true
+revealjs-plugins:
+  - parmsam/flashcards
+---
+
+## Neural Pathways {.flashcard}
+
+::: {.flashcard-front}
+Term: What are the main neural pathways involved in motor control?
+:::
+
+::: {.flashcard-back}
+Definition: Key pathways include the **corticospinal tract** (descending pathway from brain to spinal cord), the **pyramidal tract** (portion of corticospinal tract), and pathways involving the **cerebellum** (e.g., spinocerebellar and cerebellospinal tracts).
+:::
+
+## Motor Unit {.flashcard}
+
+::: {.flashcard-front}
+Term: What is a motor unit?
+:::
+
+::: {.flashcard-back}
+Definition: A motor unit consists of a **motor neuron** and **all the muscle fibers it innervates**.
+:::
+
+## Motor Unit - Innervation Ratio {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the innervation ratio of a motor unit?
+:::
+
+::: {.flashcard-back}
+Definition: The innervation ratio is the **number of muscle fibers per motor neuron**. **Finer motor control** is associated with **smaller innervation ratios**, while **power generation** is associated with **larger innervation ratios**.
+:::
+
+## Motor Unit - Force Generation {.flashcard}
+
+::: {.flashcard-front}
+Term: How do motor units increase force generation?
+:::
+
+::: {.flashcard-back}
+Definition: Motor units increase force via **rate coding** (increased impulse frequency) and **recruitment** (activating more motor units).
+:::
+
+## Motor Unit - Recruitment {.flashcard}
+
+::: {.flashcard-front}
+Term: What is recruitment in the context of motor units?
+:::
+
+::: {.flashcard-back}
+Definition: Recruitment is the activation of additional motor units to increase muscle force. Motor units can fatigue.
+:::
+
+## Henneman’s Size Principle {.flashcard}
+
+::: {.flashcard-front}
+Term: What is Henneman's size principle?
+:::
+
+::: {.flashcard-back}
+Definition:  Smaller, less fatigable muscle fibers are recruited first.
+:::
+
+## Neuromuscular Junction {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the role of the neuromuscular junction?
+:::
+
+::: {.flashcard-back}
+Definition: It's the site where the **nervous system communicates with the muscular system to produce movement**.
+:::
+
+## Synaptic Transmission {.flashcard}
+
+::: {.flashcard-front}
+Term: What is synaptic transmission?
+:::
+
+::: {.flashcard-back}
+Definition: The process by which **neurons communicate with each other**, involving excitatory (depolarizing) and inhibitory (hyperpolarizing) effects.
+:::
+
+## Action Potential {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the role of sodium and potassium ions in an action potential?
+:::
+
+::: {.flashcard-back}
+Definition: An action potential involves the **influx of sodium (Na+) ions** to depolarize the neuron and the **efflux of potassium (K+) ions** to repolarize it.
+:::
+
+## Cerebellum - Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What are the primary functions of the cerebellum?
+:::
+
+::: {.flashcard-back}
+Definition: The cerebellum is crucial for **coordination, balance, speech, and learning/adapting movements** to changing contexts. It adjusts the **force, timing, and accuracy of movements**.
+:::
+
+## Cerebellar Ataxia {.flashcard}
+
+::: {.flashcard-front}
+Term: What is cerebellar ataxia?
+:::
+
+::: {.flashcard-back}
+Definition: Damage to the cerebellum resulting in **loss of coordination**.
+:::
+
+## Cerebellum - Muscle Tone {.flashcard}
+
+::: {.flashcard-front}
+Term: How does the cerebellum affect muscle tone?
+:::
+
+::: {.flashcard-back}
+Definition: Cerebellar damage can cause **hypertonia** (abnormally high muscle tone) or **hypotonia** (abnormally low muscle tone), depending on the species.
+:::
+
+## Basal Ganglia - Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What are the main functions of the basal ganglia?
+:::
+
+::: {.flashcard-back}
+Definition: The basal ganglia are involved in **action selection, regulating voluntary motor movements, procedural learning, routine behaviors, eye movements, cognition, and emotion**. They regulate the **initiation and smooth execution of movements**.
+:::
+
+## Parkinson's Disease - Basal Ganglia {.flashcard}
+
+::: {.flashcard-front}
+Term: How is Parkinson's disease related to the basal ganglia?
+:::
+
+::: {.flashcard-back}
+Definition: Parkinson's disease involves **decreased functioning of the substantia nigra** within the basal ganglia, leading to a **decrease in dopamine** and impaired movement.
+:::
+
+## Motor Cortex - Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the primary function of the motor cortex?
+:::
+
+::: {.flashcard-back}
+Definition: The motor cortex is responsible for **voluntary control of movement**, including **force and coordination of muscle action**. It is spatially mapped to different body regions.
+:::
+
+## Motor Cortex - Hemispheres {.flashcard}
+
+::: {.flashcard-front}
+Term: How do the brain's hemispheres control the body?
+:::
+
+::: {.flashcard-back}
+Definition: One hemisphere of the motor cortex controls the opposite side of the body.
+:::
+
+## Stroke - Motor Cortex {.flashcard}
+
+::: {.flashcard-front}
+Term: How does a stroke affect motor function?
+:::
+
+::: {.flashcard-back}
+Definition: A stroke, or lack of blood flow to the brain, can affect the motor cortex, often resulting in **hemiparesis** (one-sided paralysis).
+:::
+
+## Premotor Cortex - Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the role of the premotor cortex (PMC)?
+:::
+
+::: {.flashcard-back}
+Definition: The premotor cortex **prepares a person for movement in response to stimuli**. It has a direct connection with the visual cortex and primarily innervates the trunk and shoulders.
+:::
+
+## Supplementary Motor Area - Function {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the function of the Supplementary Motor Area (SMA)?
+:::
+
+::: {.flashcard-back}
+Definition: The SMA is responsible for the **planning and initiation of movement (internal cueing)**.
+:::
+
+## Action Potential at Motor End Plate {.flashcard}
+
+::: {.flashcard-front}
+Term: What occurs when an action potential reaches the motor end plate?
+:::
+
+::: {.flashcard-back}
+Definition: Voltage-gated Ca2+ channels open, ACh is released into the synaptic cleft, ACh binds to receptors on the muscle fiber, generating an action potential and initiating excitation-contraction coupling.
+:::
+
+## Neurotransmitters - Acetylcholine (ACh) {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the function of Acetylcholine (ACh)?
+:::
+
+::: {.flashcard-back}
+Definition: Enables **muscle action, learning, and memory**. Deterioration of ACh-producing neurons is associated with Alzheimer's disease.
+:::
+
+## Neurotransmitters - Dopamine {.flashcard}
+
+::: {.flashcard-front}
+Term: What is the function of Dopamine?
+:::
+
+::: {.flashcard-back}
+Definition: Influences **movement, learning, attention, and emotion**. Imbalances are linked to schizophrenia (oversupply) and Parkinson's disease (undersupply).
+:::
+
+## Practical Implications - Injury Prevention {.flashcard}
+
+::: {.flashcard-front}
+Term: How does understanding motor control pathways aid in injury prevention?
+:::
+
+::: {.flashcard-back}
+Definition: It assists in designing effective **injury prevention programs and rehabilitation protocols** for athletes and patients.
+:::
+
+## Practical Implications - Athletic Performance {.flashcard}
+
+::: {.flashcard-front}
+Term: How can knowledge of motor loops enhance athletic performance?
+:::
+
+::: {.flashcard-back}
+Definition: It can be applied to **optimize training regimens**, improving **coordination, timing, and precision**.
+:::
+
+## Practical Implications - Movement Analysis {.flashcard}
+
+::: {.flashcard-front}
+Term: Why is proficiency in motor control important for movement analysis?
+:::
+
+::: {.flashcard-back}
+Definition: It allows for **sophisticated movement analysis**, crucial for identifying performance bottlenecks and correcting techniques.
+:::
+
+## Practical Implications - Neuroplasticity {.flashcard}
+
+::: {.flashcard-front}
+Term: How does understanding neuroplasticity impact training after an injury?
+:::
+
+::: {.flashcard-back}
+Definition: It can inform techniques to **retrain the nervous system**, leading to more effective recovery strategies.
+:::
+
+## Practical Implications - Motor Learning {.flashcard}
+
+::: {.flashcard-front}
+Term: Why is grasping motor control concepts fundamental for teaching motor skills?
+:::
+
+::: {.flashcard-back}
+Definition: It is fundamental for **teaching and refining motor skills** across various populations.
+:::
+
+## Practical Implications - Technology {.flashcard}
+
+::: {.flashcard-front}
+Term: How can technology be utilized to study motor control in kinesiology?
+:::
+
+::: {.flashcard-back}
+Definition: Utilizing motion capture and other technologies can lead to **breakthroughs in virtual reality and augmented feedback** for training and therapy.
+:::
+
+## Practical Implications - Interdisciplinary Approach {.flashcard}
+
+::: {.flashcard-front}
+Term: Why is an interdisciplinary approach important in studying human movement and health?
+:::
+
+::: {.flashcard-back}
+Definition: Integrating motor control knowledge with **biomechanics, physiology, and psychology** leads to a holistic approach.
+:::
+
+## Motor and Sensory Loop {.flashcard}
+
+::: {.flashcard-front}
+Term: How do motor and sensory loops ensure movements are precise?
+:::
+
+::: {.flashcard-back}
+Definition: Continuous feedback loops between motor and sensory areas ensure that **movements are adjusted based on real-time sensory information**.
+:::
