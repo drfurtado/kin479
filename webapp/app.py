@@ -324,10 +324,11 @@ def main():
     st.title("KIN 479 Interactive Learning")
     
     # Get URL parameters
-    selected_chapter = st.query_params.get("chapter", "ch01")
-    selected_mode = st.query_params.get("mode", "Flashcards")
-    selected_quiz = st.query_params.get("quiz", None)
-    selected_audio = st.query_params.get("audio", None)
+    query_params = st.experimental_get_query_params()
+    selected_chapter = query_params.get("chapter", ["ch01"])[0]
+    selected_mode = query_params.get("mode", ["Flashcards"])[0]
+    selected_quiz = query_params.get("quiz", [None])[0]
+    selected_audio = query_params.get("audio", [None])[0]
     
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and audio content.
@@ -383,8 +384,10 @@ def main():
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
     # Update URL parameters
-    st.query_params["chapter"] = chapter
-    st.query_params["mode"] = mode
+    st.experimental_set_query_params(
+        chapter=chapter,
+        mode=mode
+    )
     
     if mode == "Flashcards":
         flashcards_path = os.path.join(chapter_path, 'flashcards')
@@ -393,7 +396,11 @@ def main():
             if parts:
                 part = st.selectbox("Select Part", parts)
                 # Update URL parameters for flashcards
-                st.query_params["quiz"] = part
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    quiz=part
+                )
                 with open(os.path.join(flashcards_path, part), 'r') as f:
                     content = f.read()
                 flashcards = parse_flashcard_content(content)
@@ -414,8 +421,11 @@ def main():
                 st.audio(audio_file_path)
                 
                 # Update URL parameters for audio
-                st.query_params["chapter"] = chapter
-                st.query_params["mode"] = mode
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    audio=audio_file
+                )
             else:
                 st.info("No audio files available for this chapter yet.")
         else:
@@ -427,7 +437,11 @@ def main():
             if parts:
                 part = st.selectbox("Select Part", parts)
                 # Update URL parameters for Q&A
-                st.query_params["quiz"] = part
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    quiz=part
+                )
                 with open(os.path.join(qa_path, part), 'r') as f:
                     content = f.read()
                 qa_pairs = parse_qa(content)
@@ -441,10 +455,13 @@ def main():
         if os.path.exists(quizzes_path):
             parts = sorted([f for f in os.listdir(quizzes_path) if f.endswith('.qmd')])
             if parts:
-                # Quiz selection with URL parameter support
                 part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
                 # Update URL parameters for quizzes
-                st.query_params["quiz"] = part
+                st.experimental_set_query_params(
+                    chapter=chapter,
+                    mode=mode,
+                    quiz=part
+                )
                 with open(os.path.join(quizzes_path, part), 'r') as f:
                     content = f.read()
                 questions = parse_quiz(content)
