@@ -383,11 +383,10 @@ def main():
     st.title("KIN 479 Interactive Learning")
     
     # Get URL parameters
-    params = st.experimental_get_query_params()
-    selected_chapter = params.get("chapter", [None])[0]
-    selected_mode = params.get("mode", [None])[0]
-    selected_quiz = params.get("quiz", [None])[0]
-    selected_audio = params.get("audio", [None])[0]
+    selected_chapter = st.query_params.get("chapter", "ch01")
+    selected_mode = st.query_params.get("mode", "Flashcards")
+    selected_quiz = st.query_params.get("quiz", None)
+    selected_audio = st.query_params.get("audio", None)
     
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and audio content.
@@ -456,10 +455,8 @@ def main():
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
     # Update URL parameters
-    st.experimental_set_query_params(
-        chapter=chapter,
-        mode=mode
-    )
+    st.query_params["chapter"] = chapter
+    st.query_params["mode"] = mode
     
     if mode == "Flashcards":
         flashcards_path = os.path.join(chapter_path, 'flashcards')
@@ -468,11 +465,7 @@ def main():
             if parts:
                 part = st.selectbox("Select Part", parts)
                 # Update URL parameters for flashcards
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    quiz=part
-                )
+                st.query_params["quiz"] = part
                 content = load_content(os.path.join(flashcards_path, part))
                 flashcards = parse_flashcard_content(content)
                 display_flashcards(flashcards)
@@ -506,10 +499,8 @@ def main():
                 st.info("No audio overview available for this chapter yet.")
         
         # Update URL parameters for audio
-        st.experimental_set_query_params(
-            chapter=chapter,
-            mode=mode
-        )
+        st.query_params["chapter"] = chapter
+        st.query_params["mode"] = mode
     elif mode == "Q&A":
         qa_path = os.path.join(chapter_path, 'qa')
         if os.path.exists(qa_path):
@@ -517,11 +508,7 @@ def main():
             if parts:
                 part = st.selectbox("Select Part", parts)
                 # Update URL parameters for Q&A
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    quiz=part
-                )
+                st.query_params["quiz"] = part
                 content = load_content(os.path.join(qa_path, part))
                 qa_pairs = parse_qa_content(content)
                 display_qa(qa_pairs)
@@ -573,11 +560,7 @@ def main():
                 # Quiz selection with URL parameter support
                 part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
                 # Update URL parameters for quizzes
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    quiz=part
-                )
+                st.query_params["quiz"] = part
                 content = load_content(os.path.join(quizzes_path, part))
                 questions = parse_quiz_content(content)
                 display_quiz(questions)
