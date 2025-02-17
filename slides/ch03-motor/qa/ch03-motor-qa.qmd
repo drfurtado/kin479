@@ -1,0 +1,89 @@
+Question: What are the main topics covered in motor physiology?
+Answer: Motor physiology covers neural pathways and communication, motor units, CNS control areas, the cerebellum (coordination and learning), basal ganglia (action selection), motor cortex (high-level control), premotor cortex (preparation), supplementary motor area (planning), and parietal cortex (sensory integration).
+
+Question: What is the corticospinal tract?
+Answer: The corticospinal tract is a **descending pathway from the brain to the spinal cord**.
+
+Question: What is a motor unit?
+Answer: A motor unit consists of a **motor neuron and all the muscle fibers that it innervates**.
+
+Question: What is synaptic transmission?
+Answer: Synaptic transmission is the **process by which neurons communicate with each other**.
+
+Question: What is the role of the cerebellum in motor control?
+Answer: The cerebellum is involved in **coordination and learning**. It also adjusts the force, timing, and accuracy of movements, ensuring coordination and precision.
+
+Question: What is the function of the basal ganglia?
+Answer: The basal ganglia are responsible for **action selection** and regulate the initiation and smooth execution of movements and are involved in habit learning.
+
+Question: What is the role of the motor cortex?
+Answer: The motor cortex is responsible for **high-level control of movement**. The primary motor cortex (M1) is directly responsible for executing movements by sending signals to the muscles.
+
+Question: What is the premotor cortex responsible for?
+Answer: The premotor cortex is responsible for **preparation for movement**.
+
+Question: What is the supplementary motor area (SMA) responsible for?
+Answer: The supplementary motor area (SMA) is responsible for **planning movement**. It is also responsible for the planning and initiation of movement (internal cueing).
+
+Question: What is the function of the parietal cortex?
+Answer: The parietal cortex is responsible for **sensory integration**.
+
+Question: What is resting membrane potential related to?
+Answer: Resting membrane potential relates to the presence of **sodium (Na+) and potassium (K+) ions**.
+
+Question: What happens during an excitatory synaptic transmission?
+Answer: During excitatory synaptic transmission, there is an **increase in post-synaptic membrane permeability to Na+**, increasing the likelihood of reaching the action potential threshold.
+
+Question: What happens during inhibitory synaptic transmission?
+Answer: During inhibitory synaptic transmission, there is a **decrease in permeability**, decreasing the likelihood of reaching the action potential threshold.
+
+Question: What is the role of Acetylcholine (ACh) in communication?
+Answer: Acetylcholine (ACh) enables **muscle action, learning, and memory**.
+
+Question: What is the impact of innervation ratio on motor control?
+Answer: Finer motor control is achieved with a **smaller innervation ratio**, while power generation requires a larger innervation ratio.
+
+Question: How can more forceful muscle contractions be created?
+Answer: More forceful contractions can be created through **rate coding (increased impulse frequency) and recruitment of more motor units**.
+
+Question: What is Henneman’s size recruitment principle?
+Answer: Henneman’s size recruitment principle states that **smaller, less fatigable muscle fibers are recruited first**.
+
+Question: What is the spinocerebellar tract?
+Answer: The spinocerebellar tract allows for **direct communication between the spinal cord and cerebellum**. It carries information from mechanoreceptors.
+
+Question: What is cerebellar ataxia?
+Answer: Cerebellar ataxia is **damage to the cerebellum resulting in loss of coordination**.
+
+Question: What is the role of the vestibular cortex?
+Answer: The vestibular cortex processes **balance information from the inner ear**, which is essential for maintaining equilibrium and spatial orientation.
+
+Question: What is the role of the visual cortex?
+Answer: The visual cortex **interprets visual stimuli**, which is integral for guiding movements and navigating the environment.
+
+Question: What is the key function of the cerebellum?
+Answer: The cerebellum adjusts the **force, timing, and accuracy of movements**, ensuring coordination and precision.
+
+Question: What are some potential implications of damage to motor control areas?
+Answer: Damage to motor control areas or pathways can result in **Parkinson's disease (affecting the basal ganglia) or cerebellar ataxia (affecting the cerebellum), leading to impaired movement and coordination**.
+
+Question: How can understanding motor control pathways aid in injury prevention?
+Answer: Understanding motor control pathways aids in **designing effective injury prevention programs and rehabilitation protocols for athletes and patients**.
+
+Question: What is the role of neuroplasticity in training?
+Answer: Understanding the brain's reorganization ability (neuroplasticity) can inform techniques to **retrain the nervous system following an injury**, leading to more effective recovery strategies.
+
+Question: How does Parkinson's disease relate to dopamine?
+Answer: In Parkinson’s disease, there is a **decrease in dopamine**, which leads to decreased substantia nigra functioning.
+
+Question: What is the role of the motor end plate?
+Answer: The motor end plate is a **specialized area with many mitochondria located at the end of a motor neuron that provides energy**.
+
+Question: What is the role of the sarcolemma?
+Answer: The sarcolemma is intricately folded to **increase surface area making the transmission of the signal**.
+
+Question: What is the role of the size principle in muscle recruitment?
+Answer: The size principle states that **smaller motor units are recruited first, and larger ones are added for more strength during activity**.
+
+Question: What are the four types of motor units?
+Answer: The four types of motor units are **Type S, Type FR, Type Fint, and Type FF**.

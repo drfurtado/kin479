@@ -1,0 +1,209 @@
+## Corticospinal Tract Origin {.quiz-question}
+
+The corticospinal tract originates in the spinal cord and ascends to the brain.
+
+-   [True]{data-explanation="Incorrect. The corticospinal tract is a descending pathway."}
+-   [False]{.correct data-explanation="Correct! The corticospinal tract is a **descending pathway from the brain to the spinal cord**."}
+
+## Motor Unit Composition {.quiz-question}
+
+A motor unit consists of a motor neuron and all the muscle fibers it innervates.
+
+-   [True]{.correct data-explanation="Correct! This is the definition of a motor unit."}
+-   [False]{data-explanation="Incorrect. A motor unit includes a motor neuron and the muscle fibers it controls."}
+
+## Neuromuscular Junction Communication {.quiz-question}
+
+The neuromuscular junction is where neurons communicate with each other via electrical synapses.
+
+-   [True]{data-explanation="Incorrect. Communication at the neuromuscular junction is chemical, not electrical."}
+-   [False]{.correct data-explanation="Correct! The neuromuscular junction is where the nervous system communicates with the muscular system through chemical signals like acetylcholine."}
+
+## Cerebellum Primary Role {.quiz-question}
+
+The cerebellum's primary role is action selection.
+
+-   [True]{data-explanation="Incorrect. Action selection is the primary role of the basal ganglia."}
+-   [False]{.correct data-explanation="Correct! The cerebellum is primarily involved in **coordination and learning**, not action selection."}
+
+## Basal Ganglia Function {.quiz-question}
+
+The basal ganglia are primarily responsible for balance.
+
+-   [True]{data-explanation="Incorrect. Balance is primarily controlled by the cerebellum."}
+-   [False]{.correct data-explanation="Correct! The basal ganglia are responsible for **action selection** and regulating voluntary motor movements."}
+
+## Motor Cortex Voluntary Control {.quiz-question}
+
+The motor cortex is involved in the involuntary control of movement.
+
+-   [True]{data-explanation="Incorrect. The motor cortex is primarily involved in voluntary movements."}
+-   [False]{.correct data-explanation="Correct! The motor cortex is responsible for the **voluntary control of movement**."}
+
+## Premotor Cortex Stimuli Response {.quiz-question}
+
+The premotor cortex prepares a person for movement in response to stimuli.
+
+-   [True]{.correct data-explanation="Correct! The premotor cortex prepares for movement based on external cues."}
+-   [False]{data-explanation="Incorrect. The premotor cortex indeed prepares the body for movement in response to external stimuli."}
+
+## Supplementary Motor Area Cueing {.quiz-question}
+
+The supplementary motor area (SMA) is primarily involved in responding to external cues.
+
+-   [True]{data-explanation="Incorrect. The SMA is involved in internal cueing."}
+-   [False]{.correct data-explanation="Correct! The SMA is responsible for planning and initiation of movement using **internal cueing**."}
+
+## Parietal Cortex Sensory Integration {.quiz-question}
+
+The parietal cortex is responsible for integrating sensory information.
+
+-   [True]{.correct data-explanation="Correct! The parietal cortex associates different sources of information to form spatial awareness."}
+-   [False]{data-explanation="Incorrect. Sensory integration is a key function of the parietal cortex."}
+
+## Resting Membrane Potential Ions {.quiz-question}
+
+Resting membrane potential is unrelated to sodium and potassium ions.
+
+-   [True]{data-explanation="Incorrect. Resting membrane potential is directly related to sodium and potassium ions."}
+-   [False]{.correct data-explanation="Correct! Resting membrane potential is related to the presence of **sodium (Na+) and potassium (K+) ions**."}
+
+## Acetylcholine Function {.quiz-question}
+
+Acetylcholine (ACh) is only involved in sensory processing.
+
+-   [True]{data-explanation="Incorrect. Acetylcholine is crucial for muscle action, learning, and memory."}
+-   [False]{.correct data-explanation="Correct! Acetylcholine (ACh) enables **muscle action, learning, and memory**."}
+
+## Innervation Ratio Control {.quiz-question}
+
+A larger innervation ratio indicates finer motor control.
+
+-   [True]{data-explanation="Incorrect. Finer control requires smaller innervation ratios."}
+-   [False]{.correct data-explanation="Correct! Finer control is achieved with a **smaller innervation ratio**, while power generation requires a larger innervation ratio."}
+
+## Forceful Contractions Rate Coding {.quiz-question}
+
+Increased impulse frequency (rate coding) can lead to more forceful muscle contractions.
+
+-   [True]{.correct data-explanation="Correct! Rate coding is one way to increase the force of muscle contractions."}
+-   [False]{data-explanation="Incorrect. Rate coding, or increased impulse frequency, does indeed contribute to more forceful contractions."}
+
+## Henneman’s Principle Fiber Size {.quiz-question}
+
+Henneman’s size recruitment principle states that larger muscle fibers are recruited first.
+
+-   [True]{data-explanation="Incorrect. Smaller fibers are recruited first according to Henneman's principle."}
+-   [False]{.correct data-explanation="Correct! Henneman’s size recruitment principle states that **smaller, less fatigable muscle fibers are recruited first**."}
+
+## Spinocerebellar Tract Communication {.quiz-question}
+
+The spinocerebellar tract facilitates communication between the brain and spinal cord.
+
+-   [True]{data-explanation="Incorrect. It connects the spinal cord and cerebellum."}
+-   [False]{.correct data-explanation="Correct! The spinocerebellar tract allows for **direct communication between the spinal cord and cerebellum**."}
+
+## Cerebellar Ataxia Coordination {.quiz-question}
+
+Cerebellar ataxia results in increased coordination.
+
+-   [True]{data-explanation="Incorrect. Cerebellar ataxia leads to a loss of coordination."}
+-   [False]{.correct data-explanation="Correct! Cerebellar ataxia is **damage to the cerebellum resulting in loss of coordination**."}
+
+## Visual Cortex Movement Guidance {.quiz-question}
+
+The visual cortex is not involved in guiding movements.
+
+-   [True]{data-explanation="Incorrect. The visual cortex is integral for guiding movements."}
+-   [False]{.correct data-explanation="Correct! The visual cortex **interprets visual stimuli, which is integral for guiding movements** and navigating the environment."}
+
+## Parkinson's Disease Basal Ganglia {.quiz-question}
+
+Parkinson's disease affects the cerebellum.
+
+-   [True]{data-explanation="Incorrect. Parkinson's affects the basal ganglia."}
+-   [False]{.correct data-explanation="Correct! Damage to motor control areas or pathways can result in **Parkinson's disease (affecting the basal ganglia)**."}
+
+## Motor Control Rehabilitation {.quiz-question}
+
+Understanding motor control pathways is irrelevant for rehabilitation protocols.
+
+-   [True]{data-explanation="Incorrect. It directly aids in designing effective rehabilitation programs."}
+-   [False]{.correct data-explanation="Correct! Understanding motor control pathways aids in **designing effective injury prevention programs and rehabilitation protocols**."}
+
+## Neuroplasticity Recovery {.quiz-question}
+
+Neuroplasticity hinders recovery after nervous system injuries.
+
+-   [True]{data-explanation="Incorrect. It helps to retrain the nervous system."}
+-   [False]{.correct data-explanation="Correct! Understanding the brain's reorganization ability (neuroplasticity) can inform techniques to **retrain the nervous system following an injury**."}
+
+## Dopamine Increase in Parkinson's {.quiz-question}
+
+Parkinson's disease is associated with increased dopamine levels.
+
+-   [True]{data-explanation="Incorrect. Parkinson's is caused by a decrease in dopamine."}
+-   [False]{.correct data-explanation="Correct! In Parkinson’s disease, there is a **decrease in dopamine**."}
+
+## Motor End Plate Definition {.quiz-question}
+
+The motor end plate is an area that lacks mitochondria.
+
+-   [True]{data-explanation="Incorrect. It is rich in mitochondria."}
+-   [False]{.correct data-explanation="Correct! The motor end plate is a **specialized area with many mitochondria located at the end of a motor neuron that provides energy**."}
+
+## Sarcolemma Purpose {.quiz-question}
+
+The sarcolemma serves to decrease surface area for signal transmission.
+
+-   [True]{data-explanation="Incorrect. Its folds increase the surface area."}
+-   [False]{.correct data-explanation="Correct! The sarcolemma is intricately folded to **increase surface area making the transmission of the signal**."}
+
+## Size Principle Recruitment {.quiz-question}
+
+Larger motor units are always recruited before smaller ones.
+
+-   [True]{data-explanation="Incorrect. The size principle dictates the opposite."}
+-   [False]{.correct data-explanation="Correct! The size principle states that **smaller motor units are recruited first, and larger ones are added for more strength during activity**."}
+
+## Muscle Force and Motor Units {.quiz-question}
+
+Activating more motor units generally results in less force production.
+
+-   [True]{data-explanation="Incorrect. More units equal more force."}
+-   [False]{.correct data-explanation="Correct! The more motor units activated, the more force the muscles can produce."}
+
+## Cerebellum Neuron Count {.quiz-question}
+
+The cerebellum contains about 20% of the total neurons in the nervous system.
+
+-   [True]{data-explanation="The video says that the cerebellum has about half of the total neurons in our nervous system, not 20%."}
+-   [False]{.correct data-explanation="The cerebellum contains about 69 billion neurons, almost half of the total neurons in our entire nervous system."}
+
+## Anterior Spinocerebellar Tract {.quiz-question}
+
+The anterior spinocerebellar tract stays on the same side of the body as the muscles it gets information from.
+
+-   [True]{data-explanation="Incorrect. The anterior spinal cerebellar track crosses to the opposite side before reaching cerebal."}
+-   [False]{.correct data-explanation="The anterior SP cere track takes a route that primarily carries information from the lower part of the body and legs. It travels up the spinal cord and Crosses to the opposite side before reaching cerebal."}
+
+## Stroke and Hemiparesis {.quiz-question}
+
+A stroke affecting one hemisphere of the brain can cause hemiparesis, or one-sided paralysis.
+
+-   [True]{.correct data-explanation="Lack of blood flow to cerebral areas of the brain usually only affects one side which can cause hemiparesis or one sided paralysis."}
+-   [False]{data-explanation="A stroke affecting one side of the brain can cause hemiparesis, or one-sided paralysis."}
+
+## Gait Cycle {.quiz-question}
+
+During the stance phase of the walking cycle, the foot is off the ground.
+
+-   [True]{data-explanation="The foot is in contact with the ground during the stance phase."}
+-   [False]{.correct data-explanation="During the stance phase of gait the foot is in contact with the ground, while bearing weight and pushing off to move us forward."}
+
+## Freezing of Gait {.quiz-question}
+
+Freezing of gait, a symptom of Parkinson's disease, results in an inability to initiate or adapt walking pattern.
+
+-   [True]{.correct data-explanation="Freezing of gait: Parkinson’s disease symptom that results in inability to initiate or adapt walking pattern."}
+-   [False]{data-explanation="Freezing of gait, a symptom of Parkinson's disease, results in an inability to initiate or adapt walking pattern."}
