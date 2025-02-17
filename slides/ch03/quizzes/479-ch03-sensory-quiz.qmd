@@ -1,30 +1,3 @@
----
-title: "Chapter 03 Quiz"
-subtitle: "Topic: Sensory Physiology"
-format:
-  revealjs:
-    theme: default
-    width: 1600
-    height: 900
-    margin: 0.1
-    controls: true
-    navigation-mode: linear
-    quiz:
-      checkKey: 'c'
-      resetKey: 'r'
-      shuffleKey: 't'
-      allowNumberKeys: true
-      disableOnCheck: false
-      shuffleOptions: false
-      defaultCorrect: "Correct! You understand this concept."
-      defaultIncorrect: "Review this concept in your notes."
-    footer: "Navigation: Press 'c' to check answer | 'r' to reset | Arrow keys for next/previous"
-    slide-number: true
-revealjs-plugins:
-  - quiz
-editor: source
----
-
 ## Proprioception Definition {.quiz-question}
 
 Proprioception is considered the body's 'sixth sense' because it allows us to understand our position in space without relying on visual input.

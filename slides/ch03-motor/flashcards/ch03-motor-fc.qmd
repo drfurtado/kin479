@@ -1,22 +1,3 @@
----
-title: "Chapter 9 - Attention as a Limited Capacity Resource"
-format:
-  revealjs:
-    auto-stretch: true
-    theme: default
-    controls: true
-    slideNumber: c/t
-    showSlideNumber: all
-    progress: true
-    footer: '[Back to Index](index.qmd) | Press ''q'' to flip | ''t'' to shuffle | arrows to navigate'
-    flashcards:
-      flipKey: q
-      shuffleKey: t
-      showFlipButton: true
-revealjs-plugins:
-  - parmsam/flashcards
----
-
 ## Neural Pathways {.flashcard}
 
 ::: {.flashcard-front}
