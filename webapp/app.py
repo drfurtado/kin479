@@ -410,6 +410,7 @@ def main():
         else:
             st.warning("No flashcards directory found for this chapter. Please create a 'flashcards' directory with .qmd files.")
     elif mode == "Audio Overview":
+        # First try to get audio from the audio subdirectory
         audio_path = os.path.join(chapter_path, 'audio')
         if os.path.exists(audio_path):
             audio_files = sorted([f for f in os.listdir(audio_path) if f.endswith('.mp3')])
@@ -427,9 +428,29 @@ def main():
                     audio=audio_file
                 )
             else:
-                st.info("No audio files available for this chapter yet.")
+                # If no audio files in audio directory, try to get from config.json
+                config_path = os.path.join(chapter_path, 'config.json')
+                if os.path.exists(config_path):
+                    with open(config_path, 'r') as f:
+                        config = json.load(f)
+                        if 'audio_overview_url' in config:
+                            st.audio(config['audio_overview_url'])
+                        else:
+                            st.info("No audio overview URL found in config.json")
+                else:
+                    st.info("No audio files or config.json found for this chapter.")
         else:
-            st.info("No audio overview available for this chapter yet.")
+            # If no audio directory, try to get from config.json
+            config_path = os.path.join(chapter_path, 'config.json')
+            if os.path.exists(config_path):
+                with open(config_path, 'r') as f:
+                    config = json.load(f)
+                    if 'audio_overview_url' in config:
+                        st.audio(config['audio_overview_url'])
+                    else:
+                        st.info("No audio overview URL found in config.json")
+            else:
+                st.info("No audio overview available for this chapter yet.")
     elif mode == "Q&A":
         qa_path = os.path.join(chapter_path, 'qa')
         if os.path.exists(qa_path):
