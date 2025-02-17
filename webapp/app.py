@@ -375,6 +375,18 @@ def main():
     # Get chapter path
     chapter_path = os.path.join(SLIDES_DIR, chapter)
     
+    # Get chapter title from config.json
+    config_path = os.path.join(chapter_path, 'config.json')
+    chapter_title = ""
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+            chapter_title = config.get('chapter_title', '')
+    
+    # Display chapter title in red
+    if chapter_title:
+        st.markdown(f'<p style="color: red; font-size: 1.2em;">Studying Chapter: {chapter_title}</p>', unsafe_allow_html=True)
+    
     # Display shareable link for chapter
     current_url = f"https://kin479.streamlit.app/?chapter={chapter}"
     st.markdown(f"Share this chapter: [{current_url}]({current_url})")
