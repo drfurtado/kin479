@@ -80,121 +80,96 @@ def parse_flashcard_content(content):
     
     return flashcards
 
-def parse_quiz_content(content):
-    """Extract quiz questions from Quarto markdown content."""
+def parse_quiz(content):
+    """Parse quiz content into a list of questions with options and answers."""
     questions = []
     current_question = None
-    current_options = []
-    current_correct = None
     
-    # Check if this is the new RevealJS quiz format or the old format
-    if '{.quiz-question}' in content:
-        # New RevealJS quiz format
-        lines = content.split('\n')
-        i = 0
-        while i < len(lines):
-            line = lines[i].strip()
-            
-            # Skip empty lines and YAML front matter
-            if not line or line.startswith('---'):
-                i += 1
-                continue
-                
-            # Question starts with ## and {.quiz-question}
-            if line.startswith('##') and '{.quiz-question}' in line:
-                # Save previous question if exists
-                if current_question and current_options:
-                    questions.append({
-                        "question": current_question,
-                        "options": current_options,
-                        "correct": current_correct
-                    })
-                
-                # Get the question text from the next line
-                i += 1
-                while i < len(lines) and not lines[i].strip():
-                    i += 1
-                if i < len(lines):
-                    current_question = lines[i].strip()
-                    current_options = []
-                    current_correct = None
-                
-            # Option line starts with -
-            elif line.startswith('-'):
-                option_text = line[1:].strip()  # Remove the dash
-                
-                # Extract the actual option text (remove markdown formatting)
-                option = re.sub(r'\[([^\]]+)\].*', r'\1', option_text).strip()
+    # Split content into lines and clean up
+    lines = [line.strip() for line in content.split('\n') if line.strip()]
+    i = 0
+    
+    while i < len(lines):
+        line = lines[i]
+        
+        # Start of a new question (starts with ## and ends with {.quiz-question})
+        if line.startswith('##') and '{.quiz-question}' in line:
+            if current_question:
+                questions.append(current_question)
+            # Extract question text between ## and {.quiz-question}
+            question_text = line[2:line.find('{')].strip()
+            # Get the actual question content from the next line
+            i += 1
+            if i < len(lines):
+                question_content = lines[i].strip()
+                current_question = {
+                    'question': f"{question_text}\n{question_content}",
+                    'options': [],
+                    'answer': None,
+                    'explanations': {}
+                }
+        
+        # Parse options (lines starting with -)
+        elif line.startswith('-') and current_question:
+            # Extract the option text between [ and ]
+            start = line.find('[') + 1
+            end = line.find(']')
+            if start > 0 and end > start:
+                option_text = line[start:end].strip()
+                current_question['options'].append(option_text)
                 
                 # Check if this is the correct answer
-                if '{.correct' in option_text:
-                    current_correct = option
+                if '.correct' in line:
+                    current_question['answer'] = len(current_question['options']) - 1
                 
-                current_options.append(option)
-                    
-            i += 1
-    else:
-        # Old quiz format
-        quiz_section = re.search(r'::: {\.quiz-options}(.*?):::', content, re.DOTALL)
-        if quiz_section:
-            quiz_content = quiz_section.group(1)
-            questions_raw = re.split(r'\d+\.\s+', quiz_content)[1:]  # Split by numbered items
-            
-            for q_raw in questions_raw:
-                lines = q_raw.strip().split('\n')
-                if not lines:
-                    continue
-                    
-                question = lines[0].strip()
-                options = []
-                correct = None
-                
-                for line in lines[1:]:
-                    line = line.strip()
-                    if line.startswith('-'):
-                        # Extract option text
-                        option_match = re.search(r'-\s*\[(x| )\]\s*(.*)', line)
-                        if option_match:
-                            is_correct = option_match.group(1) == 'x'
-                            option_text = option_match.group(2).strip()
-                            options.append(option_text)
-                            if is_correct:
-                                correct = option_text
-                
-                if question and options:
-                    questions.append({
-                        "question": question,
-                        "options": options,
-                        "correct": correct
-                    })
+                # Extract explanation if present
+                exp_start = line.find('data-explanation="')
+                if exp_start > 0:
+                    exp_start += len('data-explanation="')
+                    exp_end = line.find('"', exp_start)
+                    if exp_end > exp_start:
+                        explanation = line[exp_start:exp_end]
+                        current_question['explanations'][len(current_question['options']) - 1] = explanation
+        
+        i += 1
     
-    # Add the last question for RevealJS format
-    if current_question and current_options:
-        questions.append({
-            "question": current_question,
-            "options": current_options,
-            "correct": current_correct
-        })
+    # Add the last question
+    if current_question:
+        questions.append(current_question)
     
     return questions
 
-def parse_qa_content(content):
-    """Extract Q&A pairs from Quarto markdown content."""
+def parse_qa(content):
+    """Parse Q&A content into a list of question/answer pairs."""
     qa_pairs = []
-    current_question = None
-    current_answer = None
+    current_qa = None
     
-    for line in content.split('\n'):
-        if 'Question:' in line:
-            if current_question and current_answer:
-                qa_pairs.append({"question": current_question, "answer": current_answer})
-            current_question = line.split('Question:')[-1].strip()
-            current_answer = None
-        elif 'Answer:' in line:
-            current_answer = line.split('Answer:')[-1].strip()
+    # Split content into lines
+    lines = [line.strip() for line in content.split('\n')]
+    i = 0
     
-    if current_question and current_answer:
-        qa_pairs.append({"question": current_question, "answer": current_answer})
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        # Start of a new Q&A pair
+        if line.startswith('Question:'):
+            if current_qa:
+                qa_pairs.append(current_qa)
+            current_qa = {
+                'question': line[9:].strip(),
+                'answer': ''
+            }
+            
+        # Parse answer
+        elif line.startswith('Answer:'):
+            if current_qa:
+                current_qa['answer'] = line[7:].strip()
+        
+        i += 1
+    
+    # Add the last Q&A pair
+    if current_qa:
+        qa_pairs.append(current_qa)
     
     return qa_pairs
 
@@ -253,131 +228,97 @@ def display_flashcards(flashcards):
         st.text(f"Card {current_card + 1} of {len(flashcards)}")
 
 def display_quiz(questions):
-    """Display interactive quiz."""
+    """Display an interactive quiz."""
     if not questions:
-        st.warning("No quiz questions found in this section.")
+        st.warning("No questions found in this quiz.")
         return
-
+    
+    # Initialize session state for answers, current question, and checked answers
+    if 'quiz_answers' not in st.session_state:
+        st.session_state.quiz_answers = [None] * len(questions)
+    if 'checked_answers' not in st.session_state:
+        st.session_state.checked_answers = [False] * len(questions)
     if 'current_question' not in st.session_state:
         st.session_state.current_question = 0
-        st.session_state.answers = {}
-        st.session_state.show_explanation = False
-        st.session_state.quiz_completed = False
-
-    current = st.session_state.current_question
-    question = questions[current]
-
-    # Display progress
-    progress = len(st.session_state.answers) / len(questions)
-    st.progress(progress)
     
-    st.write(f"### Question {current + 1} of {len(questions)}")
-    st.write(question['question'])
-
+    # Show progress
+    progress = st.progress((st.session_state.current_question + 1) / len(questions))
+    st.write(f"Question {st.session_state.current_question + 1} of {len(questions)}")
+    
+    # Display current question
+    question = questions[st.session_state.current_question]
+    st.markdown(f"### {question['question']}")
+    
     # Display options as radio buttons
-    selected_option = st.radio(
+    current_answer = st.session_state.quiz_answers[st.session_state.current_question]
+    index = current_answer if current_answer is not None and current_answer < len(question['options']) else 0
+    
+    selected = st.radio(
         "Select your answer:",
-        question['options'],
-        key=f"question_{current}"
+        options=question['options'],
+        key=f"q{st.session_state.current_question}",
+        index=index
     )
-
-    # Check answer button
-    if st.button("Submit Answer", key=f"check_{current}"):
-        st.session_state.answers[current] = {
-            'selected': selected_option,
-            'correct': selected_option == question['correct']
-        }
-        st.session_state.show_explanation = True
-        
-        # If this was the last question, mark the quiz as completed
-        if len(st.session_state.answers) == len(questions):
-            st.session_state.quiz_completed = True
-            
-        st.rerun()
-
-    # Display result if answer is selected
-    if current in st.session_state.answers:
-        answer = st.session_state.answers[current]
-        if answer['correct']:
+    
+    # Store answer
+    if selected in question['options']:
+        st.session_state.quiz_answers[st.session_state.current_question] = question['options'].index(selected)
+    
+    # Check Answer button
+    if st.button("Check Answer"):
+        st.session_state.checked_answers[st.session_state.current_question] = True
+    
+    # Show feedback if answer is checked
+    if st.session_state.checked_answers[st.session_state.current_question]:
+        current_answer = st.session_state.quiz_answers[st.session_state.current_question]
+        if current_answer == question['answer']:
             st.success("✅ Correct!")
         else:
-            st.error(f"❌ Incorrect. The correct answer is: {question['correct']}")
-
-        # Only show navigation buttons after answering the current question
-        col1, col2 = st.columns(2)
-        with col1:
-            if current > 0 and st.button("⬅️ Previous Question"):
+            # Show explanation if available
+            explanation = question['explanations'].get(current_answer, "")
+            st.error(f"❌ {explanation}")
+    
+    # Navigation buttons
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.session_state.current_question > 0:
+            if st.button("⬅️ Previous"):
                 st.session_state.current_question -= 1
-                st.session_state.show_explanation = False
                 st.rerun()
-        with col2:
-            if current < len(questions) - 1:
-                # Only allow moving to next question if current question is answered
-                if st.button("Next Question ➡️"):
-                    st.session_state.current_question += 1
-                    st.session_state.show_explanation = False
-                    st.rerun()
-    else:
-        # Show message if question hasn't been answered
-        st.info("⚠️ Please submit your answer before moving to the next question.")
-
-    # Display final score when quiz is completed
-    if st.session_state.quiz_completed:
-        correct_count = sum(1 for a in st.session_state.answers.values() if a['correct'])
-        score_percentage = (correct_count/len(questions)*100)
-        
-        st.markdown("---")
-        st.markdown("### 🎉 Quiz Complete!")
-        st.markdown(f"#### Your Score: {correct_count}/{len(questions)} ({score_percentage:.1f}%)")
-        
-        # Add encouraging message based on score
-        if score_percentage == 100:
-            st.success("🌟 Perfect score! Excellent work!")
-        elif score_percentage >= 80:
-            st.success("🎯 Great job! You've demonstrated a strong understanding!")
-        elif score_percentage >= 60:
-            st.info("📚 Good effort! Review the material and try again to improve your score.")
-        else:
-            st.warning("📖 Keep studying! Review the course materials and try again.")
-            
-        # Show a summary of incorrect answers
-        if score_percentage < 100:
-            st.markdown("### Review Incorrect Answers")
-            for i, q in enumerate(questions):
-                if not st.session_state.answers[i]['correct']:
-                    st.markdown(f"""
-                    **Question {i + 1}:** {q['question']}  
-                    Your answer: {st.session_state.answers[i]['selected']}  
-                    Correct answer: {q['correct']}
-                    """)
-            
-        # Add a retry button
-        if st.button("Try Quiz Again"):
-            st.session_state.current_question = 0
-            st.session_state.answers = {}
-            st.session_state.show_explanation = False
-            st.session_state.quiz_completed = False
-            st.rerun()
+    
+    with col2:
+        # Show number of correct answers so far
+        checked = st.session_state.checked_answers.count(True)
+        if checked > 0:
+            correct = sum(1 for i, q in enumerate(questions) 
+                        if st.session_state.checked_answers[i] 
+                        and st.session_state.quiz_answers[i] == q['answer'])
+            st.write(f"Score so far: {correct}/{checked}")
+    
+    with col3:
+        if st.session_state.current_question < len(questions) - 1:
+            if st.button("Next ➡️"):
+                st.session_state.current_question += 1
+                st.rerun()
+    
+    # Reset button
+    if st.button("Start Over"):
+        st.session_state.quiz_answers = [None] * len(questions)
+        st.session_state.checked_answers = [False] * len(questions)
+        st.session_state.current_question = 0
+        st.rerun()
 
 def display_qa(qa_pairs):
-    """Display Q&A pairs interactively."""
+    """Display Q&A content using accordions."""
     if not qa_pairs:
-        st.warning("No Q&A pairs found in this section.")
+        st.warning("No Q&A content found.")
         return
     
-    # Initialize session state for Q&A
-    if 'qa_expanded' not in st.session_state:
-        st.session_state.qa_expanded = [False] * len(qa_pairs)
-    
-    st.markdown("### Questions & Answers")
-    
-    for i, qa in enumerate(qa_pairs):
-        # Create an expander for each Q&A pair
-        with st.expander(f"Q: {qa['question']}", expanded=st.session_state.qa_expanded[i]):
-            st.markdown(f"**A:** {qa['answer']}")
-            # Update session state when expander is clicked
-            if st.session_state.qa_expanded[i] != st.session_state.get(f'qa_expanded_{i}', False):
-                st.session_state.qa_expanded[i] = not st.session_state.qa_expanded[i]
+    # Display each Q&A pair as an accordion
+    for qa in qa_pairs:
+        with st.expander(qa['question']):
+            st.write(qa['answer'])
 
 def main():
     st.title("KIN 479 Interactive Learning")
@@ -391,67 +332,54 @@ def main():
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and audio content.
     
-    Created by [Ovande Furtado Jr](https://drfurtado.github.io/site/)
-    
-    The content in this application is based on:  
-    Rosenbaum, D. A. (2010). *Human motor control* (2nd ed). Elsevier Inc.
+    Created by [Dr. Ovande Furtado Jr](https://drfurtado.github.io/)
     
     ### How to Use
     1. Select a chapter from the dropdown menu below
     2. Choose between **Flashcards**, **Quiz**, **Q&A**, or **Audio Overview** mode
     3. For Flashcards:
-       - Click on a card to flip it and reveal the answer
+       - Click "Flip Card" to reveal the answer
        - Use the navigation buttons to move between cards
     4. For Quizzes:
-       - Answer each question to the best of your ability
-       - Submit your answers to see your score and feedback
+       - Answer each question
+       - Check your answer before moving to the next question
+       - See your score at any time
     5. For Q&A:
        - Click on any question to expand and view its answer
        - Questions are organized by topic for easy reference
+    6. For Audio Overview:
+       - Listen to chapter summaries and key concepts
+       - Control playback with audio player controls
     """)
     
     # Initialize session state
     if 'card_flipped' not in st.session_state:
         st.session_state.card_flipped = False
+    if 'chapter' not in st.session_state:
+        st.session_state.chapter = None
     
     # Get the absolute path to the slides directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    base_path = os.path.abspath(os.path.join(current_dir, '..', 'slides'))
+    SLIDES_DIR = os.path.abspath(os.path.join(current_dir, '..', 'slides'))
     
-    # Create the base path if it doesn't exist
-    os.makedirs(base_path, exist_ok=True)
-    
-    try:
-        chapters = sorted([d for d in os.listdir(base_path) if d.startswith('ch') and os.path.isdir(os.path.join(base_path, d))])
-    except Exception as e:
-        st.error(f"Error accessing chapters: {str(e)}")
-        chapters = []
-    
+    # Get list of chapters
+    chapters = sorted([d for d in os.listdir(SLIDES_DIR) if d.startswith('ch') and os.path.isdir(os.path.join(SLIDES_DIR, d))])
     if not chapters:
-        st.warning("No chapters found. Please add chapter directories (e.g., ch01, ch02) in the 'slides' folder.")
+        st.error("No chapters found. Please make sure the slides directory contains chapter folders (ch01, ch02, etc.)")
         return
     
     # Chapter selection with URL parameter support
     chapter = st.selectbox("Select Chapter", chapters, index=chapters.index(selected_chapter) if selected_chapter in chapters else 0)
-    chapter_path = os.path.join(base_path, chapter)
+    
+    # Get chapter path
+    chapter_path = os.path.join(SLIDES_DIR, chapter)
     
     # Display shareable link for chapter
     current_url = f"https://kin479.streamlit.app/?chapter={chapter}"
-    col1, col2 = st.columns([3, 1])
-    with col1:
-        share_url = st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
-    with col2:
-        # Add a blank space to align the button
-        st.write("") 
-        # Use st.components to create a clipboard copy button
-        copy_html = f'''
-        <button onclick="navigator.clipboard.writeText('{current_url}').then(() => 
-            alert('URL Copied to Clipboard!'))">📋 Copy</button>
-        '''
-        st.components.v1.html(copy_html, height=50)
+    st.markdown(f"Share this chapter: [{current_url}]({current_url})")
     
-    # Mode selection with URL parameter support
-    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview", "Chat"]
+    # Mode selection
+    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
     # Update URL parameters
@@ -466,41 +394,32 @@ def main():
                 part = st.selectbox("Select Part", parts)
                 # Update URL parameters for flashcards
                 st.query_params["quiz"] = part
-                content = load_content(os.path.join(flashcards_path, part))
+                with open(os.path.join(flashcards_path, part), 'r') as f:
+                    content = f.read()
                 flashcards = parse_flashcard_content(content)
                 display_flashcards(flashcards)
             else:
                 st.warning("No flashcards found for this chapter.")
-    elif mode == "Audio Overview":
-        # First check for audio URL in chapter config
-        config_path = os.path.join(chapter_path, 'config.json')
-        audio_url = None
-        
-        if os.path.exists(config_path):
-            try:
-                with open(config_path, 'r') as f:
-                    config = json.loads(f.read())
-                    audio_url = config.get('audio_overview_url')
-            except Exception as e:
-                st.error(f"Error reading chapter configuration: {str(e)}")
-        
-        # If we have a URL, use it
-        if audio_url:
-            st.audio(audio_url)
-            st.markdown(f"*Audio hosted externally*")
         else:
-            # Fall back to local file if exists
-            audio_path = os.path.join(chapter_path, 'audio')
-            audio_file = os.path.join(audio_path, 'overview.mp3')
-            if os.path.exists(audio_file):
-                st.audio(audio_file)
-                st.markdown(f"*Audio hosted locally*")
+            st.warning("No flashcards directory found for this chapter. Please create a 'flashcards' directory with .qmd files.")
+    elif mode == "Audio Overview":
+        audio_path = os.path.join(chapter_path, 'audio')
+        if os.path.exists(audio_path):
+            audio_files = sorted([f for f in os.listdir(audio_path) if f.endswith('.mp3')])
+            if audio_files:
+                audio_file = st.selectbox("Select Audio", audio_files, index=audio_files.index(selected_audio) if selected_audio in audio_files else 0)
+                audio_file_path = os.path.join(audio_path, audio_file)
+                
+                # Audio player
+                st.audio(audio_file_path)
+                
+                # Update URL parameters for audio
+                st.query_params["chapter"] = chapter
+                st.query_params["mode"] = mode
             else:
-                st.info("No audio overview available for this chapter yet.")
-        
-        # Update URL parameters for audio
-        st.query_params["chapter"] = chapter
-        st.query_params["mode"] = mode
+                st.info("No audio files available for this chapter yet.")
+        else:
+            st.info("No audio overview available for this chapter yet.")
     elif mode == "Q&A":
         qa_path = os.path.join(chapter_path, 'qa')
         if os.path.exists(qa_path):
@@ -509,50 +428,15 @@ def main():
                 part = st.selectbox("Select Part", parts)
                 # Update URL parameters for Q&A
                 st.query_params["quiz"] = part
-                content = load_content(os.path.join(qa_path, part))
-                qa_pairs = parse_qa_content(content)
+                with open(os.path.join(qa_path, part), 'r') as f:
+                    content = f.read()
+                qa_pairs = parse_qa(content)
                 display_qa(qa_pairs)
             else:
                 st.warning("No Q&A content found for this chapter.")
         else:
             st.warning("No Q&A directory found for this chapter. Please create a 'qa' directory with .qmd files.")
-    elif mode == "Chat":
-        # Initialize chatbot with course materials
-        if 'chatbot' not in st.session_state:
-            st.session_state.chatbot = ChatBot()
-            # Load all chapters
-            st.session_state.chatbot.load_all_chapters(base_path)
-        
-        # Chat interface
-        st.markdown("### Chat with AI Assistant")
-        
-        # Initialize chat history
-        if "messages" not in st.session_state:
-            st.session_state.messages = []
-        
-        # Display chat history
-        for message in st.session_state.messages:
-            with st.chat_message(message["role"]):
-                st.markdown(message["content"])
-        
-        # Accept user input
-        if prompt := st.text_input("Ask a question about the course material..."):
-            # Add user message to chat history
-            st.session_state.messages.append({"role": "user", "content": prompt})
-            
-            # Display user message
-            with st.chat_message("user"):
-                st.markdown(prompt)
-            
-            # Show thinking message
-            with st.chat_message("assistant"):
-                with st.spinner("🤔 Thinking..."):
-                    response = st.session_state.chatbot.get_response(prompt)
-                st.markdown(response)
-                
-            # Add assistant response to chat history
-            st.session_state.messages.append({"role": "assistant", "content": response})
-    else:
+    else:  # Quiz mode
         quizzes_path = os.path.join(chapter_path, 'quizzes')
         if os.path.exists(quizzes_path):
             parts = sorted([f for f in os.listdir(quizzes_path) if f.endswith('.qmd')])
@@ -561,8 +445,9 @@ def main():
                 part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
                 # Update URL parameters for quizzes
                 st.query_params["quiz"] = part
-                content = load_content(os.path.join(quizzes_path, part))
-                questions = parse_quiz_content(content)
+                with open(os.path.join(quizzes_path, part), 'r') as f:
+                    content = f.read()
+                questions = parse_quiz(content)
                 display_quiz(questions)
             else:
                 st.warning("No quizzes found for this chapter.")
