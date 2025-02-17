@@ -323,12 +323,12 @@ def display_qa(qa_pairs):
 def main():
     st.title("KIN 479 Interactive Learning")
     
-    # Get URL parameters
-    query_params = st.experimental_get_query_params()
-    selected_chapter = query_params.get("chapter", ["ch01"])[0]
-    selected_mode = query_params.get("mode", ["Flashcards"])[0]
-    selected_quiz = query_params.get("quiz", [None])[0]
-    selected_audio = query_params.get("audio", [None])[0]
+    # Get URL parameters using experimental API
+    params = st.experimental_get_query_params()
+    selected_chapter = params.get("chapter", ["ch01"])[0]
+    selected_mode = params.get("mode", ["Flashcards"])[0]
+    selected_quiz = params.get("quiz", [None])[0]
+    selected_audio = params.get("audio", [None])[0]
     
     st.markdown("""
     Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and audio content.
@@ -383,7 +383,7 @@ def main():
     mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
     mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
     
-    # Update URL parameters
+    # Update URL parameters using experimental API
     st.experimental_set_query_params(
         chapter=chapter,
         mode=mode
