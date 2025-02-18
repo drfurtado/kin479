@@ -9,7 +9,7 @@ from chatbot import ChatBot
 
 # Set page config
 st.set_page_config(
-    page_title="KIN479 Study Materials",
+    page_title="KIN 479 Study Materials",
     page_icon="📚",
     layout="wide"
 )
@@ -323,42 +323,55 @@ def display_qa(qa_pairs):
 def main():
     st.title("KIN 479 Interactive Learning")
     
-    # Get URL parameters using experimental API
-    params = st.experimental_get_query_params()
-    selected_chapter = params.get("chapter", ["ch01"])[0]
-    selected_mode = params.get("mode", ["Flashcards"])[0]
-    selected_quiz = params.get("quiz", [None])[0]
-    selected_audio = params.get("audio", [None])[0]
-    
     st.markdown("""
-    Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and audio content.
+    Welcome to the KIN 479 Interactive Learning Platform! This web application is designed to help you master the course material through interactive flashcards, quizzes, Q&A, and a chatbot assistant.
     
     Created by [Dr. Ovande Furtado Jr](https://drfurtado.github.io/)
     
     ### How to Use
     1. Select a chapter from the dropdown menu below
-    2. Choose between **Flashcards**, **Quiz**, **Q&A**, or **Audio Overview** mode
+    2. Choose between **Flashcards**, **Quiz**, **Q&A**, or **Chat** mode
     3. For Flashcards:
        - Click "Flip Card" to reveal the answer
        - Use the navigation buttons to move between cards
     4. For Quizzes:
-       - Answer each question
-       - Check your answer before moving to the next question
-       - See your score at any time
+       - Answer each question to the best of your ability
+       - Submit your answers to see your score and feedback
     5. For Q&A:
        - Click on any question to expand and view its answer
        - Questions are organized by topic for easy reference
-    6. For Audio Overview:
-       - Listen to chapter summaries and key concepts
-       - Control playback with audio player controls
+    6. For Chat:
+       - Ask questions about the course material
+       - Get instant responses from our AI assistant
     """)
     
     # Initialize session state
     if 'card_flipped' not in st.session_state:
         st.session_state.card_flipped = False
-    if 'chapter' not in st.session_state:
-        st.session_state.chapter = None
-    
+    if 'current_chapter' not in st.session_state:
+        st.session_state.current_chapter = "ch01"
+    if 'current_mode' not in st.session_state:
+        st.session_state.current_mode = "Flashcards"
+    if 'first_load' not in st.session_state:
+        st.session_state.first_load = True
+    if 'messages' not in st.session_state:
+        st.session_state.messages = []
+    if 'chatbot' not in st.session_state:
+        st.session_state.chatbot = ChatBot()
+        # Get the absolute path to the slides directory
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        SLIDES_DIR = os.path.abspath(os.path.join(current_dir, '..', 'slides'))
+        st.session_state.chatbot.load_all_chapters(SLIDES_DIR)
+
+    def on_chapter_change():
+        if not st.session_state.first_load:
+            st.session_state.current_chapter = st.session_state.chapter_select
+        st.session_state.first_load = False
+
+    def on_mode_change():
+        st.session_state.current_mode = st.session_state.mode_select
+        st.session_state.first_load = False
+
     # Get the absolute path to the slides directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
     SLIDES_DIR = os.path.abspath(os.path.join(current_dir, '..', 'slides'))
@@ -369,11 +382,17 @@ def main():
         st.error("No chapters found. Please make sure the slides directory contains chapter folders (ch01, ch02, etc.)")
         return
     
-    # Chapter selection with URL parameter support
-    chapter = st.selectbox("Select Chapter", chapters, index=chapters.index(selected_chapter) if selected_chapter in chapters else 0)
+    # Chapter selection with callback
+    chapter = st.selectbox(
+        "Select Chapter",
+        chapters,
+        index=chapters.index(st.session_state.current_chapter) if st.session_state.current_chapter in chapters else 0,
+        key="chapter_select",
+        on_change=on_chapter_change
+    )
     
     # Get chapter path
-    chapter_path = os.path.join(SLIDES_DIR, chapter)
+    chapter_path = os.path.join(SLIDES_DIR, st.session_state.current_chapter)
     
     # Get chapter title from config.json
     config_path = os.path.join(chapter_path, 'config.json')
@@ -388,31 +407,37 @@ def main():
         st.markdown(f'<p style="color: red; font-size: 1.2em;">Studying Chapter: {chapter_title}</p>', unsafe_allow_html=True)
     
     # Display shareable link for chapter
-    current_url = f"https://kin479.streamlit.app/?chapter={chapter}"
-    st.markdown(f"Share this chapter: [{current_url}]({current_url})")
+    current_url = f"https://kin479.streamlit.app/?chapter={st.session_state.current_chapter}"
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        share_url = st.text_input("📎 Share this chapter:", value=current_url, key="share_url", help="Copy this URL to share this chapter's content")
+    with col2:
+        # Add a blank space to align the button
+        st.write("") 
+        # Use st.components to create a clipboard copy button
+        copy_html = f'''
+        <button onclick="navigator.clipboard.writeText('{current_url}').then(() => 
+            alert('URL Copied to Clipboard!'))">📋 Copy</button>
+        '''
+        st.components.v1.html(copy_html, height=50)
     
-    # Mode selection
-    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview"]
-    mode = st.radio("Select Mode", mode_options, index=mode_options.index(selected_mode) if selected_mode in mode_options else 0)
-    
-    # Update URL parameters using experimental API
-    st.experimental_set_query_params(
-        chapter=chapter,
-        mode=mode
+    # Mode selection with callback
+    mode_options = ["Flashcards", "Quiz", "Q&A", "Chat"]
+    st.radio(
+        "Select Mode",
+        mode_options,
+        index=mode_options.index(st.session_state.current_mode) if st.session_state.current_mode in mode_options else 0,
+        key="mode_select",
+        on_change=on_mode_change,
+        horizontal=True
     )
     
-    if mode == "Flashcards":
+    if st.session_state.current_mode == "Flashcards":
         flashcards_path = os.path.join(chapter_path, 'flashcards')
         if os.path.exists(flashcards_path):
             parts = sorted([f for f in os.listdir(flashcards_path) if f.endswith('.qmd')])
             if parts:
                 part = st.selectbox("Select Part", parts)
-                # Update URL parameters for flashcards
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    quiz=part
-                )
                 with open(os.path.join(flashcards_path, part), 'r') as f:
                     content = f.read()
                 flashcards = parse_flashcard_content(content)
@@ -421,60 +446,28 @@ def main():
                 st.warning("No flashcards found for this chapter.")
         else:
             st.warning("No flashcards directory found for this chapter. Please create a 'flashcards' directory with .qmd files.")
-    elif mode == "Audio Overview":
-        # First try to get audio from the audio subdirectory
-        audio_path = os.path.join(chapter_path, 'audio')
-        if os.path.exists(audio_path):
-            audio_files = sorted([f for f in os.listdir(audio_path) if f.endswith('.mp3')])
-            if audio_files:
-                audio_file = st.selectbox("Select Audio", audio_files, index=audio_files.index(selected_audio) if selected_audio in audio_files else 0)
-                audio_file_path = os.path.join(audio_path, audio_file)
-                
-                # Audio player
-                st.audio(audio_file_path)
-                
-                # Update URL parameters for audio
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    audio=audio_file
-                )
+    
+    elif st.session_state.current_mode == "Quiz":
+        quizzes_path = os.path.join(chapter_path, 'quizzes')
+        if os.path.exists(quizzes_path):
+            parts = sorted([f for f in os.listdir(quizzes_path) if f.endswith('.qmd')])
+            if parts:
+                part = st.selectbox("Select Part", parts)
+                with open(os.path.join(quizzes_path, part), 'r') as f:
+                    content = f.read()
+                questions = parse_quiz(content)
+                display_quiz(questions)
             else:
-                # If no audio files in audio directory, try to get from config.json
-                config_path = os.path.join(chapter_path, 'config.json')
-                if os.path.exists(config_path):
-                    with open(config_path, 'r') as f:
-                        config = json.load(f)
-                        if 'audio_overview_url' in config:
-                            st.audio(config['audio_overview_url'])
-                        else:
-                            st.info("No audio overview URL found in config.json")
-                else:
-                    st.info("No audio files or config.json found for this chapter.")
+                st.warning("No quizzes found for this chapter.")
         else:
-            # If no audio directory, try to get from config.json
-            config_path = os.path.join(chapter_path, 'config.json')
-            if os.path.exists(config_path):
-                with open(config_path, 'r') as f:
-                    config = json.load(f)
-                    if 'audio_overview_url' in config:
-                        st.audio(config['audio_overview_url'])
-                    else:
-                        st.info("No audio overview URL found in config.json")
-            else:
-                st.info("No audio overview available for this chapter yet.")
-    elif mode == "Q&A":
+            st.warning("No quizzes directory found for this chapter. Please create a 'quizzes' directory with .qmd files.")
+    
+    elif st.session_state.current_mode == "Q&A":
         qa_path = os.path.join(chapter_path, 'qa')
         if os.path.exists(qa_path):
             parts = sorted([f for f in os.listdir(qa_path) if f.endswith('.qmd')])
             if parts:
                 part = st.selectbox("Select Part", parts)
-                # Update URL parameters for Q&A
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    quiz=part
-                )
                 with open(os.path.join(qa_path, part), 'r') as f:
                     content = f.read()
                 qa_pairs = parse_qa(content)
@@ -483,24 +476,30 @@ def main():
                 st.warning("No Q&A content found for this chapter.")
         else:
             st.warning("No Q&A directory found for this chapter. Please create a 'qa' directory with .qmd files.")
-    else:  # Quiz mode
-        quizzes_path = os.path.join(chapter_path, 'quizzes')
-        if os.path.exists(quizzes_path):
-            parts = sorted([f for f in os.listdir(quizzes_path) if f.endswith('.qmd')])
-            if parts:
-                part = st.selectbox("Select Part", parts, index=parts.index(selected_quiz) if selected_quiz in parts else 0)
-                # Update URL parameters for quizzes
-                st.experimental_set_query_params(
-                    chapter=chapter,
-                    mode=mode,
-                    quiz=part
-                )
-                with open(os.path.join(quizzes_path, part), 'r') as f:
-                    content = f.read()
-                questions = parse_quiz(content)
-                display_quiz(questions)
-            else:
-                st.warning("No quizzes found for this chapter.")
+    
+    elif st.session_state.current_mode == "Chat":
+        # Display chat history
+        for message in st.session_state.messages:
+            with st.chat_message(message["role"]):
+                st.markdown(message["content"])
+        
+        # Accept user input
+        if prompt := st.chat_input("Ask a question about the course material..."):
+            # Add user message to chat history
+            st.session_state.messages.append({"role": "user", "content": prompt})
+            
+            # Display user message
+            with st.chat_message("user"):
+                st.markdown(prompt)
+            
+            # Show thinking message
+            with st.chat_message("assistant"):
+                with st.spinner("🤔 Thinking..."):
+                    response = st.session_state.chatbot.get_response(prompt)
+                st.markdown(response)
+                
+            # Add assistant response to chat history
+            st.session_state.messages.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
     main()
