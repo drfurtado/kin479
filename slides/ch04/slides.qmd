@@ -148,7 +148,7 @@ format:
 
 **Sound**
 
-- If you want to pause the lecture, click on the button that appears on the left-lower corner - **try it now to pause this slide.**
+- If you want to pause the lecture, click on the button that appears on the left-lower corner (OR THE 'A' key) - **try it now to pause this slide.**
 - This lecture has sound (except this slide). Please turn on your volume.
 - If you DON'T HEAR the audio when viewing the next slide and on, go back to the title slide and try again.
 - If you still cannot hear the audio, please try a different browser and check the audio settings of your device.
