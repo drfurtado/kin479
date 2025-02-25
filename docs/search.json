@@ -4086,5 +4086,12 @@
     "title": "Slide Implementation Instructions",
     "section": "",
     "text": "Audio 404 Errors\n\nCheck file paths are relative (../audio/)\nVerify file names match exactly\nEnsure audio files exist in correct directory\n\nLayout Problems\n\nKeep YAML margin setting at 0.1\nUse proper column width settings\nMaintain consistent structure across slides\n\nImage Generation\n\nProvide detailed, specific prompts\nInclude style specifications\nKeep prompts consistent with content"
+  },
+  {
+    "objectID": "slides/ch04/slides.html#psychology-physiology-of-movement",
+    "href": "slides/ch04/slides.html#psychology-physiology-of-movement",
+    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
+    "section": "1/10 Psychology & Physiology of Movement",
+    "text": "1/10 Psychology & Physiology of Movement\n\nPhysiology is the study of the mind and behavior\nPhysiology is not important when studying movement\nWhen observing a movement, psychology is not important\nPsychology and physiology are both important when studying movement"
   }
 ]

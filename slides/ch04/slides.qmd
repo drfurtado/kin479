@@ -16,7 +16,7 @@ logo-position: right
 footer: "Dr. Furtado | CSUN | KIN Department | KIN377 - Human Motor Control"
 
 format:
-    pdf: default
+  #  pdf: default
     revealjs:
         theme: night
         smaller: false
@@ -444,12 +444,11 @@ This theory breaks down skill acquisition into three main phases:
 - Click the timer again to start the lecture and quiz.
 
 
-## 1/10 Performance vs Learning {.quiz-question}
-- Performance and learning are the same thing  
-- Learning is directly observable while performance is inferred  
-- [Learning is inferred from relatively permanent changes in performance]{.correct}  
-- Performance is always a reliable indicator of learning  
-
+## 1/10 Psychology & Physiology of Movement {.quiz-question}
+- Physiology is the study of the mind and behavior
+- Physiology is not important when studying movement
+- When observing a movement, psychology is not important
+- [Psychology and physiology are both important when studying movement]m{.correct}
 
 ## 2/10 Serial Order Problem {.quiz-question}
 - It refers to memorizing a sequence of numbers  
