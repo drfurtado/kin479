@@ -1,0 +1,102 @@
+Question: What is the **sequencing and timing problem** in motor control?
+Answer: The sequencing and timing problem, also known as the **serial order problem**, explores how movement sequences are ordered in a series. It seeks to understand how elements of a movement, such as the sounds in a phrase or steps in a routine, are arranged in the correct order.
+
+Question: What is **response chaining theory**, and how does it explain movement sequences?
+Answer: Response chaining theory suggests that movements are linked together, where each completed movement acts as a stimulus that triggers the next movement in the sequence. Practice strengthens these connections, making actions faster and more effortless.
+
+Question: What are some **criticisms of response chaining theory**?
+Answer:
+*   It doesn't account for the speed of some movements, which occur too quickly to be triggered solely by feedback from the previous movement.
+*   The same action can lead to different outcomes depending on the context, which a rigid chain cannot explain.
+*   Movement sequences can continue even when feedback is interrupted, suggesting that there is more than just a simple response chain.
+*   It struggles to explain rule-governed behavior.
+
+Question: What is **element-to-position association theory**?
+Answer: This theory suggests that movements are linked to mental markers representing their position within a sequence. These markers could also relate to timing, helping explain how actions are timed accurately.
+
+Question: What are the **limitations of the element-to-position association theory**?
+Answer: It needs to explain how people learn and follow complex rules that govern sequences. It requires more complexity to account for the real-world flexibility of human action and skill.
+
+Question: How does the **inter-element inhibition theory** explain sequencing?
+Answer: It suggests that elements within a sequence inhibit each other. The element receiving the most inhibition occurs later in the sequence.
+
+Question: What are the **problems with the inter-element inhibition theory**?
+Answer:
+*   It is difficult to model or program due to the complexity of real-world neural processes.
+*   It does not explain how people learn and follow complex rules governing the order of actions.
+
+Question: What does the **hierarchical theory** propose about motor control?
+Answer: This theory suggests that movement sequences are organized into smaller groups or "chunks" that can be nested within each other to create complex sequences.
+
+Question: What are the **advantages of hierarchical models**?
+Answer:
+*   They reduce the processing load for the brain.
+*   They provide smooth execution and flexibility when adjusting plans.
+*   They offer a framework for understanding rule-governed behavior.
+*   They accurately predict which sequences will be easy or hard to learn.
+
+Question: What is **Adams' closed-loop theory**?
+Answer: This theory focuses on how movements are refined through practice by developing "perceptual goals," which are internal senses of what a successful action feels like. Movements are adjusted to match that internal goal.
+
+Question: What is a **perceptual trace** according to Adams?
+Answer: A perceptually defined reference condition for each hand position along a trajectory, which becomes better suited to the completion of a task with practice. Learning reflects the development of more adaptive perceptual traces as well as more adaptive capacities for generating movements that reduce errors between perceptual traces and actual outcomes.
+
+Question: What are the **shortcomings of closed-loop theory**?
+Answer:
+*   It reduces to a response chaining theory.
+*   It applies more straightforwardly to simple movements than complex ones.
+*   More knowledge of results (KR) does not always lead to more effective performance.
+
+Question: What is a **generalized motor program (schema)**?
+Answer: A schema for a procedure with parameters that affect the forms that actions take. It is a knowledge structure that can be instantiated in different ways depending on the values of its underlying variables or parameters.
+
+Question: What is the **power law of learning**?
+Answer: An equation (T = aP^-b) describing how the time to complete a task decreases with practice. The equation can be converted to the equation for a straight line by taking the logarithm of each side of the equation. It applies to various perceptual-motor and intellectual activities.
+
+Question: What are the **stages in Fitts' stage theory of skill acquisition**?
+Answer:
+*   **Cognitive Stage**: Learning the basic procedures, requiring attention.
+*   **Associative Stage**: Refining technique, linking actions to outcomes.
+*   **Autonomous Stage**: Performing quickly and consistently with less conscious involvement.
+
+Question: How does **attention** change across the stages of skill acquisition?
+Answer: In the early stages, high mental focus is needed, but skill mastery allows that mental space to be used for other things.
+
+Question: How do **degrees of freedom** relate to skill acquisition?
+Answer: Novice performers reduce complexity by locking joints, while experienced performers unlock joints, allowing more flexible and efficient movements.
+
+Question: What is the **uncontrolled manifold hypothesis**?
+Answer: The idea that some dimensions of movement matter to task success, while others matter little. Motor skill learning involves exploring the effects of different positions in the control space.
+
+Question: What is the difference between **procedural and declarative knowledge**?
+Answer: **Procedural knowledge** consists of implicit instructions for performing a series of operations, while **declarative knowledge** consists of facts that can be stated verbally.
+
+Question: How does **long-term memory** relate to motor skills?
+Answer: Long-term memory for skills is resistant to forgetting. Well-learned skills show little decrement following retention intervals of weeks, months, or even years.
+
+Question: What is the **ideo-motor theory**?
+Answer: This theory suggests that every thought, conscious or unconscious, has a commensurate action. The time to produce a behavior is shorter when the signal for the behavior shares features with the behavior’s anticipated perceptual consequences.
+
+Question: What is the **parameter remapping effect**?
+Answer: The slowing of performance when having to remap parameters, such as accents to letters.
+
+Question: What is the role of **mental practice** in skill acquisition?
+Answer: Mental practice can strengthen high-level memory units and aid in learning motor tasks.
+
+Question: What is the **motor output buffer**?
+Answer: A limited-capacity store for low-level motor commands.
+
+Question: What is the relationship between **psychology and physiology** in motor control?
+Answer: Psychology focuses on behaviors and mental processes, while physiology explores how the nervous system and muscles interact to generate movement. Both are crucial for a holistic understanding of motor control.
+
+Question: How do **hierarchical models** relate to skill acquisition?
+Answer: Hierarchical learning shows how mastering simple components first creates a sturdy platform for more advanced skills.
+
+Question: How does **feedback** change across the stages of skill acquisition?
+Answer: Initially, you rely heavily on feedback to correct mistakes. Later, less feedback is needed for maintaining skilled performance.
+
+Question: What is the **serial order problem**?
+Answer: How multiple elements are combined into a coherent and correctly timed whole.
+
+Question: What does **skill acquisition** involve?
+Answer: Skill acquisition involves changes in brain structure and function, muscle coordination, and force control.

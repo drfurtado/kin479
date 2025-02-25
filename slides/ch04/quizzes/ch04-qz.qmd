@@ -1,0 +1,188 @@
+## Psychology and Physiology {.quiz-question}
+
+Psychology and physiology are completely separate and do not inform each other in the study of motor control.
+
+-   [True]{data-explanation="This is incorrect, psychology and physiology work together to inform motor control."}
+-   [False]{.correct data-explanation="Correct! Both psychology and physiology are needed to have a holistic picture of motor control."}
+
+## Response Chaining Defined {.quiz-question}
+
+Response chaining suggests that each movement acts as a signal, triggering the next in a sequence.
+
+-   [True]{.correct data-explanation="Correct! The response chaining theory suggests movements are linked together like a chain."}
+-   [False]{data-explanation="This is incorrect. The response chaining theory links movements together in a chain."}
+
+## Response Chaining Problems {.quiz-question}
+
+Response chaining fully accounts for how people perform rapid sequences, even without feedback.
+
+-   [True]{data-explanation="This is incorrect; response chaining is limited and does not fully account for rapid movements."}
+-   [False]{.correct data-explanation="Correct! Response chaining has limitations in explaining rapid movements without feedback."}
+
+## Element-to-Position Theory Defined {.quiz-question}
+
+Element-to-Position theory suggests movements are linked to mental markers representing their position within a sequence.
+
+-   [True]{.correct data-explanation="Correct! Element-to-Position theory links movements to mental markers within a sequence."}
+-   [False]{data-explanation="This is incorrect. Element-to-Position theory does link movements to mental markers."}
+
+## Element-to-Position Limitations {.quiz-question}
+
+Element-to-Position theory fully explains how we learn and follow complex rules in dynamic contexts.
+
+-   [True]{data-explanation="This is incorrect, the theory does not fully account for how we follow complex rules."}
+-   [False]{.correct data-explanation="Correct! The Element-to-Position theory doesn't fully capture learning and adaptation to abstract rules."}
+
+## Inter-Element Inhibition Defined {.quiz-question}
+
+Inter-Element Inhibition theory proposes elements in a sequence try to suppress each other.
+
+-   [True]{.correct data-explanation="Correct! This theory suggests elements suppress each other within a sequence."}
+-   [False]{data-explanation="This is incorrect. The Inter-Element Inhibition theory does propose that elements suppress one another."}
+
+## Inter-Element Inhibition Accuracy {.quiz-question}
+
+Inter-Element Inhibition accurately represents the complexity and adaptability of motor planning.
+
+-   [True]{data-explanation="This is incorrect; the Inter-Element Inhibition underestimates complexity in motor planning."}
+-   [False]{.correct data-explanation="Correct! This theory underestimates the complexity of motor planning, which includes flexible rules and goal-oriented behavior."}
+
+## Hierarchical Models Defined {.quiz-question}
+
+Hierarchical models propose that the brain groups related actions into chunks.
+
+-   [True]{.correct data-explanation="Correct! Hierarchical models involve grouping actions into chunks, which reduces the processing load for the brain."}
+-   [False]{data-explanation="This is incorrect. Hierarchical models organize actions into chunks."}
+
+## Hierarchical Benefits {.quiz-question}
+
+Hierarchical organization reduces flexibility when adjusting plans.
+
+-   [True]{data-explanation="This is incorrect. Hierarchical organization allows for flexibility when adjusting plans."}
+-   [False]{.correct data-explanation="Correct! Hierarchical models allow smooth execution and flexibility when adjusting plans."}
+
+## Adams' Closed-Loop Theory Defined {.quiz-question}
+
+Adams' Closed-Loop Theory emphasizes using ongoing feedback to fine-tune movements.
+
+-   [True]{.correct data-explanation="Correct! Adams’ Closed-Loop Theory focuses on refining movements through feedback and internal goals."}
+-   [False]{data-explanation="This is incorrect. This theory emphasizes the use of feedback to fine-tune movements."}
+
+## Adams' Closed-Loop Limitations {.quiz-question}
+
+Adams' Closed-Loop Theory explains rapid movements performed without continuous feedback.
+
+-   [True]{data-explanation="This is incorrect; the Adams Closed-Loop theory struggles to explain rapid movements."}
+-   [False]{.correct data-explanation="Correct! A limitation of Adams’ Closed-Loop Theory is explaining rapid movements or those without continuous feedback."}
+
+## Hierarchical Learning Defined {.quiz-question}
+
+Hierarchical learning suggests skill development happens in layers, from lower-level to more complex skills.
+
+-   [True]{.correct data-explanation="Correct! This theory describes how skills build upon each other, from basic to complex."}
+-   [False]{data-explanation="This is incorrect. Hierarchical learning describes how skills build from basic to complex."}
+
+## Hierarchical Learning Benefits {.quiz-question}
+
+Hierarchical learning does not require a solid foundation for each layer of skill.
+
+-   [True]{data-explanation="This is incorrect. Each layer in hierarchical learning needs a solid foundation."}
+-   [False]{.correct data-explanation="Correct! Each layer in hierarchical learning requires a solid foundation to support more advanced skills."}
+
+## Fitts' Stage Theory Defined {.quiz-question}
+
+Fitts' Stage Theory breaks down skill acquisition into cognitive, associative, and autonomous phases.
+
+-   [True]{.correct data-explanation="Correct! Fitts’ Stage Theory includes cognitive, associative, and autonomous stages."}
+-   [False]{data-explanation="This is incorrect. Fitts' theory includes the cognitive, associative, and autonomous stages."}
+
+## Cognitive Stage {.quiz-question}
+
+The cognitive stage involves automatic performance requiring less conscious effort.
+
+-   [True]{data-explanation="This is incorrect. Automatic performance requiring less conscious effort is the autonomous stage."}
+-   [False]{.correct data-explanation="Correct! The cognitive stage is about understanding basics, not automatic performance, which is the autonomous stage."}
+
+## Autonomous Stage {.quiz-question}
+
+The autonomous stage involves the skill becoming more natural, requiring less conscious effort.
+
+-   [True]{.correct data-explanation="Correct! The autonomous stage involves skills becoming natural and requiring less mental effort."}
+-   [False]{data-explanation="This is incorrect. In the autonomous stage, skills become natural requiring less mental effort."}
+
+## Attention Allocation {.quiz-question}
+
+Attention demands remain high throughout all stages of skill acquisition.
+
+-   [True]{data-explanation="This is incorrect; early stages require more attention, but attention lessens as skill increases."}
+-   [False]{.correct data-explanation="Correct! Attention needs decrease with skill mastery, freeing up mental space for other tasks."}
+
+## Feedback Reliance {.quiz-question}
+
+Reliance on feedback decreases as skill level increases.
+
+-   [True]{.correct data-explanation="Correct! Less feedback is needed to maintain skilled performance as skill level increases."}
+-   [False]{data-explanation="This is incorrect. Skilled performance needs less feedback to be maintained."}
+
+## Skill Acquisition Defined {.quiz-question}
+
+Skill acquisition only involves mental strategies, not physical changes.
+
+-   [True]{data-explanation="This is incorrect, skill acquisition involves both mental strategies and physical changes."}
+-   [False]{.correct data-explanation="Correct! Skill acquisition involves both changes in mental strategies and changes in how the body moves."}
+
+## Degrees of Freedom {.quiz-question}
+
+Degrees of freedom refer to unlocking new movement possibilities within joints and muscles.
+
+-   [True]{.correct data-explanation="Correct! Degrees of freedom refer to the movement possibilities within joints and muscles."}
+-   [False]{data-explanation="This is incorrect. Degrees of freedom do refer to movement possibilities within joints and muscles."}
+
+## Uncontrolled Manifold Hypothesis Defined {.quiz-question}
+
+The Uncontrolled Manifold Hypothesis suggests our brain separates essential movements from less crucial ones.
+
+-   [True]{.correct data-explanation="Correct! The Uncontrolled Manifold Hypothesis is about distinguishing essential movements from less crucial ones."}
+-   [False]{data-explanation="This is incorrect. This hypothesis states that our brain separates movements for success from less crucial ones."}
+
+## Motor Programs Defined {.quiz-question}
+
+Motor programs are functional states that allow particular movements or classes of movements to occur.
+
+-   [True]{.correct data-explanation="Correct! Motor programs are functional states that allow particular movements or classes of movements to occur."}
+-   [False]{data-explanation="This is incorrect. Motor programs are indeed functional states that allow movements or classes of movements to occur."}
+
+## Mental Practice Value {.quiz-question}
+
+Mental practice is as effective as physical practice for motor skill improvement.
+
+-   [True]{data-explanation="This is incorrect. Mental practice has been found to be more effective than no practice at all but less effective than physical practice."}
+-   [False]{.correct data-explanation="Correct! Mental practice is more effective than no practice at all but less effective than physical practice."}
+
+## Long-Term Memory of Skills {.quiz-question}
+
+Long-term memory for motor skills is easily forgotten.
+
+-   [True]{data-explanation="This is incorrect; well-learned skills are resistant to forgetting."}
+-   [False]{.correct data-explanation="Correct! Long-term memory for motor skills is resistant to forgetting, with skills retained over long periods."}
+
+## Explicit Verbal Feedback {.quiz-question}
+
+Explicit verbal feedback, or knowledge of results (KR), generally aids skill acquisition.
+
+-   [True]{.correct data-explanation="Correct! People learning new tasks who are explicitly told about their performance usually do better than people who are not told how well they have done."}
+-   [False]{data-explanation="This is incorrect. People learning new tasks who are explicitly told about their performance usually do better than people who are not told how well they have done."}
+
+## Rule-Governed Behavior {.quiz-question}
+
+Rule-governed behavior can be accommodated by chaining theory.
+
+-   [True]{data-explanation="This is incorrect. This capacity for apprehending rules and for behaving according to them is difficult to accommodate with chaining theory."}
+-   [False]{.correct data-explanation="Correct! Chaining theory is challenged by rule-governed behavior."}
+
+## Ido-Motor Theory {.quiz-question}
+
+The ideo-motor theory says that every thought—conscious or unconscious—has a commensurate action.
+
+-   [True]{.correct data-explanation="Correct! The core claim is that every thought—conscious or unconscious—has a commensurate action."}
+-   [False]{data-explanation="This is incorrect. The ideo-motor theory indeed says that every thought—conscious or unconscious—has a commensurate action."}

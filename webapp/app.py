@@ -486,7 +486,7 @@ def main():
         st.components.v1.html(copy_html, height=50)
     
     # Mode selection with callback
-    mode_options = ["Flashcards", "Quiz", "Q&A", "Chat"]
+    mode_options = ["Flashcards", "Quiz", "Q&A", "Audio Overview", "Chat"]
     st.radio(
         "Select Mode",
         mode_options,
@@ -540,6 +540,21 @@ def main():
                 st.warning("No Q&A content found for this chapter.")
         else:
             st.warning("No Q&A directory found for this chapter. Please create a 'qa' directory with .qmd files.")
+    
+    elif st.session_state.current_mode == "Audio Overview":
+        # Get audio URL from config.json
+        config_path = os.path.join(chapter_path, 'config.json')
+        if os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                config = json.load(f)
+                audio_url = config.get('audio_overview_url', '')
+                if audio_url:
+                    st.write("### Chapter Audio Overview")
+                    st.audio(audio_url, format='audio/mp3')
+                else:
+                    st.warning("No audio overview URL found in config.json")
+        else:
+            st.warning("No config.json found for this chapter.")
     
     elif st.session_state.current_mode == "Chat":
         # Display chat history
