@@ -1,0 +1,362 @@
+---
+title: "KIN479 Human Motor Control"
+subtitle: "Psychological Foundations in Human Motor Control: Flashcards"
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN377-Motor Learning
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+format:
+  revealjs:
+    theme: simple
+    transition: slide
+    slide-number: true
+    footer: "Flip: 'q' | Shuffle: 'w' | Arrow Keys: Navigate"
+    menu: false
+    controls: true
+    controls-tutorial: true
+    revealjs-plugins:
+      - flashcards
+    flashcards:
+      flipKey: 'q'
+      shuffleKey: 'w'
+      showFlipButton: false
+---
+
+## 1. Psychology vs. Physiology {.flashcard}
+
+::: {.flashcard-front}
+Term: Psychology vs. Physiology
+:::
+
+::: {.flashcard-back}
+Definition:  
+- **Psychology** focuses on mental processes and behavior.  
+- **Physiology** examines the structures (nerves, muscles) that enable movement.  
+Together, they offer a complete view of motor control.
+:::
+
+## 2. Serial Order Problem {.flashcard}
+
+::: {.flashcard-front}
+Term: Serial Order Problem
+:::
+
+::: {.flashcard-back}
+Definition:  
+The challenge of organizing and timing multiple actions in the correct sequence, like speaking words or executing a sports move.
+:::
+
+## 3. Response Chaining Theory {.flashcard}
+
+::: {.flashcard-front}
+Term: Response Chaining Theory
+:::
+
+::: {.flashcard-back}
+Definition:  
+A theory suggesting each movement triggers the next, like links in a chain. It struggles to explain very fast or flexible actions.
+:::
+
+## 4. Critique of Response Chaining {.flashcard}
+
+::: {.flashcard-front}
+Term: Critique of Response Chaining
+:::
+
+::: {.flashcard-back}
+Definition:  
+1. Too slow for rapid skills.  
+2. Doesn’t explain different outcomes from the same action.  
+3. Ignores higher-level planning and goals in movement.
+:::
+
+## 5. Element-to-Position Association {.flashcard}
+
+::: {.flashcard-front}
+Term: Element-to-Position Association
+:::
+
+::: {.flashcard-back}
+Definition:  
+Proposes each movement step is tied to a specific position (first, second, third, etc.), which helps order actions but struggles with complex, rule-based tasks.
+:::
+
+## 6. Inter-Element Inhibition Theory {.flashcard}
+
+::: {.flashcard-front}
+Term: Inter-Element Inhibition Theory
+:::
+
+::: {.flashcard-back}
+Definition:  
+Suggests each action suppresses the others until it’s performed. Oversimplifies real-world tasks where planning and adaptability are crucial.
+:::
+
+## 7. Hierarchical Model {.flashcard}
+
+::: {.flashcard-front}
+Term: Hierarchical Model
+:::
+
+::: {.flashcard-back}
+Definition:  
+Suggests actions are grouped into nested “chunks.” Higher levels handle overall goals, while lower levels manage details, allowing flexible, organized movement.
+:::
+
+## 8. Adams’ Closed-Loop Theory {.flashcard}
+
+::: {.flashcard-front}
+Term: Adams’ Closed-Loop Theory
+:::
+
+::: {.flashcard-back}
+Definition:  
+Emphasizes using continuous feedback to reduce errors. Learners develop an internal “target feeling” and adjust until movement matches this goal.
+:::
+
+## 9. Hierarchical Learning {.flashcard}
+
+::: {.flashcard-front}
+Term: Hierarchical Learning
+:::
+
+::: {.flashcard-back}
+Definition:  
+Skills build in layers. Basic actions become automatic first, so more complex or strategic elements can be added on top.
+:::
+
+## 10. Fitts’ Stage Theory {.flashcard}
+
+::: {.flashcard-front}
+Term: Fitts’ Stage Theory
+:::
+
+::: {.flashcard-back}
+Definition:  
+Describes three stages of learning—Cognitive (understanding), Associative (refining), and Autonomous (automatic execution).
+:::
+
+## 11. Cognitive Stage {.flashcard}
+
+::: {.flashcard-front}
+Term: Cognitive Stage
+:::
+
+::: {.flashcard-back}
+Definition:  
+Beginners focus on what to do and rely on instructions. Frequent errors occur, and attention demand is high.
+:::
+
+## 12. Associative Stage {.flashcard}
+
+::: {.flashcard-front}
+Term: Associative Stage
+:::
+
+::: {.flashcard-back}
+Definition:  
+Learners refine their technique, detect and correct errors more easily, and show more consistent performance.
+:::
+
+## 13. Autonomous Stage {.flashcard}
+
+::: {.flashcard-front}
+Term: Autonomous Stage
+:::
+
+::: {.flashcard-back}
+Definition:  
+Skill becomes almost effortless and highly consistent. Movements require minimal conscious thought, allowing multitasking or strategy.
+:::
+
+## 14. Attention Changes Across Stages {.flashcard}
+
+::: {.flashcard-front}
+Term: Attention Changes
+:::
+
+::: {.flashcard-back}
+Definition:  
+Early learning requires intense focus on each movement. Later, attention frees up for higher-level tasks or creativity.
+:::
+
+## 15. Feedback Changes Across Stages {.flashcard}
+
+::: {.flashcard-front}
+Term: Feedback Changes
+:::
+
+::: {.flashcard-back}
+Definition:  
+Beginners need constant external feedback to correct errors; experts use feedback mainly for fine-tuning, not basic guidance.
+:::
+
+## 16. Degrees of Freedom {.flashcard}
+
+::: {.flashcard-front}
+Term: Degrees of Freedom
+:::
+
+::: {.flashcard-back}
+Definition:  
+The number of ways joints and muscles can move. Skilled learners “unlock” more joints, leading to smoother, more efficient movement.
+:::
+
+## 17. Uncontrolled Manifold Hypothesis {.flashcard}
+
+::: {.flashcard-front}
+Term: Uncontrolled Manifold Hypothesis
+:::
+
+::: {.flashcard-back}
+Definition:  
+Certain core features of a movement stay stable while others can vary. This flexibility helps maintain overall success despite small changes.
+:::
+
+## 18. Flexibility Example {.flashcard}
+
+::: {.flashcard-front}
+Term: Flexibility Example
+:::
+
+::: {.flashcard-back}
+Definition:  
+A juggler can adjust wrist position slightly without ruining the toss, as long as the critical release angle remains correct.
+:::
+
+## 19. Skill Acquisition: Not Just Mental {.flashcard}
+
+::: {.flashcard-front}
+Term: Skill Acquisition
+:::
+
+::: {.flashcard-back}
+Definition:  
+Practice reshapes both brain and body. Movements become more coordinated, and muscle activation patterns adapt for smoother performance.
+:::
+
+## 20. Smoothness & Efficiency {.flashcard}
+
+::: {.flashcard-front}
+Term: Smoothness & Efficiency
+:::
+
+::: {.flashcard-back}
+Definition:  
+With practice, actions appear more fluid and waste less energy, indicating improved coordination among muscles and joints.
+:::
+
+## 21. Hierarchical vs. Chain Models {.flashcard}
+
+::: {.flashcard-front}
+Term: Hierarchical vs. Chain Models
+:::
+
+::: {.flashcard-back}
+Definition:  
+Hierarchical models handle complex, goal-directed tasks by grouping actions into chunks, whereas chain models rely on step-by-step triggers.
+:::
+
+## 22. Rapid Movements & Feedback {.flashcard}
+
+::: {.flashcard-front}
+Term: Rapid Movements & Feedback
+:::
+
+::: {.flashcard-back}
+Definition:  
+Very fast skills may not rely on continuous feedback for each step, challenging closed-loop theories that assume constant error correction.
+:::
+
+## 23. Juggling & Fitts’ Stages {.flashcard}
+
+::: {.flashcard-front}
+Term: Juggling & Fitts’ Stages
+:::
+
+::: {.flashcard-back}
+Definition:  
+- **Cognitive:** One ball, focusing on each toss.  
+- **Associative:** Detecting errors (too high, too far) and refining.  
+- **Autonomous:** Multiple objects with minimal conscious effort.
+:::
+
+## 24. Role of Feedback Loops {.flashcard}
+
+::: {.flashcard-front}
+Term: Role of Feedback Loops
+:::
+
+::: {.flashcard-back}
+Definition:  
+Feedback loops let learners compare intended and actual performance, then adjust accordingly. Over time, movements align with the “ideal” pattern.
+:::
+
+## 25. Hierarchical Chunks in Music {.flashcard}
+
+::: {.flashcard-front}
+Term: Hierarchical Chunks in Music
+:::
+
+::: {.flashcard-back}
+Definition:  
+Musicians group notes into phrases. Once a phrase is mastered, they can focus on dynamics and expression rather than every individual note.
+:::
+
+## 26. Rule-Based Flexibility {.flashcard}
+
+::: {.flashcard-front}
+Term: Rule-Based Flexibility
+:::
+
+::: {.flashcard-back}
+Definition:  
+Skilled performers can skip or reorder actions on the fly, guided by overarching rules and goals, not just a rigid sequence.
+:::
+
+## 27. Rehabilitation Application {.flashcard}
+
+::: {.flashcard-front}
+Term: Rehabilitation Application
+:::
+
+::: {.flashcard-back}
+Definition:  
+Therapists use task segmentation and feedback principles to help patients rebuild fundamental movements, then combine them into complex skills.
+:::
+
+## 28. Sports Training Application {.flashcard}
+
+::: {.flashcard-front}
+Term: Sports Training Application
+:::
+
+::: {.flashcard-back}
+Definition:  
+Coaches break down complex maneuvers (e.g., gymnastic routines) into chunks. Athletes master each chunk before integrating them into full performance.
+:::
+
+## 29. Key Takeaway: Psychology + Physiology {.flashcard}
+
+::: {.flashcard-front}
+Term: Psychology + Physiology
+:::
+
+::: {.flashcard-back}
+Definition:  
+Effective motor control requires mental processes (motivation, planning, feedback) and physical systems (nerves, muscles) working together.
+:::
+
+## 30. Complexity of Human Motor Control {.flashcard}
+
+::: {.flashcard-front}
+Term: Complexity of Human Motor Control
+:::
+
+::: {.flashcard-back}
+Definition:  
+Movement involves layered planning, flexible feedback, and adaptation. Humans go beyond simple reflexes, integrating goals, rules, and learned patterns.
+:::

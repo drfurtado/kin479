@@ -1,0 +1,514 @@
+---
+title: "Chapter 4 - Psychological Foundations in Human Motor Control"
+
+author:
+  - name: Ovande Furtado Jr
+    title: Assistant Professor
+    department: Kinesiology/KIN377-Motor Learning
+    orcid: 0000-0003-3847-6314
+    email: ovandef@csun.edu
+    affiliations: California State University, Northridge
+
+# Document Settings
+date: last-modified
+logo: "../assets/images/csun-logo.png"
+logo-position: right
+footer: "Dr. Furtado | CSUN | KIN Department | KIN377 - Human Motor Control"
+
+format:
+    pdf: default
+    revealjs:
+        theme: night
+        smaller: false
+        self-contained: true
+        embed-resources: true
+        width: 1600
+        height: 900
+        auto-slide: 10000
+        loop: false
+        auto-slide-stoppable: true
+        controls: true
+        progress: true
+        center: false
+        vertical-align: top
+        show-notes: false
+        slide-number: false
+        menu: false
+        visibility: hidden
+        controls-tutorial: false
+        controls-layout: edges
+        transition: none
+        revealjs-plugins:
+            - quiz
+            - embedio
+        quiz:
+            checkKey: 'c'
+            resetKey: 'q'
+            shuffleKey: 't'
+            allowNumberKeys: true
+            disableOnCheck: false
+            shuffleOptions: true
+            defaultCorrect: "Correct!"
+            defaultIncorrect: "Incorrect!"
+        css: |
+            audio {
+                display: none !important;
+                visibility: hidden !important;
+            }
+            .reveal .controls {
+                display: block !important;
+                bottom: 16px !important;
+                right: 50% !important;
+                transform: translateX(50%) !important;
+                z-index: 99 !important;
+            }
+            .reveal .progress {
+                display: block !important;
+                visibility: visible !important;
+                z-index: 100 !important;
+            }
+            .slide-menu-button,
+            .slide-menu {
+                display: none !important;
+                visibility: hidden !important;
+            }
+        include-in-header:
+            text: |
+                <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    let isPlaying = true;
+                    let audioPlaying = false;
+
+                    function initAudio(audio) {
+                        if (!audio || audioPlaying) return;
+                        
+                        console.log("Initializing audio:", audio.src); // Add debug logging
+                        audioPlaying = true;
+                        audio.currentTime = 0;
+                        audio.volume = 1;
+
+                        // Configure slide timing based on audio duration
+                        const audioDuration = Math.floor(audio.duration * 1000);
+                        console.log("Audio duration:", audioDuration); // Add debug logging
+                        Reveal.configure({ autoSlide: audioDuration });
+
+                        // Force play with interval retry
+                        let playInterval = setInterval(() => {
+                            audio.play()
+                            .then(() => {
+                                console.log("Audio started playing"); // Add debug logging
+                                clearInterval(playInterval);
+                            })
+                            .catch((error) => {
+                                console.log("Audio play failed:", error); // Add error logging
+                            });
+                        }, 100);
+
+                        // Handle audio completion
+                        audio.onended = () => {
+                            console.log("Audio ended"); // Add debug logging
+                            clearInterval(playInterval);
+                            if (isPlaying) {
+                                audioPlaying = false;
+                                Reveal.next();
+                            }
+                        };
+                    }
+
+                    // Handle both initial and subsequent slides
+                    function handleSlide(event) {
+                        console.log("Handling slide change"); // Add debug logging
+                        const audio = event.currentSlide.querySelector('audio');
+                        const isQuizSlide = event.currentSlide.classList.contains('quiz-question');
+                        console.log("Found audio element:", audio); // Add debug logging
+                        audioPlaying = false;
+                        
+                        if (audio) {
+                            // Wait for metadata before initializing
+                            if (audio.readyState >= 2) {
+                                initAudio(audio);
+                            } else {
+                                audio.addEventListener('loadedmetadata', () => initAudio(audio));
+                            }
+                        } else if (isPlaying) {
+                            // Set longer duration for quiz slides
+                            const slideDuration = isQuizSlide ? 60000 : 10000;
+                            Reveal.configure({ autoSlide: slideDuration });
+                        }
+                    }
+
+                    // Set up event listeners
+                    Reveal.on('ready', handleSlide);
+                    Reveal.on('slidechanged', handleSlide);
+                });
+                </script>
+---
+
+## Introduction
+
+:::: {.columns}
+::: {.column width="60%"}
+- Why study the psychological underpinnings of motor control?  
+- Overview of key theories and historical perspectives.  
+- How this knowledge informs research, practice, and everyday skills.  
+:::
+
+::: {.column width="40%"}
+![](images/000.png)
+:::
+::::
+
+::: {.notes}
+{{< include notes/000.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/000-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 1. Psychology vs Physiology
+
+:::: {.columns}
+::: {.column width="60%"}
+- Psychology  
+  - No reference to structuring of the central nervous system  
+  - Brain, musculoskeletal system, etc. is a "black box"  
+
+- Physiology  
+  - Neurophysiology: how the central nervous system and musculoskeletal system work together to produce movement  
+  - CNS is included in stimulus-response loop  
+:::
+
+::: {.column width="40%"}
+![](images/100.png)
+:::
+::::
+
+::: {.notes}
+{{< include notes/100.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/100-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 2. The Sequencing and Timing Problem
+
+:::: {.columns}
+::: {.column width="60%"}
+1. A core challenge in motor control is understanding how we order and time our actions flawlessly.  
+2. Consider the intricate coordination needed to speak a simple phrase, play a musical piece, or execute a sports skill.  
+3. This puzzle of precise sequencing is also known as the serial order problem.  
+:::
+
+::: {.column width="40%"}
+![](images/200.png)
+:::
+::::
+
+::: {.notes}
+{{< include notes/200.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/200-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+
+## 3. Response Chaining: An Old Theory
+
+:::: {.columns}
+::: {.column width="60%"}
+1. This classic idea suggests that movements are linked together like a chain.  
+2. Each completed movement acts as a signal, triggering the next in a smooth, automatic sequence.  
+3. An influential early psychologist, William James, believed that practice strengthens these connections, making actions faster and more effortless.  
+:::
+
+::: {.column width="40%"}
+![](images/300.png)
+:::
+::::
+
+::: {.notes}
+{{< include notes/300.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/300-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 3.1 Response Chaining: The Problems
+
+:::: {.columns}
+::: {.column width="65%"}
+1. Movements often take time for each one to be triggered solely by feedback from the last. This means our reactions would lag behind if we relied only on this slow chain reaction.  
+2. The same action can lead to different results depending on the situation. Think of hitting a baseball—sometimes it's a home run, sometimes an out. This challenges the idea of one movement automatically triggering a specific next move.  
+3. Even if you interrupt feedback during a movement sequence, the action sometimes continues. This suggests there's more going on than just a simple response chain.  
+4. Despite attempts to defend or modify Response Chaining, the biggest challenge is that our actions are guided by rules and goals, not just simple reactions.  
+:::
+
+::: {.column width="35%"}
+![](images/310.png)
+:::
+::::
+
+::: {.notes}
+{{< include notes/310.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/310-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 4. Element-to-Position Association Theory
+
+- This theory suggests movements are linked to mental markers representing their position within a sequence (like first, second, third, etc.).  
+- If these markers also relate to timing, it could partially explain how we time our actions accurately.  
+- Limitation: The theory needs to work on explaining how we learn and follow complex rules that govern sequences. It needs to be more complex for the real-world flexibility of human action and skill.  
+
+::: {.notes}
+{{< include notes/400.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/400-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 5. Inter-Element Inhibition Theory
+
+- Suggests that elements within a sequence try to suppress each other.  
+- The element receiving the most inhibition occurs later in the sequence.  
+- Problems:  
+  1. Difficult to model or program due to the complexity of real-world neural processes. It oversimplifies how our brains control movement.  
+  2. Doesn’t explain how we learn and follow complex rules governing the order of actions. It leaves out the importance of deliberate planning and goal-oriented behavior.  
+
+::: {.notes}
+{{< include notes/500.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/500-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 6. Hierarchies: The Power of Organization
+
+1. This theory suggests that movement sequences are organized into smaller groups, like building blocks. These groups, or “chunks,” can then be nested within each other to create complex sequences.  
+2. Imagine each chunk having its own internal control, reducing the processing load for the brain.  
+3. By organizing our actions into hierarchies, we can achieve both smooth execution and flexibility when adjusting plans.  
+
+::: {.notes}
+{{< include notes/600.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/600-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 7. Adams' Closed-Loop Theory
+
+1. This theory focuses on how we refine our movements through practice.  
+2. Key Idea: We learn by developing “perceptual goals”—an internal sense of what a successful action feels like.  
+3. We then adjust our movements to try and match that internal goal.  
+
+::: {.notes}
+{{< include notes/700.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/700-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 8. Hierarchical Learning: Building Skills Block by Block
+
+1. This theory suggests skill development happens in layers, with lower-level skills forming the foundation for more complex ones.  
+2. Think of building a structure: you start with strong basic blocks, which then support more elaborate constructions on top.  
+
+::: {.notes}
+{{< include notes/800.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/800-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 9. Fitts’ Stage Theory: A Roadmap for Learning
+
+This theory breaks down skill acquisition into three main phases:
+
+1. **Cognitive Stage:** The ‘thinking’ phase where you grasp the basics and figure out what needs to be done.  
+2. **Associative Stage:** The ‘experimenting’ phase. You refine your technique, linking actions to outcomes.  
+3. **Autonomous Stage:** The ‘mastery’ phase. The skill becomes more natural, requiring less conscious effort.
+
+::: {.notes}
+{{< include notes/900.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/900-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 9.1 What Changes Across Stages
+
+- **Attention:** Early on, you need high mental focus. Skill mastery allows that mental space to be used for other things (strategic thinking, adjusting on the fly).  
+- **Control:** Movements shift from deliberate and step-by-step to smooth and increasingly automatic.  
+- **Feedback:** Initially, you rely heavily on feedback to correct mistakes. Later, less feedback is needed for maintaining skilled performance.  
+
+::: {.notes}
+{{< include notes/910.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/910-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 10. Skill Acquisition: Not Just Mental
+
+1. Learning isn’t just about your brain! Skills change how your body moves:  
+   - Faster & More Precise: The obvious improvement we all aim for.  
+   - Smoothness & Efficiency: Movements start to feel effortless, with less wasted energy.  
+2. Degrees of Freedom: This is about unlocking new movement possibilities within your joints and muscles. Practice allows for more complex coordination.  
+
+::: {.notes}
+{{< include notes/1000.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/1000-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 10.1 How Does This Happen? (Theories)
+
+1. **Hierarchical Learning:** Skills develop in layers. Lower-level coordination becomes automatic, freeing up your attention for more complex movement patterns.  
+2. **Uncontrolled Manifold Hypothesis:** Our brain learns to separate ‘essential’ movements for success from those less crucial to the task, allowing for flexibility without hindering accuracy.
+
+::: {.notes}
+{{< include notes/1010.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/1010-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 11. Major Takeaways
+
+1. Motor control involves both cognitive and physiological processes working together.  
+2. Early theories (like Response Chaining) paved the way for more nuanced, hierarchical, and feedback-based models.  
+3. Skill acquisition is a layered process: initial conscious control gives way to automaticity and adaptability.  
+
+::: {.notes}
+{{< include notes/1100.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/1100-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## 12. Practical Applications
+
+1. **Rehabilitation:** Applying hierarchical and feedback-based models to design better therapy programs for stroke or injury recovery.  
+2. **Sports Training:** Using goal-oriented feedback and chunking strategies to help athletes master complex skills faster.  
+3. **Music & Performance:** Employing stage theories to progress from basic techniques to effortless, expressive execution.  
+
+::: {.notes}
+{{< include notes/1200.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/1200-esv2-90p-bg-10p.mp3" type="audio/mpeg"> 
+  Your browser does not support the audio element. 
+</audio>
+
+## Check Your Understanding
+
+- Click the timer (bottom left) to stop the lecture.  
+- Answer a series of questions about the lecture content.  
+- Each question has four answer choices; select the best one.  
+- Click “Check Answer” to verify.  
+- You have 60 seconds per question.  
+- Ready?  
+- Click the timer again to start the lecture and quiz.
+
+
+## 1/10 Performance vs Learning {.quiz-question}
+- Performance and learning are the same thing  
+- Learning is directly observable while performance is inferred  
+- [Learning is inferred from relatively permanent changes in performance]{.correct}  
+- Performance is always a reliable indicator of learning  
+
+
+## 2/10 Serial Order Problem {.quiz-question}
+- It refers to memorizing a sequence of numbers  
+- [It refers to how movements are sequenced and timed in the correct order]{.correct}  
+- It is the ability to chain words together in a sentence  
+- It explains only slow, deliberate movements  
+
+
+## 3/10 Response Chaining Theory {.quiz-question}
+- [Suggests each movement triggers the next in a chain-like fashion]{.correct}  
+- Proposes all movements occur at the same time  
+- Explains how we skip steps in a sequence when needed  
+- Argues that feedback plays no role in movement  
+
+
+## 4/10 Hierarchical Models of Motor Control {.quiz-question}
+- [Propose that smaller “chunks” of action are nested within larger units]{.correct}  
+- Are identical to response chaining theories  
+- Ignore the role of cognitive processes in learning  
+- Only apply to simple motor tasks  
+
+
+## 5/10 Fitts’ Stage Theory: Cognitive Stage {.quiz-question}
+- [Learners focus heavily on what needs to be done and make frequent errors]{.correct}  
+- Movements are fully automated and require little conscious thought  
+- Learners rely solely on muscle memory without feedback  
+- Movements are performed perfectly from the outset  
+
+
+## 6/10 Adams’ Closed-Loop Theory {.quiz-question}
+- Argues that feedback is irrelevant to skill development  
+- [Suggests learners form a perceptual reference to guide movement corrections]{.correct}  
+- States that rapid movements can never be performed accurately  
+- Eliminates the concept of internal goals or standards  
+
+
+## 7/10 Degrees of Freedom in Motor Learning {.quiz-question}
+- Refers to having unlimited time to practice a skill  
+- Is about how many times you can perform a skill before fatigue  
+- [Describes the number of ways joints and muscles can vary to produce movement]{.correct}  
+- Applies only to elite athletes  
+
+
+## 8/10 Associative Stage of Learning {.quiz-question}
+- The learner is unaware of how to correct mistakes  
+- [Errors are detected more easily, and performance becomes more consistent]{.correct}  
+- Performance is completely automatic, requiring no attention  
+- This stage is irrelevant in real-world skill acquisition  
+
+
+## 9/10 Uncontrolled Manifold Hypothesis {.quiz-question}
+- Suggests all movements must be rigidly fixed in advance  
+- [Proposes that certain critical elements of movement remain stable while others can vary]{.correct}  
+- Implies that movement variation is always detrimental to performance  
+- Argues that skill can be acquired without any practice  
+
+
+## 10/10 Practical Application of Motor Control Theories {.quiz-question}
+- [They can inform rehabilitation, sports training, and skill-based instruction]{.correct}  
+- They are purely theoretical and lack real-world impact  
+- They only apply to language acquisition, not physical movement  
+- They discourage using feedback in practice
