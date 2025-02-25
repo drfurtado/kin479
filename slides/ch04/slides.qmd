@@ -13,7 +13,7 @@ author:
 date: last-modified
 logo: "../assets/images/csun-logo.png"
 logo-position: right
-footer: "Dr. Furtado | CSUN | KIN Department | KIN377 - Human Motor Control"
+footer: "Dr. Furtado | CSUN | KIN Department | KIN377 Motor Control | Hit the 'A' key to pause/play the lecture"
 
 format:
   #  pdf: default
