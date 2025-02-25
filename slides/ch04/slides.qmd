@@ -35,7 +35,7 @@ format:
         slide-number: false
         menu: false
         visibility: hidden
-        controls-tutorial: false
+        controls-tutorial: true
         controls-layout: edges
         transition: none
         revealjs-plugins:
@@ -241,7 +241,7 @@ format:
   Your browser does not support the audio element. 
 </audio>
 
-## 3.1 Response Chaining: The Problems
+## 3.1 Response Chaining: The Problems {.smaller}
 
 :::: {.columns}
 ::: {.column width="65%"}
