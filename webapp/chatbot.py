@@ -137,16 +137,27 @@ class ChatBot:
                     if content.strip():
                         chapter_content.append(f"Notes from {file}:\n{content}")
 
-        # Load flashcards
+        # Load flashcards - check both in flashcards directory and chapter root
+        flashcard_files = []
+        
+        # Check flashcards subdirectory
         flashcards_path = os.path.join(chapter_path, 'flashcards')
         if os.path.exists(flashcards_path):
-            flashcard_files = [f for f in os.listdir(flashcards_path) if f.endswith(('.md', '.qmd'))]
+            flashcard_files.extend([os.path.join(flashcards_path, f) for f in os.listdir(flashcards_path) 
+                                if f.endswith(('.md', '.qmd'))])
+
+        # Check chapter root directory for flashcard files
+        root_flashcard_files = [os.path.join(chapter_path, f) for f in os.listdir(chapter_path)
+                              if f.lower().endswith(('.md', '.qmd')) and 'fc' in f.lower()]
+        flashcard_files.extend(root_flashcard_files)
+
+        if flashcard_files:
             print(f"Found {len(flashcard_files)} flashcard files in {chapter_id}")
-            for file in flashcard_files:
-                with open(os.path.join(flashcards_path, file), 'r') as f:
+            for file_path in flashcard_files:
+                with open(file_path, 'r') as f:
                     content = f.read()
                     if content.strip():
-                        chapter_content.append(f"Flashcards from {file}:\n{content}")
+                        chapter_content.append(f"Flashcards from {os.path.basename(file_path)}:\n{content}")
 
         # Load quizzes
         quizzes_path = os.path.join(chapter_path, 'quizzes')

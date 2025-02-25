@@ -1,25 +1,3 @@
----
-title: "Chapter 2 Flashcards"
-subtitle: "Four Problems in Human Motor Control"
-format:
-  revealjs:
-    theme: default
-    width: 1600
-    height: 900
-    margin: 0.1
-    controls: true
-    navigation-mode: linear
-    flashcards:
-      flipKey: 'q'
-      shuffleKey: 't'
-      showFlipButton: true
-    footer: "Navigation: Press 'q' to flip card | 't' to shuffle | Arrow keys for next/previous"
-    slide-number: true
-revealjs-plugins:
-  - flashcards
-editor: source
----
-
 ## Movement Synergies {.flashcard}
 
 ::: {.flashcard-front}

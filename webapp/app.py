@@ -66,7 +66,13 @@ def parse_flashcard_content(content):
     current_term = None
     current_definition = None
     
-    for line in content.split('\n'):
+    # Split content into lines for processing
+    lines = content.split('\n')
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        # Check for old format (Term:/Definition:)
         if 'Term:' in line:
             if current_term and current_definition:
                 flashcards.append({"term": current_term, "definition": current_definition})
@@ -74,7 +80,42 @@ def parse_flashcard_content(content):
             current_definition = None
         elif 'Definition:' in line:
             current_definition = line.split('Definition:')[-1].strip()
+            
+        # Check for new format (.flashcard-front/.flashcard-back)
+        elif '{.flashcard}' in line:
+            front_content = []
+            back_content = []
+            
+            # Skip to start of front content
+            while i < len(lines) and '.flashcard-front' not in lines[i]:
+                i += 1
+            i += 1
+            
+            # Collect front content
+            while i < len(lines) and ':::' not in lines[i]:
+                if lines[i].strip():
+                    front_content.append(lines[i].strip())
+                i += 1
+                
+            # Skip to start of back content
+            while i < len(lines) and '.flashcard-back' not in lines[i]:
+                i += 1
+            i += 1
+            
+            # Collect back content
+            while i < len(lines) and ':::' not in lines[i]:
+                if lines[i].strip():
+                    back_content.append(lines[i].strip())
+                i += 1
+                
+            if front_content and back_content:
+                flashcards.append({
+                    "term": "\n".join(front_content),
+                    "definition": "\n".join(back_content)
+                })
+        i += 1
     
+    # Add the last flashcard if exists
     if current_term and current_definition:
         flashcards.append({"term": current_term, "definition": current_definition})
     
@@ -364,9 +405,21 @@ def main():
         st.session_state.chatbot.load_all_chapters(SLIDES_DIR)
 
     def on_chapter_change():
-        if not st.session_state.first_load:
-            st.session_state.current_chapter = st.session_state.chapter_select
-        st.session_state.first_load = False
+        # Store the new chapter selection
+        st.session_state.current_chapter = st.session_state.chapter_select
+        
+        # Reset all session states related to content
+        for key in list(st.session_state.keys()):
+            if key in ['current_card', 'card_flipped', 'quiz_answers', 
+                      'checked_answers', 'current_question', 'messages']:
+                del st.session_state[key]
+        
+        # Initialize default states
+        st.session_state.card_flipped = False
+        st.session_state.messages = []
+        
+        # Force a complete rerun of the app
+        st.rerun()
 
     def on_mode_change():
         st.session_state.current_mode = st.session_state.mode_select
@@ -390,6 +443,17 @@ def main():
         key="chapter_select",
         on_change=on_chapter_change
     )
+
+    # Update current chapter immediately on first load
+    if 'first_load' not in st.session_state:
+        st.session_state.first_load = True
+        st.session_state.current_chapter = chapter
+        st.rerun()
+
+    # Update current chapter if changed
+    if st.session_state.current_chapter != chapter:
+        st.session_state.current_chapter = chapter
+        st.rerun()
     
     # Get chapter path
     chapter_path = os.path.join(SLIDES_DIR, st.session_state.current_chapter)
