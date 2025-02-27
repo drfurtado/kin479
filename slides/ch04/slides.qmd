@@ -144,7 +144,7 @@ format:
                 </script>
 ---
 
-## Sound & Interaction
+## Sound & Interaction {visibility="hidden"}
 
 **Sound**
 
@@ -449,10 +449,10 @@ This theory breaks down skill acquisition into three main phases:
   Your browser does not support the audio element. 
 </audio>
 
-## Check Your Understanding
+## Check Your Understanding {visibility="hidden"}
 
 - Click the timer (bottom left) to stop the lecture.  
-- Answer a series of questions about the lecture content.  
+- Answer a series of questions about the lecture content.  a
 - Each question has four answer choices; select the best one.  
 - Click “Check Answer” to verify.  
 - You have 60 seconds per question.  
@@ -460,69 +460,69 @@ This theory breaks down skill acquisition into three main phases:
 - Click the timer again to start the lecture and quiz.
 
 
-## 1/10 Psychology & Physiology of Movement {.quiz-question}
+## 1/10 Psychology & Physiology of Movement {.quiz-question} {visibility="hidden"}
 - Physiology is the study of the mind and behavior
 - Physiology is not important when studying movement
 - When observing a movement, psychology is not important
-- [Psychology and physiology are both important when studying movement]m{.correct}
+- [Psychology and physiology are both important when studying movement]{.correct}
 
-## 2/10 Serial Order Problem {.quiz-question}
+## 2/10 Serial Order Problem {.quiz-question} {visibility="hidden"}
 - It refers to memorizing a sequence of numbers  
 - [It refers to how movements are sequenced and timed in the correct order]{.correct}  
 - It is the ability to chain words together in a sentence  
 - It explains only slow, deliberate movements  
 
 
-## 3/10 Response Chaining Theory {.quiz-question}
+## 3/10 Response Chaining Theory {.quiz-question} {visibility="hidden"}
 - [Suggests each movement triggers the next in a chain-like fashion]{.correct}  
 - Proposes all movements occur at the same time  
 - Explains how we skip steps in a sequence when needed  
 - Argues that feedback plays no role in movement  
 
 
-## 4/10 Hierarchical Models of Motor Control {.quiz-question}
+## 4/10 Hierarchical Models of Motor Control {.quiz-question} {visibility="hidden"}
 - [Propose that smaller “chunks” of action are nested within larger units]{.correct}  
 - Are identical to response chaining theories  
 - Ignore the role of cognitive processes in learning  
 - Only apply to simple motor tasks  
 
 
-## 5/10 Fitts’ Stage Theory: Cognitive Stage {.quiz-question}
+## 5/10 Fitts’ Stage Theory: Cognitive Stage {.quiz-question} {visibility="hidden"}
 - [Learners focus heavily on what needs to be done and make frequent errors]{.correct}  
 - Movements are fully automated and require little conscious thought  
 - Learners rely solely on muscle memory without feedback  
 - Movements are performed perfectly from the outset  
 
 
-## 6/10 Adams’ Closed-Loop Theory {.quiz-question}
+## 6/10 Adams’ Closed-Loop Theory {.quiz-question} {visibility="hidden"}
 - Argues that feedback is irrelevant to skill development  
 - [Suggests learners form a perceptual reference to guide movement corrections]{.correct}  
 - States that rapid movements can never be performed accurately  
 - Eliminates the concept of internal goals or standards  
 
 
-## 7/10 Degrees of Freedom in Motor Learning {.quiz-question}
+## 7/10 Degrees of Freedom in Motor Learning {.quiz-question} {visibility="hidden"}
 - Refers to having unlimited time to practice a skill  
 - Is about how many times you can perform a skill before fatigue  
 - [Describes the number of ways joints and muscles can vary to produce movement]{.correct}  
 - Applies only to elite athletes  
 
 
-## 8/10 Associative Stage of Learning {.quiz-question}
+## 8/10 Associative Stage of Learning {.quiz-question} {visibility="hidden"}
 - The learner is unaware of how to correct mistakes  
 - [Errors are detected more easily, and performance becomes more consistent]{.correct}  
 - Performance is completely automatic, requiring no attention  
 - This stage is irrelevant in real-world skill acquisition  
 
 
-## 9/10 Uncontrolled Manifold Hypothesis {.quiz-question}
+## 9/10 Uncontrolled Manifold Hypothesis {.quiz-question} {visibility="hidden"}
 - Suggests all movements must be rigidly fixed in advance  
 - [Proposes that certain critical elements of movement remain stable while others can vary]{.correct}  
 - Implies that movement variation is always detrimental to performance  
 - Argues that skill can be acquired without any practice  
 
 
-## 10/10 Practical Application of Motor Control Theories {.quiz-question}
+## 10/10 Practical Application of Motor Control Theories {.quiz-question} {visibility="hidden"}
 - [They can inform rehabilitation, sports training, and skill-based instruction]{.correct}  
 - They are purely theoretical and lack real-world impact  
 - They only apply to language acquisition, not physical movement  

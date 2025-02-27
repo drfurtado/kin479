@@ -4,6 +4,8 @@ subtitle: "KIN 479 - Motor Control"
 format:
   html:
     toc: true
+    number-sections: true
+    number-depth: 4
   pdf:
     toc: true
     number-sections: true
@@ -18,7 +20,7 @@ csl: ../apa.csl
 editor: source
 ---
 
-## Overview
+# Overview
 
 In this group presentation assignment, you will choose a specific movement disorder and create a slide presentation covering the following aspects:
 
@@ -27,44 +29,68 @@ In this group presentation assignment, you will choose a specific movement disor
 -   Treatment (PT, medication, etc.)
 -   Overall outlook
 
-## Group Instructions
+# Group Instructions
 
-1.  Choose one movement disorder from the list of topics ([Appendix A: Topics]) provided or select another relevant disorder.
+## Point Distribution
+ 
+
+## Recording {#sec-recording}
+1. Choose one movement disorder from the list of topics ([Appendix A: Topics]) provided or select another relevant disorder.
 2.  Create a slide presentation addressing the required content areas (see [Appendix B: Presentation Template]).
-3.  Record a group presentation of your slides, ensuring that each group member participates.
-4.  Submissions:
-    1.  Topic submission
-        1.  The `group's leader` submits three topics for consideration by **Feb 10 \@ 5pm**.
-        2.  The instructor selects a topic and notifies the group
-    2.  Video Recording (70 points)
-        1.  The `group's leader` submits the recorded presentation (under Discussion) by **April 14 \@ 5pm**.
-    3.  Peer Evaluation
-        1.  Everyone submits a peer evaluation by **May 13 \@ 5 pm.**
-    4.  Peer Engagement (extra credit)
-        1.  `Everyone` watches other groups' presentation videos, formulates questions, and submits them to the `group's leader` **before April 21**.
-            1.  The `group's leader` chooses no more than 5 questions and posts them to their respective submissions (#4.2 above) by **April 28 \@ 5pm**.
-            2.  If your group received questions, an assigned member responds to the questions by **May 5 \@ 5pm**[^1].
-            3.  I will ask group leaders who submitted questions for consideration. **Only those students who submitted questions to the group leader will be eligible to receive the extra points.**
+3.  Record your slides' group presentation, ensuring each group member participates.
 
-[^1]: Each group must assign individuals to answer questions on their presentation video submission.
+## Submissions
+
+### Topics
+- (10 points) - required [due Feb 10 @ 5 pm]
+- The group members convene and select three topics for consideration.
+- The `group's leader` submits the three topics by the deadline via Canvas.
+- The instructor selects one of the submitted topics and notifies the group.
+- The group starts working on the presentation.
+
+### Video Recording
+- (70 points) - required [due April 14 @ 5 pm]
+- Before the deadline, the group records the presentation. 
+- The `group's leader` submits the recorded presentation to a discussion board on Canvas by the deadline.
+
+### Peer Engagement
+- (10 points) - extra credit [due April 21 @ 5 pm]
+- Anyone interested in earning extra credit watches the group presentation videos (Video Recording Assignment).
+- Formulate four questions (2.5 pts each) and post them to the respective group's submission by the deadline (Video Recording Assignment).
+- To earn the full extra credit points, students must:
+    1. ask at least four relevant questions across different groups' presentations, providing high-quality, thoughtful, relevant, well-articulated, thorough, accurate, and timely questions.
+
+::: {.callout .callout-info}
+Although not required, the group that received questions is encouraged to respond to them as this will help the questioner understand the topic better.
+:::    
+
+### Peer Evaluation
+- [due May 13 @ 5 pm]
+- Everyone submits a peer evaluation via Canvas by the deadline.
 
 ## Group Members
 
 Log into Canvas and head to our course, then:
 
-1.  Click on `People` –\> `Groups.`
-2.  You will see your name under one of the groups. Please, make note what group you belong to.
+- Click on `People` –\> `Groups.`
+- Search by your name and click on the group you belong to.
+- The group's leader has an icon representing a person after their name.
 
 ## Requirements
 
 -   Presentation length: No longer than 15 minutes total
 -   References: Minimum of 7 peer-reviewed references, cited in APA style (7th edition)
--   Recording: Include both slides and speakers' faces, ensure good sound and lighting quality
-    -   Use software of choice (Zoom, Panopto, etc.)
+    - A good place to find reputable sources is the CSUN library database, PubMed, or Google Scholar
+-   The final recording must include the slides and speakers' faces, ensure good sound and lighting quality
+    -   Use the software of choice (Zoom, Google Meet, Microsoft Teams, etc.)
     -   Once done, download the video and upload it to Canvas (under `Project: Video Recording`)
--   Slides: Visually interesting but not distracting, limited text, use figures where possible
--   Videos: Short, no more than 2 minutes total
+-   Slides: Visually interesting but not distracting limited text; use figures where possible
+-   Videos: if videos are included in the presentation, they must be short and no more than 2 minutes in total
 -   Professionalism: Maintain a professional demeanor throughout the presentation
+-   Group members must participate equally in the presentation
+-   The group leader is responsible for submitting the recorded presentation
+-   I encourage you to start working on the presentation early to avoid last-minute issues
+-   I encourage groups to practice the presentation before recording it
 
 ## Appendices
 
@@ -89,9 +115,11 @@ Log into Canvas and head to our course, then:
 
 ### Appendix B: Presentation Template
 
-Download template[^2]: Available on Canvas under Modules \> Presentation
+- Download the template from [here](/assignments/pres-template.qmd.).
+    - If you do not have Microsoft PowerPoint, download the file and open it using Google Slides.
+- The link to download the PowerPoint template is on the right side of the page, under `Other Formats`.
 
-[^2]: If you do not have Microsoft PowerPoint, download the file and open it using Google Slides.
+**The presentation should include the following sections:**
 
 1.  Introduction/Neurophysiology
     -   Describe your movement disorder
@@ -112,7 +140,9 @@ Download template[^2]: Available on Canvas under Modules \> Presentation
 
 ### Appendix C: Evaluation Rubrics
 
-#### Video Recording (70 points)
+#### Video Recording Rubric
+
+*(70 points)
 
 | Criteria                 | Excellent (9-10)                                  | Good (7-8)                                     | Fair (5-6)                                           | Poor (0-4)                                            |
 |---------------|---------------|---------------|---------------|---------------|
@@ -124,13 +154,16 @@ Download template[^2]: Available on Canvas under Modules \> Presentation
 | Length and timing        | Within the 15-minute limit                        | Slightly over or under the limit               | Moderately over or under the limit                   | Significantly over or under the limit                 |
 | Recording quality        | Excellent sound and visual quality                | Good sound and visual quality, minor issues    | Some issues with sound or visual quality             | Poor sound or visual quality, significant issues      |
 
-#### Topic Submission (10 points)
+#### Topic Submission Rubric
 
-Completed = 10pts
+*(10 points)
 
-Not completed = 0pts
+- Submitted three topics from the list of topics provided
+- Add the group members' names and group number
 
-#### Peer Evaluation for Group Members (20 points)
+#### Peer Evaluation Rubric
+
+*(20 points)
 
 Each group member should evaluate their teammates' contributions to the project using the following rubric. The total score for each member will be the average of the scores given by their teammates.
 
@@ -142,20 +175,13 @@ Each group member should evaluate their teammates' contributions to the project 
 | Responsibility and reliability  | Always completes assigned tasks on time and is reliable                                     | Mostly completes tasks on time and is reliable, with few exceptions                | Occasionally misses deadlines or is unreliable     | Frequently misses deadlines or is unreliable                                      |
 | Collaboration and teamwork      | Works well with others, contributes to a positive team dynamic, and helps resolve conflicts | Mostly collaborative and contributes to a positive team dynamic, with minor issues | Some issues with collaboration or teamwork         | Rarely collaborates or contributes to a positive team dynamic, significant issues |
 
-#### Peer Engagement - Extra Credit (9 points)
+#### Peer Engagement Rubric
 
-| Criteria                  | Excellent (3)                            | Good (2)                                             | Fair (1)                                        | Poor (0)                                          |
-|---------------|---------------|---------------|---------------|---------------|
-| Asking questions          | Thoughtful, relevant questions asked     | Mostly relevant questions asked                      | Some irrelevant or low-quality questions        | No questions asked or all questions irrelevant    |
-| Number of questions asked | At least 5 relevant questions asked      | 1-4 relevant questions asked                         | 1-2 relevant questions asked                    | Only ask one question                             |
-| Responding to questions   | Thorough, accurate, and timely responses | Mostly thorough and accurate responses, minor issues | Some issues with response quality or timeliness | No responses or significant issues with responses |
+*Extra Credit (10 points)
 
-To earn the full extra credit points[^3], students must:
-
-[^3]: This is for the entire group, not individuals.
-
-1.  Ask at least 5 relevant questions across different groups' presentations
-
-2.  Provide high-quality questions and responses that are thoughtful, relevant, well-articulated, thorough, accurate, and timely
-
-3.  Respond to asked questions providing thorough, accurate, and timely responses
+| Criteria                  | Excellent (2.5)                          | Good (2.0)                                          | Fair (1.0)                                      | Poor (0)                                          |
+|--------------------------|------------------------------------------|---------------------------------------------------|-----------------------------------------------|--------------------------------------------------|
+| Question 1               | Thoughtful, relevant, well-articulated    | Mostly relevant and well-articulated               | Some issues with relevance or articulation     | Irrelevant or poorly articulated                  |
+| Question 2               | Thoughtful, relevant, well-articulated    | Mostly relevant and well-articulated               | Some issues with relevance or articulation     | Irrelevant or poorly articulated                  |
+| Question 3               | Thoughtful, relevant, well-articulated    | Mostly relevant and well-articulated               | Some issues with relevance or articulation     | Irrelevant or poorly articulated                  |
+| Question 4               | Thoughtful, relevant, well-articulated    | Mostly relevant and well-articulated               | Some issues with relevance or articulation     | Irrelevant or poorly articulated                  |

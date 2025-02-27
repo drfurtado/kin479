@@ -11,7 +11,7 @@
     "href": "syllabus.html#footnotes",
     "title": "KIN 479: Motor Control Syllabus",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis schedule is subject to change.↩︎"
+    "text": "Footnotes\n\n\nThis schedule is subject to change.↩︎\nPage numbers in parentheses refer to the textbook’s second edition.↩︎"
   },
   {
     "objectID": "slides/ch03b/quizzes/ch03-motor-qz.html",
@@ -714,60 +714,256 @@
     "text": "Now that we’ve explored each of the four fundamental problems in human motor control, let’s reflect on how they’re interconnected. Each problem represents a different aspect of movement control, but they all work together in producing coordinated, efficient movement.\nThink about a simple task like reaching for a cup. The degrees of freedom problem comes into play as we coordinate multiple joints. The sequencing and timing problem affects how we organize the movement phases. The perceptual-motor integration problem involves using visual and proprioceptive feedback to guide our hand. And neural plasticity allows us to improve this movement through practice.\nThese problems aren’t really “problems” in the negative sense - they’re more like challenges that our nervous system has evolved to handle remarkably well. Understanding how our body solves these challenges helps us better comprehend human movement and can inform areas like rehabilitation, sports training, and movement disorders."
   },
   {
-    "objectID": "slides/ch04/notes/1100.html",
-    "href": "slides/ch04/notes/1100.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html",
+    "href": "slides/ch04/quizzes/ch04-qz.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Over the course of this presentation, we’ve seen that movement is far more complex than a simple chain reaction. Early ideas offered valuable insights but had limitations—especially when explaining rapid, adaptable skills. Modern theories emphasize hierarchies, flexible feedback loops, and the interplay between brain and body. We also explored how practice refines both mental representations and physical coordination, unlocking new degrees of freedom. Ultimately, the big picture is that psychological and physiological processes are deeply intertwined, guiding how we learn, perfect, and perform all sorts of motor tasks."
+    "text": "Psychology and physiology are completely separate and do not inform each other in the study of motor control.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/900.html",
-    "href": "slides/ch04/notes/900.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#psychology-and-physiology",
+    "href": "slides/ch04/quizzes/ch04-qz.html#psychology-and-physiology",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Fitts’ Stage Theory offers a clear framework for understanding how skills evolve from rough attempts to polished expertise. At the Cognitive Stage, you’re fully engaged with the basics—like a beginner juggler concentrating on each toss and catch, or a new driver double-checking every move. Mistakes are common, but this stage is all about grasping fundamental actions and rules. Next comes the Associative Stage, where you start to see patterns and correct errors more smoothly. In juggling, you realize that throwing too high or too far forward disrupts your rhythm, and you adjust accordingly. This phase is marked by trial and error: you’re connecting cause and effect in your movements, gradually refining what you do. Finally, the Autonomous Stage arrives when the skill feels almost effortless. You can juggle multiple objects while chatting with a friend or add fancy moves to impress an audience. In other words, the action becomes ingrained enough that your mind is freed to focus on creativity, strategy, or even multitasking. Whether it’s juggling, playing an instrument, or driving, Fitts’ stages remind us that mastery unfolds in distinct steps—from deliberate focus to smooth, almost subconscious execution."
+    "text": "Psychology and physiology are completely separate and do not inform each other in the study of motor control.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/1000.html",
-    "href": "slides/ch04/notes/1000.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#response-chaining-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#response-chaining-defined",
     "title": "KIN 479: Human Motor Control",
-    "section": "",
-    "text": "Skill development involves more than just mental strategies and feedback loops; it fundamentally reshapes how our bodies move. Early on, you might notice improvements in speed or precision—like a novice runner shaving seconds off their time. But an equally important change is the smoothness of movement. Experienced athletes or dancers don’t just move faster; they also waste less energy because their joints, muscles, and nervous system are working in harmony. A key concept here is degrees of freedom. Initially, we tend to lock or limit how many joints we use to control a movement, which can make us look stiff or robotic. With practice, we “unlock” these degrees of freedom, allowing multiple parts of the body to coordinate smoothly. Think of a seasoned swimmer whose entire body moves in a fluid wave versus a beginner who might overuse their arms and barely kick. As we gain expertise, the interplay among muscles and joints becomes more dynamic, giving us a broader range of ways to perform the same action. This adaptability not only makes movements more efficient but also helps us adjust quickly to unexpected changes, like a sudden obstacle on a running path or a tricky spin in a dance routine."
+    "section": "Response Chaining Defined",
+    "text": "Response Chaining Defined\nResponse chaining suggests that each movement acts as a signal, triggering the next in a sequence.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/800.html",
-    "href": "slides/ch04/notes/800.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#response-chaining-problems",
+    "href": "slides/ch04/quizzes/ch04-qz.html#response-chaining-problems",
     "title": "KIN 479: Human Motor Control",
-    "section": "",
-    "text": "Hierarchical learning explains how mastering simple components first creates a sturdy platform for more advanced skills. For example, when learning guitar, you begin with finger placement and basic chords. As those become second nature, you can combine them into chord progressions, then full songs, and eventually improvise. A key benefit of this layered approach is that once a lower-level action becomes automatic—like seamlessly switching chords—you free up mental resources to handle higher-level tasks, such as adding stylistic flourishes or paying attention to rhythm and dynamics. This principle holds true across many domains, from sports to language acquisition. In each case, forming reliable “building blocks” paves the way for more complex performance. It also explains why skill mastery can take time: each layer needs a solid foundation. If the basics aren’t stable, trying to stack advanced maneuvers on top can lead to errors or inefficiency. By contrast, a well-organized hierarchy allows you to refine details at one level without constantly re-learning the rest of the skill. This perspective ties neatly to “chunking,” where your brain treats related actions as a single unit, ultimately making complex sequences more manageable and adaptable."
+    "section": "Response Chaining Problems",
+    "text": "Response Chaining Problems\nResponse chaining fully accounts for how people perform rapid sequences, even without feedback.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/600.html",
-    "href": "slides/ch04/notes/600.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#element-to-position-theory-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#element-to-position-theory-defined",
     "title": "KIN 479: Human Motor Control",
-    "section": "",
-    "text": "Hierarchical models propose that instead of controlling every individual action in a flat, step-by-step way, our brains group related actions into larger “chunks.” Think of playing the piano: you might combine several notes into a small musical phrase rather than treat each note in total isolation. These nested groups allow you to focus on the overall structure of the piece while each smaller chunk runs on its own internal plan. This approach helps explain why people can rapidly learn and execute intricate skills without getting overwhelmed. The higher-level units govern broad goals—like completing a musical phrase—while lower-level units handle the fine details, such as individual finger movements. It’s also easier to adapt in the middle of a sequence because you can switch or modify entire chunks based on changing circumstances rather than reworking every movement in real-time. Therefore, hierarchies provide a more flexible, robust way to understand motor control than theories focusing solely on linear or one-step-at-a-time processes. They show how complex skills—like a gymnastic routine or a choreographed dan—can be learned and performed smoothly, with enough adaptability to accommodate errors or unexpected changes."
+    "section": "Element-to-Position Theory Defined",
+    "text": "Element-to-Position Theory Defined\nElement-to-Position theory suggests movements are linked to mental markers representing their position within a sequence.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/000.html",
-    "href": "slides/ch04/notes/000.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#element-to-position-limitations",
+    "href": "slides/ch04/quizzes/ch04-qz.html#element-to-position-limitations",
     "title": "KIN 479: Human Motor Control",
-    "section": "",
-    "text": "This lecture explores the ways our thoughts, motivations, and learning processes shape how we move. We’ll look at how psychology and physiology intersect to produce the coordinated actions we take for granted—like speaking, playing an instrument, or competing in sports. By reviewing historical theories and more recent models, we’ll see how our understanding of motor control has evolved. Ultimately, these insights aren’t just academic; they can inform everything from injury rehabilitation to peak athletic performance. Let’s begin by setting the stage for what’s to come and why it matters to anyone interested in human movement."
+    "section": "Element-to-Position Limitations",
+    "text": "Element-to-Position Limitations\nElement-to-Position theory fully explains how we learn and follow complex rules in dynamic contexts.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/310.html",
-    "href": "slides/ch04/notes/310.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#inter-element-inhibition-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#inter-element-inhibition-defined",
     "title": "KIN 479: Human Motor Control",
-    "section": "",
-    "text": "In theory, if each movement had to wait for feedback from the previous one, we’d be far too slow for everyday activities like fast typing or playing a musical instrument. Our real-world experiences demand rapid, overlapping actions that leave little time for a strict, one-step-after-another chain. Moreover, a single movement can lead to drastically different outcomes depending on the context—imagine swinging at a baseball pitch. Sometimes, you hit it out of the park; other times, you strike out, even though the basic movement might feel similar. A rigid link between steps can’t explain that level of flexibility. Another major critique is that the movement often continues if we cut off feedback partway through an action. It’s as if our brain has already planned the sequence instead of reacting in the moment. That’s a strong sign that we operate with higher-level planning and goals rather than simple chained reactions. Ultimately, these problems highlight why, while historically important, Response Chaining doesn’t fully capture the complexity of human motor control. We plan ahead, adapt to changes, and integrate rules and goals into our actions—far beyond what a straightforward chain reaction can explain."
+    "section": "Inter-Element Inhibition Defined",
+    "text": "Inter-Element Inhibition Defined\nInter-Element Inhibition theory proposes elements in a sequence try to suppress each other.\n\nTrue\nFalse"
   },
   {
-    "objectID": "slides/ch04/notes/100.html",
-    "href": "slides/ch04/notes/100.html",
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#inter-element-inhibition-accuracy",
+    "href": "slides/ch04/quizzes/ch04-qz.html#inter-element-inhibition-accuracy",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Inter-Element Inhibition Accuracy",
+    "text": "Inter-Element Inhibition Accuracy\nInter-Element Inhibition accurately represents the complexity and adaptability of motor planning.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#hierarchical-models-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#hierarchical-models-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Hierarchical Models Defined",
+    "text": "Hierarchical Models Defined\nHierarchical models propose that the brain groups related actions into chunks.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#hierarchical-benefits",
+    "href": "slides/ch04/quizzes/ch04-qz.html#hierarchical-benefits",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Hierarchical Benefits",
+    "text": "Hierarchical Benefits\nHierarchical organization reduces flexibility when adjusting plans.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#adams-closed-loop-theory-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#adams-closed-loop-theory-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Adams’ Closed-Loop Theory Defined",
+    "text": "Adams’ Closed-Loop Theory Defined\nAdams’ Closed-Loop Theory emphasizes using ongoing feedback to fine-tune movements.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#adams-closed-loop-limitations",
+    "href": "slides/ch04/quizzes/ch04-qz.html#adams-closed-loop-limitations",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Adams’ Closed-Loop Limitations",
+    "text": "Adams’ Closed-Loop Limitations\nAdams’ Closed-Loop Theory explains rapid movements performed without continuous feedback.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#hierarchical-learning-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#hierarchical-learning-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Hierarchical Learning Defined",
+    "text": "Hierarchical Learning Defined\nHierarchical learning suggests skill development happens in layers, from lower-level to more complex skills.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#hierarchical-learning-benefits",
+    "href": "slides/ch04/quizzes/ch04-qz.html#hierarchical-learning-benefits",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Hierarchical Learning Benefits",
+    "text": "Hierarchical Learning Benefits\nHierarchical learning does not require a solid foundation for each layer of skill.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#fitts-stage-theory-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#fitts-stage-theory-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Fitts’ Stage Theory Defined",
+    "text": "Fitts’ Stage Theory Defined\nFitts’ Stage Theory breaks down skill acquisition into cognitive, associative, and autonomous phases.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#cognitive-stage",
+    "href": "slides/ch04/quizzes/ch04-qz.html#cognitive-stage",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Cognitive Stage",
+    "text": "Cognitive Stage\nThe cognitive stage involves automatic performance requiring less conscious effort.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#autonomous-stage",
+    "href": "slides/ch04/quizzes/ch04-qz.html#autonomous-stage",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Autonomous Stage",
+    "text": "Autonomous Stage\nThe autonomous stage involves the skill becoming more natural, requiring less conscious effort.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#attention-allocation",
+    "href": "slides/ch04/quizzes/ch04-qz.html#attention-allocation",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Attention Allocation",
+    "text": "Attention Allocation\nAttention demands remain high throughout all stages of skill acquisition.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#feedback-reliance",
+    "href": "slides/ch04/quizzes/ch04-qz.html#feedback-reliance",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Feedback Reliance",
+    "text": "Feedback Reliance\nReliance on feedback decreases as skill level increases.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#skill-acquisition-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#skill-acquisition-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Skill Acquisition Defined",
+    "text": "Skill Acquisition Defined\nSkill acquisition only involves mental strategies, not physical changes.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#degrees-of-freedom",
+    "href": "slides/ch04/quizzes/ch04-qz.html#degrees-of-freedom",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Degrees of Freedom",
+    "text": "Degrees of Freedom\nDegrees of freedom refer to unlocking new movement possibilities within joints and muscles.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#uncontrolled-manifold-hypothesis-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#uncontrolled-manifold-hypothesis-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Uncontrolled Manifold Hypothesis Defined",
+    "text": "Uncontrolled Manifold Hypothesis Defined\nThe Uncontrolled Manifold Hypothesis suggests our brain separates essential movements from less crucial ones.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#motor-programs-defined",
+    "href": "slides/ch04/quizzes/ch04-qz.html#motor-programs-defined",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Motor Programs Defined",
+    "text": "Motor Programs Defined\nMotor programs are functional states that allow particular movements or classes of movements to occur.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#mental-practice-value",
+    "href": "slides/ch04/quizzes/ch04-qz.html#mental-practice-value",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Mental Practice Value",
+    "text": "Mental Practice Value\nMental practice is as effective as physical practice for motor skill improvement.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#long-term-memory-of-skills",
+    "href": "slides/ch04/quizzes/ch04-qz.html#long-term-memory-of-skills",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Long-Term Memory of Skills",
+    "text": "Long-Term Memory of Skills\nLong-term memory for motor skills is easily forgotten.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#explicit-verbal-feedback",
+    "href": "slides/ch04/quizzes/ch04-qz.html#explicit-verbal-feedback",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Explicit Verbal Feedback",
+    "text": "Explicit Verbal Feedback\nExplicit verbal feedback, or knowledge of results (KR), generally aids skill acquisition.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#rule-governed-behavior",
+    "href": "slides/ch04/quizzes/ch04-qz.html#rule-governed-behavior",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Rule-Governed Behavior",
+    "text": "Rule-Governed Behavior\nRule-governed behavior can be accommodated by chaining theory.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/quizzes/ch04-qz.html#ido-motor-theory",
+    "href": "slides/ch04/quizzes/ch04-qz.html#ido-motor-theory",
+    "title": "KIN 479: Human Motor Control",
+    "section": "Ido-Motor Theory",
+    "text": "Ido-Motor Theory\nThe ideo-motor theory says that every thought—conscious or unconscious—has a commensurate action.\n\nTrue\nFalse"
+  },
+  {
+    "objectID": "slides/ch04/notes/910.html",
+    "href": "slides/ch04/notes/910.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Here, we have a classic comparison between two fields—psychology and physiology—in the context of human motor control. Psychology tends to treat the ‘internal workings’ of the brain and body as a black box, focusing more on observable behaviors and mental processes without always detailing the precise biological structures involved. Physiology, by contrast, goes under the hood to explore how the nervous system, muscles, and other bodily structures interact to generate movement. One way to visualize this difference is to think of psychology as trying to understand why people move in certain ways—how they perceive, think, learn, or remember tasks—while physiology is more about the mechanics of how those movements are carried out at the cellular or anatomical level. In rehabilitation or kinesiology settings, understanding both sides is crucial. For example, if you’re helping a patient recover from a stroke, you need the physiological background to know which parts of the brain and which muscle groups are affected. But you also need psychological insights—like how motivation, attention, and feedback loops support or hinder the patient’s progress. A practical example is when we help an athlete improve their skill. Physiology tells us how their muscles fire, how neural impulses travel from the brain to the body, and how fast they can contract. Psychology helps us explore how focus, mental imagery, and feedback enhance learning new techniques. Bridging these two fields gives us a more holistic picture of motor control. We can devise better intervention strategies—whether in physical therapy sessions or performance training in sports."
+    "text": "As you progress from a beginner to a more advanced performer, your attention moves from being laser-focused on each component of the skill to being more free for strategic decisions or creative flourishes. In the early stages, your mind is consumed by basic execution—imagine a novice golfer trying to remember grip, stance, and swing all at once. Later, once those motions become automatic, you can think about shot selection or environmental factors, like wind speed. Similarly, control evolves from conscious, step-by-step actions to fluid, coordinated movements. If you’ve ever watched an experienced violinist or a professional soccer player, their actions appear effortless and seamless—no sign of the painstaking details they had to master at the start. Finally, feedback remains crucial but changes in nature. In the beginning, you need detailed corrections—like a dance instructor pointing out every misstep. As your skill grows, you still benefit from feedback, but it’s more about fine-tuning nuances rather than fixing fundamental errors. This shift underscores the idea that expertise isn’t just about doing things without mistakes; it’s about quickly recognizing and adjusting small deviations for consistently high performance."
+  },
+  {
+    "objectID": "slides/ch04/notes/1200.html",
+    "href": "slides/ch04/notes/1200.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "From clinical settings to sports arenas, understanding the psychological foundations of motor control can have a real impact. In rehabilitation, therapists can use feedback-driven practice and task segmentation to help patients regain lost abilities. In sports, coaches can break down complex maneuvers into manageable chunks and provide targeted feedback to refine performance. Musicians, dancers, and other performers similarly benefit from structured practice methods aligned with how the brain learns best. The common thread is leveraging these theories to make training more efficient, engaging, and successful, whether the goal is to relearn basic movements or to achieve elite performance levels. This concludes this lecture. I encourage you to complete the low-stake activity and reflect on how you could apply these concepts to your own practice. I will catch you on the next lecture."
+  },
+  {
+    "objectID": "slides/ch04/notes/1010.html",
+    "href": "slides/ch04/notes/1010.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Hierarchical Learning shows how simpler skills become automatic building blocks for more advanced actions. For instance, when you learn to juggle, you start with a single ball toss, gradually adding more complexity. Once those lower-level actions are well-practiced, your brain can focus on higher-level strategies—like keeping rhythm or anticipating the ball’s trajectory. Meanwhile, the Uncontrolled Manifold Hypothesis explains how subtle adjustments in one part of the body don’t derail the entire movement. Think of a juggler slightly altering wrist position without ruining the overall toss. The theory suggests that certain ‘critical’ aspects of a movement—like the ball’s release angle—must stay consistent, but other elements can vary without causing errors. This built-in flexibility allows us to adapt to small changes or mistakes in real-time, making our performance both robust and graceful. Learning a skill is thus an intricate dance between perfecting the key components and allowing small, controlled variations. This process involves changes in brain structure and function, muscle coordination, and force control, highlighting just how multifaceted skill acquisition really is."
+  },
+  {
+    "objectID": "slides/ch04/notes/400.html",
+    "href": "slides/ch04/notes/400.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Element-to-Position Association Theory proposes that each component of a movement sequence is tied to a specific slot, like “position one” or “position two.” On the surface, this seems helpful for understanding how we keep track of the order of actions—imagine labeling each movement so you know exactly where it fits. If these positional tags also have timing cues, they could help explain why we rarely scramble the order when performing well-practiced routines (like choreographed dance steps or playing the correct notes on a piano). However, the theory runs into problems when we examine complex tasks involving rules or flexible choices. For instance, if you’re playing a sport and need to adapt your sequence of movements based on an opponent’s actions, simply having “position one, position two, position three” won’t cut it. You might need to skip “position two” or jump to “position four” if the game situation calls for it. Real-world skill often requires branching possibilities rather than a single linear progression. Therefore, while Element-to-Position Association Theory highlights an important aspect of sequencing, it doesn’t fully capture how we learn, adapt, and apply more abstract rules or strategies in dynamic contexts. It’s a stepping stone to more comprehensive theories that address the fixed elements of sequencing and the need for on-the-fly decision-making."
+  },
+  {
+    "objectID": "slides/ch04/notes/200.html",
+    "href": "slides/ch04/notes/200.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "One of the central mysteries in motor control is how we manage to perform sequences of movements so smoothly and in the right order. For instance, think about saying a short greeting like ‘Hello there!’—it feels automatic, but under the surface, your brain is orchestrating a precise sequence of muscle activations to produce each sound in the correct order. This ability applies just as much to playing a piano piece or executing a gymnastics routine. Researchers call this the ‘serial order problem,’ which refers to combining multiple elements—syllables, notes, or physical maneuvers—into a coherent and correctly timed whole. Studying this helps us understand issues like speech disorders, where timing or order can go wrong, and it informs rehabilitation strategies in physical therapy, where patients might need to relearn how to put movements in sequence. Unraveling the serial order problem gives us insight into both the cognitive and physiological sides of motor control—how we plan an action and how our muscles and nerves carry it out in near-perfect coordination."
+  },
+  {
+    "objectID": "slides/ch04/notes/700.html",
+    "href": "slides/ch04/notes/700.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Adams’ Closed-Loop Theory emphasizes that we use ongoing feedback to gradually fine-tune our movements. Imagine learning a gymnastics move: each time you practice, you build an internal “blueprint” of how the move should feel—its balance, timing, and muscle sensations. Repeating the move, you compare your actions to that internal target and make subtle corrections. This approach is powerful because it highlights the role of sensory feedback (like feeling off-balance or noticing you’re too late in a rotation). Over time, your perceptual goal becomes more precise, and your movements become more accurate. However, one limitation of this theory is that it sometimes struggles to explain rapid movements or those performed without continuous feedback. Even so, Adams’ Closed-Loop Theory set an important foundation for understanding how we learn new skills through iterative practice and feedback."
+  },
+  {
+    "objectID": "slides/ch04/notes/500.html",
+    "href": "slides/ch04/notes/500.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Inter-Element Inhibition Theory proposes that each part of a sequence is simultaneously active, but some parts are suppressed until it’s their turn to ‘take the stage.’ While this idea acknowledges that multiple actions can play simultaneously, it still treats movement control as an internal wrestling match—whoever is ‘least inhibited’ gets to go next. The main issue is that this model underestimates just how complex and adaptable our motor planning can be. In real-life scenarios, like cooking a meal or performing an athletic maneuver, we aren’t just passively waiting for one action to ‘stop inhibiting’ the next. We actively plan ahead, follow rules or strategies, and respond to changing circumstances. Our behavior is guided by overarching goals and feedback from the environment, not just internal suppression between movement elements. Because it doesn’t account for higher-level planning and the flexible use of rules, Inter-Element Inhibition Theory struggles to explain how we seamlessly reorder or skip actions when the situation demands it. Nevertheless, it remains historically important to highlight that multiple actions can be represented in the brain simultaneously—an idea that paved the way for more advanced, hierarchical models of motor control."
+  },
+  {
+    "objectID": "slides/ch04/notes/300.html",
+    "href": "slides/ch04/notes/300.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Response chaining is one of the earliest attempts to explain how our actions unfold smoothly, step-by-step. Think of each movement as a domino in a chain; when one domino falls, it triggers the next. William James popularized the notion that these links become so strong and quick with practice that movements feel almost automatic. Although this idea paved the way for some fascinating discussions, it’s important to note that many researchers eventually found limitations in the theory. One big critique is that it can’t fully account for how people can still perform rapid sequences when there isn’t enough feedback from one movement to initiate the next. Nevertheless, response chaining remains historically significant because it sparked debate and further studies, shaping our understanding of how complex sequences—like playing a fast piano passage or executing a multi-step athletic skill—might be controlled by the brain."
   },
   {
     "objectID": "slides/ch04/slides.html#introduction",
@@ -880,83 +1076,6 @@
     "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
     "section": "12. Practical Applications",
     "text": "12. Practical Applications\n\nRehabilitation: Applying hierarchical and feedback-based models to design better therapy programs for stroke or injury recovery.\n\nSports Training: Using goal-oriented feedback and chunking strategies to help athletes master complex skills faster.\n\nMusic & Performance: Employing stage theories to progress from basic techniques to effortless, expressive execution.\n\n\nFrom clinical settings to sports arenas, understanding the psychological foundations of motor control can have a real impact. In rehabilitation, therapists can use feedback-driven practice and task segmentation to help patients regain lost abilities. In sports, coaches can break down complex maneuvers into manageable chunks and provide targeted feedback to refine performance. Musicians, dancers, and other performers similarly benefit from structured practice methods aligned with how the brain learns best. The common thread is leveraging these theories to make training more efficient, engaging, and successful, whether the goal is to relearn basic movements or to achieve elite performance levels. This concludes this lecture. I encourage you to complete the low-stake activity and reflect on how you could apply these concepts to your own practice. I will catch you on the next lecture.\n\n\n\nYour browser does not support the audio element."
-  },
-  {
-    "objectID": "slides/ch04/slides.html#check-your-understanding",
-    "href": "slides/ch04/slides.html#check-your-understanding",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "Check Your Understanding",
-    "text": "Check Your Understanding\n\nClick the timer (bottom left) to stop the lecture.\n\nAnswer a series of questions about the lecture content.\n\nEach question has four answer choices; select the best one.\n\nClick “Check Answer” to verify.\n\nYou have 60 seconds per question.\n\nReady?\n\nClick the timer again to start the lecture and quiz."
-  },
-  {
-    "objectID": "slides/ch04/slides.html#performance-vs-learning",
-    "href": "slides/ch04/slides.html#performance-vs-learning",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "1/10 Performance vs Learning",
-    "text": "1/10 Performance vs Learning\n\nPerformance and learning are the same thing\n\nLearning is directly observable while performance is inferred\n\nLearning is inferred from relatively permanent changes in performance\n\nPerformance is always a reliable indicator of learning"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#serial-order-problem",
-    "href": "slides/ch04/slides.html#serial-order-problem",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "2/10 Serial Order Problem",
-    "text": "2/10 Serial Order Problem\n\nIt refers to memorizing a sequence of numbers\n\nIt refers to how movements are sequenced and timed in the correct order\n\nIt is the ability to chain words together in a sentence\n\nIt explains only slow, deliberate movements"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#response-chaining-theory",
-    "href": "slides/ch04/slides.html#response-chaining-theory",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "3/10 Response Chaining Theory",
-    "text": "3/10 Response Chaining Theory\n\nSuggests each movement triggers the next in a chain-like fashion\n\nProposes all movements occur at the same time\n\nExplains how we skip steps in a sequence when needed\n\nArgues that feedback plays no role in movement"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#hierarchical-models-of-motor-control",
-    "href": "slides/ch04/slides.html#hierarchical-models-of-motor-control",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "4/10 Hierarchical Models of Motor Control",
-    "text": "4/10 Hierarchical Models of Motor Control\n\nPropose that smaller “chunks” of action are nested within larger units\n\nAre identical to response chaining theories\n\nIgnore the role of cognitive processes in learning\n\nOnly apply to simple motor tasks"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#fitts-stage-theory-cognitive-stage",
-    "href": "slides/ch04/slides.html#fitts-stage-theory-cognitive-stage",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "5/10 Fitts’ Stage Theory: Cognitive Stage",
-    "text": "5/10 Fitts’ Stage Theory: Cognitive Stage\n\nLearners focus heavily on what needs to be done and make frequent errors\n\nMovements are fully automated and require little conscious thought\n\nLearners rely solely on muscle memory without feedback\n\nMovements are performed perfectly from the outset"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#adams-closed-loop-theory-1",
-    "href": "slides/ch04/slides.html#adams-closed-loop-theory-1",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "6/10 Adams’ Closed-Loop Theory",
-    "text": "6/10 Adams’ Closed-Loop Theory\n\nArgues that feedback is irrelevant to skill development\n\nSuggests learners form a perceptual reference to guide movement corrections\n\nStates that rapid movements can never be performed accurately\n\nEliminates the concept of internal goals or standards"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#degrees-of-freedom-in-motor-learning",
-    "href": "slides/ch04/slides.html#degrees-of-freedom-in-motor-learning",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "7/10 Degrees of Freedom in Motor Learning",
-    "text": "7/10 Degrees of Freedom in Motor Learning\n\nRefers to having unlimited time to practice a skill\n\nIs about how many times you can perform a skill before fatigue\n\nDescribes the number of ways joints and muscles can vary to produce movement\n\nApplies only to elite athletes"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#associative-stage-of-learning",
-    "href": "slides/ch04/slides.html#associative-stage-of-learning",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "8/10 Associative Stage of Learning",
-    "text": "8/10 Associative Stage of Learning\n\nThe learner is unaware of how to correct mistakes\n\nErrors are detected more easily, and performance becomes more consistent\n\nPerformance is completely automatic, requiring no attention\n\nThis stage is irrelevant in real-world skill acquisition"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#uncontrolled-manifold-hypothesis",
-    "href": "slides/ch04/slides.html#uncontrolled-manifold-hypothesis",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "9/10 Uncontrolled Manifold Hypothesis",
-    "text": "9/10 Uncontrolled Manifold Hypothesis\n\nSuggests all movements must be rigidly fixed in advance\n\nProposes that certain critical elements of movement remain stable while others can vary\n\nImplies that movement variation is always detrimental to performance\n\nArgues that skill can be acquired without any practice"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#practical-application-of-motor-control-theories",
-    "href": "slides/ch04/slides.html#practical-application-of-motor-control-theories",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "10/10 Practical Application of Motor Control Theories",
-    "text": "10/10 Practical Application of Motor Control Theories\n\nThey can inform rehabilitation, sports training, and skill-based instruction\n\nThey are purely theoretical and lack real-world impact\n\nThey only apply to language acquisition, not physical movement\n\nThey discourage using feedback in practice"
   },
   {
     "objectID": "slides/ch03a/quizzes/479-ch03-sensory-quiz.html",
@@ -2030,11 +2149,81 @@
     "text": "Hey there! Let me walk you through what we’ll be learning in this course. I’ve organized everything in a way that’ll help you build your understanding step by step.\nWe’ll start with the basics - getting to know what motor control is all about (that’s in Chapters 1 and 2). Then, we’ll explore how our senses work (Chapter 3), with a special deep dive into vision (Chapter 6). It’s fascinating stuff - you’ll see how your body takes in information and uses it to control movement!\nNext up, we’ll look at motor physiology (more from Chapter 3) and dive into the psychology of motor control (Chapter 4). I really enjoy this part because we get to explore different theories about how humans control movement. Trust me, it’s more interesting than it might sound!\nThe second half of the course is where things get really hands-on. We’ll look at specific types of movement: - How we walk and run (Chapter 5) - The way we reach and grab things (Chapter 7) - What happens when we write or draw (Chapter 8) - How we control our voice (Chapter 10) - And even how we make facial expressions (Chapter 11)\nThroughout all of this, we’ll be using our textbook - it’s the second edition of Human Motor Control by David A. Rosenbaum. I’ll post recorded lectures each week to help explain the concepts, and you’ll have weekly quizzes to check your understanding. Don’t worry though - I’ll be here to help you every step of the way!"
   },
   {
-    "objectID": "notes-audio-files/notes/479-ch01-1_8_knowledge_expression_notes.html",
-    "href": "notes-audio-files/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "objectID": "webapp/venv311/lib/python3.11/site-packages/numpy/random/LICENSE.html",
+    "href": "webapp/venv311/lib/python3.11/site-packages/numpy/random/LICENSE.html",
+    "title": "NCSA Open Source License",
+    "section": "",
+    "text": "This software is dual-licensed under the The University of Illinois/NCSA Open Source License (NCSA) and The 3-Clause BSD License\n\nNCSA Open Source License\nCopyright (c) 2019 Kevin Sheppard. All rights reserved.\nDeveloped by: Kevin Sheppard (kevin.sheppard@economics.ox.ac.uk, kevin.k.sheppard@gmail.com) http://www.kevinsheppard.com\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.\nNeither the names of Kevin Sheppard, nor the names of any contributors may be used to endorse or promote products derived from this Software without specific prior written permission.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.\n\n\n3-Clause BSD License\nCopyright (c) 2019 Kevin Sheppard. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nComponents\nMany parts of this module have been derived from original sources, often the algorithm’s designer. Component licenses are located with the component code."
+  },
+  {
+    "objectID": "webapp/venv311/lib/python3.11/site-packages/idna-3.10.dist-info/LICENSE.html",
+    "href": "webapp/venv311/lib/python3.11/site-packages/idna-3.10.dist-info/LICENSE.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "As someone who’s interested in the field of motor control, you know that effective communication through language is key. Whether you’re reading up on the latest theories or trying to apply your knowledge in practice, language plays a huge role. From the foundational concepts to the real-world applications, it’s all about being able to convey your ideas in a way that others can understand."
+    "text": "BSD 3-Clause License\nCopyright (c) 2013-2024, Kim Davies and contributors. All rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+  },
+  {
+    "objectID": "notes-audio-files/slides/example.html#key-concepts",
+    "href": "notes-audio-files/slides/example.html#key-concepts",
+    "title": "Example Slide Deck",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\nFirst important concept\n\nDetail A\nDetail B\n\nSecond important concept\n\nDetail X\nDetail Y"
+  },
+  {
+    "objectID": "notes-audio-files/slides/example.html#examples",
+    "href": "notes-audio-files/slides/example.html#examples",
+    "title": "Example Slide Deck",
+    "section": "Examples",
+    "text": "Examples\n\nReal-world example 1\n\nHow it works\nWhy it matters\n\nReal-world example 2\n\nPractical application\nCommon challenges"
+  },
+  {
+    "objectID": "assignments/pres.html",
+    "href": "assignments/pres.html",
+    "title": "Group Presentation Assignment",
+    "section": "",
+    "text": "In this group presentation assignment, you will choose a specific movement disorder and create a slide presentation covering the following aspects:\n\nNeurophysiology/pathophysiology\nSkill performance\nTreatment (PT, medication, etc.)\nOverall outlook"
+  },
+  {
+    "objectID": "assignments/pres.html#point-distribution",
+    "href": "assignments/pres.html#point-distribution",
+    "title": "Group Presentation Assignment",
+    "section": "2.1 Point Distribution",
+    "text": "2.1 Point Distribution"
+  },
+  {
+    "objectID": "assignments/pres.html#sec-recording",
+    "href": "assignments/pres.html#sec-recording",
+    "title": "Group Presentation Assignment",
+    "section": "2.2 Recording",
+    "text": "2.2 Recording\n\nChoose one movement disorder from the list of topics (Appendix A: Topics) provided or select another relevant disorder.\nCreate a slide presentation addressing the required content areas (see Appendix B: Presentation Template).\nRecord your slides’ group presentation, ensuring each group member participates."
+  },
+  {
+    "objectID": "assignments/pres.html#submissions",
+    "href": "assignments/pres.html#submissions",
+    "title": "Group Presentation Assignment",
+    "section": "2.3 Submissions",
+    "text": "2.3 Submissions\n\n2.3.1 Topics\n\n(10 points) - required [due Feb 10 @ 5 pm]\nThe group members convene and select three topics for consideration.\nThe group's leader submits the three topics by the deadline via Canvas.\nThe instructor selects one of the submitted topics and notifies the group.\nThe group starts working on the presentation.\n\n\n\n2.3.2 Video Recording\n\n(70 points) - required [due April 14 @ 5 pm]\nBefore the deadline, the group records the presentation.\nThe group's leader submits the recorded presentation to a discussion board on Canvas by the deadline.\n\n\n\n2.3.3 Peer Engagement\n\n(10 points) - extra credit [due April 21 @ 5 pm]\nAnyone interested in earning extra credit watches the group presentation videos (Video Recording Assignment).\nFormulate four questions (2.5 pts each) and post them to the respective group’s submission by the deadline (Video Recording Assignment).\nTo earn the full extra credit points, students must:\n\nask at least four relevant questions across different groups’ presentations, providing high-quality, thoughtful, relevant, well-articulated, thorough, accurate, and timely questions.\n\n\n\n\n\n\n\n\nAlthough not required, the group that received questions is encouraged to respond to them as this will help the questioner understand the topic better.\n\n\n\n\n\n2.3.4 Peer Evaluation\n\n[due May 13 @ 5 pm]\nEveryone submits a peer evaluation via Canvas by the deadline."
+  },
+  {
+    "objectID": "assignments/pres.html#group-members",
+    "href": "assignments/pres.html#group-members",
+    "title": "Group Presentation Assignment",
+    "section": "2.4 Group Members",
+    "text": "2.4 Group Members\nLog into Canvas and head to our course, then:\n\nClick on People –&gt; Groups.\nSearch by your name and click on the group you belong to.\nThe group’s leader has an icon representing a person after their name."
+  },
+  {
+    "objectID": "assignments/pres.html#requirements",
+    "href": "assignments/pres.html#requirements",
+    "title": "Group Presentation Assignment",
+    "section": "2.5 Requirements",
+    "text": "2.5 Requirements\n\nPresentation length: No longer than 15 minutes total\nReferences: Minimum of 7 peer-reviewed references, cited in APA style (7th edition)\n\nA good place to find reputable sources is the CSUN library database, PubMed, or Google Scholar\n\nThe final recording must include the slides and speakers’ faces, ensure good sound and lighting quality\n\nUse the software of choice (Zoom, Google Meet, Microsoft Teams, etc.)\nOnce done, download the video and upload it to Canvas (under Project: Video Recording)\n\nSlides: Visually interesting but not distracting limited text; use figures where possible\nVideos: if videos are included in the presentation, they must be short and no more than 2 minutes in total\nProfessionalism: Maintain a professional demeanor throughout the presentation\nGroup members must participate equally in the presentation\nThe group leader is responsible for submitting the recorded presentation\nI encourage you to start working on the presentation early to avoid last-minute issues\nI encourage groups to practice the presentation before recording it"
+  },
+  {
+    "objectID": "assignments/pres.html#appendices",
+    "href": "assignments/pres.html#appendices",
+    "title": "Group Presentation Assignment",
+    "section": "2.6 Appendices",
+    "text": "2.6 Appendices\n\n2.6.1 Appendix A: Topics\n\nChoose one movement disorder to present on\nExamples (not comprehensive):\n\nParkinson’s disease\nEssential tremor\nHuntington’s disease\nCerebral palsy\nHemiballisimus\nAtaxia\nMultiple sclerosis\nRestless leg syndrome\nAmyotrophic lateral sclerosis\nTardive dyskinesia\nMyoclonus\nTourette’s syndrome\n\n\n\n\n2.6.2 Appendix B: Presentation Template\n\nDownload the template from here.\n\nIf you do not have Microsoft PowerPoint, download the file and open it using Google Slides.\n\nThe link to download the PowerPoint template is on the right side of the page, under Other Formats.\n\nThe presentation should include the following sections:\n\nIntroduction/Neurophysiology\n\nDescribe your movement disorder\nExplain its physiological basis\nDiscuss who it generally affects\n\nSkill Performance\n\nDescribe how individuals with this disorder perform certain skills\n\nTreatment\n\nDiscuss common pharmacological treatments (detailed mechanisms not required)\nExplain typical rehab approaches\n\nOverall Outlook\n\nDiscuss the current state of the science\nSuggest areas for future research focus\nMention any new treatment modalities on the horizon\n\nReferences\n\nCite references throughout the presentation using APA style (7th edition)\nInclude a slide at the end with full references\n\n\n\n\n2.6.3 Appendix C: Evaluation Rubrics\n\n2.6.3.1 Video Recording Rubric\n*(70 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (9-10)\nGood (7-8)\nFair (5-6)\nPoor (0-4)\n\n\n\n\nContent coverage\nThoroughly addresses all required content areas\nAdequately addresses most content areas\nSome content areas missing or inadequately addressed\nSignificant content areas missing or poorly addressed\n\n\nOrganization and clarity\nWell-organized, clear, and easy to follow\nMostly organized and clear, minor issues\nSome disorganization or lack of clarity\nDisorganized, unclear, and difficult to follow\n\n\nPresentation delivery\nEngaging, professional, and well-rehearsed\nMostly engaging and professional, minor issues\nSome lack of engagement or professionalism\nUnengaging, unprofessional, or unrehearsed\n\n\nVisual aids\nVisually appealing, informative, and relevant\nMostly appealing and informative, minor issues\nSome issues with visual appeal or relevance\nUnappealing, uninformative, or irrelevant\n\n\nReferences and citations\nProperly cited throughout, minimum references met\nMostly properly cited, minor issues\nSome issues with citations or references\nSignificant issues with citations or references\n\n\nLength and timing\nWithin the 15-minute limit\nSlightly over or under the limit\nModerately over or under the limit\nSignificantly over or under the limit\n\n\nRecording quality\nExcellent sound and visual quality\nGood sound and visual quality, minor issues\nSome issues with sound or visual quality\nPoor sound or visual quality, significant issues\n\n\n\n\n\n2.6.3.2 Topic Submission Rubric\n*(10 points)\n\nSubmitted three topics from the list of topics provided\nAdd the group members’ names and group number\n\n\n\n2.6.3.3 Peer Evaluation Rubric\n*(20 points)\nEach group member should evaluate their teammates’ contributions to the project using the following rubric. The total score for each member will be the average of the scores given by their teammates.\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (4)\nGood (3)\nFair (2)\nPoor (1)\n\n\n\n\nAttendance and punctuality\nAlways attends meetings and is punctual\nMostly attends meetings and is punctual, with few exceptions\nOccasionally misses meetings or is late\nFrequently misses meetings or is late\n\n\nParticipation and communication\nActively participates in discussions, shares ideas, and communicates effectively\nMostly participates and communicates, with minor issues\nSome lack of participation or communication issues\nRarely participates or communicates, significant issues\n\n\nQuality of work\nConsistently delivers high-quality work that meets or exceeds expectations\nMostly delivers good quality work, with minor issues\nSome issues with work quality or consistency\nFrequently delivers poor quality work or fails to meet expectations\n\n\nResponsibility and reliability\nAlways completes assigned tasks on time and is reliable\nMostly completes tasks on time and is reliable, with few exceptions\nOccasionally misses deadlines or is unreliable\nFrequently misses deadlines or is unreliable\n\n\nCollaboration and teamwork\nWorks well with others, contributes to a positive team dynamic, and helps resolve conflicts\nMostly collaborative and contributes to a positive team dynamic, with minor issues\nSome issues with collaboration or teamwork\nRarely collaborates or contributes to a positive team dynamic, significant issues\n\n\n\n\n\n2.6.3.4 Peer Engagement Rubric\n*Extra Credit (10 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (2.5)\nGood (2.0)\nFair (1.0)\nPoor (0)\n\n\n\n\nQuestion 1\nThoughtful, relevant, well-articulated\nMostly relevant and well-articulated\nSome issues with relevance or articulation\nIrrelevant or poorly articulated\n\n\nQuestion 2\nThoughtful, relevant, well-articulated\nMostly relevant and well-articulated\nSome issues with relevance or articulation\nIrrelevant or poorly articulated\n\n\nQuestion 3\nThoughtful, relevant, well-articulated\nMostly relevant and well-articulated\nSome issues with relevance or articulation\nIrrelevant or poorly articulated\n\n\nQuestion 4\nThoughtful, relevant, well-articulated\nMostly relevant and well-articulated\nSome issues with relevance or articulation\nIrrelevant or poorly articulated"
   },
   {
     "objectID": "assignments/pres-template.html",
@@ -2079,67 +2268,25 @@
     "text": "About References\n\nCite references throughout the presentation using APA style (7th edition)\n\ne.g., (Driskell et al., 1992)\n\nInclude a slide at the end with full references\nSee below how the source (Driskell et al., 1992) is listed on the Reference slide\nFor more information about apa style citation click here for in-text citation and click here for creating references"
   },
   {
-    "objectID": "assignments/pres.html",
-    "href": "assignments/pres.html",
-    "title": "Group Presentation Assignment",
+    "objectID": "notes-audio-files/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "href": "notes-audio-files/notes/479-ch01-1_8_knowledge_expression_notes.html",
+    "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "In this group presentation assignment, you will choose a specific movement disorder and create a slide presentation covering the following aspects:\n\nNeurophysiology/pathophysiology\nSkill performance\nTreatment (PT, medication, etc.)\nOverall outlook"
+    "text": "As someone who’s interested in the field of motor control, you know that effective communication through language is key. Whether you’re reading up on the latest theories or trying to apply your knowledge in practice, language plays a huge role. From the foundational concepts to the real-world applications, it’s all about being able to convey your ideas in a way that others can understand."
   },
   {
-    "objectID": "assignments/pres.html#overview",
-    "href": "assignments/pres.html#overview",
-    "title": "Group Presentation Assignment",
+    "objectID": "webapp/venv311/lib/python3.11/site-packages/narwhals-1.28.0.dist-info/licenses/LICENSE.html",
+    "href": "webapp/venv311/lib/python3.11/site-packages/narwhals-1.28.0.dist-info/licenses/LICENSE.html",
+    "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "In this group presentation assignment, you will choose a specific movement disorder and create a slide presentation covering the following aspects:\n\nNeurophysiology/pathophysiology\nSkill performance\nTreatment (PT, medication, etc.)\nOverall outlook"
+    "text": "MIT License\nCopyright (c) 2024, Marco Gorelli\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "assignments/pres.html#group-instructions",
-    "href": "assignments/pres.html#group-instructions",
-    "title": "Group Presentation Assignment",
-    "section": "Group Instructions",
-    "text": "Group Instructions\n\nChoose one movement disorder from the list of topics (Appendix A: Topics) provided or select another relevant disorder.\nCreate a slide presentation addressing the required content areas (see Appendix B: Presentation Template).\nRecord a group presentation of your slides, ensuring that each group member participates.\nSubmissions:\n\nTopic submission\n\nThe group's leader submits three topics for consideration by Feb 10 @ 5pm.\nThe instructor selects a topic and notifies the group\n\nVideo Recording (70 points)\n\nThe group's leader submits the recorded presentation (under Discussion) by April 14 @ 5pm.\n\nPeer Evaluation\n\nEveryone submits a peer evaluation by May 13 @ 5 pm.\n\nPeer Engagement (extra credit)\n\nEveryone watches other groups’ presentation videos, formulates questions, and submits them to the group's leader before April 21.\n\nThe group's leader chooses no more than 5 questions and posts them to their respective submissions (#4.2 above) by April 28 @ 5pm.\nIf your group received questions, an assigned member responds to the questions by May 5 @ 5pm1.\nI will ask group leaders who submitted questions for consideration. Only those students who submitted questions to the group leader will be eligible to receive the extra points."
-  },
-  {
-    "objectID": "assignments/pres.html#group-members",
-    "href": "assignments/pres.html#group-members",
-    "title": "Group Presentation Assignment",
-    "section": "Group Members",
-    "text": "Group Members\nLog into Canvas and head to our course, then:\n\nClick on People –&gt; Groups.\nYou will see your name under one of the groups. Please, make note what group you belong to."
-  },
-  {
-    "objectID": "assignments/pres.html#requirements",
-    "href": "assignments/pres.html#requirements",
-    "title": "Group Presentation Assignment",
-    "section": "Requirements",
-    "text": "Requirements\n\nPresentation length: No longer than 15 minutes total\nReferences: Minimum of 7 peer-reviewed references, cited in APA style (7th edition)\nRecording: Include both slides and speakers’ faces, ensure good sound and lighting quality\n\nUse software of choice (Zoom, Panopto, etc.)\nOnce done, download the video and upload it to Canvas (under Project: Video Recording)\n\nSlides: Visually interesting but not distracting, limited text, use figures where possible\nVideos: Short, no more than 2 minutes total\nProfessionalism: Maintain a professional demeanor throughout the presentation"
-  },
-  {
-    "objectID": "assignments/pres.html#appendices",
-    "href": "assignments/pres.html#appendices",
-    "title": "Group Presentation Assignment",
-    "section": "Appendices",
-    "text": "Appendices\n\nAppendix A: Topics\n\nChoose one movement disorder to present on\nExamples (not comprehensive):\n\nParkinson’s disease\nEssential tremor\nHuntington’s disease\nCerebral palsy\nHemiballisimus\nAtaxia\nMultiple sclerosis\nRestless leg syndrome\nAmyotrophic lateral sclerosis\nTardive dyskinesia\nMyoclonus\nTourette’s syndrome\n\n\n\n\nAppendix B: Presentation Template\nDownload template2: Available on Canvas under Modules &gt; Presentation\n\nIntroduction/Neurophysiology\n\nDescribe your movement disorder\nExplain its physiological basis\nDiscuss who it generally affects\n\nSkill Performance\n\nDescribe how individuals with this disorder perform certain skills\n\nTreatment\n\nDiscuss common pharmacological treatments (detailed mechanisms not required)\nExplain typical rehab approaches\n\nOverall Outlook\n\nDiscuss the current state of the science\nSuggest areas for future research focus\nMention any new treatment modalities on the horizon\n\nReferences\n\nCite references throughout the presentation using APA style (7th edition)\nInclude a slide at the end with full references\n\n\n\n\nAppendix C: Evaluation Rubrics\n\nVideo Recording (70 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (9-10)\nGood (7-8)\nFair (5-6)\nPoor (0-4)\n\n\n\n\nContent coverage\nThoroughly addresses all required content areas\nAdequately addresses most content areas\nSome content areas missing or inadequately addressed\nSignificant content areas missing or poorly addressed\n\n\nOrganization and clarity\nWell-organized, clear, and easy to follow\nMostly organized and clear, minor issues\nSome disorganization or lack of clarity\nDisorganized, unclear, and difficult to follow\n\n\nPresentation delivery\nEngaging, professional, and well-rehearsed\nMostly engaging and professional, minor issues\nSome lack of engagement or professionalism\nUnengaging, unprofessional, or unrehearsed\n\n\nVisual aids\nVisually appealing, informative, and relevant\nMostly appealing and informative, minor issues\nSome issues with visual appeal or relevance\nUnappealing, uninformative, or irrelevant\n\n\nReferences and citations\nProperly cited throughout, minimum references met\nMostly properly cited, minor issues\nSome issues with citations or references\nSignificant issues with citations or references\n\n\nLength and timing\nWithin the 15-minute limit\nSlightly over or under the limit\nModerately over or under the limit\nSignificantly over or under the limit\n\n\nRecording quality\nExcellent sound and visual quality\nGood sound and visual quality, minor issues\nSome issues with sound or visual quality\nPoor sound or visual quality, significant issues\n\n\n\n\n\nTopic Submission (10 points)\nCompleted = 10pts\nNot completed = 0pts\n\n\nPeer Evaluation for Group Members (20 points)\nEach group member should evaluate their teammates’ contributions to the project using the following rubric. The total score for each member will be the average of the scores given by their teammates.\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (4)\nGood (3)\nFair (2)\nPoor (1)\n\n\n\n\nAttendance and punctuality\nAlways attends meetings and is punctual\nMostly attends meetings and is punctual, with few exceptions\nOccasionally misses meetings or is late\nFrequently misses meetings or is late\n\n\nParticipation and communication\nActively participates in discussions, shares ideas, and communicates effectively\nMostly participates and communicates, with minor issues\nSome lack of participation or communication issues\nRarely participates or communicates, significant issues\n\n\nQuality of work\nConsistently delivers high-quality work that meets or exceeds expectations\nMostly delivers good quality work, with minor issues\nSome issues with work quality or consistency\nFrequently delivers poor quality work or fails to meet expectations\n\n\nResponsibility and reliability\nAlways completes assigned tasks on time and is reliable\nMostly completes tasks on time and is reliable, with few exceptions\nOccasionally misses deadlines or is unreliable\nFrequently misses deadlines or is unreliable\n\n\nCollaboration and teamwork\nWorks well with others, contributes to a positive team dynamic, and helps resolve conflicts\nMostly collaborative and contributes to a positive team dynamic, with minor issues\nSome issues with collaboration or teamwork\nRarely collaborates or contributes to a positive team dynamic, significant issues\n\n\n\n\n\nPeer Engagement - Extra Credit (9 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent (3)\nGood (2)\nFair (1)\nPoor (0)\n\n\n\n\nAsking questions\nThoughtful, relevant questions asked\nMostly relevant questions asked\nSome irrelevant or low-quality questions\nNo questions asked or all questions irrelevant\n\n\nNumber of questions asked\nAt least 5 relevant questions asked\n1-4 relevant questions asked\n1-2 relevant questions asked\nOnly ask one question\n\n\nResponding to questions\nThorough, accurate, and timely responses\nMostly thorough and accurate responses, minor issues\nSome issues with response quality or timeliness\nNo responses or significant issues with responses\n\n\n\nTo earn the full extra credit points3, students must:\n\nAsk at least 5 relevant questions across different groups’ presentations\nProvide high-quality questions and responses that are thoughtful, relevant, well-articulated, thorough, accurate, and timely\nRespond to asked questions providing thorough, accurate, and timely responses"
-  },
-  {
-    "objectID": "assignments/pres.html#footnotes",
-    "href": "assignments/pres.html#footnotes",
-    "title": "Group Presentation Assignment",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nEach group must assign individuals to answer questions on their presentation video submission.↩︎\nIf you do not have Microsoft PowerPoint, download the file and open it using Google Slides.↩︎\nThis is for the entire group, not individuals.↩︎"
-  },
-  {
-    "objectID": "notes-audio-files/slides/example.html#key-concepts",
-    "href": "notes-audio-files/slides/example.html#key-concepts",
-    "title": "Example Slide Deck",
-    "section": "Key Concepts",
-    "text": "Key Concepts\n\nFirst important concept\n\nDetail A\nDetail B\n\nSecond important concept\n\nDetail X\nDetail Y"
-  },
-  {
-    "objectID": "notes-audio-files/slides/example.html#examples",
-    "href": "notes-audio-files/slides/example.html#examples",
-    "title": "Example Slide Deck",
-    "section": "Examples",
-    "text": "Examples\n\nReal-world example 1\n\nHow it works\nWhy it matters\n\nReal-world example 2\n\nPractical application\nCommon challenges"
+    "objectID": "webapp/venv311/lib/python3.11/site-packages/Markdown-3.5.1.dist-info/LICENSE.html",
+    "href": "webapp/venv311/lib/python3.11/site-packages/Markdown-3.5.1.dist-info/LICENSE.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Copyright 2007, 2008 The Python Markdown Project (v. 1.7 and later) Copyright 2004, 2005, 2006 Yuri Takhteyev (v. 0.2-1.6b) Copyright 2004 Manfred Stienstra (the original version)\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the Python Markdown Project nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE PYTHON MARKDOWN PROJECT ‘’AS IS’’ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANY CONTRIBUTORS TO THE PYTHON MARKDOWN PROJECT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
   },
   {
     "objectID": "index.html",
@@ -3619,128 +3766,142 @@
     "text": "30. Complexity of Human Motor Control\n\nTerm: Complexity of Human Motor Control\n\n\nDefinition:\nMovement involves layered planning, flexible feedback, and adaptation. Humans go beyond simple reflexes, integrating goals, rules, and learned patterns."
   },
   {
-    "objectID": "slides/ch04/notes/300.html",
-    "href": "slides/ch04/notes/300.html",
+    "objectID": "slides/ch04/qa/ch04-qa.html",
+    "href": "slides/ch04/qa/ch04-qa.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Response chaining is one of the earliest attempts to explain how our actions unfold smoothly, step-by-step. Think of each movement as a domino in a chain; when one domino falls, it triggers the next. William James popularized the notion that these links become so strong and quick with practice that movements feel almost automatic. Although this idea paved the way for some fascinating discussions, it’s important to note that many researchers eventually found limitations in the theory. One big critique is that it can’t fully account for how people can still perform rapid sequences when there isn’t enough feedback from one movement to initiate the next. Nevertheless, response chaining remains historically significant because it sparked debate and further studies, shaping our understanding of how complex sequences—like playing a fast piano passage or executing a multi-step athletic skill—might be controlled by the brain."
+    "text": "Question: What is the sequencing and timing problem in motor control? Answer: The sequencing and timing problem, also known as the serial order problem, explores how movement sequences are ordered in a series. It seeks to understand how elements of a movement, such as the sounds in a phrase or steps in a routine, are arranged in the correct order.\nQuestion: What is response chaining theory, and how does it explain movement sequences? Answer: Response chaining theory suggests that movements are linked together, where each completed movement acts as a stimulus that triggers the next movement in the sequence. Practice strengthens these connections, making actions faster and more effortless.\nQuestion: What are some criticisms of response chaining theory? Answer: * It doesn’t account for the speed of some movements, which occur too quickly to be triggered solely by feedback from the previous movement. * The same action can lead to different outcomes depending on the context, which a rigid chain cannot explain. * Movement sequences can continue even when feedback is interrupted, suggesting that there is more than just a simple response chain. * It struggles to explain rule-governed behavior.\nQuestion: What is element-to-position association theory? Answer: This theory suggests that movements are linked to mental markers representing their position within a sequence. These markers could also relate to timing, helping explain how actions are timed accurately.\nQuestion: What are the limitations of the element-to-position association theory? Answer: It needs to explain how people learn and follow complex rules that govern sequences. It requires more complexity to account for the real-world flexibility of human action and skill.\nQuestion: How does the inter-element inhibition theory explain sequencing? Answer: It suggests that elements within a sequence inhibit each other. The element receiving the most inhibition occurs later in the sequence.\nQuestion: What are the problems with the inter-element inhibition theory? Answer: * It is difficult to model or program due to the complexity of real-world neural processes. * It does not explain how people learn and follow complex rules governing the order of actions.\nQuestion: What does the hierarchical theory propose about motor control? Answer: This theory suggests that movement sequences are organized into smaller groups or “chunks” that can be nested within each other to create complex sequences.\nQuestion: What are the advantages of hierarchical models? Answer: * They reduce the processing load for the brain. * They provide smooth execution and flexibility when adjusting plans. * They offer a framework for understanding rule-governed behavior. * They accurately predict which sequences will be easy or hard to learn.\nQuestion: What is Adams’ closed-loop theory? Answer: This theory focuses on how movements are refined through practice by developing “perceptual goals,” which are internal senses of what a successful action feels like. Movements are adjusted to match that internal goal.\nQuestion: What is a perceptual trace according to Adams? Answer: A perceptually defined reference condition for each hand position along a trajectory, which becomes better suited to the completion of a task with practice. Learning reflects the development of more adaptive perceptual traces as well as more adaptive capacities for generating movements that reduce errors between perceptual traces and actual outcomes.\nQuestion: What are the shortcomings of closed-loop theory? Answer: * It reduces to a response chaining theory. * It applies more straightforwardly to simple movements than complex ones. * More knowledge of results (KR) does not always lead to more effective performance.\nQuestion: What is a generalized motor program (schema)? Answer: A schema for a procedure with parameters that affect the forms that actions take. It is a knowledge structure that can be instantiated in different ways depending on the values of its underlying variables or parameters.\nQuestion: What is the power law of learning? Answer: An equation (T = aP^-b) describing how the time to complete a task decreases with practice. The equation can be converted to the equation for a straight line by taking the logarithm of each side of the equation. It applies to various perceptual-motor and intellectual activities.\nQuestion: What are the stages in Fitts’ stage theory of skill acquisition? Answer: * Cognitive Stage: Learning the basic procedures, requiring attention. * Associative Stage: Refining technique, linking actions to outcomes. * Autonomous Stage: Performing quickly and consistently with less conscious involvement.\nQuestion: How does attention change across the stages of skill acquisition? Answer: In the early stages, high mental focus is needed, but skill mastery allows that mental space to be used for other things.\nQuestion: How do degrees of freedom relate to skill acquisition? Answer: Novice performers reduce complexity by locking joints, while experienced performers unlock joints, allowing more flexible and efficient movements.\nQuestion: What is the uncontrolled manifold hypothesis? Answer: The idea that some dimensions of movement matter to task success, while others matter little. Motor skill learning involves exploring the effects of different positions in the control space.\nQuestion: What is the difference between procedural and declarative knowledge? Answer: Procedural knowledge consists of implicit instructions for performing a series of operations, while declarative knowledge consists of facts that can be stated verbally.\nQuestion: How does long-term memory relate to motor skills? Answer: Long-term memory for skills is resistant to forgetting. Well-learned skills show little decrement following retention intervals of weeks, months, or even years.\nQuestion: What is the ideo-motor theory? Answer: This theory suggests that every thought, conscious or unconscious, has a commensurate action. The time to produce a behavior is shorter when the signal for the behavior shares features with the behavior’s anticipated perceptual consequences.\nQuestion: What is the parameter remapping effect? Answer: The slowing of performance when having to remap parameters, such as accents to letters.\nQuestion: What is the role of mental practice in skill acquisition? Answer: Mental practice can strengthen high-level memory units and aid in learning motor tasks.\nQuestion: What is the motor output buffer? Answer: A limited-capacity store for low-level motor commands.\nQuestion: What is the relationship between psychology and physiology in motor control? Answer: Psychology focuses on behaviors and mental processes, while physiology explores how the nervous system and muscles interact to generate movement. Both are crucial for a holistic understanding of motor control.\nQuestion: How do hierarchical models relate to skill acquisition? Answer: Hierarchical learning shows how mastering simple components first creates a sturdy platform for more advanced skills.\nQuestion: How does feedback change across the stages of skill acquisition? Answer: Initially, you rely heavily on feedback to correct mistakes. Later, less feedback is needed for maintaining skilled performance.\nQuestion: What is the serial order problem? Answer: How multiple elements are combined into a coherent and correctly timed whole.\nQuestion: What does skill acquisition involve? Answer: Skill acquisition involves changes in brain structure and function, muscle coordination, and force control."
   },
   {
-    "objectID": "slides/ch04/notes/500.html",
-    "href": "slides/ch04/notes/500.html",
+    "objectID": "slides/ch04/notes/100.html",
+    "href": "slides/ch04/notes/100.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Inter-Element Inhibition Theory proposes that each part of a sequence is simultaneously active, but some parts are suppressed until it’s their turn to ‘take the stage.’ While this idea acknowledges that multiple actions can play simultaneously, it still treats movement control as an internal wrestling match—whoever is ‘least inhibited’ gets to go next. The main issue is that this model underestimates just how complex and adaptable our motor planning can be. In real-life scenarios, like cooking a meal or performing an athletic maneuver, we aren’t just passively waiting for one action to ‘stop inhibiting’ the next. We actively plan ahead, follow rules or strategies, and respond to changing circumstances. Our behavior is guided by overarching goals and feedback from the environment, not just internal suppression between movement elements. Because it doesn’t account for higher-level planning and the flexible use of rules, Inter-Element Inhibition Theory struggles to explain how we seamlessly reorder or skip actions when the situation demands it. Nevertheless, it remains historically important to highlight that multiple actions can be represented in the brain simultaneously—an idea that paved the way for more advanced, hierarchical models of motor control."
+    "text": "Here, we have a classic comparison between two fields—psychology and physiology—in the context of human motor control. Psychology tends to treat the ‘internal workings’ of the brain and body as a black box, focusing more on observable behaviors and mental processes without always detailing the precise biological structures involved. Physiology, by contrast, goes under the hood to explore how the nervous system, muscles, and other bodily structures interact to generate movement. One way to visualize this difference is to think of psychology as trying to understand why people move in certain ways—how they perceive, think, learn, or remember tasks—while physiology is more about the mechanics of how those movements are carried out at the cellular or anatomical level. In rehabilitation or kinesiology settings, understanding both sides is crucial. For example, if you’re helping a patient recover from a stroke, you need the physiological background to know which parts of the brain and which muscle groups are affected. But you also need psychological insights—like how motivation, attention, and feedback loops support or hinder the patient’s progress. A practical example is when we help an athlete improve their skill. Physiology tells us how their muscles fire, how neural impulses travel from the brain to the body, and how fast they can contract. Psychology helps us explore how focus, mental imagery, and feedback enhance learning new techniques. Bridging these two fields gives us a more holistic picture of motor control. We can devise better intervention strategies—whether in physical therapy sessions or performance training in sports."
   },
   {
-    "objectID": "slides/ch04/notes/700.html",
-    "href": "slides/ch04/notes/700.html",
+    "objectID": "slides/ch04/notes/310.html",
+    "href": "slides/ch04/notes/310.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Adams’ Closed-Loop Theory emphasizes that we use ongoing feedback to gradually fine-tune our movements. Imagine learning a gymnastics move: each time you practice, you build an internal “blueprint” of how the move should feel—its balance, timing, and muscle sensations. Repeating the move, you compare your actions to that internal target and make subtle corrections. This approach is powerful because it highlights the role of sensory feedback (like feeling off-balance or noticing you’re too late in a rotation). Over time, your perceptual goal becomes more precise, and your movements become more accurate. However, one limitation of this theory is that it sometimes struggles to explain rapid movements or those performed without continuous feedback. Even so, Adams’ Closed-Loop Theory set an important foundation for understanding how we learn new skills through iterative practice and feedback."
+    "text": "In theory, if each movement had to wait for feedback from the previous one, we’d be far too slow for everyday activities like fast typing or playing a musical instrument. Our real-world experiences demand rapid, overlapping actions that leave little time for a strict, one-step-after-another chain. Moreover, a single movement can lead to drastically different outcomes depending on the context—imagine swinging at a baseball pitch. Sometimes, you hit it out of the park; other times, you strike out, even though the basic movement might feel similar. A rigid link between steps can’t explain that level of flexibility. Another major critique is that the movement often continues if we cut off feedback partway through an action. It’s as if our brain has already planned the sequence instead of reacting in the moment. That’s a strong sign that we operate with higher-level planning and goals rather than simple chained reactions. Ultimately, these problems highlight why, while historically important, Response Chaining doesn’t fully capture the complexity of human motor control. We plan ahead, adapt to changes, and integrate rules and goals into our actions—far beyond what a straightforward chain reaction can explain."
   },
   {
-    "objectID": "slides/ch04/notes/200.html",
-    "href": "slides/ch04/notes/200.html",
+    "objectID": "slides/ch04/notes/000.html",
+    "href": "slides/ch04/notes/000.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "One of the central mysteries in motor control is how we manage to perform sequences of movements so smoothly and in the right order. For instance, think about saying a short greeting like ‘Hello there!’—it feels automatic, but under the surface, your brain is orchestrating a precise sequence of muscle activations to produce each sound in the correct order. This ability applies just as much to playing a piano piece or executing a gymnastics routine. Researchers call this the ‘serial order problem,’ which refers to combining multiple elements—syllables, notes, or physical maneuvers—into a coherent and correctly timed whole. Studying this helps us understand issues like speech disorders, where timing or order can go wrong, and it informs rehabilitation strategies in physical therapy, where patients might need to relearn how to put movements in sequence. Unraveling the serial order problem gives us insight into both the cognitive and physiological sides of motor control—how we plan an action and how our muscles and nerves carry it out in near-perfect coordination."
+    "text": "This lecture explores the ways our thoughts, motivations, and learning processes shape how we move. We’ll look at how psychology and physiology intersect to produce the coordinated actions we take for granted—like speaking, playing an instrument, or competing in sports. By reviewing historical theories and more recent models, we’ll see how our understanding of motor control has evolved. Ultimately, these insights aren’t just academic; they can inform everything from injury rehabilitation to peak athletic performance. Let’s begin by setting the stage for what’s to come and why it matters to anyone interested in human movement."
   },
   {
-    "objectID": "slides/ch04/notes/400.html",
-    "href": "slides/ch04/notes/400.html",
+    "objectID": "slides/ch04/notes/600.html",
+    "href": "slides/ch04/notes/600.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Element-to-Position Association Theory proposes that each component of a movement sequence is tied to a specific slot, like “position one” or “position two.” On the surface, this seems helpful for understanding how we keep track of the order of actions—imagine labeling each movement so you know exactly where it fits. If these positional tags also have timing cues, they could help explain why we rarely scramble the order when performing well-practiced routines (like choreographed dance steps or playing the correct notes on a piano). However, the theory runs into problems when we examine complex tasks involving rules or flexible choices. For instance, if you’re playing a sport and need to adapt your sequence of movements based on an opponent’s actions, simply having “position one, position two, position three” won’t cut it. You might need to skip “position two” or jump to “position four” if the game situation calls for it. Real-world skill often requires branching possibilities rather than a single linear progression. Therefore, while Element-to-Position Association Theory highlights an important aspect of sequencing, it doesn’t fully capture how we learn, adapt, and apply more abstract rules or strategies in dynamic contexts. It’s a stepping stone to more comprehensive theories that address the fixed elements of sequencing and the need for on-the-fly decision-making."
+    "text": "Hierarchical models propose that instead of controlling every individual action in a flat, step-by-step way, our brains group related actions into larger “chunks.” Think of playing the piano: you might combine several notes into a small musical phrase rather than treat each note in total isolation. These nested groups allow you to focus on the overall structure of the piece while each smaller chunk runs on its own internal plan. This approach helps explain why people can rapidly learn and execute intricate skills without getting overwhelmed. The higher-level units govern broad goals—like completing a musical phrase—while lower-level units handle the fine details, such as individual finger movements. It’s also easier to adapt in the middle of a sequence because you can switch or modify entire chunks based on changing circumstances rather than reworking every movement in real-time. Therefore, hierarchies provide a more flexible, robust way to understand motor control than theories focusing solely on linear or one-step-at-a-time processes. They show how complex skills—like a gymnastic routine or a choreographed dan—can be learned and performed smoothly, with enough adaptability to accommodate errors or unexpected changes."
   },
   {
-    "objectID": "slides/ch04/notes/1010.html",
-    "href": "slides/ch04/notes/1010.html",
+    "objectID": "slides/ch04/notes/800.html",
+    "href": "slides/ch04/notes/800.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "Hierarchical Learning shows how simpler skills become automatic building blocks for more advanced actions. For instance, when you learn to juggle, you start with a single ball toss, gradually adding more complexity. Once those lower-level actions are well-practiced, your brain can focus on higher-level strategies—like keeping rhythm or anticipating the ball’s trajectory. Meanwhile, the Uncontrolled Manifold Hypothesis explains how subtle adjustments in one part of the body don’t derail the entire movement. Think of a juggler slightly altering wrist position without ruining the overall toss. The theory suggests that certain ‘critical’ aspects of a movement—like the ball’s release angle—must stay consistent, but other elements can vary without causing errors. This built-in flexibility allows us to adapt to small changes or mistakes in real-time, making our performance both robust and graceful. Learning a skill is thus an intricate dance between perfecting the key components and allowing small, controlled variations. This process involves changes in brain structure and function, muscle coordination, and force control, highlighting just how multifaceted skill acquisition really is."
+    "text": "Hierarchical learning explains how mastering simple components first creates a sturdy platform for more advanced skills. For example, when learning guitar, you begin with finger placement and basic chords. As those become second nature, you can combine them into chord progressions, then full songs, and eventually improvise. A key benefit of this layered approach is that once a lower-level action becomes automatic—like seamlessly switching chords—you free up mental resources to handle higher-level tasks, such as adding stylistic flourishes or paying attention to rhythm and dynamics. This principle holds true across many domains, from sports to language acquisition. In each case, forming reliable “building blocks” paves the way for more complex performance. It also explains why skill mastery can take time: each layer needs a solid foundation. If the basics aren’t stable, trying to stack advanced maneuvers on top can lead to errors or inefficiency. By contrast, a well-organized hierarchy allows you to refine details at one level without constantly re-learning the rest of the skill. This perspective ties neatly to “chunking,” where your brain treats related actions as a single unit, ultimately making complex sequences more manageable and adaptable."
   },
   {
-    "objectID": "slides/ch04/notes/1200.html",
-    "href": "slides/ch04/notes/1200.html",
+    "objectID": "slides/ch04/notes/1000.html",
+    "href": "slides/ch04/notes/1000.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "From clinical settings to sports arenas, understanding the psychological foundations of motor control can have a real impact. In rehabilitation, therapists can use feedback-driven practice and task segmentation to help patients regain lost abilities. In sports, coaches can break down complex maneuvers into manageable chunks and provide targeted feedback to refine performance. Musicians, dancers, and other performers similarly benefit from structured practice methods aligned with how the brain learns best. The common thread is leveraging these theories to make training more efficient, engaging, and successful, whether the goal is to relearn basic movements or to achieve elite performance levels. This concludes this lecture. I encourage you to complete the low-stake activity and reflect on how you could apply these concepts to your own practice. I will catch you on the next lecture."
+    "text": "Skill development involves more than just mental strategies and feedback loops; it fundamentally reshapes how our bodies move. Early on, you might notice improvements in speed or precision—like a novice runner shaving seconds off their time. But an equally important change is the smoothness of movement. Experienced athletes or dancers don’t just move faster; they also waste less energy because their joints, muscles, and nervous system are working in harmony. A key concept here is degrees of freedom. Initially, we tend to lock or limit how many joints we use to control a movement, which can make us look stiff or robotic. With practice, we “unlock” these degrees of freedom, allowing multiple parts of the body to coordinate smoothly. Think of a seasoned swimmer whose entire body moves in a fluid wave versus a beginner who might overuse their arms and barely kick. As we gain expertise, the interplay among muscles and joints becomes more dynamic, giving us a broader range of ways to perform the same action. This adaptability not only makes movements more efficient but also helps us adjust quickly to unexpected changes, like a sudden obstacle on a running path or a tricky spin in a dance routine."
   },
   {
-    "objectID": "slides/ch04/notes/910.html",
-    "href": "slides/ch04/notes/910.html",
+    "objectID": "slides/ch04/notes/900.html",
+    "href": "slides/ch04/notes/900.html",
     "title": "KIN 479: Human Motor Control",
     "section": "",
-    "text": "As you progress from a beginner to a more advanced performer, your attention moves from being laser-focused on each component of the skill to being more free for strategic decisions or creative flourishes. In the early stages, your mind is consumed by basic execution—imagine a novice golfer trying to remember grip, stance, and swing all at once. Later, once those motions become automatic, you can think about shot selection or environmental factors, like wind speed. Similarly, control evolves from conscious, step-by-step actions to fluid, coordinated movements. If you’ve ever watched an experienced violinist or a professional soccer player, their actions appear effortless and seamless—no sign of the painstaking details they had to master at the start. Finally, feedback remains crucial but changes in nature. In the beginning, you need detailed corrections—like a dance instructor pointing out every misstep. As your skill grows, you still benefit from feedback, but it’s more about fine-tuning nuances rather than fixing fundamental errors. This shift underscores the idea that expertise isn’t just about doing things without mistakes; it’s about quickly recognizing and adjusting small deviations for consistently high performance."
+    "text": "Fitts’ Stage Theory offers a clear framework for understanding how skills evolve from rough attempts to polished expertise. At the Cognitive Stage, you’re fully engaged with the basics—like a beginner juggler concentrating on each toss and catch, or a new driver double-checking every move. Mistakes are common, but this stage is all about grasping fundamental actions and rules. Next comes the Associative Stage, where you start to see patterns and correct errors more smoothly. In juggling, you realize that throwing too high or too far forward disrupts your rhythm, and you adjust accordingly. This phase is marked by trial and error: you’re connecting cause and effect in your movements, gradually refining what you do. Finally, the Autonomous Stage arrives when the skill feels almost effortless. You can juggle multiple objects while chatting with a friend or add fancy moves to impress an audience. In other words, the action becomes ingrained enough that your mind is freed to focus on creativity, strategy, or even multitasking. Whether it’s juggling, playing an instrument, or driving, Fitts’ stages remind us that mastery unfolds in distinct steps—from deliberate focus to smooth, almost subconscious execution."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#movement-synergies",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#movement-synergies",
-    "title": "Chapter 2 Flashcards",
-    "section": "Movement Synergies",
-    "text": "Movement Synergies\n\nMovement Synergies\n\n\nTeams of muscles working together as a single unit to simplify movement control, reducing the number of elements the brain needs to control independently."
+    "objectID": "slides/ch04/notes/1100.html",
+    "href": "slides/ch04/notes/1100.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Over the course of this presentation, we’ve seen that movement is far more complex than a simple chain reaction. Early ideas offered valuable insights but had limitations—especially when explaining rapid, adaptable skills. Modern theories emphasize hierarchies, flexible feedback loops, and the interplay between brain and body. We also explored how practice refines both mental representations and physical coordination, unlocking new degrees of freedom. Ultimately, the big picture is that psychological and physiological processes are deeply intertwined, guiding how we learn, perfect, and perform all sorts of motor tasks."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#simple-reaction-time",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#simple-reaction-time",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html",
+    "href": "slides/ch02/flashcards/ch02-fc.html",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Movement Synergies\n\n\nTeams of muscles working together as a single unit to simplify movement control, reducing the number of elements the brain needs to control independently."
+  },
+  {
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#movement-synergies",
+    "href": "slides/ch02/flashcards/ch02-fc.html#movement-synergies",
+    "title": "KIN 479: Human Motor Control",
+    "section": "",
+    "text": "Movement Synergies\n\n\nTeams of muscles working together as a single unit to simplify movement control, reducing the number of elements the brain needs to control independently."
+  },
+  {
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#simple-reaction-time",
+    "href": "slides/ch02/flashcards/ch02-fc.html#simple-reaction-time",
+    "title": "KIN 479: Human Motor Control",
     "section": "Simple Reaction Time",
     "text": "Simple Reaction Time\n\nSimple Reaction Time\n\n\nThe time taken to respond to a single stimulus, approximately 200 milliseconds."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#choice-reaction-time",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#choice-reaction-time",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#choice-reaction-time",
+    "href": "slides/ch02/flashcards/ch02-fc.html#choice-reaction-time",
+    "title": "KIN 479: Human Motor Control",
     "section": "Choice Reaction Time",
     "text": "Choice Reaction Time\n\nChoice Reaction Time\n\n\nThe time taken to respond when choosing between different possible responses, longer than 200 milliseconds."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#neural-plasticity",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#neural-plasticity",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#neural-plasticity",
+    "href": "slides/ch02/flashcards/ch02-fc.html#neural-plasticity",
+    "title": "KIN 479: Human Motor Control",
     "section": "Neural Plasticity",
     "text": "Neural Plasticity\n\nNeural Plasticity\n\n\nThe brain’s ability to adapt and change its structure and function in response to experience, learning, and injury."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#mirror-neurons",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#mirror-neurons",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#mirror-neurons",
+    "href": "slides/ch02/flashcards/ch02-fc.html#mirror-neurons",
+    "title": "KIN 479: Human Motor Control",
     "section": "Mirror Neurons",
     "text": "Mirror Neurons\n\nMirror Neurons\n\n\nBrain cells that activate both when performing an action and when observing others perform the same action."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#feedback-control",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#feedback-control",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#feedback-control",
+    "href": "slides/ch02/flashcards/ch02-fc.html#feedback-control",
+    "title": "KIN 479: Human Motor Control",
     "section": "Feedback Control",
     "text": "Feedback Control\n\nFeedback Control\n\n\nA movement control system that uses sensory information to make corrections and adjustments during ongoing movement."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#feedforward-control",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#feedforward-control",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#feedforward-control",
+    "href": "slides/ch02/flashcards/ch02-fc.html#feedforward-control",
+    "title": "KIN 479: Human Motor Control",
     "section": "Feedforward Control",
     "text": "Feedforward Control\n\nFeedforward Control\n\n\nA movement control system where actions are planned and executed based on predicted outcomes, without waiting for sensory feedback."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#movement-sequence",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#movement-sequence",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#movement-sequence",
+    "href": "slides/ch02/flashcards/ch02-fc.html#movement-sequence",
+    "title": "KIN 479: Human Motor Control",
     "section": "Movement Sequence",
     "text": "Movement Sequence\n\nMovement Sequence\n\n\nA pre-programmed routine of movements that can be triggered to unfold automatically, allowing faster execution than individual reactions."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#degrees-of-freedom-problem",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#degrees-of-freedom-problem",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#degrees-of-freedom-problem",
+    "href": "slides/ch02/flashcards/ch02-fc.html#degrees-of-freedom-problem",
+    "title": "KIN 479: Human Motor Control",
     "section": "Degrees of Freedom Problem",
     "text": "Degrees of Freedom Problem\n\nDegrees of Freedom Problem\n\n\nThe challenge of how the nervous system manages and controls the numerous possible ways to perform a movement."
   },
   {
-    "objectID": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#perceptual-motor-integration",
-    "href": "slides/ch02/flashcards/479-ch02-11_38-flashcards.html#perceptual-motor-integration",
-    "title": "Chapter 2 Flashcards",
+    "objectID": "slides/ch02/flashcards/ch02-fc.html#perceptual-motor-integration",
+    "href": "slides/ch02/flashcards/ch02-fc.html#perceptual-motor-integration",
+    "title": "KIN 479: Human Motor Control",
     "section": "Perceptual-Motor Integration",
     "text": "Perceptual-Motor Integration\n\nPerceptual-Motor Integration\n\n\nThe process of combining sensory information with motor output to guide and adjust movements."
   },
@@ -4086,26 +4247,5 @@
     "title": "Slide Implementation Instructions",
     "section": "",
     "text": "Audio 404 Errors\n\nCheck file paths are relative (../audio/)\nVerify file names match exactly\nEnsure audio files exist in correct directory\n\nLayout Problems\n\nKeep YAML margin setting at 0.1\nUse proper column width settings\nMaintain consistent structure across slides\n\nImage Generation\n\nProvide detailed, specific prompts\nInclude style specifications\nKeep prompts consistent with content"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#psychology-physiology-of-movement",
-    "href": "slides/ch04/slides.html#psychology-physiology-of-movement",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "1/10 Psychology & Physiology of Movement",
-    "text": "1/10 Psychology & Physiology of Movement\n\nPhysiology is the study of the mind and behavior\nPhysiology is not important when studying movement\nWhen observing a movement, psychology is not important\n[Psychology and physiology are both important when studying movement]m{.correct}"
-  },
-  {
-    "objectID": "slides/ch04/slides.html#interactive-lecture",
-    "href": "slides/ch04/slides.html#interactive-lecture",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "Interactive Lecture",
-    "text": "Interactive Lecture\n\nThis lecture has sound (except this slide). Please turn on your volume.\nIf you want to pause the lecture, press the p key.\nIf you DON’T HEAR the audio when viewing the next slide and on, go back to the title slide and try again.\nIf you still cannot hear the audio, please try a different browser and check the audio settings of your device."
-  },
-  {
-    "objectID": "slides/ch04/slides.html#sound-interaction",
-    "href": "slides/ch04/slides.html#sound-interaction",
-    "title": "Chapter 4 - Psychological Foundations in Human Motor Control",
-    "section": "Sound & Interaction",
-    "text": "Sound & Interaction\nSound\n\nIf you want to pause the lecture, click on the button that appears on the left-lower corner (OR THE ‘A’ key) - try it now to pause this slide.\nThis lecture has sound (except this slide). Please turn on your volume.\nIf you DON’T HEAR the audio when viewing the next slide and on, go back to the title slide and try again.\nIf you still cannot hear the audio, please try a different browser and check the audio settings of your device.\n\nQuiz\n\nAt the end of this lecture, you will be asked to answer a few questions.\nYou will be asked to select the correct answer from a list of options.\nThe quiz is not graded, but it is important to complete it to ensure you have a good understanding of the material."
   }
 ]

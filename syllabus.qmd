@@ -24,7 +24,7 @@ Also available by appointment: [Schedule Appointment](https://bit.ly/drfurtado-a
 
 # Course Description
 
-Welcome to Motor Control, a course that delves deep into foundational and applied aspects of human motor control. This is done through an integrated approach to the nature of human movement across the life span, with special emphasis on examining the perception-action loop, or the links between sensation, cognition, and movement. In this course, students will first gain foundational knowledge in motor control, including sensory and motor physiology and theories of motor control. Then they will apply this knowledge to better understand motor control of a variety of movements. Additionally, they will gain knowledge on the current state of motor control through reporting on recent applied research in a relevant area. The material learned from this course can be applied to a variety of future careers that involve rehabilitation, clinical practice, sport, and research.
+Welcome to Motor Control, a course that delves deep into foundational and applied aspects of human motor control. This is done through an integrated approach to the nature of human movement across the lifespan, with special emphasis on examining the perception-action loop or the links between sensation, cognition, and movement. In this course, students will first gain foundational knowledge in motor control, including sensory and motor physiology and motor control theories. Then, they will apply this knowledge to better understand motor control of various movements. Additionally, they will gain knowledge on the current state of motor control through reporting on recent applied research in a relevant area. The material from this course can be applied to future careers involving rehabilitation, clinical practice, sport, and research.
 
 -   Foundational knowledge in motor control, sensory and motor physiology, and related theories.\
 -   Applications to rehabilitation, clinical practice, sport, and research.\
@@ -34,7 +34,7 @@ Welcome to Motor Control, a course that delves deep into foundational and applie
 Rosenbaum, D. A. *Human Motor Control* (2nd Edition).
 
 ::: callout-important
-The required course text is the second edition of Human Motor Control by David A. Rosenbaum. Reading assignments should be done first, prior to starting other course-related tasks for the week. Your reading for the week is posted below. This course will be delivered through Canvas. All materials, grades, and discussions will be accessed through this site. Therefore, please take the time to familiarize yourself with the course pages during the first week of the course. Also, Microsoft Office is required, as we will discuss material through PowerPoint presentations, and some assignments require Excel.
+The required course text is the second edition of Human Motor Control by David A. Rosenbaum. Reading assignments should be done before starting other course-related tasks for the week. Your reading for the week is posted below. This course will be delivered through Canvas. All materials, grades, and discussions will be accessed through this site. Therefore, please take the time to familiarize yourself with the course pages during the first week of the course. Also, Microsoft Office is required, as we will discuss material through PowerPoint presentations, and some assignments require Excel.
 :::
 
 # Learning Objectives
@@ -54,9 +54,9 @@ By the end of this course, students will be able to:
 
 # Course Format and Attendance
 
-This course will be delivered entirely online. All materials for a given week will be posted by 5:00 PM each Monday, and each set of posted materials is intended to cover an entire week. Each week’s materials will have an associated page on the Canvas site. Students are encouraged to take advantage of the asynchronous online format and learn and digest the materials at their own pace. Any assignments given for a week will be due the Monday after they are assigned. Therefore, students should review all material for the week, complete any activities, quizzes, and projects for the week, and submit them before the deadline. Lectures will be posted weekly to accompany the reading material. 
+This course will be delivered entirely online. All materials for a given week will be posted by 5:00 PM each Monday, and each set of posted materials is intended to cover an entire week. Each week’s materials will have an associated page on the Canvas site. Students are encouraged to take advantage of the asynchronous online format and learn and digest the materials at their own pace. Any assignments given for a week will be due the Monday after they are assigned. Therefore, students should review all material for the week, complete any activities, quizzes, and projects, and submit them before the deadline. Lectures will be posted weekly to accompany the reading material. 
 
-No attendance will be taken for this course, and no participation points will be given. Due to its mostly asynchronous nature, students have the freedom to learn at their own pace and demonstrate their knowledge of the material through the quality of their assignments.
+No attendance will be taken for this course, and no participation points will be given. Due to its mostly asynchronous nature, students can learn at their own pace and demonstrate their knowledge of the material through the quality of their assignments.
 
 # Communication, Sexual Misconduct Disclosures, and Respectful Environment
 
@@ -67,7 +67,7 @@ Proper communication etiquette is essential for fostering a respectful learning 
 
 **Sexual Misconduct Disclosures**:
 
-One of your instructor’s responsibilities is to help maintain a respectful learning environment. If a student chooses to write, speak, or otherwise disclose about having experienced sexual misconduct/sexual violence, including rape, sexual assault, sexual battery, dating violence, domestic violence, or stalking and specifies that this violence occurred while they or the perpetrator were a CSUN student, federal and state laws require that the instructor, as a “responsible employee,” notify our campus Title IX coordinator.
+One of your instructor’s responsibilities is to help maintain a respectful learning environment. Suppose a student chooses to write, speak, or otherwise disclose about having experienced sexual misconduct/sexual violence, including rape, sexual assault, sexual battery, dating violence, domestic violence, or stalking, and specifies that this violence occurred while they or the perpetrator were a CSUN student. In that case, federal and state laws require that the instructor, as a “responsible employee,” notify our campus Title IX coordinator.
 
 **CSUN Title IX Coordinator**: Barrett Morris ([barrett.morris\@csun.edu](mailto:barrett.morris@csun.edu))\
 **Campus Care Advocate**: (818) 677-4972\
@@ -77,12 +77,12 @@ One of your instructor’s responsibilities is to help maintain a respectful lea
 
 To ensure efficient and effective communication throughout this course:
 
-1.  **Direct Email for Private Matters**: Contact me via Canvas Inbox for personal concerns, issues related to grading, or matters requiring confidentiality.
+1.  **Direct Email for Private Matters**: You can contact me via Canvas Inbox for personal concerns, issues related to grading, or matters requiring confidentiality.
 2.  **Questions on Assignments**: Post them under each week's announcement on Canvas \> Announcements.
 
 # Late Assignment Policy
 
--   **Deduction**: Assignments submitted late without prior arrangements will incur a 5% deduction per day, up to four days.
+-   **Deduction**: Assignments submitted late without prior arrangements will incur a 5% deduction per day for up to four days.
 -   **After Four Days**: Assignments will no longer be accepted.
 
 # Graduate Student Expectations
@@ -91,7 +91,7 @@ Graduate students will complete presentations independently, following specific 
 
 # Student Performance Evaluation
 
--   **Quizzes (25%)**: Weekly, timed quizzes administered on Canvas. Lowest quiz score dropped.
+-   **Quizzes (25%)**: Weekly, timed quizzes administered on Canvas. The lowest quiz score dropped.
 -   **Presentation (15%)**: Group presentations on movement disorders. Due April 14 by 5:00 PM.
 -   **Midterm Exam (30%)**: Assigned March 10, due March 17.
 -   **Final Exam (30%)**: Assigned May 5, due May 13.
@@ -115,7 +115,7 @@ Graduate students will complete presentations independently, following specific 
 
 # Accessibility and Support
 
-Students with disabilities are encouraged to request accommodations early through the Office of Students with Disabilities Resources. Contact: (818) 677-2684.
+Students with disabilities are encouraged to request accommodations early through the Office of Students with Disabilities Resources. The contact number is (818) 677-2684.
 
 # Academic Integrity
 
@@ -126,24 +126,25 @@ All students are expected to adhere to CSUN's policies on academic honesty. Viol
 
 The following sequence is a tentative outline of the topics and assignments for this semester. In most instances, the sequence of the course schedule is followed; however, due to extenuating circumstances, it is sometimes necessary for the instructor to make changes in either the schedule or assignments.
 
-| Week | Dates        | Topics                        | Readings/Tasks                               | Assignments Due         |
-|-------------|-------------|--------------|---------------------|-------------|
-| 1    | Jan 20-27    | Intro Course and Syllabus     | Syllabus                                     | Syllabus Quiz           |
-| 2    | Jan 27-Feb 3 | Introduction to Motor Control | Chapter 1 (pgs. 1-8); Chapter 2 (pgs. 11-38) | Quiz Ch1-2              |
-| 3    | Feb 3-10     | Sensory Physiology            | Chapter 3 (pgs. 43-45; 50-55)                | Quiz Ch3                |
-| 4    | Feb 10-17    | Vision                        | Chapter 6 (pgs. 174-207)                     | Quiz Ch6                |
-| 5    | Feb 17-24    | Motor Physiology              | Chapter 3 (pgs. 46-49; 55-89)                | Quiz Ch3                |
-| 6    | Feb 24-Mar 3 | Psychology and Motor Control  | Chapter 4 (pgs. 94-103; 106-131)             | Quiz Ch4                |
-| 7    | Mar 3-10     | Theories of Motor Control     | Chapter 4 (pgs. 103-106); Chapter 12         | Quiz Ch4                |
-| 8    | Mar 10-17    | Midterm Exam                  | Study Materials                              | Midterm Exam Due Mar 17 |
-| 9    | Mar 17-24    | Spring Break – No Class       |                                              |                         |
-| 10   | Mar 24-31    | Locomotion                    | Chapter 5 (pgs. 136-170)                     | Quiz Ch5                |
-| 11   | Mar 31-Apr 7 | Reaching and Grasping         | Chapter 7 (pgs. 214-247)                     | Quiz Ch7                |
-| 12   | Apr 7-14     | Drawing and Writing           | Chapter 8 (pgs. 254-272)                     | Quiz Ch8                |
-| 13   | Apr 14-21    | Speaking and Singing          | Chapter 10 (pgs. 324-358)                    | Presentations           |
-| 14   | Apr 21-28    | Facial Control                | Chapter 11 (pgs. 364-376)                    | Quiz Ch11               |
-| 15   | Apr 28-May 5 | Final Exam Review             | Chapter 12 (pgs. 379-394)                    | Quiz Ch12               |
-| 16   | May 5-13     | Final Exam                    | Study Materials                              | Final Exam Due May 13   |
+| Week | Dates        | Topics                        | Readings/Tasks                    | Assignments Due (@ 5pm)  |
+|------|--------------|-------------------------------|-----------------------------------|--------------------------|
+| 1    | Jan 20-27    | Intro Course and Syllabus     | Syllabus                          | Syllabus Quiz            |
+| 2    | Jan 27-Feb 3 | Introduction to Motor Control | Ch1 (1-8[^2]); Ch2 (11-38)        | Wk01-Quiz                |
+| 3    | Feb 3-10     | Sensory Physiology            | Ch3 (43-45; 50-55)                | Wk03-Quiz + [Topics](assignments/pres.qmd#appendix-a-topics)  |
+| 4    | Feb 10-17    | Vision                        | Ch6 (174-207)                     | Wk04-Quiz                |
+| 5    | Feb 17-24    | Motor Physiology              | Ch3 (46-49; 55-89)                | Wk05-Quiz                |
+| 6    | Feb 24-Mar 3 | Psychology and Motor Control  | Ch4 (94-103; 106-131)             | Wk06-Quiz                |
+| 7    | Mar 3-10     | Theories of Motor Control     | Ch4 (103-106); Ch12 (397-412)     | Wk07-Quiz                |
+| 8    | Mar 10-17    | Midterm Exam                  | Content up to Wk7                 | Midterm Exam Due Mar 17  |
+| 9    | Mar 17-24    | Spring Break – No Class       | NA                                | NA                       |
+| 10   | Mar 24-31    | Locomotion                    | Ch5 (136-170)                     | Wk10-Quiz                |
+| 11   | Mar 31-Apr 7 | Reaching and Grasping         | Ch7 (214-247)                     | Wk11-Quiz                |
+| 12   | Apr 7-14     | Drawing and Writing           | Ch8 (254-272)                     | Wk12-Quiz + [Video Recording](assignments/pres.qmd#sec-recording) |
+| 13   | Apr 14-21    | Speaking and Singing          | Ch10 (324-358)                    | Wk13-Quiz + [Peer Engagement](assignments/pres.qmd#peer-engagement)                |
+| 14   | Apr 21-28    | Facial Control                | Ch11 (364-376)                    | Wk14-Quiz                |
+| 15   | Apr 28-May 5 | Final Review                  | Ch12 (379-395)                    | Wk15-Quiz                |
+| 16   | May 5-13     | Final Exam                    | Cumulative                       | Final + [Peer Eval](assignments/pres.qmd#peer-evaluation) |
 
 
-[^1]: *This schedule is subject to change.*
+[^1]: This schedule is subject to change.
+[^2]: Page numbers in parentheses refer to the textbook's second edition.
