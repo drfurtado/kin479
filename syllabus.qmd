@@ -142,8 +142,8 @@ The following sequence is a tentative outline of the topics and assignments for 
 | 12   | Apr 7-14     | Drawing and Writing           | Ch8 (254-272)                     | Wk12-Quiz + [Video Recording](assignments/pres.qmd#sec-recording) |
 | 13   | Apr 14-21    | Speaking and Singing          | Ch10 (324-358)                    | Wk13-Quiz + [Peer Engagement](assignments/pres.qmd#peer-engagement)                |
 | 14   | Apr 21-28    | Facial Control                | Ch11 (364-376)                    | Wk14-Quiz                |
-| 15   | Apr 28-May 5 | Final Review                  | Ch12 (379-395)                    | Wk15-Quiz                |
-| 16   | May 5-13     | Final Exam                    | Cumulative                       | Final + [Peer Eval](assignments/pres.qmd#peer-evaluation) |
+| 15   | Apr 28-May 5 | Integration                   | Ch12 (379-395)                    | Wk15-Quiz                |
+| 16   | May 5-13     | Review + Final Exam           | Cumulative                        | Final + [Peer Eval](assignments/pres.qmd#peer-evaluation) |
 
 
 [^1]: This schedule is subject to change.
