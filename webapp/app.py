@@ -390,7 +390,12 @@ def main():
     if 'card_flipped' not in st.session_state:
         st.session_state.card_flipped = False
     if 'current_chapter' not in st.session_state:
-        st.session_state.current_chapter = "ch01"
+        try:
+            available_chapters = [d for d in os.listdir(SLIDES_DIR) 
+                                if d.startswith('wk') and d != 'wk01' and os.path.isdir(os.path.join(SLIDES_DIR, d))]
+            st.session_state.current_chapter = available_chapters[0] if available_chapters else "wk02"
+        except:
+            st.session_state.current_chapter = "wk02"
     if 'current_mode' not in st.session_state:
         st.session_state.current_mode = "Flashcards"
     if 'first_load' not in st.session_state:
@@ -430,9 +435,10 @@ def main():
     SLIDES_DIR = os.path.abspath(os.path.join(current_dir, '..', 'slides'))
     
     # Get list of chapters
-    chapters = sorted([d for d in os.listdir(SLIDES_DIR) if d.startswith('ch') and os.path.isdir(os.path.join(SLIDES_DIR, d))])
+    chapters = sorted([d for d in os.listdir(SLIDES_DIR) 
+                     if d.startswith('wk') and d != 'wk01' and os.path.isdir(os.path.join(SLIDES_DIR, d))])
     if not chapters:
-        st.error("No chapters found. Please make sure the slides directory contains chapter folders (ch01, ch02, etc.)")
+        st.error("No chapters found. Please make sure the slides directory contains chapter folders (wk01, wk02, etc.)")
         return
     
     # Chapter selection with callback
@@ -455,8 +461,15 @@ def main():
         st.session_state.current_chapter = chapter
         st.rerun()
     
-    # Get chapter path
+    # Get chapter path and check for nested chapters
     chapter_path = os.path.join(SLIDES_DIR, st.session_state.current_chapter)
+    nested_chapters = [d for d in os.listdir(chapter_path) 
+                      if os.path.isdir(os.path.join(chapter_path, d)) and d.startswith('ch')]
+    
+    if nested_chapters:
+        # If there are nested chapters, let user select which one to view
+        selected_chapter = st.selectbox("Select Chapter", sorted(nested_chapters))
+        chapter_path = os.path.join(chapter_path, selected_chapter)
     
     # Get chapter title from config.json
     config_path = os.path.join(chapter_path, 'config.json')
