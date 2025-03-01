@@ -1,3 +1,13 @@
-As we wrap up this lecture, let’s recap the key lessons we can carry forward. Generalized Motor Programs underscore how our movements can remain consistent yet flexible across varied contexts, thanks to abstract “templates” that adjust to new demands. Dynamical Systems Theory highlights how even simple rules can generate complex and spontaneous changes in movement, influenced by stability and self-organization. Finally, Optimization Theory shows how our motor system weighs different “costs”—like speed, accuracy, and energy use—to find solutions that best fit a given task.
+Let's take a moment to review what we've learned today. We've covered three main theories of motor control. Each offers valuable insights into how we move.
 
-None of these perspectives is mutually exclusive. In fact, each offers a unique piece of the puzzle. In sports, for instance, a coach might rely on GMP concepts to help athletes adapt their skills to new situations, or draw on Dynamical Systems Theory to guide them through stable and unstable movement patterns, and also consider Optimization Theory when training for efficiency or speed. Taken together, these frameworks not only deepen our understanding of how humans move, but also guide how we teach, rehabilitate, and refine motor skills across countless real-world settings.
+First, Generalized Motor Programs. These are like movement templates in your brain. They help keep your movements consistent. Yet they're flexible enough to adapt to new situations. Think about how a tennis player can adjust their serve on different court surfaces.
+
+Next, Dynamical Systems Theory. This perspective shows us how simple rules can create complex movements. Your body naturally finds stable patterns. It self-organizes without needing detailed instructions for every muscle. It's like how birds in a flock create beautiful patterns without a leader.
+
+Finally, Optimization Theory. Your motor system weighs different "costs" when deciding how to move. Should you prioritize speed? Accuracy? Energy conservation? The solution depends on your specific goal. Your brain finds the best balance for each task.
+
+Here's something important to understand. These theories work together. They're not competing explanations. Each gives us a different view of the same process.
+
+Let me give you an example from sports coaching. A good coach might use GMP concepts to help athletes transfer skills to new situations. The same coach might apply Dynamical Systems ideas to guide athletes through stable movement patterns. And they might use Optimization principles when training for efficiency or speed.
+
+Together, these frameworks give us a richer understanding of human movement. They inform how we teach motor skills. They guide rehabilitation practices. They help us improve performance in sports, work, and daily activities. Each theory contributes something unique to our understanding of how we move.

@@ -1,9 +1,14 @@
-When we think about Optimization Theory in motor control, a core idea is that the central nervous system picks the “best” solution from multiple possible movement strategies. Each solution reflects a different optimization goal or cost function. For instance, one commonly studied goal is *smoothness*, measured as the reduction of “jerk” (the rate of change in acceleration). This *minimum jerk principle* often predicts the graceful, curved trajectories we see when we reach for objects or move a pen across paper.
+FROM HERE BACK, ALL AUDIOS ARE OLD. REDO IT
 
-Another line of research focuses on *minimizing movement time*, as illustrated by Fitts’ aiming task. According to Fitts’ law, there’s a trade-off between movement speed and accuracy: reaching for a smaller or farther target tends to slow us down. Optimization models formalize this by suggesting that the motor system balances the desire for speed with the requirement to land on the target accurately.
 
-Building on this idea, the *optimized submovement model* proposed by Meyer et al. suggests that we don’t necessarily complete a single, continuous reach. Instead, we often perform a series of smaller, faster “submovements,” each one honing in on the target. These submovements are planned based on how much error we can tolerate at each step—minimizing the total time while maintaining a certain level of accuracy.
+Now, let's explore how Optimization Theory works in real movements. Think of your nervous system as a smart shopper. It compares different movement options. It picks the "best deal." What makes one movement better than another? It depends on what your brain wants to optimize.
 
-Lastly, the work of Harris and Wolpert addresses a key aspect of neural control known as *signal-dependent noise*. Essentially, the faster or more forceful the movement, the greater the variance in the final position. According to their model, the motor system chooses a velocity profile that strikes a balance between speed and the inherent variability (noise) in muscle commands. The resulting bell-shaped speed curve helps minimize endpoint variance.  
+Consider smoothness. Watch how your hand moves when reaching for something. It follows a graceful path. Your brain is trying to minimize "jerk." Jerk is the technical term for changes in acceleration. This is called the minimum jerk principle. It explains our natural tendency to move in smooth, curved paths.
 
-All these examples underscore the power of Optimization Theory to unify diverse aspects of motor control under one framework. Whether we’re talking about the fluidity of reaching, the speed-accuracy trade-off, or the interplay of movement speed and muscle noise, the consistent theme is that the motor system seems to search for a “cost-minimized” way to achieve its goal.
+Next, think about speed versus accuracy. You've experienced this. When clicking a tiny icon on your screen, you slow down. This is Fitts' law. It reveals a trade-off. Smaller targets need more time. Farther targets need more time. Your brain balances speed with precision.
+
+We don't make perfect movements in one try. Meyer and colleagues explained this. They called it the optimized submovement model. We make a series of adjustments. First comes a quick movement toward the target. Then we make smaller corrections. Each small movement has its own level of acceptable error.
+
+Have you noticed faster movements are less precise? Harris and Wolpert studied this. They called it signal-dependent noise. Strong signals from your brain create more muscle variability. It's like a loud speaker. More volume means more static. Your brain selects speeds that balance quickness and accuracy.
+
+All these examples show why Optimization Theory matters. It helps us understand smooth movements. It explains speed-accuracy trade-offs. It clarifies how we handle muscle noise. The key idea remains constant. Our motor system always searches for the most efficient way to move.

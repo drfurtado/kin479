@@ -17,7 +17,7 @@ class ChatBot:
         self.headers = {
             "Authorization": f"Bearer {self.api_key}",
             "HTTP-Referer": "https://drfurtado.github.io/",
-            "X-Title": "KIN377 Study Assistant",
+            "X-Title": "KIN479 Study Assistant",
             "Content-Type": "application/json"
         }
         
@@ -48,7 +48,7 @@ class ChatBot:
         
         # Get all chapter directories
         chapter_dirs = [d for d in sorted(os.listdir(slides_dir)) 
-                       if os.path.isdir(os.path.join(slides_dir, d)) and d.startswith('ch')]
+                       if os.path.isdir(os.path.join(slides_dir, d)) and d.startswith('wk')]
         print(f"Found chapter directories: {chapter_dirs}")
         
         for chapter_dir in chapter_dirs:
@@ -210,7 +210,7 @@ class ChatBot:
             messages = [
                 {
                     "role": "system", 
-                    "content": ("You are a KIN377 teaching assistant. Use the provided course content to answer questions. "
+                    "content": ("You are a KIN479 teaching assistant. Use the provided course content to answer questions. "
                               "When answering, ALWAYS specify which chapter(s) the information comes from. "
                               "When answering, ALWAYS include specific details and examples from the content. "
                               "If information comes from multiple chapters, organize your response by chapter. "

@@ -29,17 +29,6 @@ format:
     controls-layout: edges
     transition: none
     revealjs-plugins:
-      - quiz
-      - embedio
-    quiz:
-      checkKey: 'c'
-      resetKey: 'q'
-      shuffleKey: 't'
-      allowNumberKeys: true
-      disableOnCheck: false
-      shuffleOptions: true
-      defaultCorrect: "Correct!"
-      defaultIncorrect: "Incorrect!"
     css: |
       audio {
         display: none !important;
@@ -62,76 +51,6 @@ format:
         display: none !important;
         visibility: hidden !important;
       }
-    include-in-header:
-      text: |
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          let isPlaying = true;
-          let audioPlaying = false;
-
-          function initAudio(audio) {
-            if (!audio || audioPlaying) return;
-            
-            console.log("Initializing audio:", audio.src); // Add debug logging
-            audioPlaying = true;
-            audio.currentTime = 0;
-            audio.volume = 1;
-
-            // Configure slide timing based on audio duration
-            const audioDuration = Math.floor(audio.duration * 1000);
-            console.log("Audio duration:", audioDuration); // Add debug logging
-            Reveal.configure({ autoSlide: audioDuration });
-
-            // Force play with interval retry
-            let playInterval = setInterval(() => {
-              audio.play()
-              .then(() => {
-                console.log("Audio started playing"); // Add debug logging
-                clearInterval(playInterval);
-              })
-              .catch((error) => {
-                console.log("Audio play failed:", error); // Add error logging
-              });
-            }, 100);
-
-            // Handle audio completion
-            audio.onended = () => {
-              console.log("Audio ended"); // Add debug logging
-              clearInterval(playInterval);
-              if (isPlaying) {
-                audioPlaying = false;
-                Reveal.next();
-              }
-            };
-          }
-
-          // Handle both initial and subsequent slides
-          function handleSlide(event) {
-            console.log("Handling slide change"); // Add debug logging
-            const audio = event.currentSlide.querySelector('audio');
-            const isQuizSlide = event.currentSlide.classList.contains('quiz-question');
-            console.log("Found audio element:", audio); // Add debug logging
-            audioPlaying = false;
-            
-            if (audio) {
-              // Wait for metadata before initializing
-              if (audio.readyState >= 2) {
-                initAudio(audio);
-              } else {
-                audio.addEventListener('loadedmetadata', () => initAudio(audio));
-              }
-            } else if (isPlaying) {
-              // Set longer duration for quiz slides
-              const slideDuration = isQuizSlide ? 60000 : 10000;
-              Reveal.configure({ autoSlide: slideDuration });
-            }
-          }
-
-          // Set up event listeners
-          Reveal.on('ready', handleSlide);
-          Reveal.on('slidechanged', handleSlide);
-        });
-        </script>
 ---
 
 ## Previous Lecture
@@ -147,7 +66,7 @@ format:
 :::
 
 <audio data-autoplay>
-  <source src="audio/000.mp3" type="audio/mpeg">
+  <source src="audio/000.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -162,7 +81,7 @@ format:
 :::
 
 <audio data-autoplay> 
-  <source src="audio/100.mp3" type="audio/mpeg">  
+  <source src="audio/100.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -177,7 +96,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/110.mp3" type="audio/mpeg">  
+  <source src="audio/110.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -193,7 +112,7 @@ format:
 :::
 
 <audio data-autoplay> 
-  <source src="audio/120.mp3" type="audio/mpeg">
+  <source src="audio/120.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -209,7 +128,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/130.mp3" type="audio/mpeg">  
+  <source src="audio/130.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -225,7 +144,7 @@ format:
 :::
 
 <audio data-autoplay> 
-  <source src="audio/140.mp3" type="audio/mpeg">
+  <source src="audio/140.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -241,7 +160,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/150.mp3" type="audio/mpeg">  
+  <source src="audio/150.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -257,7 +176,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/160.mp3" type="audio/mpeg">  
+  <source src="audio/160.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -271,7 +190,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/170.mp3" type="audio/mpeg">  
+  <source src="audio/170.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -288,7 +207,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/180.mp3" type="audio/mpeg">  
+  <source src="audio/180.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -304,7 +223,7 @@ format:
 :::
 
 <audio data-autoplay> 
-  <source src="audio/210.mp3" type="audio/mpeg">
+  <source src="audio/210.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -320,7 +239,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/220.mp3" type="audio/mpeg">  
+  <source src="audio/220.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -344,7 +263,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/230.mp3" type="audio/mpeg">  
+  <source src="audio/230.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -360,7 +279,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/240.mp3" type="audio/mpeg">  
+  <source src="audio/240.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -376,7 +295,7 @@ format:
 :::
 
 <audio data-autoplay>
-  <source src="audio/250.mp3" type="audio/mpeg">
+  <source src="audio/250.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -393,7 +312,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/260.mp3" type="audio/mpeg">  
+  <source src="audio/260.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -410,7 +329,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/270.mp3" type="audio/mpeg">  
+  <source src="audio/270.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -426,7 +345,7 @@ format:
 :::
 
 <audio data-autoplay>
-  <source src="audio/310.mp3" type="audio/mpeg">
+  <source src="audio/310.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -442,7 +361,7 @@ format:
 :::
 
 <audio data-autoplay>
-  <source src="audio/320.mp3" type="audio/mpeg">
+  <source src="audio/320.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -458,7 +377,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/330.mp3" type="audio/mpeg">  
+  <source src="audio/330.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -474,7 +393,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/340.mp3" type="audio/mpeg">  
+  <source src="audio/340.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -490,7 +409,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/350.mp3" type="audio/mpeg">  
+  <source src="audio/350.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -507,7 +426,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/360.mp3" type="audio/mpeg">  
+  <source src="audio/360.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -524,7 +443,7 @@ format:
 :::
 
 <audio data-autoplay>  
-  <source src="audio/370.mp3" type="audio/mpeg">  
+  <source src="audio/370.wav" type="audio/mpeg">  
   Your browser does not support the audio element.  
 </audio>
 
@@ -540,6 +459,6 @@ format:
 :::
 
 <audio data-autoplay> 
-  <source src="audio/400.mp3" type="audio/mpeg">
+  <source src="audio/400.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
