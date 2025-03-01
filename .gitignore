@@ -52,6 +52,9 @@ ENV/
 slides/**/audio/
 docs/slides/**/audio/
 
+# Generated HTML files
+docs/slides/**/*.html
+
 # OS files
 .DS_Store
 .DS_Store?
