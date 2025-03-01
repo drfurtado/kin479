@@ -1,0 +1,209 @@
+## Generalized Motor Programs {.quiz-question}
+
+Generalized Motor Programs posit that movements are pre-programmed and inflexible.
+
+-   [True]{data-explanation="This is incorrect, GMP are adaptable to various situations."}
+-   [False]{.correct data-explanation="Correct! GMPs are adaptable."}
+
+## Schemas in GMP {.quiz-question}
+
+Schemas are narrow, task-specific rules that limit adaptability in motor control.
+
+-   [True]{data-explanation="This is incorrect because schemas allow flexible adaptation to new situations."}
+-   [False]{.correct data-explanation="Correct! Schemas allow flexible adaptation."}
+
+## Variable Practice {.quiz-question}
+
+Consistent practice leads to better skill transfer than variable practice.
+
+-   [True]{data-explanation="This is incorrect because variable practice is better than consistent practice."}
+-   [False]{.correct data-explanation="Correct! Variable practice leads to better skill transfer."}
+
+## GMP Adaptability {.quiz-question}
+
+Generalized Motor Programs use abstract representations to allow movements to adapt to specific tasks.
+
+-   [True]{.correct data-explanation="Correct! GMPs are abstract representations that can be adapted."}
+-   [False]{data-explanation="This is incorrect, GMPs are abstract representations that can be adapted."}
+
+## Dynamical Systems Theory {.quiz-question}
+
+Dynamical Systems Theory emphasizes pre-planned motor programs.
+
+-   [True]{data-explanation="This is incorrect, Dynamical Systems Theory emphasizes self-organization."}
+-   [False]{.correct data-explanation="Correct! Dynamical Systems Theory emphasizes self-organization."}
+
+## Attractors {.quiz-question}
+
+In Dynamical Systems Theory, attractors represent unstable states.
+
+-   [True]{data-explanation="This is incorrect because attractors represent stable states."}
+-   [False]{.correct data-explanation="Correct! Attractors are stable states."}
+
+## Nonlinearity {.quiz-question}
+
+Nonlinear equations always lead to predictable outcomes.
+
+-   [True]{data-explanation="This is incorrect, nonlinear equations can result in unpredictable outcomes."}
+-   [False]{.correct data-explanation="Correct! Nonlinear equations can result in unpredictable outcomes."}
+
+## Coordination Dynamics {.quiz-question}
+
+Coordination patterns are fixed and cannot be reorganized under changing constraints.
+
+-   [True]{data-explanation="This is incorrect because coordination of movements can reorganize under changing constraints."}
+-   [False]{.correct data-explanation="Correct! Coordination can reorganize."}
+
+## HKB Equation {.quiz-question}
+
+The Haken–Kelso–Bunz equation describes the two-finger oscillation task.
+
+-   [True]{.correct data-explanation="Correct! The HKB equation describes the two-finger oscillation task."}
+-   [False]{data-explanation="This is incorrect because The HKB equation describes the two-finger oscillation task."}
+
+## Applications of DST {.quiz-question}
+
+Dynamical Systems Theory has no practical applications outside of theoretical research.
+
+-   [True]{data-explanation="This is incorrect, Dynamical Systems Theory is applied in practical settings."}
+-   [False]{.correct data-explanation="Correct! Dynamical Systems Theory is applied in practical settings."}
+
+## Focus of DST {.quiz-question}
+
+Dynamical Systems Theory focuses on self-organizing principles, stability, and phase transitions.
+
+-   [True]{.correct data-explanation="Correct! Dynamical Systems Theory focuses on self-organizing principles, stability, and phase transitions."}
+-   [False]{data-explanation="This is incorrect because Dynamical Systems Theory focuses on self-organizing principles, stability, and phase transitions."}
+
+## Optimization Theory {.quiz-question}
+
+Optimization theory suggests the motor system seeks the most cost-effective solution.
+
+-   [True]{.correct data-explanation="Correct! The motor system seeks the most cost-effective solution."}
+-   [False]{data-explanation="This is incorrect because the motor system seeks the most cost-effective solution."}
+
+## Optimization Criterion {.quiz-question}
+
+Minimizing movement time is not an example of an optimization criterion.
+
+-   [True]{data-explanation="This is incorrect because minimizing movement time is an example of an optimization criterion."}
+-   [False]{.correct data-explanation="Correct! Minimizing movement time is an example of an optimization criterion."}
+
+## Minimum Jerk {.quiz-question}
+
+The minimum jerk principle suggests movements will be jerky and unpredictable.
+
+-   [True]{data-explanation="This is incorrect because movements will be graceful and curved."}
+-   [False]{.correct data-explanation="Correct! Movements will be graceful and curved."}
+
+## Fitts' Task {.quiz-question}
+
+Fitts' task illustrates the trade-off between movement speed and accuracy.
+
+-   [True]{.correct data-explanation="Correct! Fitts' task illustrates the trade-off between movement speed and accuracy."}
+-   [False]{data-explanation="This is incorrect because Fitts' task illustrates the trade-off between movement speed and accuracy."}
+
+## Challenge for Optimization {.quiz-question}
+
+Determining which variable(s) the motor system is trying to "optimize" is straightforward.
+
+-   [True]{data-explanation="This is incorrect because it is difficult to determine which variables the motor system optimizes."}
+-   [False]{.correct data-explanation="Correct! It is difficult to determine which variables the motor system optimizes."}
+
+## Parsimony in Theories {.quiz-question}
+
+Complex theories are always better than simple theories in explaining motor control.
+
+-   [True]{data-explanation="This is incorrect because keeping theories as simple as possible is better."}
+-   [False]{.correct data-explanation="Correct! Keeping theories as simple as possible is better."}
+
+## Keyframes {.quiz-question}
+
+Keyframes represent intermediate steps in motor control, not goal postures.
+
+-   [True]{data-explanation="This is incorrect because keyframes are goal postures."}
+-   [False]{.correct data-explanation="Correct! Keyframes are goal postures."}
+
+## Simulations in Optimization {.quiz-question}
+
+Simulations in optimization theory cannot demonstrate adaptive changes in movement.
+
+-   [True]{data-explanation="This is incorrect because subtle modifications can evoke significant and adaptive changes in movement."}
+-   [False]{.correct data-explanation="Correct! Subtle modifications can evoke significant and adaptive changes in movement."}
+
+## Adaptation {.quiz-question}
+
+The motor system does not adapt to different task demands and constraints.
+
+-   [True]{data-explanation="This is incorrect because the motor system optimizes variables and adapts to different task demands and constraints."}
+-   [False]{.correct data-explanation="Correct! The motor system adapts to different task demands and constraints."}
+
+## Integration of Theories {.quiz-question}
+
+Motor control theories are mutually exclusive and cannot be integrated.
+
+-   [True]{data-explanation="This is incorrect because coaches integrate all three motor control theories."}
+-   [False]{.correct data-explanation="Correct! Coaches integrate all three motor control theories."}
+
+## Adaptability of Movements {.quiz-question}
+
+Generalized Motor Programs explain movement adaptability via abstract templates.
+
+-   [True]{.correct data-explanation="Correct! Generalized Motor Programs explain movement adaptability via abstract templates."}
+-   [False]{data-explanation="This is incorrect because Generalized Motor Programs explain movement adaptability via abstract templates."}
+
+## Self-Organization {.quiz-question}
+
+Generalized motor program theory emphasizes the self-organization aspect of motor control.
+
+-   [True]{data-explanation="This is incorrect because Dynamical Systems Theory emphasizes self-organization aspect of motor control."}
+-   [False]{.correct data-explanation="Correct! Dynamical Systems Theory emphasizes self-organization aspect of motor control."}
+
+## Problem-Solver {.quiz-question}
+
+Optimization Theory does not model the motor system as a problem-solver.
+
+-   [True]{data-explanation="This is incorrect because Optimization Theory models the motor system as a cost-balancing problem-solver."}
+-   [False]{.correct data-explanation="Correct! Optimization Theory models the motor system as a cost-balancing problem-solver."}
+
+## Factor Analysis {.quiz-question}
+
+Factor analysis isolates factors that account for differences among correlations.
+
+-   [True]{.correct data-explanation="Correct! Factor analysis isolates factors that account for differences among correlations."}
+-   [False]{data-explanation="This is incorrect because Factor analysis isolates factors that account for differences among correlations."}
+
+## Motor Abilities {.quiz-question}
+
+Motor abilities use smaller body segments when making rapid and precise movements.
+
+-   [True]{data-explanation="This is incorrect because motor abilities use relatively large body segments when making rapid and precise movements."}
+-   [False]{.correct data-explanation="Correct! Motor abilities use relatively large body segments when making rapid and precise movements."}
+
+## Hand-Arm Steadiness {.quiz-question}
+
+Arm-hand steadiness wants unwanted movements of the upper extremity.
+
+-   [True]{.correct data-explanation="Correct! Arm-hand steadiness wants unwanted movements of the upper extremity."}
+-   [False]{data-explanation="This is incorrect because Arm-hand steadiness wants unwanted movements of the upper extremity."}
+
+## Practice Types {.quiz-question}
+
+Consistent practice is better than variable practice.
+
+-   [True]{data-explanation="This is incorrect because variable practice is better than consistent practice."}
+-   [False]{.correct data-explanation="Correct! Variable practice is better than consistent practice."}
+
+## Task Average {.quiz-question}
+
+Task average was centered on 3 rather than 2.
+
+-   [True]{data-explanation="This is incorrect because task average was centered on 2 rather than 3."}
+-   [False]{.correct data-explanation="Correct! Task average was centered on 2 rather than 3."}
+
+## Degrees of Freedom {.quiz-question}
+
+The theory allows for rotation of joints that have costly motion costs.
+
+-   [True]{.correct data-explanation="Correct! The theory allows for rotation of joints that have costly motion costs."}
+-   [False]{data-explanation="This is incorrect because The theory allows for rotation of joints that have costly motion costs."}

@@ -1,0 +1,5 @@
+So, let's start our discussion of Motor Control theories. In this session, we will examine three important viewpoints: Generalized Motor Programs, Dynamic Systems Theory, and Optimization Theory. Each of these frameworks provides unique insights into how we organize, carry out, and improve our movements.
+
+We will start by examining Generalized Motor Programs (GMP), which focus on general patterns of movement and how they are changed for new situations. Next, we will move to Dynamic Systems Theory, which explains how stable patterns emerge—or suddenly shift—due to interactions between the body, the environment, and the task at hand. Finally, we will discuss Optimization Theory, which examines how the central nervous system chooses movement strategies by balancing costs like energy use, accuracy, or speed.
+
+Throughout, we will draw examples from sports, physical therapy, and everyday motor tasks to show how these theories help us understand skill learning, rehabilitation, and performance improvement. By the end of this talk, you should have a clearer understanding of each theory’s strengths, where they differ, and how they can be applied in practical situations.

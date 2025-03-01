@@ -1,0 +1,299 @@
+## Generalized Motor Programs {.flashcard}
+
+::: {.flashcard-front}
+Term: **Generalized Motor Program (GMP)**
+:::
+
+::: {.flashcard-back}
+Definition: An **abstract representation of a movement pattern** that can be adapted to various situations by adjusting parameters.
+:::
+
+## GMP: Schemas {.flashcard}
+
+::: {.flashcard-front}
+Term: **Schema**
+:::
+
+::: {.flashcard-back}
+Definition: A **broad "knowledge structure"** formed through repeated experiences, allowing flexible adaptation to new situations.
+:::
+
+## GMP: Variable Practice {.flashcard}
+
+::: {.flashcard-front}
+Term: **Variable Practice**
+:::
+
+::: {.flashcard-back}
+Definition: Practice that leads to **better skill transfer** compared to consistent practice by forming a more stable "average" representation.
+:::
+
+## GMP: Adaptability {.flashcard}
+
+::: {.flashcard-front}
+Term: **GMP Adaptability**
+:::
+
+::: {.flashcard-back}
+Definition: GMPs are **abstract representations of movement patterns adaptable to specific tasks**.
+:::
+
+## Dynamical Systems Theory {.flashcard}
+
+::: {.flashcard-front}
+Term: **Dynamical Systems Theory**
+:::
+
+::: {.flashcard-back}
+Definition: Emphasizes **self-organization, stability, and phase transitions** in motor control, where movement patterns emerge from interactions between the body, environment, and task.
+:::
+
+## Dynamical Systems: Attractor {.flashcard}
+
+::: {.flashcard-front}
+Term: **Attractor**
+:::
+
+::: {.flashcard-back}
+Definition: A **stable, preferred state** that a system naturally gravitates toward in Dynamical Systems Theory.
+:::
+
+## Dynamical Systems: Nonlinearity {.flashcard}
+
+::: {.flashcard-front}
+Term: **Nonlinearity**
+:::
+
+::: {.flashcard-back}
+Definition: Simple equations can lead to complex events because **nonlinear equations can result in unpredictable outcomes**.
+:::
+
+## Dynamical Systems: Coordination {.flashcard}
+
+::: {.flashcard-front}
+Term: **Coordination**
+:::
+
+::: {.flashcard-back}
+Definition: Coordination of movements can reorganize under **changing constraints**, as demonstrated by the two-finger oscillation task.
+:::
+
+## Dynamical Systems: HKB Equation {.flashcard}
+
+::: {.flashcard-front}
+Term: **Haken–Kelso–Bunz (HKB) Equation**
+:::
+
+::: {.flashcard-back}
+Definition: Describes the **regime of the two-finger oscillation task**.
+:::
+
+## Dynamical Systems: Applications {.flashcard}
+
+::: {.flashcard-front}
+Term: **Applications of Dynamical Systems**
+:::
+
+::: {.flashcard-back}
+Definition: In practical settings like cardiac health and gait analysis, Dynamical Systems Theory is applied by analyzing **fluctuations of time intervals between events**.
+:::
+
+## Dynamical Systems: Focus {.flashcard}
+
+::: {.flashcard-front}
+Term: **Focus of Dynamical Systems Theory**
+:::
+
+::: {.flashcard-back}
+Definition: Focuses on **self-organizing principles, stability, and phase transitions**.
+:::
+
+## Optimization Theory {.flashcard}
+
+::: {.flashcard-front}
+Term: **Optimization Theory**
+:::
+
+::: {.flashcard-back}
+Definition: The central theme is that the motor system seeks the most **cost-effective solution**.
+:::
+
+## Optimization: Criterion {.flashcard}
+
+::: {.flashcard-front}
+Term: **Optimization Criterion**
+:::
+
+::: {.flashcard-back}
+Definition: An example is **minimizing movement time**.
+:::
+
+## Optimization: Minimum Jerk {.flashcard}
+
+::: {.flashcard-front}
+Term: **Minimum Jerk Principle**
+:::
+
+::: {.flashcard-back}
+Definition: Predicts that movements will be **graceful and curved**.
+:::
+
+## Optimization: Fitts' Task {.flashcard}
+
+::: {.flashcard-front}
+Term: **Fitts' Aiming Task**
+:::
+
+::: {.flashcard-back}
+Definition: Illustrates the trade-off between **movement speed and accuracy**.
+:::
+
+## Optimization: Challenge {.flashcard}
+
+::: {.flashcard-front}
+Term: **Challenge for Optimization Theory**
+:::
+
+::: {.flashcard-back}
+Definition: Determining **exactly which variable(s) the motor system is trying to "optimize"**.
+:::
+
+## Optimization: Parsimony {.flashcard}
+
+::: {.flashcard-front}
+Term: **Parsimony**
+:::
+
+::: {.flashcard-back}
+Definition: Keeping theories **as simple as possible**.
+:::
+
+## Optimization: Keyframes {.flashcard}
+
+::: {.flashcard-front}
+Term: **Keyframes**
+:::
+
+::: {.flashcard-back}
+Definition: **Goal postures** in motor control.
+:::
+
+## Optimization: Simulations {.flashcard}
+
+::: {.flashcard-front}
+Term: **Simulations in Optimization Theory**
+:::
+
+::: {.flashcard-back}
+Definition: Demonstrate that subtle modifications can evoke **significant and adaptive changes in movement**.
+:::
+
+## Optimization: Adaptation {.flashcard}
+
+::: {.flashcard-front}
+Term: **Adaptation in Optimization Theory**
+:::
+
+::: {.flashcard-back}
+Definition: The motor system optimizes variables and adapts to **different task demands and constraints**.
+:::
+
+## Integration of Theories {.flashcard}
+
+::: {.flashcard-front}
+Term: **Integration of Motor Control Theories**
+:::
+
+::: {.flashcard-back}
+Definition: A coach might integrate all three motor control theories by using **GMP to adapt skills, Dynamical Systems to guide through movement patterns, and Optimization Theory to train for efficiency**.
+:::
+
+## Theories: Adaptability {.flashcard}
+
+::: {.flashcard-front}
+Term: **Adaptability of Movements**
+:::
+
+::: {.flashcard-back}
+Definition: Generalized Motor Programs theory explains the adaptability of movements via **abstract templates**.
+:::
+
+## Theories: Self-Organization {.flashcard}
+
+::: {.flashcard-front}
+Term: **Self-Organization**
+:::
+
+::: {.flashcard-back}
+Definition: Dynamical Systems Theory emphasizes **self-organization** aspect of motor control.
+:::
+
+## Theories: Problem-Solver {.flashcard}
+
+::: {.flashcard-front}
+Term: **Motor System as a Problem-Solver**
+:::
+
+::: {.flashcard-back}
+Definition: Optimization Theory models the motor system as a **cost-balancing problem-solver**.
+:::
+
+## Theories: Factor Analysis {.flashcard}
+
+::: {.flashcard-front}
+Term: **Factor Analysis**
+:::
+
+::: {.flashcard-back}
+Definition: A statistical technique that lets one **isolate factors that account for differences among correlations**.
+:::
+
+## Theories: Motor Abilities {.flashcard}
+
+::: {.flashcard-front}
+Term: **Motor Abilities**
+:::
+
+::: {.flashcard-back}
+Definition: Rapid precise movements must be made with **relatively large body segments**, as in driving a golf ball.
+:::
+
+## Theories: Hand-Arm Steadiness {.flashcard}
+
+::: {.flashcard-front}
+Term: **Arm-Hand Steadiness**
+:::
+
+::: {.flashcard-back}
+Definition: **Unwanted movements of the upper extremity must be eliminated**, as in rifle.
+:::
+
+## Theories: Variable vs. Consistent Practice {.flashcard}
+
+::: {.flashcard-front}
+Term: **Variable Practice vs. Consistent Practice**
+:::
+
+::: {.flashcard-back}
+Definition: Variable practice is **better than consistent practice**.
+:::
+
+## Theories: Task Average {.flashcard}
+
+::: {.flashcard-front}
+Term: **Task Average**
+:::
+
+::: {.flashcard-back}
+Definition: One would be accorded to GMP theory because the task average was **centered on 2 rather than 3**.
+:::
+
+## Theories: Degrees of Freedom {.flashcard}
+
+::: {.flashcard-front}
+Term: **Degrees of Freedom**
+:::
+
+::: {.flashcard-back}
+Definition: The theory allows for those other criteria, for example, an important criterion may be **minimizing rotation of joints that have costly motion costs**.
+:::

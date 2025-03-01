@@ -1,0 +1,86 @@
+Question: What are the three main motor control theories discussed?
+Answer: The three main motor control theories discussed are **Generalized Motor Programs (GMP) theory, Dynamical Systems theory, and Optimization theory**.
+
+Question: What does Generalized Motor Programs (GMP) theory focus on?
+Answer: GMP focuses on **general patterns of movement and how they are changed for new situations**.
+
+Question: How do schemas and generalized programs relate to skill adaptation?
+Answer: Schemas and generalized motor programs explain how a learned skill can be **flexibly adapted to new situations**.
+
+Question: What is a schema in the context of motor control?
+Answer: A schema is a **broad "knowledge structure" formed through repeated experiences**, gathering information about initial conditions, movement outcomes, and sensory feedback.
+
+Question: What is a generalized program?
+Answer: A "generalized program" is essentially a **schema for a specific class of actions, complete with parameters that can be tweaked**.
+
+Question: What is a key advantage of schemas and generalized programs?
+Answer: They **minimize the need to store a unique motor program for every possible movement sequence**.
+
+Question: How does variable practice compare to consistent practice in terms of skill transfer?
+Answer: Variable practice leads to **better skill transfer** than consistent practice.
+
+Question: How does variable practice contribute to forming an "average" representation of experiences?
+Answer: Variable practice, especially when instances are presented randomly, leads to a **more robust and stable "average" representation**, improving long-term performance and transfer to new tasks.
+
+Question: What are the key takeaways of Generalized Motor Program (GMP) theory?
+Answer: GMPs are **abstract representations of movement patterns that can be adapted to specific tasks by adjusting parameters**, and variable practice enhances learning transfer.
+
+Question: What does Dynamical Systems Theory emphasize?
+Answer: Dynamical Systems Theory emphasizes how stable patterns emerge or **suddenly shift due to interactions between the body, the environment, and the task at hand**.
+
+Question: What is an "attractor" in Dynamical Systems Theory?
+Answer: An "attractor" is a **stable, preferred state or pattern that the system naturally "gravitates" toward under certain conditions**.
+
+Question: How can simple equations lead to complex events in dynamical systems?
+Answer: Simple equations, especially nonlinear ones, can result in **unpredictable outcomes**, where even small changes can lead to large, unexpected results.
+
+Question: What is the two-finger oscillation task, and what does it demonstrate?
+Answer: It's a task where participants move their index fingers back and forth, demonstrating how **coordination of movements can spontaneously reorganize under changing constraints**.
+
+Question: What does the Haken–Kelso–Bunz (HKB) equation describe?
+Answer: It describes the **regime of the two-finger oscillation task**, specifying a potential energy function in terms of the relative phase between two moving fingers.
+
+Question: How is Dynamical Systems Theory applied in practical settings like cardiac health and gait analysis?
+Answer: It's used to analyze **fluctuations of time intervals between events**, such as heartbeats or strides, to reveal critical information about health and performance.
+
+Question: What are the key takeaways of Dynamical Systems Theory?
+Answer: It focuses on **self-organizing principles, stability, instability, and phase transitions** in motor control, showing how simple rules can lead to complex behaviors.
+
+Question: What is the central theme in Optimization Theory?
+Answer: The central theme is that the **motor system behaves like a problem-solver, constantly seeking the most "cost-effective" way to achieve movement goals**.
+
+Question: What are some examples of optimization criteria in motor control?
+Answer: Examples include **smoothness of movement (minimum jerk principle), minimizing movement time, and minimizing movement endpoint variance**.
+
+Question: What is the minimum jerk principle?
+Answer: The minimum jerk principle often predicts the **graceful, curved trajectories we see when we reach for objects or move a pen across paper**.
+
+Question: What is Fitts' aiming task and how does it relate to optimization theory?
+Answer: Fitts' aiming task illustrates the trade-off between **movement speed and accuracy**, and optimization models formalize this by suggesting that the motor system balances the desire for speed with the requirement to land on the target accurately.
+
+Question: What is one of the main challenges for Optimization Theory in motor control?
+Answer: Determining **exactly which variable(s) the motor system is trying to "optimize"**.
+
+Question: What does parsimony mean in the context of optimization theories?
+Answer: Parsimony refers to **keeping theories as simple as possible**, avoiding unnecessary assumptions.
+
+Question: How do keyframes and interframes relate to motor control?
+Answer: Goal postures are like **keyframes (major positions), and the movements between them are interframes (transitions)**.
+
+Question: What is the significance of simulations in Optimization Theory?
+Answer: Simulations demonstrate that subtle modifications can evoke **significant and adaptive changes in movement**.
+
+Question: What are the key takeaways of Optimization Theory?
+Answer: It proposes that the **motor system optimizes certain variables, such as energy expenditure, accuracy, or movement time, adapting to different task demands and constraints**.
+
+Question: How do the three motor control frameworks relate to each other?
+Answer: **None of these perspectives is mutually exclusive; each offers a unique piece of the puzzle**.
+
+Question: What does Generalized Motor Programs theory explain about movements?
+Answer: Generalized Motor Programs explain the **adaptability of movements via abstract templates**.
+
+Question: What does Dynamical Systems Theory emphasize regarding motor control?
+Answer: Dynamical Systems Theory emphasizes **self-organization, stability, and phase transitions**.
+
+Question: How does Optimization Theory model the motor system?
+Answer: Optimization Theory models the **motor system as a cost-balancing problem-solver**.

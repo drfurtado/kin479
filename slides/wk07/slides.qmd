@@ -1,0 +1,545 @@
+---
+title: Motor Control Theories
+subtitle: Lecture Week 7
+author: Dr. Furtado
+date: "2024-02-28"
+footer: "Dr. Furtado | CSUN | KIN Department | KIN377 Motor Control | Hit the 'A' key to pause/play the lecture"
+
+format:
+ # pdf: default
+  revealjs:
+    theme: night
+    smaller: false
+    self-contained: true
+    embed-resources: true
+    width: 1600
+    height: 900
+    auto-slide: 10000
+    loop: false
+    auto-slide-stoppable: true
+    controls: true
+    progress: true
+    center: false
+    vertical-align: top
+    show-notes: false
+    slide-number: false
+    menu: false
+    visibility: hidden
+    controls-tutorial: true
+    controls-layout: edges
+    transition: none
+    revealjs-plugins:
+      - quiz
+      - embedio
+    quiz:
+      checkKey: 'c'
+      resetKey: 'q'
+      shuffleKey: 't'
+      allowNumberKeys: true
+      disableOnCheck: false
+      shuffleOptions: true
+      defaultCorrect: "Correct!"
+      defaultIncorrect: "Incorrect!"
+    css: |
+      audio {
+        display: none !important;
+        visibility: hidden !important;
+      }
+      .reveal .controls {
+        display: block !important;
+        bottom: 16px !important;
+        right: 50% !important;
+        transform: translateX(50%) !important;
+        z-index: 99 !important;
+      }
+      .reveal .progress {
+        display: block !important;
+        visibility: visible !important;
+        z-index: 100 !important;
+      }
+      .slide-menu-button,
+      .slide-menu {
+        display: none !important;
+        visibility: hidden !important;
+      }
+    include-in-header:
+      text: |
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          let isPlaying = true;
+          let audioPlaying = false;
+
+          function initAudio(audio) {
+            if (!audio || audioPlaying) return;
+            
+            console.log("Initializing audio:", audio.src); // Add debug logging
+            audioPlaying = true;
+            audio.currentTime = 0;
+            audio.volume = 1;
+
+            // Configure slide timing based on audio duration
+            const audioDuration = Math.floor(audio.duration * 1000);
+            console.log("Audio duration:", audioDuration); // Add debug logging
+            Reveal.configure({ autoSlide: audioDuration });
+
+            // Force play with interval retry
+            let playInterval = setInterval(() => {
+              audio.play()
+              .then(() => {
+                console.log("Audio started playing"); // Add debug logging
+                clearInterval(playInterval);
+              })
+              .catch((error) => {
+                console.log("Audio play failed:", error); // Add error logging
+              });
+            }, 100);
+
+            // Handle audio completion
+            audio.onended = () => {
+              console.log("Audio ended"); // Add debug logging
+              clearInterval(playInterval);
+              if (isPlaying) {
+                audioPlaying = false;
+                Reveal.next();
+              }
+            };
+          }
+
+          // Handle both initial and subsequent slides
+          function handleSlide(event) {
+            console.log("Handling slide change"); // Add debug logging
+            const audio = event.currentSlide.querySelector('audio');
+            const isQuizSlide = event.currentSlide.classList.contains('quiz-question');
+            console.log("Found audio element:", audio); // Add debug logging
+            audioPlaying = false;
+            
+            if (audio) {
+              // Wait for metadata before initializing
+              if (audio.readyState >= 2) {
+                initAudio(audio);
+              } else {
+                audio.addEventListener('loadedmetadata', () => initAudio(audio));
+              }
+            } else if (isPlaying) {
+              // Set longer duration for quiz slides
+              const slideDuration = isQuizSlide ? 60000 : 10000;
+              Reveal.configure({ autoSlide: slideDuration });
+            }
+          }
+
+          // Set up event listeners
+          Reveal.on('ready', handleSlide);
+          Reveal.on('slidechanged', handleSlide);
+        });
+        </script>
+---
+
+## Previous Lecture
+
+- In the previous lecture, you were introduced to the theories of Sequencing and Timing in Motor Control.  
+- In this lecture, you will be introduced to three (newer) more traditional theories:  
+  1. Generalized Motor Programs theory  
+  2. Dynamical Systems theory  
+  3. Optimization theory  
+
+::: {.notes}
+{{< include notes/000.qmd >}}
+:::
+
+<audio data-autoplay>
+  <source src="audio/000.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+ ## 1. Introduction to Theories of Motor Control
+
+- Overview of three main perspectives on motor control  
+- Highlight practical examples from sports, rehabilitation, and everyday activities  
+- Emphasize the importance of understanding different theoretical frameworks  
+
+::: {.notes}
+{{< include notes/100.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/100.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 1.1 Introduction to GMP 
+
+- Closed-loop theory explains specificity of practice  
+- Doesn't account for skill generalization  
+- A basketball player shooting from different court positions  
+
+::: {.notes}
+{{< include notes/110.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/110.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 1.2 Schemas and Generalized Programs
+
+- Knowledge structures instantiated in different ways  
+- Parameters affect the forms that actions take  
+- Accounts for variability and novelty of performance  
+- Explains consistency in movement patterns  
+
+::: {.notes}
+{{< include notes/120.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/120.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## 1.3 Advantages of Schemas and Generalized Programs
+
+- Reduces the number of distinct programs in memory  
+- Core set of programs maintained  
+- Parameters tailored to immediate task demands  
+- Experiment on choosing between movement sequences  
+
+::: {.notes}
+{{< include notes/130.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/130.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 1.4 Parameter Setting in GMP
+
+- Generalized program with ordered finger tap instructions  
+- Parameter for left or right hand  
+- Additional parameter for non-mirror image sequences  
+- Specifying extra parameters takes more time  
+
+::: {.notes}
+{{< include notes/140.qmd >}} 
+:::
+
+<audio data-autoplay> 
+  <source src="audio/140.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## 1.5 Predictions of Generalized Program Theory  
+
+- Variable practice leads to better transfer than consistent practice  
+- Consistent practice: practice on one task  
+- Variable practice: practice on a range of related tasks  
+- Surprising prediction, but supported by data  
+
+::: {.notes}
+{{< include notes/150.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/150.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 1.6 Benefits of Variable Practice  
+
+- Forming an "average" representation of experiences  
+- Average more stable with randomly presented instances  
+- Running average example with numbers  
+- Greater stability leads to better learning  
+
+::: {.notes}
+{{< include notes/160.qmd >}} 
+:::
+
+<audio data-autoplay>  
+  <source src="audio/160.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 1.7 Conclusion on GMP
+
+- GMP’s predictive power highlights the importance of practice variability  
+- Variable practice enhances skill transfer more effectively than consistent practice  
+
+::: {.notes}
+{{< include notes/170.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/170.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 1.8 Generalized Motor Program (GMP) Theory: Key Takeaways  
+
+- GMPs are abstract representations of movement patterns  
+- They can be adapted to specific tasks by adjusting parameters  
+- Schema theory suggests that practicing variations of a task leads to the development of a more flexible and adaptable GMP  
+- Variable practice enhances transfer of learning to novel situations  
+- Contextual interference during practice facilitates the development of robust GMPs  
+
+::: {.notes}
+{{< include notes/180.qmd >}} 
+:::
+
+<audio data-autoplay>  
+  <source src="audio/180.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 2.1 Introduction to Dynamical Systems Theory
+
+- Approach to studying time-varying systems  
+- State of the system at a given time is a function of earlier states  
+- System operates under a regime characterized by an attractor  
+- Regimes have underlying equations  
+
+::: {.notes}
+{{< include notes/210.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/210.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## 2.2 Complexity and Unpredictability in Dynamical Systems
+
+- Simple equations can lead to complex events  
+- Nonlinear equations can result in unpredictable outcomes  
+- Deterministic systems can still produce dramatically different results  
+- Applications in meteorology, finance, and human motor control  
+
+::: {.notes}
+{{< include notes/220.qmd >}} 
+:::
+
+<audio data-autoplay>  
+  <source src="audio/220.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 2.3 The Two-Finger Oscillation Task
+
+:::: {.columns}
+::: {.column width="60%"}
+![Two-Finger Oscillation Task](images/230.png){width=60% #fig-230}
+:::
+::: {.column width="40%"}
+- Landmark study by Haken, Kelso, and Bunz (1985)  
+- Participants extend index fingers back and forth in time with a metronome  
+- At high frequencies, fingers suddenly point in the same direction  
+- Descriptive explanation using relative phase and potential energy landscape  
+:::
+::::
+
+
+::: {.notes}
+{{< include notes/230.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/230.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 2.4 The Haken–Kelso–Bunz Equation
+
+- Describes the regime of the two-finger oscillation task  
+- Potential energy landscape changes with the ratio b/a  
+- System can be in two stable states: Φ = 180° (b/a = 1) and Φ = 0° (b/a = 0.125)  
+- Accounts for the observed behavior in the task  
+
+::: {.notes}
+{{< include notes/240.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/240.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 2.5 Applying Dynamical Systems Theory
+
+- Uncovering underlying equations for various tasks  
+- Connecting equation terms to causal mechanisms  
+- Examples: rhythmic tapping, two-handed pendulum swinging  
+- Cognitive factors can be expressed within the equations  
+
+::: {.notes}
+{{< include notes/250.qmd >}}
+:::
+
+<audio data-autoplay>
+  <source src="audio/250.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## 2.6 Practical Applications of Dynamical Systems Theory
+
+- Analyzing fluctuations of time intervals between events  
+- Cardiac health: perfectly regular heartbeat may indicate illness  
+- Gait analysis: distinguishing elderly people likely to fall, Parkinson's patients likely to freeze  
+- Cognitive load during walking: subtracting by 7s while walking  
+- Mathematical techniques for carrying out these analyses  
+
+::: {.notes}
+{{< include notes/260.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/260.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 2.7 Dynamical Systems Theory: Key Takeaways
+
+1. Focuses on the self-organizing principles governing the coordination of complex movements  
+2. Emphasizes the role of stability, instability, and phase transitions in motor control  
+3. Demonstrates how simple rules can give rise to complex, emergent behaviors  
+4. Has been successfully applied to understanding coordination dynamics in various tasks, such as bimanual coordination and gait  
+5. Offers a framework for analyzing and predicting complex motor behaviors based on their temporal dynamics and variability  
+
+::: {.notes}
+{{< include notes/270.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/270.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 3.1 Introduction to Optimization Theory
+
+- Maximizing or minimizing variables in human motor control  
+- “Running a body” – moving arms, legs, eyes, mouth, and maintaining stability  
+- Optimization as the cornerstone of motor control  
+- Dominant approach in theorizing about motor control  
+
+::: {.notes}
+{{< include notes/310.qmd >}}
+:::
+
+<audio data-autoplay>
+  <source src="audio/310.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## 3.2 Examples of Optimization Criteria
+
+- Smoothness of movement (minimum jerk principle)  
+- Minimizing movement time in Fitts’ aiming task  
+- Optimized submovement model (Meyer et al., 1988)  
+- Minimizing movement endpoint variance (Harris & Wolpert, 1998)  
+
+::: {.notes}
+{{< include notes/320.qmd >}}
+:::
+
+<audio data-autoplay>
+  <source src="audio/320.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+## 3.3 Issues in Optimization Approach  
+
+- Determining which variable(s) are optimized  
+- Optimization criteria change depending on the task  
+- Flexibility in defining task goals is the essence of motor control  
+- Switching between tasks may involve re-ranking or re-weighting optimization criteria  
+
+::: {.notes}
+{{< include notes/330.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/330.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 3.4 Parsimony in Optimization Theories
+
+- Ockham’s razor: “Plurality should not be posited without necessity”  
+- Tradeoff between theory simplicity and complexity of explained phenomena  
+- Theory space: theory complexity vs. number of explained phenomena  
+- Striving for the upper left region (“holy grail”) of theory space  
+
+::: {.notes}
+{{< include notes/340.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/340.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 3.5 Keyframes and Interframes in Motor Control
+
+- Analogy to computer animation and cartoon animation  
+- Goal postures as keyframes, series of postures as interframes  
+- Criteria for determining goal postures and movements to goal postures  
+- Avoiding obstacles, minimizing rotation of costly joints  
+
+::: {.notes}
+{{< include notes/350.qmd >}} 
+:::
+
+<audio data-autoplay>  
+  <source src="audio/350.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 3.6 Simulations and Predictions of the Optimization Theory
+
+- Adaptive changes in performance through simple means  
+- Complex reach-and-grasp movements with obstacle avoidance  
+- Multiple optimization criteria for obstacle-avoiding movements vs. direct reaches  
+- Successful simulations and predictions/post-dictions of data  
+- Promise for future theorizing about human motor control  
+
+::: {.notes}
+{{< include notes/360.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/360.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 3.7 Optimization Theory: Key Takeaways
+
+- Proposes that the motor system optimizes certain variables, such as energy expenditure, accuracy, or movement time  
+- Optimization criteria can vary depending on the task and context  
+- Optimal control models have been successful in explaining various motor phenomena, such as the speed-accuracy trade-off and the formation of bell-shaped velocity profiles  
+- The theory highlights the importance of considering the costs and benefits of different movement strategies  
+- Optimization Theory provides a unifying framework for understanding how the motor system adapts to different task demands and constraints  
+
+::: {.notes}
+{{< include notes/370.qmd >}}
+:::
+
+<audio data-autoplay>  
+  <source src="audio/370.mp3" type="audio/mpeg">  
+  Your browser does not support the audio element.  
+</audio>
+
+## 4. Overall Takeaways from Theories of Motor Control
+
+- Generalized Motor Programs explain adaptability of movements via abstract templates  
+- Dynamical Systems Theory emphasizes self-organization, stability, and phase transitions  
+- Optimization Theory models the motor system as a cost-balancing problem-solver  
+- All three frameworks offer valuable insights for teaching, rehabilitation, and performance  
+
+::: {.notes}
+{{< include notes/400.qmd >}}
+:::
+
+<audio data-autoplay> 
+  <source src="audio/400.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
